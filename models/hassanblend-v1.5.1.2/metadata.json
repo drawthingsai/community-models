@@ -5,5 +5,11 @@
   "text_encoder" : "hassanblend_v1.5.1.2_clip_vit_l14_f16.ckpt",
   "upcast_attention" : false,
   "default_scale" : 8,
-  "name" : "Hassanblend (v1.5.1.2)"
+  "name" : "Hassanblend (v1.5.1.2)",
+  "converted": {
+    "hassanblend_v1.5.1.2_f16.ckpt":
+      "e5eb4e11fa1f882dc084a0e061abf6b7f5e7dd11c416ff14842c049b9727c5d1",
+    "hassanblend_v1.5.1.2_clip_vit_l14_f16.ckpt":
+      "0d572f5e379c48c88aa7ca1d6aff095d94cacaf8b90f6444f4af46a7d3d18f33"
+  }
 }

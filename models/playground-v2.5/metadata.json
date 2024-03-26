@@ -1,6 +1,43 @@
 {
-	"download": {
-		"file": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/resolve/main/playground-v2.5-1024px-aesthetic.fp16.safetensors",
-		"autoencoder": ""
-	}
+  "download": {
+    "file": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/resolve/main/playground-v2.5-1024px-aesthetic.fp16.safetensors",
+    "autoencoder": ""
+  },
+  "conditioning" : "noise",
+  "latents_std" : [
+    8.4927,
+    5.9022,
+    6.5498,
+    5.2299
+  ],
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale" : 16,
+  "objective" : {
+    "edm" : {
+      "sigma_data" : 0.5
+    }
+  },
+  "prefix" : "",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "version" : "sdxl_base_v0.9",
+  "upcast_attention" : false,
+  "name" : "Playground v2.5",
+  "file" : "playground_v2.5_f16.ckpt",
+  "noise_discretization" : {
+    "edm" : {
+      "_0" : {
+        "sigma_min" : 0.002,
+        "sigma_data" : 0.5,
+        "sigma_max" : 80
+      }
+    }
+  },
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "latents_mean" : [
+    -1.6574,
+    1.886,
+    -1.383,
+    2.5155
+  ],
+  "latents_scaling_factor" : 0.5
 }

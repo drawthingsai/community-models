@@ -5,5 +5,10 @@
   "file" : "classicanim_v1_f16.ckpt",
   "prefix" : "classic disney style ",
   "name" : "Classic Animation (v1)",
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "classicanim_v1_f16.ckpt": "168799472175b77492814ae3cf5e9f793a3d3d009592a9e5b03781626ea25590",
+    "classicanim_v1_clip_vit_l14_f16.ckpt":
+      "77cfbb6054a2a5581873c3b1be8c6457bed526d1f15d6cffb6e381401692a488"
+  }
 }

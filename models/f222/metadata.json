@@ -4,5 +4,8 @@
   "name" : "F222",
   "file" : "f222_f16.ckpt",
   "prefix" : "",
-  "default_scale" : 8
+  "default_scale" : 8,
+  "converted": {
+    "f222_f16.ckpt": "ae19854df68e232c3bbda8b9322e9f56ccd2d96517a31a82694c40382003f8ae"
+  }
 }

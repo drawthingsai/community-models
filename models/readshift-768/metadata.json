@@ -10,5 +10,10 @@
   "upcast_attention" : false,
   "prefix" : "redshift style ",
   "text_encoder" : "redshift_768_v_open_clip_vit_h14_f16.ckpt",
-  "default_scale" : 12
+  "default_scale" : 12,
+  "converted": {
+    "redshift_768_v_f16.ckpt": "aa6520ae1fc447082230b2eb646c40e6f776f257c453134d0f064a89ac1de751",
+    "redshift_768_v_open_clip_vit_h14_f16.ckpt":
+      "9c7f1a65fe890f288c2d2ff7cef11b502bf10965a7eaa7d0d43362cab9f90eca"
+  }
 }

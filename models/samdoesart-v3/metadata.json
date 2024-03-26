@@ -5,5 +5,10 @@
   "text_encoder" : "samdoesart_v3_clip_vit_l14_f16.ckpt",
   "default_scale" : 8,
   "prefix" : "samdoesart ",
-  "file" : "samdoesart_v3_f16.ckpt"
+  "file" : "samdoesart_v3_f16.ckpt",
+  "converted": {
+    "samdoesart_v3_f16.ckpt": "5a55df0470437ac0f3f0c05d77098c6eb8577c61ce0e1b2dc898240fb49fd10e",
+    "samdoesart_v3_clip_vit_l14_f16.ckpt":
+      "6d84e79c05f9c89172f4b82821a7c8223d3bd6bacfd80934dd85dce71a8f2519"
+  }
 }

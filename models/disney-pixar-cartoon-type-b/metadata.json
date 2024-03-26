@@ -5,5 +5,11 @@
   "prefix" : "",
   "file" : "disney_pixar_cartoon_type_b_q6p_q8p.ckpt",
   "name" : "Disney Pixar Cartoon Type B (8-bit)",
-  "version" : "v1"
+  "version" : "v1",
+  "converted": {
+    "disney_pixar_cartoon_type_b_q6p_q8p.ckpt":
+      "31f38b788e1acdde65288f1e3780c64df9c98cd5fa7fa38bce5bce085f633d95",
+    "disney_pixar_cartoon_type_b_clip_vit_l14_f16.ckpt":
+      "0401d93b66dff9de82521765bbcb2292904a247e22155158d91f83aef4b4d351"
+  }
 }

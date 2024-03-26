@@ -5,5 +5,10 @@
   "default_scale" : 8,
   "file" : "ghibli_v1_f16.ckpt",
   "name" : "Ghibli (v1)",
-  "version" : "v1"
+  "version" : "v1",
+  "converted": {
+    "ghibli_v1_f16.ckpt": "dfcf9358528e8892f82b4ba3d0c9245be928e2e920e746383bdaf1b9a3a93151",
+    "ghibli_v1_clip_vit_l14_f16.ckpt":
+      "bf7c353e5b2b34bff2216742e114ee707f0ad023cc0bfd5ebde779b3b3162a02"
+  }
 }

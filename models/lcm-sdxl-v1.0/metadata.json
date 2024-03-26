@@ -8,5 +8,11 @@
   "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
   "is_consistency_model" : true,
   "clip_encoder" : "clip_vit_l14_f16.ckpt",
-  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt"
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "lcm_sd_xl_base_1.0_f16.ckpt":
+      "937a0851d1c3fbb7b546d94edfad014db854721c596e0694d9e4ca7d6e8cd8de",
+    "lcm_sd_xl_base_1.0_q6p_q8p.ckpt":
+      "0830466d22f5304f415e2d96ab16244f21a2257d5e906ed63a467a393a38c250"
+  }
 }

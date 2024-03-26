@@ -5,5 +5,10 @@
   "upcast_attention" : false,
   "file" : "mdjrny_v4_f16.ckpt",
   "name" : "Openjourney",
-  "default_scale" : 8
+  "default_scale" : 8,
+  "converted": {
+    "mdjrny_v4_f16.ckpt": "a0d976948c18943f1281268cc3edbe1d1fa2a4098b5a290d9947a1a299976699",
+    "mdjrny_v4_clip_vit_l14_f16.ckpt":
+      "ad4e3d64c0a5e81d529c984dcfbdc6858d73e14ebe8788975e6b8c4fbfc17629"
+  }
 }

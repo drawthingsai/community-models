@@ -5,5 +5,11 @@
   "default_scale" : 8,
   "version" : "v1",
   "name" : "H&A's 3DKX 1.1",
-  "prefix" : "a 3d render \/ cartoon of "
+  "prefix" : "a 3d render \/ cartoon of ",
+  "converted": {
+    "hna_3dkx_1.1_f16.ckpt":
+      "9e333094d9b73db3e0438f7520c0cd5deb2f0f6b3aa890ce464050cc7dd8d693",
+    "hna_3dkx_1.1_clip_vit_l14_f16.ckpt":
+      "5ce38e05ada7ec4488c600bc026db1386fb4cdca2882fe51561c49a1bc70da4d"
+  }
 }

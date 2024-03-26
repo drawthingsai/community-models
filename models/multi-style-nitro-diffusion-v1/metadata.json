@@ -5,5 +5,10 @@
   "prefix" : "",
   "name" : "Multi-Style (Nitro Diffusion v1)",
   "upcast_attention" : false,
-  "text_encoder" : "nitro_v1_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "nitro_v1_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "nitro_v1_f16.ckpt": "2549d7220cce7f53311fe145878e1af8bcd52efaf15bcb81a2681c0abcddd6c3",
+    "nitro_v1_clip_vit_l14_f16.ckpt":
+      "2b5424697630a50ed2d1b8c2449e3fb5f613a6569d72d16dc59d1e28a8a0c07d"
+  }
 }

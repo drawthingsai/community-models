@@ -5,5 +5,11 @@
   "version" : "v1",
   "file" : "seek_art_mega_v1_f16.ckpt",
   "default_scale" : 10,
-  "prefix" : ""
+  "prefix" : "",
+  "converted": {
+    "seek_art_mega_v1_f16.ckpt":
+      "0f10cfa16950fc5bb0a31b9974275c256c1a11f26f92ac26be6f7ea91e7019ac",
+    "seek_art_mega_v1_clip_vit_l14_f16.ckpt":
+      "9dd3af747d71b10d318b876a9285f8cc7c350806585146a3eaa660bcaf54bc7e"
+  }
 }

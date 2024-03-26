@@ -5,5 +5,9 @@
   "version" : "v1",
   "upcast_attention" : false,
   "file" : "analog_v1_f16.ckpt",
-  "text_encoder" : "analog_v1_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "analog_v1_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "analog_v1_f16.ckpt": "ffed9bb928a20f90f9881ac0d51e918c1580562f099fdd45c061c292dec63ab5",
+    "analog_v1_clip_vit_l14_f16.ckpt": "f144ac4ad344c82c3b1dc69e46aba8d9c6bc20d24de9e48105a3db3e4437108d"
+  }
 }

@@ -5,5 +5,10 @@
   "upcast_attention" : false,
   "prefix" : "nvinkpunk ",
   "default_scale" : 8,
-  "text_encoder" : "inkpunk_v2_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "inkpunk_v2_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "inkpunk_v2_f16.ckpt": "8957387975caf8c56caa6c4c2b9d8fff07bda7a8a2aadec840be3fd623d1d2fe",
+    "inkpunk_v2_clip_vit_l14_f16.ckpt":
+      "569d9796b5f3b33ed1ce65b27fa3fb4dfdb8ef2440555fa33f30fa8d118cc293"
+  }
 }

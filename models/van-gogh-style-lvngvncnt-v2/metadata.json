@@ -5,5 +5,10 @@
   "upcast_attention" : false,
   "default_scale" : 8,
   "file" : "lvngvncnt_v2_f16.ckpt",
-  "prefix" : "lvngvncnt "
+  "prefix" : "lvngvncnt ",
+  "converted": {
+    "lvngvncnt_v2_f16.ckpt": "dbacd01fb82501895afde1bbcf3f16eefeea8043fa3463de640c09a9315460be",
+    "lvngvncnt_v2_clip_vit_l14_f16.ckpt":
+      "cbdaae485f60c7cb395e5725dd16e769816274b74498d0c45048962a49cc4a06"
+  }
 }

@@ -5,5 +5,10 @@
   "file" : "balloonart_v1_f16.ckpt",
   "prefix" : "balloonart ",
   "default_scale" : 8,
-  "text_encoder" : "balloonart_v1_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "balloonart_v1_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "balloonart_v1_f16.ckpt": "f73bcbd3a6db0dca10afb081a2066a7aea5b117962bd26efc37320dfc3b9b759",
+    "balloonart_v1_clip_vit_l14_f16.ckpt":
+      "6be250d1c38325f7ee80f3fcd99e1a490f28deb29a8f78188813e8157f1949b3"
+  }
 }

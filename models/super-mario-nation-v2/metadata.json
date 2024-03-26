@@ -5,5 +5,11 @@
   "file" : "supermarionation_v2_f16.ckpt",
   "prefix" : "supermarionation ",
   "version" : "v1",
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "supermarionation_v2_f16.ckpt":
+      "70e13769ee9c8b8c4d4b8240f23b8d8fcef154325fd9162174b75f67c5629440",
+    "supermarionation_v2_clip_vit_l14_f16.ckpt":
+      "e2da78a79ee90fe352e465326e2dc0c055888c27a84d465cfd9ea2987a83a131"
+  }
 }

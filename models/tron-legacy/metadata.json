@@ -5,5 +5,10 @@
   "default_scale" : 8,
   "text_encoder" : "trnlgcy_clip_vit_l14_f16.ckpt",
   "name" : "Tron Legacy",
-  "file" : "trnlgcy_f16.ckpt"
+  "file" : "trnlgcy_f16.ckpt",
+  "converted": {
+    "trnlgcy_f16.ckpt": "3ed86762dda66f5dc728ee1f67085d2ba9f3e3ea1b5b3464b8f3a791954cfa3c",
+    "trnlgcy_clip_vit_l14_f16.ckpt":
+      "a99adbecbed4e370abcffc2574fac8e664a2530531fdc89b71d2f15711f40545"
+  }
 }

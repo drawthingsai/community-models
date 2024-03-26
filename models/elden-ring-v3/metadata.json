@@ -5,5 +5,10 @@
   "file" : "eldenring_v3_f16.ckpt",
   "default_scale" : 8,
   "text_encoder" : "eldenring_v3_clip_vit_l14_f16.ckpt",
-  "version" : "v1"
+  "version" : "v1",
+  "converted": {
+    "eldenring_v3_f16.ckpt": "c6b79886e426d654c9e84cf53a7dd572fbb9e7083c47384a76d02702c54c50c3",
+    "eldenring_v3_clip_vit_l14_f16.ckpt":
+      "dcd2234e90f8df2c4eb706f665fa860ad54df2ae109cfcd8b235c1c420bd2d4d"
+  }
 }

@@ -5,5 +5,10 @@
   "default_scale" : 8,
   "upcast_attention" : false,
   "name" : "Dungeons and Diffusion (30000)",
-  "text_encoder" : "dnd_30000_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "dnd_30000_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "dnd_30000_f16.ckpt": "3de9309cf4541168fb39d96eaba760146b42e7e9870a3096eb4cd097384ea1d9",
+    "dnd_30000_clip_vit_l14_f16.ckpt":
+      "96c75d1c11030a51aa8dac5410cc6fa98b071b52f0f79a07097df022b20754dc"
+  }
 }

@@ -6,5 +6,11 @@
   "prefix" : "",
   "autoencoder" : "anything_v3_vae_f16.ckpt",
   "name" : "Anime (Anything v3)",
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "anything_v3_f16.ckpt": "f4354727512d6b6a2d5e4cf783fdc8475e7981c50b9f387bc93317c22299e505",
+    "anything_v3_clip_vit_l14_f16.ckpt":
+      "5f1311561bdac6d43e4b3bacbee8c257bf788e6c86b3c69c68247a9abab1050d",
+    "anything_v3_vae_f16.ckpt": "3b7d16260a7d211416739285f97d53354b332cfceadb2b7191817f4e1cfb5d57"
+  }
 }

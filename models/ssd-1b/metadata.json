@@ -7,5 +7,9 @@
   "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
   "upcast_attention" : false,
   "name" : "SSD 1B (Segmind SDXL)",
-  "default_scale" : 16
+  "default_scale" : 16,
+  "converted": {
+    "ssd_1b_f16.ckpt": "8fed449f74cefadf9f10300eaa704d2fa0601bf087c1196560ce861aa6ab3d68",
+    "ssd_1b_q6p_q8p.ckpt": "a4096821ac5fbc9c34be2fe86ca5b0e9d2f0cc64fd9c3ba47e1efe02cec5da09"
+  }
 }

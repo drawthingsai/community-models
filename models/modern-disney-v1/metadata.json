@@ -5,5 +5,10 @@
   "file" : "modi_v1_f16.ckpt",
   "name" : "Modern Disney (v1)",
   "text_encoder" : "modi_v1_clip_vit_l14_f16.ckpt",
-  "default_scale" : 8
+  "default_scale" : 8,
+  "converted": {
+    "modi_v1_f16.ckpt": "ca76d84c1783ef367201e4eac2e1dddbce0c40afc6de62a229b80cb04ae7c4f0",
+    "modi_v1_clip_vit_l14_f16.ckpt":
+      "e7907cbb2f7656bb2f6fb4ead4fcb030721e4218ca2a105976b88bce852f2860"
+  }
 }

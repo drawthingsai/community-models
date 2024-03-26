@@ -5,5 +5,11 @@
   "default_scale" : 8,
   "version" : "v1",
   "text_encoder" : "dnd_classes_and_species_clip_vit_l14_f16.ckpt",
-  "name" : "DnD Classes and Species"
+  "name" : "DnD Classes and Species",
+  "converted": {
+    "dnd_classes_and_species_f16.ckpt":
+      "a6059246c1c06edc73646c77a1aa819ca641e0d8ceba0e25365938ab71311174",
+    "dnd_classes_and_species_clip_vit_l14_f16.ckpt":
+      "09fdf2d991591947e2743e8431e9d6eaf99fe2f524de9c752ebb7a4289225b02"
+  }
 }

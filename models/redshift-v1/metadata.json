@@ -5,5 +5,10 @@
   "default_scale" : 8,
   "file" : "redshift_v1_f16.ckpt",
   "text_encoder" : "redshift_v1_clip_vit_l14_f16.ckpt",
-  "name" : "3D Model (Redshift v1)"
+  "name" : "3D Model (Redshift v1)",
+  "converted": {
+    "redshift_v1_f16.ckpt": "a7fc94bac178414d7caf844787afcaf8c6c273ebf9011fed75703de7839fc257",
+    "redshift_v1_clip_vit_l14_f16.ckpt":
+      "95532a3275a81d909d657c98b73ef576809254e29052aaa809d9336c13f182a1"
+  }
 }

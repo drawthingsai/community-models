@@ -4,5 +4,8 @@
   "file" : "wd_v1.3_f16.ckpt",
   "prefix" : "",
   "name" : "Anime (Waifu Diffusion v1.3)",
-  "default_scale" : 8
+  "default_scale" : 8,
+  "converted": {
+    "wd_v1.3_f16.ckpt": "b6862eec82ec14cdb754c5df5c131631bae5e4664b5622a615629c42e7a43c05"
+  }
 }

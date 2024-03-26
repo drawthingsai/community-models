@@ -5,5 +5,10 @@
   "default_scale" : 8,
   "prefix" : "arcane style ",
   "upcast_attention" : false,
-  "version" : "v1"
+  "version" : "v1",
+  "converted": {
+    "arcane_v3_f16.ckpt": "4c55d2239e1f0ff40cc6e1ae518737735f6d1b7613f8f7aca9239205f0be729a",
+    "arcane_v3_clip_vit_l14_f16.ckpt":
+      "954f1e1fb690dcb1820adaf83099b39057e2b1bcbbdc12ecfe37ac17bcad6fa7"
+  }
 }

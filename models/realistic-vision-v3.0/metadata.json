@@ -5,5 +5,11 @@
   "text_encoder" : "realistic_vision_v3.0_clip_vit_l14_f16.ckpt",
   "prefix" : "",
   "name" : "Realistic Vision v3.0 (8-bit)",
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "realistic_vision_v3.0_q6p_q8p.ckpt":
+      "6a4294760fb82295522cd7d610c95269070c403e5a4b41f67ce2db93fd93ee3a",
+    "realistic_vision_v3.0_clip_vit_l14_f16.ckpt":
+      "71f1c7726f842d72fe04a7e17ee468c32752d097b89e9114708c0dc13a0060a2"
+  }
 }

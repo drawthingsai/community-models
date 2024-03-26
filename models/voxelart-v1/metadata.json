@@ -5,5 +5,10 @@
   "file" : "voxelart_v1_f16.ckpt",
   "prefix" : "voxelart ",
   "default_scale" : 8,
-  "text_encoder" : "voxelart_v1_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "voxelart_v1_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "voxelart_v1_f16.ckpt": "e771d7acd484162377c62a6033b632ea290d4477bf3cb017a750f15ab5350ca7",
+    "voxelart_v1_clip_vit_l14_f16.ckpt":
+      "ebd3ce92b9ec831a6f217c42be0b8da887484867583156d0e2ceb3e48bae3be8"
+  }
 }

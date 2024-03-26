@@ -5,5 +5,11 @@
   "prefix" : "",
   "text_encoder" : "deliberate_v2_clip_vit_l14_f16.ckpt",
   "default_scale" : 8,
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "deliberate_v2_q6p_q8p.ckpt":
+      "4441ea31f748a5af97021747bc457e78ae0c8d632f819a26cb8019610972c0f0",
+    "deliberate_v2_clip_vit_l14_f16.ckpt":
+      "79dc846fe47f4bd5188bce108c9791f36cc2927bed6f96c8dc7369b345539d81"
+  }
 }

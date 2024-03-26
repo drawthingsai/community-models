@@ -5,5 +5,10 @@
   "file" : "papercut_v1_f16.ckpt",
   "prefix" : "papercut ",
   "default_scale" : 8,
-  "text_encoder" : "papercut_v1_clip_vit_l14_f16.ckpt"
+  "text_encoder" : "papercut_v1_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "papercut_v1_f16.ckpt": "7b1d14757e1c58b1bef55220d0fd10ab4ad8e2670bb4e065e4b6c4e0b6a6395e",
+    "papercut_v1_clip_vit_l14_f16.ckpt":
+      "bc0c471e51bbe0649922dad862019b96e68d4abf724998bbfa9495e70bd2023d"
+  }
 }

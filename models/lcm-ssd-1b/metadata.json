@@ -8,5 +8,9 @@
   "version" : "ssd_1b",
   "name" : "LCM SSD 1B (Segmind SDXL)",
   "clip_encoder" : "clip_vit_l14_f16.ckpt",
-  "is_consistency_model" : true
+  "is_consistency_model" : true,
+  "converted": {
+    "lcm_ssd_1b_f16.ckpt": "e1156cc6e6927a462102629d030e3d6377e373664201dad79fb1ff4928bb85b0",
+    "lcm_ssd_1b_q6p_q8p.ckpt": "959d09951bdba0a73fafb6a69fed83b21012cbc4df78991463bbd84e283cc6fe"
+  }
 }

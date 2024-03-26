@@ -5,5 +5,11 @@
   "text_encoder" : "dreamshaper_v6.31_clip_vit_l14_f16.ckpt",
   "prefix" : "",
   "name" : "DreamShaper v6.31 (8-bit)",
-  "upcast_attention" : false
+  "upcast_attention" : false,
+  "converted": {
+    "dreamshaper_v6.31_q6p_q8p.ckpt":
+      "14a9c0e4a5ebb4a66d4fd882135e60a3951e5d1d96e802cbf2106e91427e349f",
+    "dreamshaper_v6.31_clip_vit_l14_f16.ckpt":
+      "7384f31ea620891a7bca84c3b537beda7dbc5473873c90810b797e14ab263fc4"
+  }
 }

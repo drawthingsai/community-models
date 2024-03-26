@@ -5,5 +5,10 @@
   "upcast_attention" : false,
   "default_scale" : 8,
   "file" : "spiderverse_v1_f16.ckpt",
-  "prefix" : "spiderverse style "
+  "prefix" : "spiderverse style ",
+  "converted": {
+    "spiderverse_v1_f16.ckpt": "8c8c80add2d663732e314c3a2fb49c1f2bd98f48190b79227d660ce687516b2d",
+    "spiderverse_v1_clip_vit_l14_f16.ckpt":
+      "bab7fcf0e615154ff91c88a8fbf9b18a548e8ba0a338fb030a3fedf17ce0602d"
+  }
 }

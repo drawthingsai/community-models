@@ -4,5 +4,8 @@
   "name" : "AloeVera's SimpMaker 3K1",
   "file" : "aloeveras_simpmaker_3k1_f16.ckpt",
   "prefix" : "",
-  "default_scale" : 8
+  "default_scale" : 8,
+  "converted": {
+    "aloeveras_simpmaker_3k1_f16.ckpt": "562db3b5ca4961eed207e308073d99293d27f23f90e09dba58f2eb828a2f8e0c"
+  }
 }
