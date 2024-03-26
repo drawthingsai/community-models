@@ -1,0 +1,9 @@
+{
+  "name" : "Super Mario Nation (v2)",
+  "default_scale" : 8,
+  "text_encoder" : "supermarionation_v2_clip_vit_l14_f16.ckpt",
+  "file" : "supermarionation_v2_f16.ckpt",
+  "prefix" : "supermarionation ",
+  "version" : "v1",
+  "upcast_attention" : false
+}

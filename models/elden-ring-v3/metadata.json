@@ -1,0 +1,9 @@
+{
+  "prefix" : "elden ring style ",
+  "upcast_attention" : false,
+  "name" : "Elden Ring (v3)",
+  "file" : "eldenring_v3_f16.ckpt",
+  "default_scale" : 8,
+  "text_encoder" : "eldenring_v3_clip_vit_l14_f16.ckpt",
+  "version" : "v1"
+}

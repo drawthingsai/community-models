@@ -1,0 +1,14 @@
+{
+  "name" : "3D Model 768 (Redshift 768)",
+  "objective" : {
+    "v" : {
+
+    }
+  },
+  "file" : "redshift_768_v_f16.ckpt",
+  "version" : "v2",
+  "upcast_attention" : false,
+  "prefix" : "redshift style ",
+  "text_encoder" : "redshift_768_v_open_clip_vit_h14_f16.ckpt",
+  "default_scale" : 12
+}

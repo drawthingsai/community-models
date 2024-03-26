@@ -1,0 +1,9 @@
+{
+  "default_scale" : 8,
+  "text_encoder" : "disney_pixar_cartoon_type_b_clip_vit_l14_f16.ckpt",
+  "upcast_attention" : false,
+  "prefix" : "",
+  "file" : "disney_pixar_cartoon_type_b_q6p_q8p.ckpt",
+  "name" : "Disney Pixar Cartoon Type B (8-bit)",
+  "version" : "v1"
+}

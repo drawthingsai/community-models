@@ -1,0 +1,9 @@
+{
+  "name" : "Van Gogh Style (Lvngvncnt v2)",
+  "version" : "v1",
+  "text_encoder" : "lvngvncnt_v2_clip_vit_l14_f16.ckpt",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "file" : "lvngvncnt_v2_f16.ckpt",
+  "prefix" : "lvngvncnt "
+}

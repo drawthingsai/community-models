@@ -1,0 +1,6 @@
+{
+	"download": {
+		"file": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/resolve/main/playground-v2.5-1024px-aesthetic.fp16.safetensors",
+		"autoencoder": ""
+	}
+}

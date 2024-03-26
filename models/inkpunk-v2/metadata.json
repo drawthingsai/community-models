@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "file" : "inkpunk_v2_f16.ckpt",
+  "name" : "Inkpunk (v2)",
+  "upcast_attention" : false,
+  "prefix" : "nvinkpunk ",
+  "default_scale" : 8,
+  "text_encoder" : "inkpunk_v2_clip_vit_l14_f16.ckpt"
+}

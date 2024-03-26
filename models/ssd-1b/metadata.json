@@ -1,0 +1,11 @@
+{
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "prefix" : "",
+  "file" : "ssd_1b_f16.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "version" : "ssd_1b",
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention" : false,
+  "name" : "SSD 1B (Segmind SDXL)",
+  "default_scale" : 16
+}

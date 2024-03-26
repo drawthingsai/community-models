@@ -1,0 +1,9 @@
+{
+  "name" : "Paper Cut (v1)",
+  "upcast_attention" : false,
+  "version" : "v1",
+  "file" : "papercut_v1_f16.ckpt",
+  "prefix" : "papercut ",
+  "default_scale" : 8,
+  "text_encoder" : "papercut_v1_clip_vit_l14_f16.ckpt"
+}

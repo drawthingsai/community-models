@@ -1,0 +1,12 @@
+{
+  "default_scale" : 16,
+  "file" : "lcm_ssd_1b_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "prefix" : "",
+  "version" : "ssd_1b",
+  "name" : "LCM SSD 1B (Segmind SDXL)",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "is_consistency_model" : true
+}

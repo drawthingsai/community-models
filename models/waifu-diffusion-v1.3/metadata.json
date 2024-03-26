@@ -1,0 +1,8 @@
+{
+  "upcast_attention" : false,
+  "version" : "v1",
+  "file" : "wd_v1.3_f16.ckpt",
+  "prefix" : "",
+  "name" : "Anime (Waifu Diffusion v1.3)",
+  "default_scale" : 8
+}

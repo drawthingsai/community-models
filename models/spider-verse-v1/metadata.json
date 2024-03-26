@@ -1,0 +1,9 @@
+{
+  "name" : "Spider-Verse (v1)",
+  "version" : "v1",
+  "text_encoder" : "spiderverse_v1_clip_vit_l14_f16.ckpt",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "file" : "spiderverse_v1_f16.ckpt",
+  "prefix" : "spiderverse style "
+}

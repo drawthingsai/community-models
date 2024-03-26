@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "prefix" : "redshift style ",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "file" : "redshift_v1_f16.ckpt",
+  "text_encoder" : "redshift_v1_clip_vit_l14_f16.ckpt",
+  "name" : "3D Model (Redshift v1)"
+}

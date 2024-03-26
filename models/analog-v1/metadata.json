@@ -1,0 +1,9 @@
+{
+  "name" : "Analog (v1)",
+  "prefix" : "analog style ",
+  "default_scale" : 8,
+  "version" : "v1",
+  "upcast_attention" : false,
+  "file" : "analog_v1_f16.ckpt",
+  "text_encoder" : "analog_v1_clip_vit_l14_f16.ckpt"
+}

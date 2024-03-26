@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "file" : "dnd_30000_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 8,
+  "upcast_attention" : false,
+  "name" : "Dungeons and Diffusion (30000)",
+  "text_encoder" : "dnd_30000_clip_vit_l14_f16.ckpt"
+}

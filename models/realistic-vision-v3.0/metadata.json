@@ -1,0 +1,9 @@
+{
+  "file" : "realistic_vision_v3.0_q6p_q8p.ckpt",
+  "version" : "v1",
+  "default_scale" : 8,
+  "text_encoder" : "realistic_vision_v3.0_clip_vit_l14_f16.ckpt",
+  "prefix" : "",
+  "name" : "Realistic Vision v3.0 (8-bit)",
+  "upcast_attention" : false
+}

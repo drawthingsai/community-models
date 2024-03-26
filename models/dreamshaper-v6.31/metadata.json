@@ -1,0 +1,9 @@
+{
+  "file" : "dreamshaper_v6.31_q6p_q8p.ckpt",
+  "version" : "v1",
+  "default_scale" : 8,
+  "text_encoder" : "dreamshaper_v6.31_clip_vit_l14_f16.ckpt",
+  "prefix" : "",
+  "name" : "DreamShaper v6.31 (8-bit)",
+  "upcast_attention" : false
+}

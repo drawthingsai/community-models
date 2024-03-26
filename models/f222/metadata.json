@@ -1,0 +1,8 @@
+{
+  "upcast_attention" : false,
+  "version" : "v1",
+  "name" : "F222",
+  "file" : "f222_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 8
+}

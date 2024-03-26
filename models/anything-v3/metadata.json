@@ -1,0 +1,10 @@
+{
+  "text_encoder" : "anything_v3_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8,
+  "version" : "v1",
+  "file" : "anything_v3_f16.ckpt",
+  "prefix" : "",
+  "autoencoder" : "anything_v3_vae_f16.ckpt",
+  "name" : "Anime (Anything v3)",
+  "upcast_attention" : false
+}

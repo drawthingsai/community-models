@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "prefix" : "trnlgcy style ",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "text_encoder" : "trnlgcy_clip_vit_l14_f16.ckpt",
+  "name" : "Tron Legacy",
+  "file" : "trnlgcy_f16.ckpt"
+}

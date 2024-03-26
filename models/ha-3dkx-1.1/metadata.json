@@ -1,0 +1,9 @@
+{
+  "file" : "hna_3dkx_1.1_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "hna_3dkx_1.1_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8,
+  "version" : "v1",
+  "name" : "H&A's 3DKX 1.1",
+  "prefix" : "a 3d render \/ cartoon of "
+}

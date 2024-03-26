@@ -1,0 +1,12 @@
+{
+  "upcast_attention" : false,
+  "file" : "lcm_sd_xl_base_1.0_q6p_q8p.ckpt",
+  "name" : "LCM SDXL Base v1.0 (8-bit)",
+  "version" : "sdxl_base_v0.9",
+  "default_scale" : 16,
+  "prefix" : "",
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "is_consistency_model" : true,
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt"
+}

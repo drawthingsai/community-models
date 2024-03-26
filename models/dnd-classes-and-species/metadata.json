@@ -1,0 +1,9 @@
+{
+  "file" : "dnd_classes_and_species_f16.ckpt",
+  "prefix" : "",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "version" : "v1",
+  "text_encoder" : "dnd_classes_and_species_clip_vit_l14_f16.ckpt",
+  "name" : "DnD Classes and Species"
+}

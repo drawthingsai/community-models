@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "name" : "SamDoesArt (v3)",
+  "upcast_attention" : false,
+  "text_encoder" : "samdoesart_v3_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8,
+  "prefix" : "samdoesart ",
+  "file" : "samdoesart_v3_f16.ckpt"
+}

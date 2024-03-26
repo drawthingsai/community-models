@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "file" : "hassanblend_v1.5.1.2_f16.ckpt",
+  "prefix" : "",
+  "text_encoder" : "hassanblend_v1.5.1.2_clip_vit_l14_f16.ckpt",
+  "upcast_attention" : false,
+  "default_scale" : 8,
+  "name" : "Hassanblend (v1.5.1.2)"
+}

@@ -1,0 +1,9 @@
+{
+  "prefix" : "dgs illustration style ",
+  "file" : "cyberpunk_anime_f16.ckpt",
+  "default_scale" : 8,
+  "upcast_attention" : false,
+  "version" : "v1",
+  "name" : "Cyberpunk Anime",
+  "text_encoder" : "cyberpunk_anime_clip_vit_l14_f16.ckpt"
+}

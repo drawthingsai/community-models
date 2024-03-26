@@ -1,0 +1,9 @@
+{
+  "text_encoder" : "seek_art_mega_v1_clip_vit_l14_f16.ckpt",
+  "upcast_attention" : false,
+  "name" : "seek.art MEGA (v1)",
+  "version" : "v1",
+  "file" : "seek_art_mega_v1_f16.ckpt",
+  "default_scale" : 10,
+  "prefix" : ""
+}

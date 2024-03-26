@@ -1,0 +1,9 @@
+{
+  "prefix" : "modern disney style ",
+  "upcast_attention" : false,
+  "version" : "v1",
+  "file" : "modi_v1_f16.ckpt",
+  "name" : "Modern Disney (v1)",
+  "text_encoder" : "modi_v1_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8
+}

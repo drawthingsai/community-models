@@ -1,0 +1,9 @@
+{
+  "version" : "v1",
+  "name" : "Deliberate v2.0 (8-bit)",
+  "file" : "deliberate_v2_q6p_q8p.ckpt",
+  "prefix" : "",
+  "text_encoder" : "deliberate_v2_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8,
+  "upcast_attention" : false
+}

@@ -1,0 +1,9 @@
+{
+  "file" : "nitro_v1_f16.ckpt",
+  "default_scale" : 8,
+  "version" : "v1",
+  "prefix" : "",
+  "name" : "Multi-Style (Nitro Diffusion v1)",
+  "upcast_attention" : false,
+  "text_encoder" : "nitro_v1_clip_vit_l14_f16.ckpt"
+}

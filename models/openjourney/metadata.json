@@ -1,0 +1,9 @@
+{
+  "text_encoder" : "mdjrny_v4_clip_vit_l14_f16.ckpt",
+  "version" : "v1",
+  "prefix" : "mdjrny-v4 style ",
+  "upcast_attention" : false,
+  "file" : "mdjrny_v4_f16.ckpt",
+  "name" : "Openjourney",
+  "default_scale" : 8
+}

@@ -1,0 +1,9 @@
+{
+  "text_encoder" : "classicanim_v1_clip_vit_l14_f16.ckpt",
+  "default_scale" : 8,
+  "version" : "v1",
+  "file" : "classicanim_v1_f16.ckpt",
+  "prefix" : "classic disney style ",
+  "name" : "Classic Animation (v1)",
+  "upcast_attention" : false
+}
