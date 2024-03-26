@@ -1,0 +1,10 @@
+{
+  "name" : "Adam's Artwork Style v.1",
+  "file" : "adams_artwork_style_v0.1_lora_f16.ckpt",
+  "prefix" : "ajaws ",
+  "version" : "v1",
+  "converted": {
+    "adams_artwork_style_v0.1_lora_f16.ckpt":
+      "17590d5d9977c64164cd78da00f4728791fd7ce7d4979e74438066d1c9134665"
+  }
+}

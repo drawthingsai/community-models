@@ -1,0 +1,10 @@
+{
+  "name" : "Openjourney v1.0",
+  "file" : "openjourney_v1_lora_f16.ckpt",
+  "prefix" : "mdjrny-v4 ",
+  "version" : "v1",
+  "converted": {
+    "openjourney_v1_lora_f16.ckpt":
+      "82b8d1f442c80c60edc506adb56cda128742e4661511a873c0b97b26b584dddb"
+  }
+}

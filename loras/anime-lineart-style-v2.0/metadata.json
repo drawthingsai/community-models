@@ -1,0 +1,10 @@
+{
+  "name" : "Anime LineArt Style v2.0",
+  "file" : "anime_lineart_style_v2.0_lora_f16.ckpt",
+  "prefix" : "",
+  "version" : "v1",
+  "converted": {
+    "anime_lineart_style_v2.0_lora_f16.ckpt":
+      "49d7ee07de9827876cff0cd80b1c4d287a69b8c08c91d827df44d43d3cca4a83"
+  }
+}

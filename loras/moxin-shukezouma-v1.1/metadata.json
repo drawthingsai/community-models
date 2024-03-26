@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "name" : "Moxin Shukezouma v1.1",
+  "prefix" : "shukezouma ",
+  "file" : "moxin_shukezouma_v1.1_lora_f16.ckpt",
+  "converted": {
+    "moxin_shukezouma_v1.1_lora_f16.ckpt":
+      "1c733b99209620174195c9c1a2dc2b49ded9945361322775b5f415b70cdef6bf"
+  }
+}

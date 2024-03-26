@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "moxin_v1.0_lora_f16.ckpt",
+  "name" : "Moxin v1.0",
+  "prefix" : "shuimobysim ",
+  "converted": {
+    "moxin_v1.0_lora_f16.ckpt":
+      "f892698f3dc00abdb91d8d3022857e56010a3f7eb42387aa20b35d987ae4bed7"
+  }
+}

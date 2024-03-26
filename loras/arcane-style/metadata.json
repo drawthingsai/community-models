@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "arcane_style_lora_f16.ckpt",
+  "prefix" : "arcane style ",
+  "name" : "Arcane Style",
+  "converted": {
+    "arcane_style_lora_f16.ckpt":
+      "d02a3f195b756c00d35f693cdea9f8ff19f6cb498469997504363214826983b7"
+  }
+}

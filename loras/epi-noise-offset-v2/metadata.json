@@ -1,0 +1,10 @@
+{
+  "name" : "Epi Noise Offset v2",
+  "file" : "epi_noiseoffset_v2_lora_f16.ckpt",
+  "prefix" : "",
+  "version" : "v1",
+  "converted": {
+    "epi_noiseoffset_v2_lora_f16.ckpt":
+      "392cd181d644d0f28d083efb28846a23f8056b83900e727efb85514dee42444d"
+  }
+}

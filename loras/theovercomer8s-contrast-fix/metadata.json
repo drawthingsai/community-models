@@ -1,0 +1,10 @@
+{
+  "version" : "v2",
+  "file" : "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt",
+  "prefix" : "to8contrast style ",
+  "name" : "Theovercomer8's Contrast Fix",
+  "converted": {
+    "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt":
+      "5e3e4cb74d0bac795082ced3f91fb7045ab5d51b8b0b3d3dfcba601a51048216"
+  }
+}

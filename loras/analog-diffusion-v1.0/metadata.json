@@ -1,0 +1,10 @@
+{
+  "name" : "Analog Diffusion v1.0",
+  "file" : "analog_diffusion_v1_lora_f16.ckpt",
+  "prefix" : "analog ",
+  "version" : "v1",
+  "converted": {
+    "analog_diffusion_v1_lora_f16.ckpt":
+      "cf550a13b9a4f3f1f5831146f71321ec3c642cac91907f2b7f7bb465144a7c40"
+  }
+}

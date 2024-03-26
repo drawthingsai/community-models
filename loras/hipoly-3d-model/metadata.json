@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "hipoly_3d_model_lora_f16.ckpt",
+  "prefix" : "hiqcgbody ",
+  "name" : "Hipoly 3D Model",
+  "converted": {
+    "hipoly_3d_model_lora_f16.ckpt":
+      "e770caebfdcbb991e7b15e17a6cc6ef6f323fb6107399cfdf0414703f2a9442e"
+  }
+}

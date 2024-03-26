@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "crazy_expressions_lora_f16.ckpt",
+  "prefix" : "crazy face ",
+  "name" : "Crazy Expressions",
+  "converted": {
+    "crazy_expressions_lora_f16.ckpt":
+      "ec6866a9b4707f2b41d866221f4bdcaf1cafd9835fe3b1ce1c38abea255bd2b3"
+  }
+}

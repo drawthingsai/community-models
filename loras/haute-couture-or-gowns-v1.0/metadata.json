@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "haute_couture_or_gowns_v1.0_lora_f16.ckpt",
+  "prefix" : "hc_gown ",
+  "name" : "Haute Couture or Gowns v1.0",
+  "converted": {
+    "haute_couture_or_gowns_v1.0_lora_f16.ckpt":
+      "81bb127631eeb0616d96bad9e1cfca341331b67c77974d91ffa0c27d8c39c7e7"
+  }
+}
