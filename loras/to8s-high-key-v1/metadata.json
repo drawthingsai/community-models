@@ -1,0 +1,10 @@
+{
+  "version" : "v1",
+  "file" : "to8s_high_key_lora_f16.ckpt",
+  "prefix" : "to8highkey ",
+  "name" : "TO8's High Key",
+  "converted": {
+    "to8s_high_key_lora_f16.ckpt":
+      "d47ab2871fdcd59eaba765274e3ba30af822edd82ac3a9c02218e51995ab8990"
+  }
+}

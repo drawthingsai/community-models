@@ -1,0 +1,16 @@
+moxin-v1.0
+moxin-shukezouma-v1.1
+openjourney-v1.0
+analog-diffusion-v1.0
+adams-artwork-style-v.1
+cyberpunk-2077-nightcity-v1.15
+epi-noise-offset-v2
+anime-lineart-style-v2.0
+theovercomer8s-contrast-fix-v1
+theovercomer8s-contrast-fix-v2
+arcane-style
+crazy-expressions
+to8s-high-key-v1
+to8s-high-key-v2
+hipoly-3d-model
+haute-couture-or-gowns-v1.0
