@@ -14,3 +14,4 @@ to8s-high-key-v1
 to8s-high-key-v2
 hipoly-3d-model
 haute-couture-or-gowns-v1.0
+ccxl-mucha-art-style
