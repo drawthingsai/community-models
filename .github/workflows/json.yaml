@@ -65,8 +65,8 @@ jobs:
           python3 scripts/loras_json.py
           git config --global user.email "docbot@github.com"
           git config --global user.name "docbot"
-          git commit -a -m "Update metadata with converted models / LoRAs."
-          git pull --rebase && git push
+          git commit -a -m "Update metadata with converted models / LoRAs." || true
+          git pull --rebase && git push || true
 
       - name: Clean up json branch
         run: |
