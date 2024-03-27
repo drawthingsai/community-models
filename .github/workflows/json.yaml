@@ -1,0 +1,52 @@
+name: json
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Swift dependencies
+        run: |
+          sudo apt-get install clang libicu-dev
+          wget https://download.swift.org/swift-5.10-release/ubuntu2204/swift-5.10-RELEASE/swift-5.10-RELEASE-ubuntu22.04.tar.gz
+          tar xzf swift-5.10-RELEASE-ubuntu22.04.tar.gz
+          echo "$(pwd)/swift-5.10-RELEASE-ubuntu22.04/usr/bin" >> $GITHUB_PATH
+
+
+      - name: Clean up json branch
+        run: |
+          git branch -D json || true
+          git checkout -b json
+
+      - name: Run JSON generation.
+        run: |
+          cd "${GITHUB_WORKSPACE}"
+          mkdir -p docs
+          python3 scripts/models_json.py
+          python3 scripts/loras_json.py
+          mv *.json ./docs
+          echo "models.drawthings.ai" > ./docs/CNAME
+    
+      - name: Add and commit documentation
+        run: |
+          git config --global user.email "docbot@github.com"
+          git config --global user.name "docbot"
+          cd "${GITHUB_WORKSPACE}" && git add "docs/*" && git commit -m "Update docs."
+
+      - name: Push the new branch
+        run: |
+          cd "${GITHUB_WORKSPACE}" && git push --force origin json:json
+
