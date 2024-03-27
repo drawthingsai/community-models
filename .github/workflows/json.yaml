@@ -27,6 +27,17 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.GHA_BOT_AWS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
+          aws-region: auto
+
+      - name: Configure S3 / R2
+        run: |
+          aws configure set default.s3.max_concurrent_requests 2
+
       - name: Install bazelisk
         run: |
           curl -LO "https://github.com/bazelbuild/bazelisk/releases/download/v1.19.0/bazelisk-linux-amd64"
@@ -50,26 +61,28 @@ jobs:
           echo "build --config=clang" >> "${GITHUB_WORKSPACE}/tools/.bazelrc.local"
           bazel build Apps:ModelConverter
 
+      - name: Run JSON generation.
+        run: |
+          cd "${GITHUB_WORKSPACE}/main"
+          python3 scripts/models_json.py
+          python3 scripts/loras_json.py
+          git config --global user.email "docbot@github.com"
+          git config --global user.name "docbot"
+          git commit -a -m "Update metadata with converted models / LoRAs."
+          git pull --rebase && git push
+
       - name: Clean up json branch
         run: |
           cd "${GITHUB_WORKSPACE}/main"
           git branch -D json || true
           git checkout -b json
-
-      - name: Run JSON generation.
-        run: |
-          cd "${GITHUB_WORKSPACE}/main"
           mkdir -p docs
-          python3 scripts/models_json.py
-          python3 scripts/loras_json.py
           mv *.json ./docs
           echo "models.drawthings.ai" > ./docs/CNAME
     
       - name: Add and commit documentation
         run: |
           cd "${GITHUB_WORKSPACE}/main"
-          git config --global user.email "docbot@github.com"
-          git config --global user.name "docbot"
           git add "docs/*" && git commit -m "Update docs."
 
       - name: Push the new branch
