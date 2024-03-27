@@ -45,7 +45,7 @@ jobs:
         run: |
           sudo apt -y install libpng-dev libjpeg-dev libatlas-base-dev libblas-dev libgsl-dev clang llvm libdispatch-dev libomp-dev liblinear-dev libfftw3-dev libtesseract-dev
           cd "${GITHUB_WORKSPACE}/tools"
-          ./bazel/setup_clang.sh
+          ./Scripts/setup_clang.sh
           ./Scripts/install.sh
           bazel build Apps:ModelConverter
 
