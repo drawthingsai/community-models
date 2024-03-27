@@ -47,6 +47,7 @@ jobs:
           cd "${GITHUB_WORKSPACE}/tools"
           ./Scripts/setup_clang.sh /usr
           ./Scripts/install.sh
+          echo "build --config=clang" >> "${GITHUB_WORKSPACE}/tools/.bazelrc.local"
           bazel build Apps:ModelConverter
 
       - name: Clean up json branch
