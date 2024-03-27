@@ -6,5 +6,5 @@
   "file": "ccxl_mucha_art_style_lora_f16.ckpt",
   "prefix": "ccxl-mucha ",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9",
+  "version": "sdxl_base_v0.9"
 }

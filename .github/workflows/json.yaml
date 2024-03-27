@@ -32,6 +32,7 @@ jobs:
           aws configure set aws_access_key_id ${{ secrets.GHA_BOT_AWS_KEY_ID }}
           aws configure set aws_secret_access_key ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
           aws configure set default.s3.max_concurrent_requests 2
+          cat ~/.aws/config
 
       - name: Install bazelisk
         run: |
