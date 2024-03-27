@@ -32,7 +32,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.GHA_BOT_AWS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
-          aws-region: auto
+          aws-region: us-west-2
 
       - name: Configure S3 / R2
         run: |

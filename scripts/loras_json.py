@@ -53,7 +53,7 @@ def download_and_convert_model(directory_path, download, metadata):
     print(f"Failed to convert the model.")
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
-      cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com']
+      cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']
       result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
       if result.returncode != 0:
         print(f"fail to upload, stdout: {result.stdout}, stderr: {result.stderr}")
