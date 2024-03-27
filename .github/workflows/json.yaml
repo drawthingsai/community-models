@@ -27,15 +27,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.GHA_BOT_AWS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
-          aws-region: us-west-2
-
       - name: Configure S3 / R2
         run: |
+          aws configure set aws_access_key_id ${{ secrets.GHA_BOT_AWS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
           aws configure set default.s3.max_concurrent_requests 2
 
       - name: Install bazelisk
