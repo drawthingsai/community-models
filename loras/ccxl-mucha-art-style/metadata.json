@@ -7,7 +7,4 @@
   "prefix": "ccxl-mucha ",
   "is_lo_ha": false,
   "version": "sdxl_base_v0.9",
-  "converted": {
-    "ccxl_mucha_art_style_lora_f16.ckpt": "90a1a56de52c634dfa8985c527601a0b0902120d4261b43d5e9714096fb769a3"
-  }
 }
