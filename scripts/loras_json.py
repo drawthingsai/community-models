@@ -58,9 +58,18 @@ def download_and_convert_model(directory_path, download, metadata):
       if result.returncode != 0:
         print(f"fail to upload, stdout: {result.stdout}, stderr: {result.stderr}")
         return metadata # Didn't upload successfully. exit.
+      else:
+        try:
+          os.remove(os.path.join(build, converted_file))
+        except Exception:
+          pass
+  try:
+    os.remove(file)
+  except Exception:
+    pass
   updated_metadata['converted'] = converted
   metadata_path = os.path.join('loras', directory_path, 'metadata.json')
-  # Check if metadata.json exists in this directory
+  # Check if metadata.json exists in this directory.
   if os.path.exists(metadata_path):
     # Open and load the JSON content
     metadata_string = json.dumps(updated_metadata, indent=2)

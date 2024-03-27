@@ -55,7 +55,7 @@ jobs:
           ./Scripts/install.sh
           echo "build --config=clang" >> "${GITHUB_WORKSPACE}/tools/.bazelrc.local"
           bazel build Apps:ModelConverter --compilation_mode=opt
-          bazel build Apps:LoRAsConverter --compilation_mode=opt
+          bazel build Apps:LoRAConverter --compilation_mode=opt
           bazel build Apps:ModelQuantizer --compilation_mode=opt
 
       - name: Run JSON generation.

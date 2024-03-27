@@ -75,6 +75,20 @@ def download_and_convert_model(directory_path, download, metadata):
       if result.returncode != 0:
         print(f"fail to upload, stdout: {result.stdout}, stderr: {result.stderr}")
         return metadata # Didn't upload successfully. exit.
+      else:
+        try:
+          os.remove(os.path.join(build, converted_file))
+        except Exception:
+          pass
+  try:
+    os.remove(file)
+  except Exception:
+    pass
+  if autoencoder != None:
+    try:
+      os.remove(autoencoder)
+    except Exception:
+      pass
   metadata_path = os.path.join('models', directory_path, 'metadata.json')
   # Check if metadata.json exists in this directory
   if os.path.exists(metadata_path):
