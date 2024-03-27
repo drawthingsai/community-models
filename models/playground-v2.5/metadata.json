@@ -39,5 +39,10 @@
     -1.383,
     2.5155
   ],
-  "latents_scaling_factor" : 0.5
+  "latents_scaling_factor" : 0.5,
+  "converted": {
+    "playground_v2.5_f16.ckpt": "9a8e167526a65d5caebfd6d5163705672cfd4d201cb273d11c174e46af041b4a",
+    "playground_v2.5_q6p_q8p.ckpt":
+      "18ddd151c7ae188b6a0036c72bf8b7cd395479472400a3ed4d1eb8e5e65b36e3"
+  }
 }
