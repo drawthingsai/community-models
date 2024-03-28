@@ -27,6 +27,13 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Cache Bazel
+        id: cache-bazel
+        uses: actions/cache@v4
+        with:
+          path: main/.cache
+          key: ${{ runner.os }}-bazel
+
       - name: Configure S3 / R2
         run: |
           aws configure set aws_access_key_id ${{ secrets.GHA_BOT_AWS_KEY_ID }}
