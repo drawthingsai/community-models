@@ -1,0 +1,14 @@
+{
+  "download": {
+    "file": "https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic/resolve/main/playground-v2.fp16.safetensors",
+    "autoencoder": ""
+  },
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "prefix" : "",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "version" : "sdxl_base_v0.9",
+  "upcast_attention" : false,
+  "name" : "Playground v2",
+  "file" : "playground_v2_f16.ckpt",
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt"
+}
