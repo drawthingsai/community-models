@@ -43,6 +43,16 @@ def download_and_convert_model(directory_path, download, metadata):
   original_directory = os.getcwd()
   os.chdir('../tools')
   result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+  # Immediately remove these downloads to make space for further processing such as q6p_q8p generation.
+  try:
+    os.remove(file)
+  except Exception:
+    pass
+  if autoencoder != None:
+    try:
+      os.remove(autoencoder)
+    except Exception:
+      pass
   updated_metadata = copy.deepcopy(metadata)
   converted = {}
   if result.returncode == 0:
@@ -81,15 +91,6 @@ def download_and_convert_model(directory_path, download, metadata):
           os.remove(os.path.join(build, converted_file))
         except Exception:
           pass
-  try:
-    os.remove(file)
-  except Exception:
-    pass
-  if autoencoder != None:
-    try:
-      os.remove(autoencoder)
-    except Exception:
-      pass
   metadata_path = os.path.join('models', directory_path, 'metadata.json')
   # Check if metadata.json exists in this directory
   if os.path.exists(metadata_path):
