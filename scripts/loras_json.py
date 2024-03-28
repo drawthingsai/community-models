@@ -51,6 +51,7 @@ def download_and_convert_model(directory_path, download, metadata):
           converted[value] = sha256
   else:
     print(f"Failed to convert the model {result.stdout} {result.stderr}.")
+    return metadata
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
       cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']

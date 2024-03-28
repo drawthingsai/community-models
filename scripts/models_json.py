@@ -67,6 +67,7 @@ def download_and_convert_model(directory_path, download, metadata):
   else:
     os.chdir(original_directory)
     print(f"Failed to convert the model {result.stdout} {result.stderr}.")
+    return metadata
   updated_metadata['converted'] = converted
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
