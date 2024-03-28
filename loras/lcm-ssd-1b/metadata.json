@@ -1,0 +1,9 @@
+{
+  "version" : "ssd_1b",
+  "file" : "lcm_ssd_1b_lora_f16.ckpt",
+  "prefix" : "",
+  "name" : "LCM SSD 1B (Segmind)",
+  "converted": {
+    "lcm_ssd_1b_lora_f16.ckpt": "28cdb66f0257326ffb6f4b1d6996f8fad9378aeee081529e31817aea81dfeb9f"
+  }
+}

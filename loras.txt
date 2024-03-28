@@ -1,3 +1,4 @@
+lcm-ssd-1b
 moxin-v1.0
 moxin-shukezouma-v1.1
 openjourney-v1.0
