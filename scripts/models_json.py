@@ -66,7 +66,7 @@ def download_and_convert_model(directory_path, download, metadata):
     os.chdir(original_directory)
   else:
     os.chdir(original_directory)
-    print(f"Failed to convert the model.")
+    print(f"Failed to convert the model {result.stdout} {result.stderr}.")
   updated_metadata['converted'] = converted
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
@@ -118,7 +118,7 @@ def collect_metadata_from_list(file_path):
           del metadata['converted']
         if converted is None:
           metadata = download_and_convert_model(directory_path, metadata['download'], metadata)
-          if 'converted' in metatdata:
+          if 'converted' in metadata:
             converted = metadata['converted']
             del metadata['converted']
         if 'download' in metadata:

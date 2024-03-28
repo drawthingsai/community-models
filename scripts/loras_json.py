@@ -50,7 +50,7 @@ def download_and_convert_model(directory_path, download, metadata):
         if sha256 is not None:
           converted[value] = sha256
   else:
-    print(f"Failed to convert the model.")
+    print(f"Failed to convert the model {result.stdout} {result.stderr}.")
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
       cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']
@@ -98,7 +98,7 @@ def collect_metadata_from_list(file_path):
           del metadata['converted']
         if converted is None:
           metadata = download_and_convert_model(directory_path, metadata['download'], metadata)
-          if 'converted' in metatdata:
+          if 'converted' in metadata:
             converted = metadata['converted']
             del metadata['converted']
         if 'download' in metadata:
