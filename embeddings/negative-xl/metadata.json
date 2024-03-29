@@ -2,6 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/134583"
   },
-  "keyword" : "negativexl_d",
-  "name" : "NegativeXL"
+  "keyword": "negativexl_d",
+  "name": "NegativeXL",
+  "version": "sdxl_base_v0.9",
+  "file": "negativexl_ti_f16.ckpt",
+  "length": 16,
+  "converted": {
+    "negativexl_ti_f16.ckpt": "24e8cfb47721c488143aa060d50ebcfef0cc57e0b6b16b1a69ba0472b388274f"
+  }
 }
