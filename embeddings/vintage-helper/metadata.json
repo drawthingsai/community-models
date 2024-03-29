@@ -1,0 +1,11 @@
+{
+  "name" : "Vintage Helper",
+  "keyword" : "vintagehelper",
+  "file" : "vintagehelper_ti_f16.ckpt",
+  "length" : 8,
+  "version" : "v2",
+  "converted": {
+    "vintagehelper_ti_f16.ckpt":
+      "3c4e3c989cac24c05d677b8ca7bd04738d7f00e0d53210d16b398583ed7db8b6"
+  }
+}

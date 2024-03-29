@@ -1,0 +1,11 @@
+{
+  "version" : "v2",
+  "name" : "Double Exposure",
+  "file" : "double_exposure_ti_f16.ckpt",
+  "keyword" : "double_exposure",
+  "length" : 8,
+  "converted": {
+    "double_exposure_ti_f16.ckpt":
+      "e0ae6626d444e420f55d2b5e111ac341ccb3bd1c825d1e98748f532dcfdc1b9a"
+  }
+}

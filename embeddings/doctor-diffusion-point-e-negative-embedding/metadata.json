@@ -1,0 +1,11 @@
+{
+  "file" : "drd_point_e_768_v_ti_f16.ckpt",
+  "keyword" : "drd_pnte768",
+  "name" : "Doctor Diffusion's \"Point E\" Negative Embedding",
+  "length" : 8,
+  "version" : "v2",
+  "converted": {
+    "drd_point_e_768_v_ti_f16.ckpt":
+      "508b1e299fe57facedba37f039b7fe69e2f2fd1f6d00135399b7b691ae4ce6f6"
+  }
+}

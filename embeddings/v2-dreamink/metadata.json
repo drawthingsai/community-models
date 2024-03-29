@@ -1,0 +1,11 @@
+{
+  "name" : "V2 Dreamink",
+  "keyword" : "v2_dreamink",
+  "file" : "v2_dreamink_ti_f16.ckpt",
+  "length" : 4,
+  "version" : "v2",
+  "converted": {
+    "v2_dreamink_ti_f16.ckpt":
+      "af9319aebe884dbc2e8a82afd40c8bc87fa838e0167aa76f2f3d2b61f5db7aa9"
+  }
+}

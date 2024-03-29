@@ -1,0 +1,11 @@
+{
+  "name" : "Character Turner",
+  "keyword" : "charturner",
+  "file" : "charturner_ti_f16.ckpt",
+  "length" : 4,
+  "version" : "v1",
+  "converted": {
+    "charturner_ti_f16.ckpt":
+      "9155904e44c0329ebdea8885b9729bf0e5dae5c627e5acfcb13f31ad86383e0f"
+  }
+}

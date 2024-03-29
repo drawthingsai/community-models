@@ -1,0 +1,11 @@
+{
+  "file" : "photohelper_ti_f16.ckpt",
+  "keyword" : "photohelper",
+  "version" : "v2",
+  "length" : 8,
+  "name" : "Photo Helper",
+  "converted": {
+    "photohelper_ti_f16.ckpt":
+      "d928695339f094a8f685d9b4e01366ea05589701533ad6e9cc5c9d193c6089a3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version" : "v2",
+  "name" : "Cinema Helper",
+  "file" : "cinemahelper_ti_f16.ckpt",
+  "keyword" : "cinemahelper",
+  "length" : 10,
+  "converted": {
+    "cinemahelper_ti_f16.ckpt":
+      "e7be077a65aed7763b1d9a2207e8c6b60a4727bf43ba2cca3a8e966096cda390"
+  }
+}

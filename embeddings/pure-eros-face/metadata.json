@@ -1,0 +1,11 @@
+{
+  "file" : "pure_eros_ti_f16.ckpt",
+  "keyword" : "pure_eros",
+  "version" : "v1",
+  "length" : 1,
+  "name" : "Pure Eros Face",
+  "converted": {
+    "pure_eros_ti_f16.ckpt":
+      "71514c3f85e99bee61f7c2e6218c14bcef5abaa010f11dd6bf290454ff1fbc72"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version" : "v2",
+  "file" : "knollingcase_v4_kc16_5000_ti_f16.ckpt",
+  "keyword" : "kc16_5000",
+  "length" : 16,
+  "name" : "Knollingcase (v4)",
+  "converted": {
+    "knollingcase_v4_kc16_5000_ti_f16.ckpt":
+      "c8041e652941a0874d178f26fb6fd6ef60b5215b336fad5b54ad2e7543f24769"
+  }
+}

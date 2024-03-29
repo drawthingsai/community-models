@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "length" : 4,
+  "keyword" : "cloudport",
+  "file" : "cloudport_v1.0_ti_f16.ckpt",
+  "name" : "Cloudport v1.0",
+  "converted": {
+    "cloudport_v1.0_ti_f16.ckpt":
+      "a38337995db9714ca1d9d7d94022fedb3db0c9168a03601ce0aa7f94cdbccf49"
+  }
+}

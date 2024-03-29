@@ -1,0 +1,11 @@
+{
+  "version" : "v2",
+  "name" : "Classipeint",
+  "file" : "classipeint_ti_f16.ckpt",
+  "keyword" : "classipeint",
+  "length" : 15,
+  "converted": {
+    "classipeint_ti_f16.ckpt":
+      "e1eb0ac8dbd82c5734645164071a4812ace48d03c1ca345410e502e639b2b250"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "SD2 Papercut",
+  "keyword" : "sd2_papercut",
+  "file" : "sd2_papercut_ti_f16.ckpt",
+  "length" : 8,
+  "version" : "v2",
+  "converted": {
+    "sd2_papercut_ti_f16.ckpt":
+      "63435a02c05306183e24909caa5cd48678b5d649c9f7d4c57b50c969c94e27cf"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "length" : 1,
+  "keyword" : "birb_style",
+  "file" : "birb_style_ti_f16.ckpt",
+  "name" : "Birb Style",
+  "converted": {
+    "birb_style_ti_f16.ckpt":
+      "a2029299f377aef2dda1bb8e994d868af13b025d727676a2a3bc7417fbd5ea85"
+  }
+}

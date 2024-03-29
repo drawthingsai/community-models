@@ -1,0 +1,11 @@
+{
+  "file" : "animescreencap_ti_f16.ckpt",
+  "name" : "Anime ScreenCap",
+  "length" : 6,
+  "keyword" : "animescreencap",
+  "version" : "v2",
+  "converted": {
+    "animescreencap_ti_f16.ckpt":
+      "e1355bbec52b755240ec7c860683d843ed8c0021f4ca3e6d2bdf25c044c021ff"
+  }
+}

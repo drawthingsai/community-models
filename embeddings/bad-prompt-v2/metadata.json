@@ -1,0 +1,11 @@
+{
+  "file" : "bad_prompt_v2_ti_f16.ckpt",
+  "keyword" : "bad_prompt",
+  "version" : "v1",
+  "name" : "Bad Prompt (v2)",
+  "length" : 8,
+  "converted": {
+    "bad_prompt_v2_ti_f16.ckpt":
+      "4eedda1636bd07f4f5e4da1451fba82476420c944203122501f667c54ff6fe8e"
+  }
+}

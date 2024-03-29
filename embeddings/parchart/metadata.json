@@ -1,0 +1,11 @@
+{
+  "file" : "parchart_ti_f16.ckpt",
+  "keyword" : "parchart",
+  "version" : "v2",
+  "length" : 10,
+  "name" : "ParchArt",
+  "converted": {
+    "parchart_ti_f16.ckpt":
+      "dc50bd7af6e24f8278c74ff9619404aa2da8fb60a64417731499585725460888"
+  }
+}
