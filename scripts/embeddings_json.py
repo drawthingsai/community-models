@@ -33,7 +33,7 @@ def download_and_convert_model(directory_path, download, metadata):
   build = os.path.abspath('build')
   cmd = ['bazel', 'run', 'Apps:EmbeddingConverter', '--compilation_mode=opt', '--', '--file', file, '--name', metadata['name'], '-o', build]
   original_directory = os.getcwd()
-  os.chdir('../draw-things-community')
+  os.chdir('../tools')
   result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
   os.chdir(original_directory)
   updated_metadata = copy.deepcopy(metadata)
