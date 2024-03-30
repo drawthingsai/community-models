@@ -2,9 +2,17 @@
   "download": {
     "file": "https://civitai.com/api/download/models/274039?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   },
-  "version" : "v1",
-  "default_scale" : 8,
-  "prefix" : "",
-  "name" : "Juggernaut Reborn",
-  "upcast_attention" : false
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "Juggernaut Reborn",
+  "upcast_attention": false,
+  "file": "juggernaut_reborn_f16.ckpt",
+  "text_encoder": "juggernaut_reborn_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "juggernaut_reborn_f16.ckpt": "df4c7000dece34f261a6b0dc2c26076c2e477d5f1488f6cc4da79ce41914341c",
+    "juggernaut_reborn_clip_vit_l14_f16.ckpt": "8ae6516f593774aa1c12a4645dbe0d282a834af1ab4d4fae1021cf9a0d2f5ded",
+    "juggernaut_reborn_q6p_q8p.ckpt": "21bffdeda6a6a56fecfe238779e1da0724c782b3cfe41c7370228cb429419857"
+  }
 }
