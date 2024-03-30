@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/403131?type=Model&format=SafeTensor&size=full&fp=fp16",
+    "autoencoder": "https://civitai.com/api/download/models/403131?type=VAE&format=SafeTensor"
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale" : 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Animagine XL v3.1",
+  "modifier": "none"
+}

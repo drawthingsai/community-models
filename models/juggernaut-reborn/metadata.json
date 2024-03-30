@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/274039?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+  },
+  "version" : "v1",
+  "default_scale" : 8,
+  "prefix" : "",
+  "name" : "Juggernaut Reborn",
+  "upcast_attention" : false
+}
