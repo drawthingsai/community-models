@@ -3,10 +3,19 @@
     "file": "https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagine-xl-3.1.safetensors"
   },
   "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
-  "default_scale" : 16,
+  "default_scale": 16,
   "prefix": "",
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "Animagine XL v3.1",
-  "modifier": "none"
+  "modifier": "none",
+  "text_encoder": "animagine_xl_v3.1_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "animagine_xl_v3.1_clip_vit_l14_f16.ckpt",
+  "file": "animagine_xl_v3.1_f16.ckpt",
+  "converted": {
+    "animagine_xl_v3.1_open_clip_vit_bigg14_f16.ckpt": "23a6fa09bf1df2b6f5496a0d8e9b52b32f9685c9291902565b1f0ded66af11b8",
+    "animagine_xl_v3.1_clip_vit_l14_f16.ckpt": "a4f5ce2e18ad971bec5a9c9cefd2b06c616e2ac2856d59056df597483e70ab82",
+    "animagine_xl_v3.1_f16.ckpt": "a33f9702458dfc6d57a750ecdb8253dad3b2196451fb9075c39999b9515e6a0c",
+    "animagine_xl_v3.1_q6p_q8p.ckpt": "b9d39fc276ec5334d9cf19f55f0f05495180af91a7cf295132c6ca247891fe45"
+  }
 }
