@@ -1,7 +1,6 @@
 {
   "download": {
-    "file": "https://civitai.com/api/download/models/403131?type=Model&format=SafeTensor&size=full&fp=fp16",
-    "autoencoder": "https://civitai.com/api/download/models/403131?type=VAE&format=SafeTensor"
+    "file": "https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagine-xl-3.1.safetensors"
   },
   "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
   "default_scale" : 16,
