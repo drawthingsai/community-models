@@ -2,9 +2,17 @@
   "download": {
     "file": "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fix_fp16.safetensors"
   },
-  "version" : "v1",
-  "default_scale" : 8,
-  "prefix" : "",
-  "name" : "Counterfeit v3.0",
-  "upcast_attention" : false
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "Counterfeit v3.0",
+  "upcast_attention": false,
+  "modifier": "none",
+  "file": "counterfeit_v3.0_f16.ckpt",
+  "text_encoder": "counterfeit_v3.0_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "counterfeit_v3.0_f16.ckpt": "fd85b39c875be5e29b276f020faad5ea60fb0eb71384100d88464bd17218a704",
+    "counterfeit_v3.0_clip_vit_l14_f16.ckpt": "d48a3558c8ed2a2fb4f89d67a5cab0d890a667229765b5d474714b3125bc83bb",
+    "counterfeit_v3.0_q6p_q8p.ckpt": "5c3df62a5aa31390644211019ce11222392ac02915949dc09f360c90404fc7aa"
+  }
 }
