@@ -2,9 +2,17 @@
   "download": {
     "file": "https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   },
-  "version" : "v1",
-  "default_scale" : 8,
-  "prefix" : "",
-  "name" : "DreamShaper v8",
-  "upcast_attention" : false
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "DreamShaper v8",
+  "upcast_attention": false,
+  "file": "dreamshaper_v8_f16.ckpt",
+  "text_encoder": "dreamshaper_v8_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "dreamshaper_v8_f16.ckpt": "029f427a534a83d37fa8d803924504c7225c537569711334f61029abfed188d1",
+    "dreamshaper_v8_clip_vit_l14_f16.ckpt": "0973d0d881b889f644bd1906f63480e3a5d3081d03c0bb23539a98e69fe9c287",
+    "dreamshaper_v8_q6p_q8p.ckpt": "7149dba7524adcc5914746c91014bbcbb3876719a3898cdd967d6c0a1d3df42f"
+  }
 }
