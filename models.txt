@@ -10,6 +10,7 @@ disney-pixar-cartoon-type-b
 realistic-vision-v5.1
 dreamshaper-v8
 counterfeit-v3.0
+majicmix-realistic-v7
 waifu-diffusion-v1.3
 multi-style-nitro-diffusion-v1
 cyberpunk-anime
