@@ -9,5 +9,14 @@
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "Juggernaut XL v9 Lightning",
-  "modifier": "none"
+  "modifier": "none",
+  "file": "juggernaut_xl_v9_lightning_f16.ckpt",
+  "text_encoder": "juggernaut_xl_v9_lightning_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "juggernaut_xl_v9_lightning_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "juggernaut_xl_v9_lightning_f16.ckpt": "1417ecbaccaa054d6494ac4840c5bdb3a83b0e3a2a631b15a057ba382f681877",
+    "juggernaut_xl_v9_lightning_open_clip_vit_bigg14_f16.ckpt": "3ab01f7d45516955061fd409575af1148ed1e5f460799951d3d04b7400897803",
+    "juggernaut_xl_v9_lightning_clip_vit_l14_f16.ckpt": "870ff53c717bb72a9c050b11ccecfdd468639e60668948b2fa970911dc8e4b35",
+    "juggernaut_xl_v9_lightning_q6p_q8p.ckpt": "c5663d9a238d527270bfced41b41f50fb0d44f6cc43f715da4bd6fc1a0d60696"
+  }
 }
