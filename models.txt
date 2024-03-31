@@ -6,10 +6,9 @@ lcm-ssd-1b
 juggernaut-xl
 animagine-xl
 juggernaut-reborn
-deliberate-v2.0
 disney-pixar-cartoon-type-b
 realistic-vision-v3.0
-dreamshaper-v6.31
+dreamshaper-v8
 counterfeit-v3.0
 waifu-diffusion-v1.3
 multi-style-nitro-diffusion-v1
@@ -40,3 +39,4 @@ dnd-classes-and-species
 aloeveras-simpmaker-3k1
 ha-3dkx-1.1
 seek.art-mega-v1
+deliberate-v2.0

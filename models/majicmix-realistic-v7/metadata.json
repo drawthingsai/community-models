@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/176425"
+  },
+  "version" : "v1",
+  "default_scale" : 8,
+  "prefix" : "",
+  "name" : "MajicMIX Realistic v7",
+  "upcast_attention" : false
+}
