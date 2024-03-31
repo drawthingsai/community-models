@@ -2,9 +2,17 @@
   "download": {
     "file": "https://civitai.com/api/download/models/176425"
   },
-  "version" : "v1",
-  "default_scale" : 8,
-  "prefix" : "",
-  "name" : "MajicMIX Realistic v7",
-  "upcast_attention" : false
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "MajicMIX Realistic v7",
+  "upcast_attention": false,
+  "file": "majicmix_realistic_v7_f16.ckpt",
+  "text_encoder": "majicmix_realistic_v7_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "majicmix_realistic_v7_f16.ckpt": "7c8cb7e8a429196329ef8e702b15f90c20cd69bb18890b39fa2d360e0687f543",
+    "majicmix_realistic_v7_clip_vit_l14_f16.ckpt": "280de67ccc88295862e36179a9d8b69496974dde209dae1f181a2e704b124382",
+    "majicmix_realistic_v7_q6p_q8p.ckpt": "5a96541972fc72c970d74a19922adf0051b1da328511fb4ca5849f637f970a7a"
+  }
 }
