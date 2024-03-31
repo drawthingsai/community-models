@@ -1,0 +1,11 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/129614"
+  },
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "Rev Animated v1.22",
+  "upcast_attention": false,
+  "modifier": "none"
+}
