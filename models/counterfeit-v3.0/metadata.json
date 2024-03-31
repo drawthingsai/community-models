@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_fix_fp16.safetensors"
+  },
+  "version" : "v1",
+  "default_scale" : 8,
+  "prefix" : "",
+  "name" : "Counterfeit v3.0",
+  "upcast_attention" : false
+}
