@@ -7,7 +7,7 @@ juggernaut-xl
 animagine-xl
 juggernaut-reborn
 disney-pixar-cartoon-type-b
-realistic-vision-v3.0
+realistic-vision-v5.1
 dreamshaper-v8
 counterfeit-v3.0
 waifu-diffusion-v1.3
