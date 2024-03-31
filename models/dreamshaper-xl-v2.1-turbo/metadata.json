@@ -9,5 +9,14 @@
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "DreamShaper XL v2.1 Turbo",
-  "modifier": "none"
+  "modifier": "none",
+  "clip_encoder": "dreamshaper_xl_v2.1_turbo_clip_vit_l14_f16.ckpt",
+  "file": "dreamshaper_xl_v2.1_turbo_f16.ckpt",
+  "text_encoder": "dreamshaper_xl_v2.1_turbo_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "dreamshaper_xl_v2.1_turbo_clip_vit_l14_f16.ckpt": "59820ac734bb73cbba15674f6d554fe7d0174b8ca1e5357a610a330e9c291f8b",
+    "dreamshaper_xl_v2.1_turbo_f16.ckpt": "9f24ce8baee52389025ad4da341dd5b0b7889bee16ccb3f25b07056c4827ee29",
+    "dreamshaper_xl_v2.1_turbo_open_clip_vit_bigg14_f16.ckpt": "9c0163e4fa432545ee2c67d550b0c8a59cde0578a8ac7ef4ead4b26ce7946258",
+    "dreamshaper_xl_v2.1_turbo_q6p_q8p.ckpt": "27ff16320a3efbec46c2a61d941d07d8d477d16146a91279b057d96e136033c9"
+  }
 }
