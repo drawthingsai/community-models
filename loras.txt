@@ -1,4 +1,7 @@
 lcm-ssd-1b
+sdxl-lightning-2-step
+sdxl-lightning-4-step
+sdxl-lightning-8-step
 moxin-v1.0
 moxin-shukezouma-v1.1
 openjourney-v1.0

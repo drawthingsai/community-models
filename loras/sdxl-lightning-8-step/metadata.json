@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_8step_lora.safetensors"
+  },
+  "name": "SDXL Lightning 8-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sdxl_base_v0.9",
+  "is_consistency_model": true
+}
