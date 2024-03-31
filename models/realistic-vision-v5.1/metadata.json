@@ -2,9 +2,17 @@
   "download": {
     "file": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1_fp16-no-ema.safetensors"
   },
-  "version" : "v1",
-  "default_scale" : 8,
-  "prefix" : "",
-  "name" : "Realistic Vision v5.1",
-  "upcast_attention" : false
+  "version": "v1",
+  "default_scale": 8,
+  "prefix": "",
+  "name": "Realistic Vision v5.1",
+  "upcast_attention": false,
+  "text_encoder": "realistic_vision_v5.1_clip_vit_l14_f16.ckpt",
+  "file": "realistic_vision_v5.1_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "realistic_vision_v5.1_clip_vit_l14_f16.ckpt": "70dd9b44705f0e5948c8d2c8e546a1e19e7725155a572252920252385c59bac7",
+    "realistic_vision_v5.1_f16.ckpt": "a3057b6e1caff5d65e151f99dfdf5e4ac9b42d81cb0172e9f8c4133b0198bf2a",
+    "realistic_vision_v5.1_q6p_q8p.ckpt": "121f067875a95383f1cf5faaf0145759386811489b87d6ec69101b9660489861"
+  }
 }
