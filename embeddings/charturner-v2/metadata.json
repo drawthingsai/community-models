@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/8387?type=Model&format=PickleTensor&size=full&fp=fp16"
+  },
+  "keyword" : "charturnerv2",
+  "version" : "v1",
+  "name" : "CharTurner v2"
+}

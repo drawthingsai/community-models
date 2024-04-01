@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/94057?type=Model&format=PickleTensor"
+  },
+  "keyword" : "fastnegativev2",
+  "version" : "v1",
+  "name" : "Fast Negative"
+}

@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
+  },
+  "keyword" : "easynegative",
+  "version" : "v1",
+  "name" : "EasyNegative"
+}
