@@ -7,5 +7,12 @@
   "prefix": "",
   "name": "Rev Animated v1.22",
   "upcast_attention": false,
-  "modifier": "none"
+  "modifier": "none",
+  "text_encoder": "rev_animated_v1.22_clip_vit_l14_f16.ckpt",
+  "file": "rev_animated_v1.22_f16.ckpt",
+  "converted": {
+    "rev_animated_v1.22_clip_vit_l14_f16.ckpt": "0f53ccd85706ba7b4b6b612a0a12f93841a845615b0e754d8f6bf3128c20af00",
+    "rev_animated_v1.22_f16.ckpt": "2a4411ee7fa2d2052b63277af52543a5f59549e6898a9ef05da44c721ef0bc82",
+    "rev_animated_v1.22_q6p_q8p.ckpt": "83b60dd7279c7807121451d3c8aa43469b8a923a0b99893b92a123441cb800ae"
+  }
 }
