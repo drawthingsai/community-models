@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
+  },
+  "version" : "v1",
+  "name" : "Add More Details (Detail Enhancer / Tweaker)",
+  "prefix" : ""
+}

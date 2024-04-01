@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/236130?type=Model&format=SafeTensor"
+  },
+  "version" : "v1",
+  "name" : "SDXL Render v2.0",
+  "prefix" : ""
+}
