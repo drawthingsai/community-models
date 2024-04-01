@@ -2,6 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/135931"
   },
-  "name" : "Pixel Art XL v1.1",
-  "prefix" : ""
+  "name": "Pixel Art XL v1.1",
+  "prefix": "",
+  "is_lo_ha": false,
+  "file": "pixel_art_xl_v1.1_lora_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "pixel_art_xl_v1.1_lora_f16.ckpt": "2f61a2cf5a8fe669a6ce851770b5c14bec8e832da8cf6d46bcefec4235b42632"
+  }
 }

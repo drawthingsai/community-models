@@ -2,7 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
   },
-  "version" : "v1",
-  "name" : "Add More Details (Detail Enhancer / Tweaker)",
-  "prefix" : ""
+  "version": "v1",
+  "name": "Add More Details (Detail Enhancer / Tweaker)",
+  "prefix": "",
+  "is_lo_ha": false,
+  "file": "add_more_details__detail_enhancer___tweaker__lora_f16.ckpt",
+  "converted": {
+    "add_more_details__detail_enhancer___tweaker__lora_f16.ckpt": "76c94c52afd2ae879ff62fdf39e563605202afd5df7437e86edcabde979377eb"
+  }
 }

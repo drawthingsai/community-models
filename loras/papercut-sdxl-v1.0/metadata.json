@@ -2,6 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/133503"
   },
-  "name" : "Papercut SDXL",
-  "prefix" : "papercut "
+  "name": "Papercut SDXL",
+  "prefix": "papercut ",
+  "is_lo_ha": false,
+  "version": "sdxl_base_v0.9",
+  "file": "papercut_sdxl_lora_f16.ckpt",
+  "converted": {
+    "papercut_sdxl_lora_f16.ckpt": "d1e611c5c346a44df2d699693485f832474afef710f6e807722ca58b9c166ff8"
+  }
 }
