@@ -4,5 +4,10 @@
   },
   "keyword": "unaestheticxl_alb2",
   "name": "UnaestheticXL Alb2",
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "unaestheticxl_alb2_ti_f16.ckpt",
+  "length": 12,
+  "converted": {
+    "unaestheticxl_alb2_ti_f16.ckpt": "345a1c4113a214cfdc9fd581a78d3272e7ea04b7afb74f79780c5abf2211ba5f"
+  }
 }
