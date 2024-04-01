@@ -3,7 +3,7 @@
     "file": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1_fp16-no-ema.safetensors"
   },
   "version": "v1",
-  "default_scale": 8,
+  "default_scale": 12,
   "prefix": "",
   "name": "Realistic Vision v5.1",
   "upcast_attention": false,
