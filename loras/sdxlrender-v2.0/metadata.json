@@ -2,7 +2,12 @@
   "download": {
     "file": "https://huggingface.co/Bellatrix/SDXLrender_v2.0/resolve/main/SDXLrender_v2.0.safetensors"
   },
-  "version" : "v1",
-  "name" : "SDXL Render v2.0",
-  "prefix" : ""
+  "version": "v1",
+  "name": "SDXL Render v2.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "file": "sdxl_render_v2.0_lora_f16.ckpt",
+  "converted": {
+    "sdxl_render_v2.0_lora_f16.ckpt": "7af37f39af2f22f4e20651806d7b1e7e67d4f0c20370c356d4a5894db65f1a7d"
+  }
 }
