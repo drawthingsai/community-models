@@ -1,6 +1,6 @@
 {
   "download": {
-    "file": "https://civitai.com/api/download/models/236130?type=Model&format=SafeTensor"
+    "file": "https://huggingface.co/Bellatrix/SDXLrender_v2.0/resolve/main/SDXLrender_v2.0.safetensors"
   },
   "version" : "v1",
   "name" : "SDXL Render v2.0",
