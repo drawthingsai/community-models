@@ -2,7 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
   },
-  "keyword" : "easynegative",
-  "version" : "v1",
-  "name" : "EasyNegative"
+  "keyword": "easynegative",
+  "version": "v1",
+  "name": "EasyNegative",
+  "length": 8,
+  "file": "easynegative_ti_f16.ckpt",
+  "converted": {
+    "easynegative_ti_f16.ckpt": "2306056130c99a7805cfb356c983a43e7c65e7cfd4b996bdab81b74a689fe830"
+  }
 }

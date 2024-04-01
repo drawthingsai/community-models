@@ -2,7 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/94057?type=Model&format=PickleTensor"
   },
-  "keyword" : "fastnegativev2",
-  "version" : "v1",
-  "name" : "Fast Negative"
+  "keyword": "fastnegativev2",
+  "version": "v1",
+  "name": "Fast Negative",
+  "file": "fast_negative_ti_f16.ckpt",
+  "length": 67,
+  "converted": {
+    "fast_negative_ti_f16.ckpt": "b61a93f56c12406432dd82a97cbfc1bdbc93bb9c903b1bcb7f6a801740f1ea82"
+  }
 }

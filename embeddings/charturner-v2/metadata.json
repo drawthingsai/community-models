@@ -2,7 +2,12 @@
   "download": {
     "file": "https://civitai.com/api/download/models/8387?type=Model&format=PickleTensor&size=full&fp=fp16"
   },
-  "keyword" : "charturnerv2",
-  "version" : "v1",
-  "name" : "CharTurner v2"
+  "keyword": "charturnerv2",
+  "version": "v1",
+  "name": "CharTurner v2",
+  "file": "charturner_v2_ti_f16.ckpt",
+  "length": 15,
+  "converted": {
+    "charturner_v2_ti_f16.ckpt": "74b980bed378539b87da81c7630427f9065351093dc2697ceb709b12f06c8706"
+  }
 }
