@@ -1,6 +1,8 @@
 charturner-v2
 fast-negative-v2
 easy-negative
+negative-xl
+unaestheticxl
 action-helper
 anime-screencap
 bad-prompt-v2
@@ -19,4 +21,3 @@ pure-eros-face
 sd2-papercut
 v2-dreamink
 vintage-helper
-negative-xl

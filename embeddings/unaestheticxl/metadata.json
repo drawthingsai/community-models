@@ -1,0 +1,8 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/61235/unaestheticxlAlb2.7VDr.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22unaestheticXL_Alb2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240401/us-east-1/s3/aws4_request&X-Amz-Date=20240401T040307Z&X-Amz-SignedHeaders=host&X-Amz-Signature=3ca3ea6e629550fff18ac1296455477e96f1402cadb8f742f9a6357a498d3380"
+  },
+  "keyword": "unaestheticxl_alb2",
+  "name": "UnaestheticXL Alb2",
+  "version": "sdxl_base_v0.9"
+}
