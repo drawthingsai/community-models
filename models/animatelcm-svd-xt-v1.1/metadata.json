@@ -2,27 +2,30 @@
   "download": {
     "file": "https://huggingface.co/wangfuyun/AnimateLCM-SVD-xt/resolve/main/AnimateLCM-SVD-xt-1.1.safetensors"
   },
-  "prefix" : "",
-  "upcast_attention" : false,
-  "clip_encoder" : "open_clip_vit_h14_visual_proj_f16.ckpt",
-  "text_encoder" : "open_clip_vit_h14_vision_model_f16.ckpt",
-  "conditioning" : "noise",
-  "version" : "svd_i2v",
-  "default_scale" : 8,
-  "name" : "AnimateLCM SVD XT v1.1",
-  "noise_discretization" : {
-    "edm" : {
-      "_0" : {
-        "sigma_max" : 700,
-        "sigma_data" : 0.5,
-        "sigma_min" : 0.002
+  "prefix": "",
+  "upcast_attention": false,
+  "clip_encoder": "open_clip_vit_h14_visual_proj_f16.ckpt",
+  "text_encoder": "open_clip_vit_h14_vision_model_f16.ckpt",
+  "conditioning": "noise",
+  "version": "svd_i2v",
+  "default_scale": 8,
+  "name": "AnimateLCM SVD XT v1.1",
+  "noise_discretization": {
+    "edm": {
+      "_0": {
+        "sigma_max": 700,
+        "sigma_data": 0.5,
+        "sigma_min": 0.002
       }
     }
   },
-  "modifier" : "none",
-  "objective" : {
-    "v" : {
-
-    }
+  "modifier": "none",
+  "objective": {
+    "v": {}
+  },
+  "file": "animatelcm_svd_xt_v1.1_f16.ckpt",
+  "converted": {
+    "animatelcm_svd_xt_v1.1_f16.ckpt": "bbabff3956ba0bf83a0c126871f8d61aa4a0fb27917ffcfc566d066b9204ba75",
+    "animatelcm_svd_xt_v1.1_q6p_q8p.ckpt": "35c9d5bfdd469f4f5404d1942707edd006fa648a29f39d7bfb7278098ba581a8"
   }
 }
