@@ -7,6 +7,7 @@ juggernaut-xl
 animagine-xl
 dreamshaper-xl-v2.1-turbo
 juggernaut-xl-v9-lightning
+animatelcm-svd-xt-v1.1
 juggernaut-reborn
 disney-pixar-cartoon-type-b
 realistic-vision-v5.1

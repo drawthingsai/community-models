@@ -1,0 +1,28 @@
+{
+  "download": {
+    "file": "https://huggingface.co/wangfuyun/AnimateLCM-SVD-xt/resolve/main/AnimateLCM-SVD-xt-1.1.safetensors"
+  },
+  "prefix" : "",
+  "upcast_attention" : false,
+  "clip_encoder" : "open_clip_vit_h14_visual_proj_f16.ckpt",
+  "text_encoder" : "open_clip_vit_h14_vision_model_f16.ckpt",
+  "conditioning" : "noise",
+  "version" : "svd_i2v",
+  "default_scale" : 8,
+  "name" : "AnimateLCM SVD XT v1.1",
+  "noise_discretization" : {
+    "edm" : {
+      "_0" : {
+        "sigma_max" : 700,
+        "sigma_data" : 0.5,
+        "sigma_min" : 0.002
+      }
+    }
+  },
+  "modifier" : "none",
+  "objective" : {
+    "v" : {
+
+    }
+  }
+}
