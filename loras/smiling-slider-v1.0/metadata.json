@@ -5,5 +5,9 @@
   "name": "Smiling Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "smiling_slider_lora_f16.ckpt",
+  "converted": {
+    "smiling_slider_lora_f16.ckpt": "7e7247b546168187949727cec0cc7abb3dda482911f8116e1e1f24c68a609e4b"
+  }
 }

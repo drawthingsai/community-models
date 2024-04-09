@@ -5,5 +5,9 @@
   "name": "Weight Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "weight_slider_lora_f16.ckpt",
+  "converted": {
+    "weight_slider_lora_f16.ckpt": "46b726d73c1bf0e0443b7889bfe4dd86b6fd312204e03edcebdd06a8b5449144"
+  }
 }

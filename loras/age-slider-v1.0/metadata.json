@@ -5,5 +5,9 @@
   "name": "Age Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "age_slider_lora_f16.ckpt",
+  "converted": {
+    "age_slider_lora_f16.ckpt": "4e31b47eb477006fff9ab8ea6e86aebd366776d8d3263a223899bda5e6e6249e"
+  }
 }

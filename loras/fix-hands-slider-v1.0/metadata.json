@@ -5,5 +5,9 @@
   "name": "Fix Hands Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "fix_hands_slider_lora_f16.ckpt",
+  "converted": {
+    "fix_hands_slider_lora_f16.ckpt": "379124df5a568a2beefaa1e28be5bf904a0f502914c9c3da5ecef372ecbf6900"
+  }
 }

@@ -5,5 +5,9 @@
   "name": "Long Hair Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "long_hair_slider_lora_f16.ckpt",
+  "converted": {
+    "long_hair_slider_lora_f16.ckpt": "4704b210e20067516e133225d6c0a72ea56d96c556c0f8c4fce64a72f9d4ca33"
+  }
 }

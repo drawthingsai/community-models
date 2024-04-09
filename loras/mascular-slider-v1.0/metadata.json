@@ -5,5 +5,9 @@
   "name": "Mascular Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "mascular_slider_lora_f16.ckpt",
+  "converted": {
+    "mascular_slider_lora_f16.ckpt": "02b5351c3fbd269b4f0300715802ffadce8aa3ab52c632f907dbfc18dd8a371f"
+  }
 }

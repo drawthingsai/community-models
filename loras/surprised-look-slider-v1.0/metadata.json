@@ -5,5 +5,9 @@
   "name": "Surprised Look Slider",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sdxl_base_v0.9"
+  "version": "sdxl_base_v0.9",
+  "file": "surprised_look_slider_lora_f16.ckpt",
+  "converted": {
+    "surprised_look_slider_lora_f16.ckpt": "be18e1b92f1328b37fd50a23b4e2b0a8775d87f99ec60031c9aa7513eb9a1ff7"
+  }
 }
