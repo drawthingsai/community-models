@@ -1,0 +1,9 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/268828"
+  },
+  "name": "Age Slider",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sdxl_base_v0.9"
+}
