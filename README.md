@@ -12,6 +12,8 @@ You are welcome to put up Pull Requests to add new models and LoRAs to the "Comm
 
  3. a `assets` directory contains example images for a given model / LoRA.
 
+Then add the directory name for your models, LoRAs and embeddings into the corresponding txt file at the top level of the repository.
+
 # How It Works
 
 Once a Pull Request merged into the repository, an automatic process will be kicked off to download model from the source link, convert them into models available to Draw Things the app. A new json list will be generated so the model will be available to everyone use the app upon a refresh.
