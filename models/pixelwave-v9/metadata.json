@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2219052/pixelwave09.icwY.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22pixelwave_09.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240420/us-east-1/s3/aws4_request&X-Amz-Date=20240420T165147Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5d3a02d227e885940e2538d7e0475efe4ff4ae219e708bb8b1ca1a9b34535dbc",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "PixelWave v9",
+  "modifier": "none"
+}
