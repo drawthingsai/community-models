@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/456194",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Juggernaut XL X",
+  "modifier": "none"
+}
