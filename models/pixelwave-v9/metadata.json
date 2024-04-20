@@ -9,5 +9,14 @@
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "PixelWave v9",
-  "modifier": "none"
+  "modifier": "none",
+  "text_encoder": "pixelwave_v9_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "pixelwave_v9_clip_vit_l14_f16.ckpt",
+  "file": "pixelwave_v9_f16.ckpt",
+  "converted": {
+    "pixelwave_v9_open_clip_vit_bigg14_f16.ckpt": "805681edae7161e967a5c8be71fe6390d7002355f31f7a9b4c960b5d2e142ea8",
+    "pixelwave_v9_clip_vit_l14_f16.ckpt": "aa650376f7ade4112dc9fc1afe27244641aae3735abe0707259208c40e3c283a",
+    "pixelwave_v9_f16.ckpt": "3c55ba48b851fe4ee9170a483994da78aa964567e232d69cfb68a5edcea0a089",
+    "pixelwave_v9_q6p_q8p.ckpt": "6c28f2c8dd108eae81bac132a37edde5dbd08eea8289c409906b783a85320921"
+  }
 }
