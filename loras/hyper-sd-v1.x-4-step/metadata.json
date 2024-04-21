@@ -5,6 +5,10 @@
   "name": "Hyper SD v1.x 4-Step",
   "prefix": "",
   "is_lo_ha": false,
-  "version" : "v1",
-  "is_consistency_model": true
+  "version": "v1",
+  "is_consistency_model": true,
+  "file": "hyper_sd_v1.x_4_step_lora_f16.ckpt",
+  "converted": {
+    "hyper_sd_v1.x_4_step_lora_f16.ckpt": "4dae37baece5f7ad423e72b0b11fff63ea835d2e098701f06f9291514d304675"
+  }
 }
