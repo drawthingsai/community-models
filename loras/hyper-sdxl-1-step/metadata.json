@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-1step-lora.safetensors"
+  },
+  "name": "Hyper SDXL 1-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sdxl_base_v0.9",
+  "is_consistency_model": true
+}

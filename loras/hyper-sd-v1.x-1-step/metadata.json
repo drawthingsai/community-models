@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-1step-lora.safetensors"
+  },
+  "name": "Hyper SD v1.x 1-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version" : "v1",
+  "is_consistency_model": true
+}
