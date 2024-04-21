@@ -6,5 +6,9 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "sdxl_base_v0.9",
-  "is_consistency_model": true
+  "is_consistency_model": true,
+  "file": "hyper_sdxl_1_step_lora_f16.ckpt",
+  "converted": {
+    "hyper_sdxl_1_step_lora_f16.ckpt": "5c3f3d811da0c55a8c1ac0f62279451275d6112781877d8bb14756e78c120d1c"
+  }
 }
