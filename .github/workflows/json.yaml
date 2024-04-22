@@ -69,9 +69,9 @@ jobs:
       - name: Run JSON generation.
         run: |
           cd "${GITHUB_WORKSPACE}/main"
-          python3 scripts/models_json.py
-          python3 scripts/loras_json.py
-          python3 scripts/embeddings_json.py
+          python3 utils/models_json.py
+          python3 utils/loras_json.py
+          python3 utils/embeddings_json.py
           git config --global user.email "docbot@github.com"
           git config --global user.name "docbot"
           git commit -a -m "Update metadata with converted models / LoRAs." || true
