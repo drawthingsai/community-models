@@ -10,5 +10,13 @@
   "upcast_attention": false,
   "name": "PixelWave 10",
   "modifier": "none",
-  "file": "pixelwave_10_f16.ckpt"
+  "file": "pixelwave_10_f16.ckpt",
+  "clip_encoder": "pixelwave_10_clip_vit_l14_f16.ckpt",
+  "text_encoder": "pixelwave_10_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "pixelwave_10_clip_vit_l14_f16.ckpt": "a748ee2e86f94d7c6af46f73b70f5a74a7b5776e7a2857f95cc52ab4d7837513",
+    "pixelwave_10_open_clip_vit_bigg14_f16.ckpt": "0842de40bd8d50e8ce14ef2f68938e2097627a3c9db826495015fc647d6ee074",
+    "pixelwave_10_f16.ckpt": "73a09884af44ecaef90453c2d854b23431ef906223dcf17d21704b569f2a494e",
+    "pixelwave_10_q6p_q8p.ckpt": "ca220bf08951aa6d8a129b17c802743816ddc9534a4b0969d9686c9620e7a5a4"
+  }
 }
