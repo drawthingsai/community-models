@@ -8,6 +8,7 @@ animagine-xl
 dreamshaper-xl-v2.1-turbo
 juggernaut-xl-v9-lightning
 pixelwave-v9
+pixelwave-v10
 juggernaut-xl-x
 animatelcm-svd-xt-v1.1
 juggernaut-reborn
