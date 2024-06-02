@@ -12,5 +12,5 @@
   "modifier": "none",
   "text_encoder": "pixelwave_10_open_clip_vit_bigg14_f16.ckpt",
   "clip_encoder": "pixelwave_10_clip_vit_l14_f16.ckpt",
-  "file": "pixelwave_10_f16.ckpt",
+  "file": "pixelwave_10_f16.ckpt"
 }
