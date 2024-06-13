@@ -1,3 +1,6 @@
+icatcher-realistic
+icatcher-semireal
+icatcher-cartoon
 lcm-sdxl-v1.0
 playground-v2.5
 playground-v2
