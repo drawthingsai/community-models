@@ -1,0 +1,12 @@
+{
+  "download": {
+    "file": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "RealVisXL v4.0",
+  "modifier": "none"
+}
