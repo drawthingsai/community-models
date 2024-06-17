@@ -1,7 +1,3 @@
-icatcher-realistic
-icatcher-semireal
-icatcher-cartoon
-lcm-sdxl-v1.0
 playground-v2.5
 playground-v2
 ssd-1b
@@ -13,6 +9,8 @@ juggernaut-xl-v9-lightning
 pixelwave-v9
 pixelwave-v10
 juggernaut-xl-x
+icatcher-realistic
+icatcher-cartoon
 animatelcm-svd-xt-v1.1
 juggernaut-reborn
 disney-pixar-cartoon-type-b
