@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/556749"
+  },
+  "name": "iCatcher Cartoon",
+  "file": "icatcher_cartoon_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "default_scale": 16
+}

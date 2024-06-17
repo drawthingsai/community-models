@@ -9,6 +9,8 @@ pixelwave-v9
 pixelwave-v10
 juggernaut-xl-x
 realvisxl-v4.0
+icatcher-realistic
+icatcher-cartoon
 animatelcm-svd-xt-v1.1
 juggernaut-reborn
 disney-pixar-cartoon-type-b
