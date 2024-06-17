@@ -6,5 +6,15 @@
   "file": "icatcher_realistic_f16.ckpt",
   "prefix": "",
   "modifier": "none",
-  "default_scale": 16
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "icatcher_realistic_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "icatcher_realistic_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "icatcher_realistic_open_clip_vit_bigg14_f16.ckpt": "d3b41c3a75c3d5dba1afebdb290d26cbe4cad99eac72da0b9ee20f5174069dff",
+    "icatcher_realistic_f16.ckpt": "9ae7c3c65f2bed2fc0c397c61583d238db1c015493b1dbdaaef1adeaad48e4e7",
+    "icatcher_realistic_clip_vit_l14_f16.ckpt": "2096df66e8e01d4ae27df8b515c47582fe3a92db861b8bd59624ce26b0613d28",
+    "icatcher_realistic_q6p_q8p.ckpt": "3fb262eb2f9250701c8e9fba4dd22a27c73731320312bc9e5599ab823576ed28"
+  }
 }

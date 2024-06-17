@@ -6,5 +6,15 @@
   "file": "icatcher_cartoon_f16.ckpt",
   "prefix": "",
   "modifier": "none",
-  "default_scale": 16
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "icatcher_cartoon_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "icatcher_cartoon_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "icatcher_cartoon_f16.ckpt": "f377d137fe352355b621b9f699599f8602f115c010695a9f2f620a126006e6f2",
+    "icatcher_cartoon_clip_vit_l14_f16.ckpt": "8f67928673fccf8682e62c3e618aa966b6238026c34ce78bc71ae09525ae01ca",
+    "icatcher_cartoon_open_clip_vit_bigg14_f16.ckpt": "c0b2b1b3db58332392df3c19ac017a8201657e25f5dc01288a9ed9afbfdd176f",
+    "icatcher_cartoon_q6p_q8p.ckpt": "86722d77e32dbbc379190939b63daea552a521a401b8443aa4572e4f4c86000d"
+  }
 }
