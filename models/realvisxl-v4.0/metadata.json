@@ -1,0 +1,21 @@
+{
+  "download": {
+    "file": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "RealVisXL v4.0",
+  "modifier": "none",
+  "clip_encoder": "realvisxl_v4.0_clip_vit_l14_f16.ckpt",
+  "text_encoder": "realvisxl_v4.0_open_clip_vit_bigg14_f16.ckpt",
+  "file": "realvisxl_v4.0_f16.ckpt",
+  "converted": {
+    "realvisxl_v4.0_clip_vit_l14_f16.ckpt": "4178b8efddbd8e80c9e768a3340ddbd2cccfde538d0226f8de8f2c4f6bd97d50",
+    "realvisxl_v4.0_open_clip_vit_bigg14_f16.ckpt": "ce3c92e508ad2266c0c2e0fdca97f925d91c5f8c527496e53ae99414f756fd0d",
+    "realvisxl_v4.0_f16.ckpt": "699a9663bb77bb9d41055f3b8c7a9af5f1162cfb5a70f98cbc6f6172197a3858",
+    "realvisxl_v4.0_q6p_q8p.ckpt": "05824345d0fb283aad6e7a6e87526e696181702848988a93541c0fdc8f3d7616"
+  }
+}

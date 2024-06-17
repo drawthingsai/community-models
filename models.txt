@@ -1,7 +1,6 @@
 playground-v2.5
 playground-v2
 ssd-1b
-lcm-ssd-1b
 juggernaut-xl-v9
 animagine-xl
 dreamshaper-xl-v2.1-turbo
@@ -9,6 +8,7 @@ juggernaut-xl-v9-lightning
 pixelwave-v9
 pixelwave-v10
 juggernaut-xl-x
+realvisxl-v4.0
 icatcher-realistic
 icatcher-cartoon
 animatelcm-svd-xt-v1.1
