@@ -10,10 +10,12 @@ dreamshaper-xl-v2.1-turbo
 juggernaut-xl-v9-lightning
 pixelwave-v9
 pixelwave-v10
-juggernaut-xl-x
 realvisxl-v4.0
+juggernaut-xl-x
 icatcher-realistic
 icatcher-cartoon
+colorfulxl-v6.0
+proteus-v0.3
 animatelcm-svd-xt-v1.1
 juggernaut-reborn
 disney-pixar-cartoon-type-b

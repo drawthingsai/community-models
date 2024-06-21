@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/569951",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "ColorfulXL v6.0",
+  "modifier": "none"
+}

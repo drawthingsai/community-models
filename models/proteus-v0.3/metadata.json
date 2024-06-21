@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://huggingface.co/dataautogpt3/ProteusV0.3/resolve/main/ProteusV0.3.safetensors",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Proteus v0.3",
+  "modifier": "none"
+}
