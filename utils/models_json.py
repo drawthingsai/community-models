@@ -79,6 +79,9 @@ def download_and_convert_model(directory_path, download, metadata):
     print(f"Failed to convert the model {result.stdout} {result.stderr}.")
     return metadata
   updated_metadata['converted'] = converted
+  # Fill missing metadata.
+  if 'upcast_attention' in updated_metadata:
+    updated_metadata['upcast_attention'] = False
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
       cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']
@@ -130,13 +133,30 @@ def collect_metadata_from_list(file_path):
           for key, value in converted.items():
             sha256_dict[key] = value
           metadata_array.append(copy.deepcopy(metadata))
+          # Check if there are 8-bit counterpart.
           if file.endswith('_f16.ckpt'):
             # Append the 8-bit metadata if available.
-            q8p_file = file[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
-            if q8p_file in converted:
-              metadata['file'] = q8p_file
+            q6p_q8p_file = file[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
+            if q6p_q8p_file in converted:
+              metadata['file'] = q6p_q8p_file
               metadata['name'] = metadata['name'] + ' (8-bit)'
+              # Try to find ones for stage models.
+              if 'stage_models' in metadata:
+                for i, stage_model in enumerate(metadata['stage_models']):
+                  q6p_q8p_file = stage_model[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
+                  if q6p_q8p_file in converted:
+                    metadata['stage_models'][i] = q6p_q8p_file
+                  else:
+                    q8p_file = stage_model[:-len('_f16.ckpt')] + '_q8p.ckpt'
+                    if q8p_file in converted:
+                      metadata['stage_models'][i] = q8p_file
               metadata_array.append(copy.deepcopy(metadata))
+            else:
+              q8p_file = file[:-len('_f16.ckpt')] + '_q8p.ckpt'
+              if q8p_file in converted:
+                metadata['file'] = q8p_file
+                metadata['name'] = metadata['name'] + ' (8-bit)'
+                metadata_array.append(copy.deepcopy(metadata))
   return metadata_array, sha256_dict
 
 # Replace 'models.txt' with the path to your actual file if it's located elsewhere

@@ -1,0 +1,20 @@
+{
+  "name" : "Stable Cascade (Würstchen v3.0)",
+  "stage_models" : [
+    "wurstchen_3.0_stage_b_f16.ckpt"
+  ],
+  "version" : "wurstchen_v3.0_stage_c",
+  "default_scale" : 16,
+  "file" : "wurstchen_3.0_stage_c_f32_f16.ckpt",
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder" : "wurstchen_3.0_stage_a_hq_f16.ckpt",
+  "upcast_attention" : false,
+  "prefix" : "",
+  "converted": {
+    "wurstchen_3.0_stage_c_f32_f16.ckpt": "aa05651d1920d1fd0b70d06397548bf9e77fac93ff4b4bc9bc98cea749e5a8db",
+    "wurstchen_3.0_stage_c_f32_q6p_q8p.ckpt": "0e57d6f6c7749a34ea362a115558aeeb209da82e54b06e3b97433ed64b244439",
+    "wurstchen_3.0_stage_b_f16.ckpt": "a541358038cb86064a4d43bd0b6dab1cb95129520fca67eb178bce3baccc1d02",
+    "wurstchen_3.0_stage_b_q6p_q8p.ckpt": "b0611225cf2f2a7b9109ae18eaf12bfe04ae60010ac5ea715440d79708e578b8",
+    "wurstchen_3.0_stage_a_hq_f16.ckpt": "ad9d2b43ceb68f9bb9d269a6a5fd345a5f177a0f695189be82219cb4d2740277"
+  }
+}

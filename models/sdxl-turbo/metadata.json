@@ -1,0 +1,16 @@
+{
+  "name" : "SDXL Turbo",
+  "prefix" : "",
+  "default_scale" : 8,
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "file" : "sd_xl_turbo_f16.ckpt",
+  "version" : "sdxl_base_v0.9",
+  "upcast_attention" : false,
+  "is_consistency_model" : true,
+  "converted": {
+    "sd_xl_turbo_f16.ckpt": "c85ea750f1ff5d17c032465c07f854eaf5f1551e27bd85dbe9c2d1025a41e004",
+    "sd_xl_turbo_q6p_q8p.ckpt": "a8072ace4eb3d6590db8abe8fda6c0c22f4c3e68efb86f0e58a27dc4f68731ef"
+  }
+}

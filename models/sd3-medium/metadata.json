@@ -1,0 +1,23 @@
+{
+  "name" : "SD3 Medium",
+  "version" : "sd3",
+  "autoencoder" : "sd3_vae_f16.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "t5_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "file" : "sd3_medium_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "sd3_medium_f16.ckpt": "9ee38fee52867678c21afffd7c176443a61e30eed728c1a28e2ff4982fe89bee",
+    "sd3_medium_q8p.ckpt": "a313371538d8018ee6f3f3b6aa3e08bff64bfa3a56c1f777b90973f71138b3a2",
+    "t5_xxl_encoder_q6p.ckpt": "8f8fa0acc618df6f225122b3d03b6f60034490d9f9fd3b8799e7faa3e08943b7",
+    "sd3_vae_f16.ckpt": "51d42d4745456396f0cbb034f4eb9d6495cc2a552ca4af7ba80d64fdba5f9678"
+  }
+}
