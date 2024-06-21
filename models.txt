@@ -1,5 +1,6 @@
 sdxl-turbo
 stable-cascade
+sd3-medium
 playground-v2.5
 playground-v2
 ssd-1b
