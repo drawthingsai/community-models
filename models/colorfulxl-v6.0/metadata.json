@@ -9,5 +9,14 @@
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "ColorfulXL v6.0",
-  "modifier": "none"
+  "modifier": "none",
+  "clip_encoder": "colorfulxl_v6.0_clip_vit_l14_f16.ckpt",
+  "file": "colorfulxl_v6.0_f16.ckpt",
+  "text_encoder": "colorfulxl_v6.0_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "colorfulxl_v6.0_clip_vit_l14_f16.ckpt": "e7f9dee9d9d64d9996223a010efa369925fb09581cb27e2061f135612a277595",
+    "colorfulxl_v6.0_f16.ckpt": "1c87413ad567514a1010ec55ed3fcdbd93b4d2fd46ade4cd92cf2d52a2054252",
+    "colorfulxl_v6.0_open_clip_vit_bigg14_f16.ckpt": "e0f6578b83b5d59a42a2f2370d57bd554cefdf65aad207b4d5a79b82d97523ca",
+    "colorfulxl_v6.0_q6p_q8p.ckpt": "6079cf5bf05890068c6cb613c35f54986fe3bfd1ace808ba868823c94689277c"
+  }
 }

@@ -9,5 +9,14 @@
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "Proteus v0.3",
-  "modifier": "none"
+  "modifier": "none",
+  "clip_encoder": "proteus_v0.3_clip_vit_l14_f16.ckpt",
+  "file": "proteus_v0.3_f16.ckpt",
+  "text_encoder": "proteus_v0.3_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "proteus_v0.3_clip_vit_l14_f16.ckpt": "e518bfff9f1f3d76122ce00df2af3def0d037c01fe75e59f0a89e3c1476175f1",
+    "proteus_v0.3_f16.ckpt": "aca348167718f974994853417ff2690b032ccddfd7f3e3ef4ee1d20e9bebf8de",
+    "proteus_v0.3_open_clip_vit_bigg14_f16.ckpt": "2e89fdd5b7e7dc8d8839344bb26178dc67a91018b4f453344536dd94ce299ad8",
+    "proteus_v0.3_q6p_q8p.ckpt": "35fa3716e8d5b6c32610703658c7e734cebc2ce6a1abb9a24437ee8d29d3f89f"
+  }
 }
