@@ -1,0 +1,31 @@
+{
+  "file" : "svd_i2v_1.0_f16.ckpt",
+  "version" : "svd_i2v",
+  "conditioning" : "noise",
+  "objective" : {
+    "v" : {
+
+    }
+  },
+  "prefix" : "",
+  "default_scale" : 8,
+  "clip_encoder" : "svd_i2v_1.0_f16.ckpt",
+  "name" : "Stable Video Diffusion I2V v1.0",
+  "text_encoder" : "open_clip_vit_h14_vision_model_f16.ckpt",
+  "upcast_attention" : false,
+  "modifier" : "none",
+  "noise_discretization" : {
+    "edm" : {
+      "_0" : {
+        "sigma_max" : 700,
+        "sigma_data" : 0.5,
+        "sigma_min" : 0.002
+      }
+    }
+  },
+  "converted": {
+    "svd_i2v_1.0_f16.ckpt": "5751756a84bd9b6c91d2d6df7393d066d046e8ca939a8b8fa4ac358a07acaf94",
+    "svd_i2v_1.0_q6p_q8p.ckpt": "5c8e4c1a1291456c5516c4c66d094eada0e11660c7b474cc39e45c9ceff27309",
+    "open_clip_vit_h14_vision_model_f16.ckpt": "87b70da1898b05bfc7b53e3587fb5c0383fe4f48ccae286e8dde217bbee1e80d"
+  }
+}

@@ -150,12 +150,20 @@ def collect_metadata_from_list(file_path):
                     q8p_file = stage_model[:-len('_f16.ckpt')] + '_q8p.ckpt'
                     if q8p_file in converted:
                       metadata['stage_models'][i] = q8p_file
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q6p_q8p_file
               metadata_array.append(copy.deepcopy(metadata))
             else:
               q8p_file = file[:-len('_f16.ckpt')] + '_q8p.ckpt'
               if q8p_file in converted:
                 metadata['file'] = q8p_file
                 metadata['name'] = metadata['name'] + ' (8-bit)'
+                # Update other fields have reference to this file.
+                for k, v in metadata.items():
+                  if v == file:
+                    metadata[k] = q8p_file
                 metadata_array.append(copy.deepcopy(metadata))
   return metadata_array, sha256_dict
 

@@ -1,4 +1,6 @@
 sdxl-turbo
+svd-v1.0
+svd-xt-v1.1
 stable-cascade
 sd3-medium
 playground-v2.5
