@@ -1,0 +1,9 @@
+{
+  "download": {
+    "file": "https://huggingface.co/tianweiy/DMD2/resolve/main/dmd2_sdxl_4step_lora.safetensors"
+  },
+  "name": "DMD2 SDXL 4-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sdxl_base_v0.9"
+}

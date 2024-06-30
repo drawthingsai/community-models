@@ -1,8 +1,8 @@
-lcm-ssd-1b
 sdxl-lightning-8-step
 sdxl-lightning-4-step
 hyper-sdxl-8-step
 hyper-sdxl-4-step
+dmd2-sdxl-4-step
 pixel-art-xl-v1.1
 papercut-sdxl-v1.0
 more-details
@@ -33,3 +33,4 @@ to8s-high-key-v2
 hipoly-3d-model
 haute-couture-or-gowns-v1.0
 ccxl-mucha-art-style
+lcm-ssd-1b
