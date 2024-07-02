@@ -1,3 +1,4 @@
+flash-sd3
 sdxl-lightning-8-step
 sdxl-lightning-4-step
 hyper-sdxl-8-step

@@ -34,6 +34,9 @@ def download_and_convert_model(directory_path, download, metadata):
   cmd = ['bazel', 'run', 'Apps:LoRAConverter', '--compilation_mode=opt', '--', '--file', file, '--name', metadata['name'], '-o', build]
   if metadata["version"] is not None:
     cmd += ["--version", metadata["version"]]
+  if metadata["scale_factor"] is not None:
+    cmd += ["--scale-factor", metadata["scale_factor"]]
+  del metadata["scale_factor"]
   original_directory = os.getcwd()
   os.chdir('../tools')
   result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)

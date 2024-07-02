@@ -1,0 +1,11 @@
+{
+  "download": {
+    "file": "https://huggingface.co/jasperai/flash-sd3/resolve/main/adapter_model.safetensors"
+  },
+  "name": "Flash SD3",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sd3",
+  "scale_factor": 0.125,
+  "file": "flash_sd3_lora_f16.ckpt"
+}
