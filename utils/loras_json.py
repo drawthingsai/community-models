@@ -35,7 +35,7 @@ def download_and_convert_model(directory_path, download, metadata):
   if metadata["version"] is not None:
     cmd += ["--version", metadata["version"]]
   if metadata["scale_factor"] is not None:
-    cmd += ["--scale-factor", metadata["scale_factor"]]
+    cmd += ["--scale-factor", str(metadata["scale_factor"])]
   del metadata["scale_factor"]
   original_directory = os.getcwd()
   os.chdir('../tools')
