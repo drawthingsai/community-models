@@ -5,5 +5,9 @@
   "name": "PCM SD3 4-Step",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "sd3"
+  "version": "sd3",
+  "file": "pcm_sd3_4_step_lora_f16.ckpt",
+  "converted": {
+    "pcm_sd3_4_step_lora_f16.ckpt": "b206aa581ba1d1a930060c3650f39a8c36e540f74f0526205529d2a0e4771646"
+  }
 }
