@@ -1,0 +1,9 @@
+{
+  "download": {
+    "file": "https://huggingface.co/wangfuyun/PCM_Weights/resolve/main/sd3/pcm_deterministic_4step_shift3.safetensors"
+  },
+  "name": "PCM SD3 4-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sd3"
+}
