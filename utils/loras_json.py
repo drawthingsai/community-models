@@ -34,7 +34,7 @@ def download_and_convert_model(directory_path, download, metadata):
   cmd = ['bazel', 'run', 'Apps:LoRAConverter', '--compilation_mode=opt', '--', '--file', file, '--name', metadata['name'], '-o', build]
   if metadata["version"] is not None:
     cmd += ["--version", metadata["version"]]
-  if metadata["scale_factor"] is not None:
+  if 'scale_factor' in metadata:
     cmd += ["--scale-factor", str(metadata["scale_factor"])]
   del metadata["scale_factor"]
   original_directory = os.getcwd()
