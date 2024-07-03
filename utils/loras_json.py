@@ -36,7 +36,7 @@ def download_and_convert_model(directory_path, download, metadata):
     cmd += ["--version", metadata["version"]]
   if 'scale_factor' in metadata:
     cmd += ["--scale-factor", str(metadata["scale_factor"])]
-  del metadata["scale_factor"]
+    del metadata["scale_factor"]
   original_directory = os.getcwd()
   os.chdir('../tools')
   result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
