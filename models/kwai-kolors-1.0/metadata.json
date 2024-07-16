@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Kwai Kolors 1.0",
+  "modifier": "none",
+  "file": "kwai_kolors_1.0_f16.ckpt",
+  "text_encoder": "chatglm3_6b_q6p_q8p.ckpt",
+  "text_encoder_version": "chatglm3_6b",
+  "converted": {
+    "chatglm3_6b_q6p_q8p.ckpt": "5368190ad24b32dd2239de013eb67160a5d93871644a53baeb9620e66a01bc07",
+    "kwai_kolors_1.0_f16.ckpt": "ca2d64663fbb7175268a4ab4bc652b256f728de8030c28ee42dcffd84e8e37aa",
+    "kwai_kolors_1.0_q6p_q8p.ckpt": "4e5bc71d54c56577cb930bd835c83114d1c641cc2d9df95a102fc364a98f05ae"
+  }
+}
