@@ -1,11 +1,12 @@
-sdxl-turbo
-svd-v1.0
 svd-xt-v1.1
 stable-cascade
 sd3-medium
 kwai-kolors-1.0
+kwai-kolors-inpainting-1.0
 playground-v2.5
 playground-v2
+sdxl-turbo
+svd-v1.0
 ssd-1b
 juggernaut-xl-v9
 animagine-xl

@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Kwai Kolors Inpainting 1.0",
+  "modifier": "inpainting",
+  "file": "kwai_kolors_inpainting_1.0_f16.ckpt",
+  "text_encoder": "chatglm3_6b_q6p_q8p.ckpt",
+  "text_encoder_version": "chatglm3_6b",
+  "converted": {
+    "chatglm3_6b_q6p_q8p.ckpt": "5368190ad24b32dd2239de013eb67160a5d93871644a53baeb9620e66a01bc07",
+    "kwai_kolors_inpainting_1.0_f16.ckpt": "ee5531d0699007e3c59093f153242ffaedc885fe651de4e5132264ddb4f836c7",
+    "kwai_kolors_inpainting_1.0_q6p_q8p.ckpt": "9f6317c8ff56733a50ded614f246be9650c647a843a9da37f6ac68dbe716708a"
+  }
+}
