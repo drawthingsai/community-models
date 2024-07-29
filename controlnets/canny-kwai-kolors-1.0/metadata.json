@@ -1,0 +1,13 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "controlnet_canny_kwai_kolors_1.0_f16.ckpt",
+  "modifier" : "canny",
+  "name" : "Canny Edge Map (Kwai Kolors 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "controlnet",
+  "converted": {
+    "controlnet_canny_kwai_kolors_1.0_f16.ckpt": "45bb960d4b2c35ce750a29e613fe132f90381e81e48d07397a3402ded45f8c5c"
+  }
+}

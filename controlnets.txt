@@ -1,0 +1,4 @@
+ipadapter-plus-kwai-kolors-1.0
+canny-kwai-kolors-1.0
+depth-kwai-kolors-1.0
+

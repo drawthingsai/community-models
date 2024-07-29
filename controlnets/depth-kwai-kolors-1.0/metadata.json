@@ -1,0 +1,13 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "controlnet_depth_kwai_kolors_1.0_f16.ckpt",
+  "modifier" : "depth",
+  "name" : "Depth Map (Kwai Kolors 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "controlnet",
+  "converted": {
+    "controlnet_depth_kwai_kolors_1.0_f16.ckpt": "240b2731259b456f63edf656d8248c1c6a90bb5d8fc25867a84048488cb489d3"
+  }
+}

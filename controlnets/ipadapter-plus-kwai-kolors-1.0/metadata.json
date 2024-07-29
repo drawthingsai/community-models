@@ -1,0 +1,24 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "ip_adapter_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+  "modifier" : "shuffle",
+  "name" : "IP Adapter Plus (Kwai Kolors 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "ipadapterplus",
+  "image_encoder": "clip_vit_l14_336_vision_model_f16.ckpt",
+  "image_encoder_version": "clip_l14_336",
+  "ip_adapter_config": {
+    "input_dim": 2048,
+    "query_dim": 2048,
+    "output_dim": 2048,
+    "head_dim": 64,
+    "num_heads": 12,
+    "grid": 24
+  },
+  "converted": {
+    "ip_adapter_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt": "04e3d63ec5af75f5119dbde2fa59426f59e0238814e0f0c1e7fc6b85d873655d",
+    "clip_vit_l14_336_vision_model_f16.ckpt": "30b5ad00e98bf1c207f3b6f08a12a663f3810de5824520febf96f0a10c4599d3"
+  }
+}
