@@ -165,6 +165,16 @@ def collect_metadata_from_list(file_path):
                   if v == file:
                     metadata[k] = q8p_file
                 metadata_array.append(copy.deepcopy(metadata))
+          else if file.endswith('_q8p.ckpt'):
+            q5p_file = file[:-len('_q8p.ckpt')] + '_q5p.ckpt'
+            if q5p_file in converted:
+              metadata['file'] = q5p_file
+              metadata['name'] = metadata['name'] + ' (8-bit)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q5p_file
+              metadata_array.append(copy.deepcopy(metadata))
   return metadata_array, sha256_dict
 
 # Replace 'models.txt' with the path to your actual file if it's located elsewhere

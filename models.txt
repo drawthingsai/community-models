@@ -1,3 +1,4 @@
+auraflow-v0.2
 svd-xt-v1.1
 stable-cascade
 sd3-medium

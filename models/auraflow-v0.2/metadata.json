@@ -1,0 +1,19 @@
+{
+  "name" : "AuraFlow v0.2",
+  "version" : "auraflow",
+  "autoencoder" : "sdxl_vae_v1.0_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "file" : "auraflow_v0.2_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "pile_t5_xl_encoder_q8p.ckpt",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "auraflow_v0.2_q8p.ckpt": "cda840bce05ada4c97d95080160f18dc594b6c5f2d4da45c33db51c37c070170",
+    "auraflow_v0.2_q5p.ckpt": "b3d4a2c3be69e285028de0d61a17a5fbe34b9e1504725f32f52e75b8d9d8a2cc"
+  }
+}
