@@ -8,6 +8,7 @@
   ],
   "type" : "controlnet",
   "converted": {
-    "controlnet_canny_kwai_kolors_1.0_f16.ckpt": "45bb960d4b2c35ce750a29e613fe132f90381e81e48d07397a3402ded45f8c5c"
+    "controlnet_canny_kwai_kolors_1.0_f16.ckpt": "45bb960d4b2c35ce750a29e613fe132f90381e81e48d07397a3402ded45f8c5c",
+    "controlnet_canny_kwai_kolors_1.0_q6p_q8p.ckpt": "d3b51761a22b32a7515544ac152ee40f0c93789dca1d36fe0b9fef381a4d0d6d"
   }
 }
