@@ -1,0 +1,8 @@
+{
+  "ip_adapter_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt": "04e3d63ec5af75f5119dbde2fa59426f59e0238814e0f0c1e7fc6b85d873655d",
+  "clip_vit_l14_336_vision_model_f16.ckpt": "30b5ad00e98bf1c207f3b6f08a12a663f3810de5824520febf96f0a10c4599d3",
+  "controlnet_canny_kwai_kolors_1.0_f16.ckpt": "45bb960d4b2c35ce750a29e613fe132f90381e81e48d07397a3402ded45f8c5c",
+  "controlnet_canny_kwai_kolors_1.0_q6p_q8p.ckpt": "d3b51761a22b32a7515544ac152ee40f0c93789dca1d36fe0b9fef381a4d0d6d",
+  "controlnet_depth_kwai_kolors_1.0_f16.ckpt": "240b2731259b456f63edf656d8248c1c6a90bb5d8fc25867a84048488cb489d3",
+  "controlnet_depth_kwai_kolors_1.0_q6p_q8p.ckpt": "ec7bf654b3655471f7634202491b21a7c79116b21c4ce46b693fe061039ee119"
+}
