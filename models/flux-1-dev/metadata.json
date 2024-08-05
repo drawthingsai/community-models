@@ -10,6 +10,7 @@
   "clip_encoder" : "clip_vit_l14_f16.ckpt",
   "high_precision_autoencoder": true,
   "guidance_embed": true,
+  "padded_text_encoding_length": 512,
   "objective" : {
     "u" : {
       "condition_scale" : 1000
