@@ -1,0 +1,22 @@
+{
+  "name" : "FLUX.1 [dev]",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "file" : "flux_1_dev_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "flux_1_dev_q8p.ckpt": "2173dfe9e1a19f6d8ee11f9679cacea54ed63cfab4f9af7068b8ce86b7835dd0",
+    "flux_1_dev_q5p.ckpt": "d382a858a64a134415dc87fa793b28a42eb5dfa9cb552959f9e0916af9efc2e7"
+  }
+}

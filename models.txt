@@ -1,8 +1,9 @@
-svd-xt-v1.1
-stable-cascade
-sd3-medium
+flux-1-dev
 kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
+stable-cascade
+sd3-medium
+svd-xt-v1.1
 playground-v2.5
 playground-v2
 sdxl-turbo
