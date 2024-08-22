@@ -1,10 +1,10 @@
 {
   "autoencoder": "vae_ft_mse_840000_f16.ckpt",
-  "default_scale": 8,
+  "default_scale": 16,
   "prefix": "",
   "version": "v1",
   "upcast_attention": false,
-  "name": "Outfitting Fusion Virtual Try-on 1.0",
+  "name": "Outfitting Fusion Virtual Try-on",
   "modifier": "double",
   "file": "ootd_vton_1.0_f16.ckpt",
   "text_encoder": "clip_vit_l14_f16.ckpt",
