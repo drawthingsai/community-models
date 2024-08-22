@@ -7,6 +7,8 @@
   "transformer_blocks" : [
   ],
   "type" : "inject_kv",
+  "image_encoder": "clip_vit_l14_vision_model_f16.ckpt",
+  "autoencoder": "vae_ft_mse_840000_f16.ckpt",
   "converted": {
     "ootd_garm_1.0_f16.ckpt": "d41bf48c52cb61701dc71840ae4e620df9751a85e9f991dc3800be16290ceb9a"
   }
