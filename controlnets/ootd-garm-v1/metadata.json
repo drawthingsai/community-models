@@ -1,0 +1,13 @@
+{
+  "version" : "v1",
+  "file" : "ootd_garm_1.0_f16.ckpt",
+  "modifier" : "shuffle",
+  "name" : "Garment UNet (Outfitting Fusion 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "inject_kv",
+  "converted": {
+    "ootd_garm_1.0_f16.ckpt": "d41bf48c52cb61701dc71840ae4e620df9751a85e9f991dc3800be16290ceb9a"
+  }
+}
