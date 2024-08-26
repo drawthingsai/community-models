@@ -3,7 +3,7 @@
   "version" : "flux1",
   "autoencoder" : "flux_1_vae_f16.ckpt",
   "prefix" : "",
-  "default_scale" : 24,
+  "default_scale" : 16,
   "file" : "flux_1_dev_f16.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "t5_xxl_encoder_f16.ckpt",
