@@ -1,8 +1,8 @@
 {
   "version" : "v1",
-  "file" : "ootd_garm_1.0_f16.ckpt",
+  "file" : "ootd_garm_upper_body_1.0_f16.ckpt",
   "modifier" : "shuffle",
-  "name" : "Garment UNet (Outfitting Fusion 1.0)",
+  "name" : "Garment UNet (Upper-Body, Outfitting Fusion)",
   "global_average_pooling" : false,
   "transformer_blocks" : [
   ],
@@ -10,6 +10,6 @@
   "image_encoder": "clip_vit_l14_vision_model_f16.ckpt",
   "autoencoder": "vae_ft_mse_840000_f16.ckpt",
   "converted": {
-    "ootd_garm_1.0_f16.ckpt": "d41bf48c52cb61701dc71840ae4e620df9751a85e9f991dc3800be16290ceb9a"
+    "ootd_garm_upper_body_1.0_f16.ckpt": "ae1734d55e70e7ca7e7246af35398305204325d24ea0d481563e84d4cdc2b5ae"
   }
 }

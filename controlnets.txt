@@ -1,4 +1,5 @@
 ipadapter-plus-kwai-kolors-1.0
 canny-kwai-kolors-1.0
 depth-kwai-kolors-1.0
-ootd-garm-v1
+ootd-garm-upper-body-v1
+ootd-garm-full-body-v1

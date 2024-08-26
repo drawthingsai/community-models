@@ -4,11 +4,11 @@
   "prefix": "",
   "version": "v1",
   "upcast_attention": false,
-  "name": "Outfitting Fusion Virtual Try-on",
+  "name": "Outfitting Fusion Virtual Try-on (Full-Body)",
   "modifier": "double",
-  "file": "ootd_vton_1.0_f16.ckpt",
+  "file": "ootd_vton_full_body_1.0_f16.ckpt",
   "text_encoder": "clip_vit_l14_f16.ckpt",
   "converted": {
-    "ootd_vton_1.0_f16.ckpt": "b9203f933fa1a78e5606d8e6c149b4ce0deffa74cf47235ddd2617516fde48ff"
+    "ootd_vton_full_body_1.0_f16.ckpt": "e1788d4719b96d0cfc457e9f8958769e69283b1cbf78fb3c8ddf0d41b4f74866"
   }
 }

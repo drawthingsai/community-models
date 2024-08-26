@@ -22,7 +22,8 @@ icatcher-realistic
 icatcher-cartoon
 colorfulxl-v6.0
 proteus-v0.3
-ootd-vton-v1
+ootd-vton-upper-body-v1
+ootd-vton-full-body-v1
 animatelcm-svd-xt-v1.1
 juggernaut-reborn
 disney-pixar-cartoon-type-b
