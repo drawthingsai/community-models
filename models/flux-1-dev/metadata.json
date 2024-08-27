@@ -4,6 +4,7 @@
   "autoencoder" : "flux_1_vae_f16.ckpt",
   "prefix" : "",
   "default_scale" : 16,
+  "hires_fix_scale" : 24,
   "file" : "flux_1_dev_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
