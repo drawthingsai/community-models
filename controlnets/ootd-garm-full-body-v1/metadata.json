@@ -10,6 +10,6 @@
   "image_encoder": "clip_vit_l14_vision_model_f16.ckpt",
   "autoencoder": "vae_ft_mse_840000_f16.ckpt",
   "converted": {
-    "ootd_garm_full_body_1.0_f16.ckpt": "891bd51765e79d50c11d7125c1a55474a543a5eac570eb6d6d0f3c8891639488"
+    "ootd_garm_full_body_1.0_f16.ckpt": "0a2fc63d1791b88f13dd86b53fad8bbc69a6bde59ec1b33663e6b9437f9c576a"
   }
 }
