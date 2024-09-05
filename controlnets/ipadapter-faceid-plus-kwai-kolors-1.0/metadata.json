@@ -22,6 +22,6 @@
     "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_q8p.ckpt": "25d03b88303946b60f3e631c7e7ae583da57375e6c83558bf3772d5256159b2c",
     "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt": "8e5ec9e3799f53ed6885339dea3afef34ba2fafff5a2a61453a264999dbb281e",
     "clip_vit_l14_336_vision_model_f16.ckpt": "30b5ad00e98bf1c207f3b6f08a12a663f3810de5824520febf96f0a10c4599d3",
-    "arcface_f16.ckpt": "5ee981be781eb37bbd8c36894f34fc4d0a7196bff98c996da03a7d9afba12acc"
+    "arcface_f16.ckpt": "1fda5c7352e2b530cb68561f39433f8c84f6473e386a7e8e2417ec0bb6f41bc5"
   }
 }
