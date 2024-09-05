@@ -1,0 +1,27 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+  "modifier" : "shuffle",
+  "name" : "IP Adapter FaceID Plus (Kwai Kolors 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "ipadapterfaceidplus",
+  "image_encoder": "clip_vit_l14_336_vision_model_f16.ckpt",
+  "image_encoder_version": "clip_l14_336",
+  "preprocessor": "arcface_f16.ckpt",
+  "ip_adapter_config": {
+    "input_dim": 4096,
+    "query_dim": 4096,
+    "output_dim": 4096,
+    "head_dim": 64,
+    "num_heads": 64,
+    "grid": 24
+  },
+  "converted": {
+    "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_q8p.ckpt": "25d03b88303946b60f3e631c7e7ae583da57375e6c83558bf3772d5256159b2c",
+    "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt": "8e5ec9e3799f53ed6885339dea3afef34ba2fafff5a2a61453a264999dbb281e",
+    "clip_vit_l14_336_vision_model_f16.ckpt": "30b5ad00e98bf1c207f3b6f08a12a663f3810de5824520febf96f0a10c4599d3",
+    "arcface_f16.ckpt": "5ee981be781eb37bbd8c36894f34fc4d0a7196bff98c996da03a7d9afba12acc"
+  }
+}
