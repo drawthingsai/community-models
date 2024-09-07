@@ -1,0 +1,11 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-FLUX.1-dev-8steps-lora.safetensors"
+  },
+  "name": "Hyper FLUX.1 [dev] 8-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "hyper_flux_1_dev_8_step_lora_f16.ckpt",
+  "scale_factor": 0.125
+}
