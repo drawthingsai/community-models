@@ -6,6 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "hyper_flux_1_dev_8_step_lora_f16.ckpt",
-  "scale_factor": 0.125
+  "file": "hyper_flux.1__dev__8_step_lora_f16.ckpt",
+  "converted": {
+    "hyper_flux.1__dev__8_step_lora_f16.ckpt": "348b6080bb21e1829b28796ad9dcca681d3176812618b84e2c223e45e85d9ece"
+  }
 }
