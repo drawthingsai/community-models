@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/759853?type=Model&format=SafeTensor"
+  },
+  "name": "FLUX.1 [dev] to [schnell] 4-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "flux_1_dev_to_schnell_4_step_lora_f16.ckpt"
+}
