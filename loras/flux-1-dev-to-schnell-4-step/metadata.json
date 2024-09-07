@@ -1,6 +1,6 @@
 {
   "download": {
-    "file": "https://civitai.com/api/download/models/759853?type=Model&format=SafeTensor"
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/108598/schnellV10.5m7z.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22schnell_v1.0.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240907/us-east-1/s3/aws4_request&X-Amz-Date=20240907T054037Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a49fe79b447796feeb47303977d6f52c85ad4e6fff2c41ecb0cf55fef222d159"
   },
   "name": "FLUX.1 [dev] to [schnell] 4-Step",
   "prefix": "",
