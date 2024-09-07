@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "flux_1_dev_to_schnell_4_step_lora_f16.ckpt"
+  "file": "flux.1__dev__to__schnell__4_step_lora_f16.ckpt",
+  "converted": {
+    "flux.1__dev__to__schnell__4_step_lora_f16.ckpt": "c388400fbea2971233d49c7079294de3fa033ade7a47fef9ab445850e86e0a05"
+  }
 }
