@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/59440/360hdr.EGSp.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22360HDR.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240908/us-east-1/s3/aws4_request&X-Amz-Date=20240908T054814Z&X-Amz-SignedHeaders=host&X-Amz-Signature=9db9405a32d511c23a311694bbb3d0aa116bcad2ebb883159821bb1503d73e05"
+  },
+  "name": "360 Degree [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "360_degree_dev_lora_f16.ckpt"
+}

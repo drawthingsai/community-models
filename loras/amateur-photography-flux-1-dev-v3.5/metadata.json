@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2580965/amateurphotoV35.HAvj.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22amateurphoto-v3.5-000052.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240908/us-east-1/s3/aws4_request&X-Amz-Date=20240908T054946Z&X-Amz-SignedHeaders=host&X-Amz-Signature=20c82ac7b7c2c1294b286b58354b1a21a08e2df063f346c495393ee49e71139a"
+  },
+  "name": "Amateur Photography v3.5 [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "amateur_photography_v3.5_dev_lora_f16.ckpt"
+}
