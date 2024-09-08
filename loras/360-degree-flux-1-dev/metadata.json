@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "360_degree_dev_lora_f16.ckpt"
+  "file": "360_degree__dev__lora_f16.ckpt",
+  "converted": {
+    "360_degree__dev__lora_f16.ckpt": "04c6c1639b73ca1f7fc5c95dbd2147327c2bddf0c1fbb6530d9562410d28f266"
+  }
 }
