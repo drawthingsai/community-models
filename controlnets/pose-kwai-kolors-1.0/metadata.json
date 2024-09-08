@@ -1,0 +1,14 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "controlnet_pose_kwai_kolors_1.0_f16.ckpt",
+  "modifier" : "pose",
+  "name" : "Pose (Kwai Kolors 1.0)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "controlnet",
+  "converted": {
+    "controlnet_pose_kwai_kolors_1.0_f16.ckpt": "0680f883543ac9ffe44c85b1d82dc53a709c9d6dc3285d4b0da66262e463a73a",
+    "controlnet_pose_kwai_kolors_1.0_q6p_q8p.ckpt": "2c074439b55f911f9b48d8e82fce8f3eba687558f1781e80dae3a3b3b53134c5"
+  }
+}
