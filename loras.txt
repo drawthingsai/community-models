@@ -7,6 +7,7 @@ hyper-sdxl-8-step
 hyper-sdxl-4-step
 dmd2-sdxl-4-step
 amateur-photography-flux-1-dev-v3.5
+antiblur-flux-1-dev-v1.0
 360-degree-flux-1-dev
 pixel-art-xl-v1.1
 papercut-sdxl-v1.0

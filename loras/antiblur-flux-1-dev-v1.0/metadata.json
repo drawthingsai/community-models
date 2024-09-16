@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur/resolve/main/FLUX-dev-lora-AntiBlur.safetensors"
+  },
+  "name": "AntiBlur v1.0 [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "antiblur_v1.0__dev__lora_f16.ckpt"
+}
