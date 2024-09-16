@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "antiblur_v1.0__dev__lora_f16.ckpt"
+  "file": "antiblur_v1.0__dev__lora_f16.ckpt",
+  "converted": {
+    "antiblur_v1.0__dev__lora_f16.ckpt": "5a5eafceef5bacb0707613bdce35938c53e9d69a45b38d0727877998581cd457"
+  }
 }
