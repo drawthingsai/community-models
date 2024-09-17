@@ -1,7 +1,6 @@
 {
   "version" : "flux1",
   "file" : "controlnet_union_pro_flux_1_dev_1.0_q8p.ckpt",
-  "modifier" : "canny",
   "name" : "Union Pro (FLUX.1 [dev], ControlNet)",
   "global_average_pooling" : false,
   "transformer_blocks" : [
