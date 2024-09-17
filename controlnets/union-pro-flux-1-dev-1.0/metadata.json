@@ -1,0 +1,15 @@
+{
+  "version" : "flux1",
+  "file" : "controlnet_union_pro_flux_1_dev_1.0_q8p.ckpt",
+  "modifier" : "canny",
+  "name" : "Union Pro (FLUX.1 [dev], ControlNet)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+    5, 10
+  ],
+  "type" : "controlnetunion",
+  "converted": {
+    "controlnet_union_pro_flux_1_dev_1.0_q8p.ckpt": "f449c925514f6cbbd1e5ad7046fa8a359f84605e8c6029e1b8dca0ed91257d24",
+    "controlnet_union_pro_flux_1_dev_1.0_q5p.ckpt": "284a79bcb22c7df0e777ca7e276a8c321d95cf080350c8a01a5b7ff3f1034c63"
+  }
+}
