@@ -1,6 +1,9 @@
+hyper-flux-1-dev-16-step
 hyper-flux-1-dev-8-step
 flux-1-dev-to-schnell-4-step
+hyper-sd3-16-step-cfg
 hyper-sd3-8-step-cfg
+hyper-sd3-4-step-cfg
 pcm-sd3-4-step
 sdxl-lightning-8-step
 sdxl-lightning-4-step

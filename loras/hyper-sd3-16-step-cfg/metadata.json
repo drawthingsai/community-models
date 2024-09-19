@@ -1,0 +1,11 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD3-16steps-CFG-lora.safetensors"
+  },
+  "name": "Hyper SD3 16-Step CFG",
+  "prefix": "",
+  "is_lo_ha": false,
+  "scale_factor": 0.125,
+  "version": "sd3",
+  "file": "hyper_sd3_16_step_cfg_lora_f16.ckpt"
+}
