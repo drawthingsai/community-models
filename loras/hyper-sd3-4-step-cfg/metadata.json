@@ -5,7 +5,9 @@
   "name": "Hyper SD3 4-Step CFG",
   "prefix": "",
   "is_lo_ha": false,
-  "scale_factor": 0.125,
   "version": "sd3",
-  "file": "hyper_sd3_4_step_cfg_lora_f16.ckpt"
+  "file": "hyper_sd3_4_step_cfg_lora_f16.ckpt",
+  "converted": {
+    "hyper_sd3_4_step_cfg_lora_f16.ckpt": "11ba24c64afc9516e881af3faa81f710d63934057c36ea592e08732d2b0de45b"
+  }
 }
