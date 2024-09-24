@@ -73,6 +73,7 @@ jobs:
           python3 utils/loras_json.py
           python3 utils/embeddings_json.py
           python3 utils/controlnets_json.py
+          python3 scripts/model_sizes_estimate_json.py
           git config --global user.email "docbot@github.com"
           git config --global user.name "docbot"
           git commit -a -m "Update metadata with converted models / LoRAs." || true
