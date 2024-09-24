@@ -17,7 +17,7 @@ def traverse_and_get_converted_filenames(root_dirs):
                       
                       # Retrieve the "converted" property if it exists
                       if 'file' in data:
-                          converted_filenames.append(data['file'])
+                          converted_filenames.extend(data['converted'].keys())
                       else:
                           print(f"No 'converted' key found in {metadata_file_path}")
               except (json.JSONDecodeError, KeyError) as e:
