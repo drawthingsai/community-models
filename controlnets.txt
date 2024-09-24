@@ -1,4 +1,5 @@
 union-pro-flux-1-dev-1.0
+pulid-0.9-flux-1-dev
 ipadapter-plus-kwai-kolors-1.0
 canny-kwai-kolors-1.0
 depth-kwai-kolors-1.0
