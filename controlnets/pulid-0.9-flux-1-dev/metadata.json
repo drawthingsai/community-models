@@ -9,6 +9,7 @@
   "type" : "pulid",
   "image_encoder": "eva02_clip_l14_336_f16.ckpt",
   "image_encoder_version": "eva02_l14_336",
+  "preprocessor": "arcface_f16.ckpt",
   "ip_adapter_config": {
     "input_dim": 1024,
     "query_dim": 1024,
