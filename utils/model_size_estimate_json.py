@@ -38,10 +38,18 @@ def get_file_size(url):
     
     except requests.exceptions.RequestException as e:
         print(f"Error occurred: {e}")
-
+        
+def get_builtins(builtin_file):
+    builtins = []
+    with open(builtin_file, 'r') as file:
+        for line in file:
+            builtins.append(line.strip())
+    return builtins
+            
 current_parent_path = Path(__file__).resolve().parent.parent
 root_directories = [current_parent_path / "models", current_parent_path / "loras", current_parent_path / "embeddings", current_parent_path / "controlnets"]  # Replace with the root directory path
 converted_files = traverse_and_get_converted_filenames(root_directories)
+converted_files.extend(get_builtins("builtin.txt"))
 file_sizes_metadata = []
 # Output the collected converted filenames
 for file in converted_files:
