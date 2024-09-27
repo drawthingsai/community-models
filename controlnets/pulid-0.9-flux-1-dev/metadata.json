@@ -19,7 +19,7 @@
     "grid": 24
   },
   "converted": {
-    "pulid_0.9_eva02_clip_l14_336_f16.ckpt": "cfcba642183a1425957c4eb9056799e9d33d516a62a03c601abbe554b92f60bf",
+    "pulid_0.9_eva02_clip_l14_336_f16.ckpt": "dc149f7e6758f1fdda170a6b1615f9c3dd7fa3d2fbab2e004bf1b545719a7f31",
     "eva02_clip_l14_336_f16.ckpt": "7b97e0ec0f426f64d3cd6277758adeb5580b5ee55cd4ef9ceadf991e80cd50ad",
     "arcface_f16.ckpt": "1fda5c7352e2b530cb68561f39433f8c84f6473e386a7e8e2417ec0bb6f41bc5"
   }
