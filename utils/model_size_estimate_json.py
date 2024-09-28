@@ -51,6 +51,7 @@ root_directories = [current_parent_path / "models", current_parent_path / "loras
 converted_files = traverse_and_get_converted_filenames(root_directories)
 converted_files.extend(get_builtins("builtin.txt"))
 file_sizes_metadata = []
+file_set = {file for file in converted_files}
 # Output the collected converted filenames
 for file in converted_files:
     print("Converted file", file)
