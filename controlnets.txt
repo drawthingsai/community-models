@@ -1,9 +1,11 @@
 union-pro-flux-1-dev-1.0
 pulid-0.9-flux-1-dev
+jasper-ai-upscaler-flux-1-dev-1.0
 ipadapter-plus-kwai-kolors-1.0
 canny-kwai-kolors-1.0
 depth-kwai-kolors-1.0
 pose-kwai-kolors-1.0
 ipadapter-faceid-plus-kwai-kolors-1.0
+xinsir-union-promax-sdxl-1.0
 ootd-garm-upper-body-v1
 ootd-garm-full-body-v1

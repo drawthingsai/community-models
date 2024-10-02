@@ -1,0 +1,12 @@
+{
+  "version" : "sdxl_base_v0.9",
+  "file" : "controlnet_xinsir_union_promax_sdxl_1.0_f16.ckpt",
+  "name" : "Xinsir Union ProMax (SDXL, ControlNet)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "controlnetunion",
+  "converted": {
+    "controlnet_xinsir_union_promax_sdxl_1.0_f16.ckpt": "5c532b48949ec0464758f1fa987d9a5bf1ce768735c72699939671fe380939fd"
+  }
+}

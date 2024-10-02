@@ -1,0 +1,14 @@
+{
+  "version" : "flux1",
+  "file" : "controlnet_jasper_ai_upscaler_flux_1_dev_1.0_f16.ckpt",
+  "name" : "Jasper AI Upscaler (FLUX.1 [dev], ControlNet)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+    5, 0
+  ],
+  "type" : "controlnet",
+  "modifier" : "tile",
+  "converted": {
+    "controlnet_jasper_ai_upscaler_flux_1_dev_1.0_f16.ckpt": "00b60870a72260096748c75c1f42a26a038198e1a99c127dac83cf261fb43dd3"
+  }
+}
