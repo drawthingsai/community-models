@@ -4,6 +4,7 @@ kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
 stable-cascade
 sd3-medium
+sd3.5-fp8
 svd-xt-v1.1
 playground-v2.5
 playground-v2

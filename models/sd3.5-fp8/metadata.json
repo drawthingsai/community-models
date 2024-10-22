@@ -1,0 +1,14 @@
+{
+    "name" : "SD3.5 fp8",
+    "version" : "sd3.5",
+    "prefix" : "",
+    "default_scale" : 16,
+    "file" : "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors",
+    "upcast_attention" : false,
+    "objective" : {
+      "u" : {
+        "condition_scale" : 1000
+      }
+    }
+  }
+  
