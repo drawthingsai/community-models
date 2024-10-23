@@ -1,5 +1,8 @@
 flux-1-dev
 flux-1-dev-exact
+sd3-large-turbo-3.5
+sd3-large-3.5
+sd3-large-3.5-exact
 kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
 stable-cascade

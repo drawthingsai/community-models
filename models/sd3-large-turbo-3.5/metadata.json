@@ -1,0 +1,24 @@
+{
+  "name" : "SD3 Large Turbo 3.5",
+  "version" : "sd3_large",
+  "autoencoder" : "sd3_vae_f16.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "t5_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "file" : "sd3_large_turbo_3.5_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "open_clip_vit_bigg14_f16.ckpt",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "is_consistency_model" : true,
+  "converted": {
+    "sd3_large_turbo_3.5_q8p.ckpt": "a79223c5a6556d08b0e8ab669eac5c101141049836cd40cf281989fc33dbdaa9",
+    "sd3_large_turbo_3.5_q6p.ckpt": "f20c6d409c07705a4a4f81c17f554bca6518cb77b875e66f8bed99ed08bdf630",
+    "t5_xxl_encoder_q6p.ckpt": "8f8fa0acc618df6f225122b3d03b6f60034490d9f9fd3b8799e7faa3e08943b7",
+    "sd3_vae_f16.ckpt": "51d42d4745456396f0cbb034f4eb9d6495cc2a552ca4af7ba80d64fdba5f9678"
+  }
+}
