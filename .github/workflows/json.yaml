@@ -53,10 +53,11 @@ jobs:
 
       - name: Install Swift dependencies
         run: |
-          sudo apt-get install clang libicu-dev
-          wget https://download.swift.org/swift-5.9.2-release/ubuntu2204/swift-5.9.2-RELEASE/swift-5.9.2-RELEASE-ubuntu22.04.tar.gz
-          tar xzf swift-5.9.2-RELEASE-ubuntu22.04.tar.gz
-          echo "$(pwd)/swift-5.9.2-RELEASE-ubuntu22.04/usr/bin" >> $GITHUB_PATH
+          sudo apt update
+          sudo apt -y install clang libicu-dev
+          wget https://download.swift.org/swift-5.10.1-release/ubuntu2404/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-ubuntu24.04.tar.gz
+          tar xzf swift-5.10.1-RELEASE-ubuntu24.04.tar.gz
+          echo "$(pwd)/swift-5.10.1-RELEASE-ubuntu24.04/usr/bin" >> $GITHUB_PATH
 
       - name: Setup clang
         run: |
