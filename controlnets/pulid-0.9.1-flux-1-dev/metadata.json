@@ -1,0 +1,26 @@
+{
+  "version" : "flux1",
+  "file" : "pulid_0.9.1_eva02_clip_l14_336_f16.ckpt",
+  "modifier" : "shuffle",
+  "name" : "PuLID 0.9.1 (FLUX.1 [dev])",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "pulid",
+  "image_encoder": "eva02_clip_l14_336_f16.ckpt",
+  "image_encoder_version": "eva02_l14_336",
+  "preprocessor": "arcface_f16.ckpt",
+  "ip_adapter_config": {
+    "input_dim": 1024,
+    "query_dim": 1024,
+    "output_dim": 2048,
+    "head_dim": 64,
+    "num_heads": 16,
+    "grid": 24
+  },
+  "converted": {
+    "pulid_0.9.1_eva02_clip_l14_336_f16.ckpt": "3c84d4838471f18ec47d59bcd0c06b1f6a77d86a2323dec17b38d25aed27df1f",
+    "eva02_clip_l14_336_f16.ckpt": "7b97e0ec0f426f64d3cd6277758adeb5580b5ee55cd4ef9ceadf991e80cd50ad",
+    "arcface_f16.ckpt": "1fda5c7352e2b530cb68561f39433f8c84f6473e386a7e8e2417ec0bb6f41bc5"
+  }
+}
