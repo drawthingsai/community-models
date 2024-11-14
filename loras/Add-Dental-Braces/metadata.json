@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/alastandy/Add-Dental-Braces/resolve/main/Add_Dental_Braces_v3.safetensors"
+  },
+  "name": "Add Dental Braces",
+  "prefix": "adddentalbraces, ",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "add_dental_braces_3_lora_f16.ckpt",
+}
