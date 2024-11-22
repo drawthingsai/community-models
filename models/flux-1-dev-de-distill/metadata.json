@@ -1,0 +1,23 @@
+{
+  "name" : "FLUX.1 [dev] De-distill",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "flux_1_dev_de_distill_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "padded_text_encoding_length": 512,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "flux_1_dev_de_distill_q8p.ckpt": "165638453c85bbb15384046d7416a00f5a77a70ad9e77c45a877c327a918a8e4",
+    "flux_1_dev_de_distill_q5p.ckpt": "32c0fb8607b88a85c0a861c866f78fb683c7d99a19d67f3d3b4c4c32cd17e369"
+  }
+}
