@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/resolve/main/diffusion_pytorch_model.safetensors"
+  },
+  "name": "FLUX.1 Turbo Alpha",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "flux.1_turbo_alpha_lora_f16.ckpt"
+}
