@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "flux.1_turbo_alpha_lora_f16.ckpt"
+  "file": "flux.1_turbo_alpha_lora_f16.ckpt",
+  "converted": {
+    "flux.1_turbo_alpha_lora_f16.ckpt": "3687836ffef8e7eaa5b8145579781d14bdae531259d0fce3b60f5c472e4661e0"
+  }
 }
