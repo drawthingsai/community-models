@@ -1,4 +1,5 @@
 flux-1-dev
+flux-1-fill-dev
 flux-1-dev-exact
 sd3-large-turbo-3.5
 sd3-large-3.5
@@ -6,6 +7,7 @@ sd3-large-3.5-exact
 sd3-medium-3.5
 kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
+flux-1-depth-dev
 stable-cascade
 sd3-medium
 svd-xt-v1.1

@@ -1,0 +1,26 @@
+{
+  "name" : "FLUX.1 Fill [dev]",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "inpainting",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "flux_1_fill_dev_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "padded_text_encoding_length": 128,
+  "breaking_change": "1.20241121.0",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "flux_1_fill_dev_q8p.ckpt": "a7d9c2e91e4567f1a582f612de1377b2efe878c4dbb20cecb97ac29d0ef83cab",
+    "flux_1_fill_dev_q5p.ckpt": "ff60bb1375915f86f2bff4f9cd7cd9a70dcbdd56f8d7f723050a44f71b785b78"
+  }
+}

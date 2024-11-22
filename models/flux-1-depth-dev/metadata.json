@@ -1,0 +1,26 @@
+{
+  "name" : "FLUX.1 Depth [dev]",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "depth",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "flux_1_depth_dev_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "padded_text_encoding_length": 512,
+  "breaking_change": "1.20241121.0",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "flux_1_depth_dev_q8p.ckpt": "f38d267905927607696715d26060a7e28247f3842640043a5ebab540eb45b706",
+    "flux_1_depth_dev_q5p.ckpt": "1d87451d059ae8c2162ed827293f1f6cb19667b120db73db650040b1f234e6cc"
+  }
+}
