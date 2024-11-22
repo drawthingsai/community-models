@@ -1,5 +1,6 @@
-union-pro-flux-1-dev-1.0
+alimama-inpaint-flux-1-dev-beta
 pulid-0.9.1-flux-1-dev
+union-pro-flux-1-dev-1.0
 jasper-ai-upscaler-flux-1-dev-1.0
 ipadapter-plus-kwai-kolors-1.0
 canny-kwai-kolors-1.0

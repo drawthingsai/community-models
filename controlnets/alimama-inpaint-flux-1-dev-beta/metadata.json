@@ -1,0 +1,15 @@
+{
+  "version" : "flux1",
+  "file" : "controlnet_alimama_inpaint_flux_1_dev_beta_q8p.ckpt",
+  "name" : "Alimam Inpaint Beta (FLUX.1 [dev], ControlNet)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+    6, 0
+  ],
+  "type" : "controlnet",
+  "modifier" : "inpaint",
+  "converted": {
+    "controlnet_alimama_inpaint_flux_1_dev_beta_q8p.ckpt": "d8c3f1a3e4d56b7357f75b63fa46d622cfd6faec89be36c1472b841ae17e4354",
+    "controlnet_alimama_inpaint_flux_1_dev_beta_q6p.ckpt": "88373aa7556809927b848bba7990a989caeeeded43e3598e71c7db4fe2f6d131"
+  }
+}
