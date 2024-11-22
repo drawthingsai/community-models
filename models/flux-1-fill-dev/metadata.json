@@ -13,7 +13,6 @@
   "high_precision_autoencoder": true,
   "guidance_embed": true,
   "padded_text_encoding_length": 128,
-  "breaking_change": "1.20241121.0",
   "objective" : {
     "u" : {
       "condition_scale" : 1000
