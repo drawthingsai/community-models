@@ -1,0 +1,16 @@
+{
+  "version" : "flux1",
+  "file" : "flux_1_redux_f16.ckpt",
+  "modifier" : "shuffle",
+  "name" : "FLUX.1 Redux (FLUX.1)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+  ],
+  "type" : "redux",
+  "image_encoder": "siglip_so400m_384_f16.ckpt",
+  "image_encoder_version": "siglip_l27_384",
+  "converted": {
+    "siglip_so400m_384_f16.ckpt": "140f3399b1cc2b280d8c76fb7e62617a3527546041b8a522125e17eeb28cf845",
+    "flux_1_redux_f16.ckpt": "9abeb6e4d0e928cdf949e69d225eb4ff7aafe6ee44f206508b30c7f168860019"
+  }
+}
