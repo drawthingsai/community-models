@@ -1,0 +1,25 @@
+{
+  "name" : "FLUX.1 Canny [dev]",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "canny",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "flux_1_canny_dev_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "padded_text_encoding_length": 512,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "flux_1_canny_dev_q8p.ckpt": "4dfbb749129b0d92d7ea7da2412ca9af64f7bd44dab5207c79f5da64e8c5556a",
+    "flux_1_canny_dev_q5p.ckpt": "d993fe21f76b52bb23620fab96c591367fe7276d045167c762bfad233003e6fe"
+  }
+}
