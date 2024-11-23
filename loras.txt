@@ -1,7 +1,9 @@
-hyper-flux-1-dev-16-step
-hyper-flux-1-dev-8-step
 flux-1-turbo-alpha
+hyper-flux-1-dev-8-step
+hyper-flux-1-dev-16-step
 flux-1-dev-to-schnell-4-step
+flux-1-depth-dev
+flux-1-canny-dev
 hyper-sd3-16-step-cfg
 hyper-sd3-8-step-cfg
 hyper-sd3-4-step-cfg

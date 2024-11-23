@@ -1,0 +1,11 @@
+{
+  "name": "FLUX.1 Depth [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "flux.1_depth_dev_lora_f16.ckpt",
+  "modifier": "depth",
+  "converted": {
+    "flux.1_depth_dev_lora_f16.ckpt": "104845bcbfffb5e270af80fc57d448996506845ad32b836dd0636545ef97dc9f"
+  }
+}
