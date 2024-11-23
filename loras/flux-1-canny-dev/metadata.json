@@ -3,9 +3,9 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "flux.1_canny_dev_lora_f16.ckpt",
+  "file": "flux_1_canny_dev_lora_f16.ckpt",
   "modifier": "canny",
   "converted": {
-    "flux.1_canny_dev_lora_f16.ckpt": "41be41e0d422b76a2d10437f65ad12b2d6d556126646cc308c0db6851f63eaf3"
+    "flux_1_canny_dev_lora_f16.ckpt": "41be41e0d422b76a2d10437f65ad12b2d6d556126646cc308c0db6851f63eaf3"
   }
 }
