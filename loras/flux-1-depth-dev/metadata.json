@@ -5,6 +5,11 @@
   "version": "flux1",
   "file": "flux_1_depth_dev_lora_f16.ckpt",
   "modifier": "depth",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "flux_1_depth_dev_lora_f16.ckpt": "104845bcbfffb5e270af80fc57d448996506845ad32b836dd0636545ef97dc9f"
   }

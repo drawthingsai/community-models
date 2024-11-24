@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "sd3",
   "file": "flash_sd3_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "flash_sd3_lora_f16.ckpt": "cdbb88c24c9d5d66efc77b592e21c7b5a589e8786281d28a43af9a35acc95cdc"
   }

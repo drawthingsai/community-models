@@ -5,6 +5,11 @@
   "version": "flux1",
   "file": "flux_1_canny_dev_lora_f16.ckpt",
   "modifier": "canny",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "flux_1_canny_dev_lora_f16.ckpt": "41be41e0d422b76a2d10437f65ad12b2d6d556126646cc308c0db6851f63eaf3"
   }

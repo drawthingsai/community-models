@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "sdxl_base_v0.9",
   "file": "dmd2_sdxl_4_step_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "dmd2_sdxl_4_step_lora_f16.ckpt": "c0f94decf2a417fd1f4e588b80e1d61aa36fecb19e7a6a13d50ca8f8d3321ce6"
   }

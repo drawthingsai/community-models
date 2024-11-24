@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "in_context__font_design_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "in_context__font_design_lora_f16.ckpt": "1007a9bd6ca315bbb9027a47daa6e260b1ebdf50335fc2f52f8185a610f04e09"
   }

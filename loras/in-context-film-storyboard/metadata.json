@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "in_context__film_storyboard_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "in_context__film_storyboard_lora_f16.ckpt": "5d94bf5b29150276d532bebd5b1cb366d8c8e96856f45e0c6790fb5525f7332c"
   }

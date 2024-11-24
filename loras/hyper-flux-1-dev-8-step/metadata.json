@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "hyper_flux.1__dev__8_step_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "hyper_flux.1__dev__8_step_lora_f16.ckpt": "348b6080bb21e1829b28796ad9dcca681d3176812618b84e2c223e45e85d9ece"
   }

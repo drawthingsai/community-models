@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "in_context__couple_profile_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "in_context__couple_profile_lora_f16.ckpt": "674abb50e55359b4eef5af3bb185cb41f02cee95596f96514cfda25757e9fc29"
   }

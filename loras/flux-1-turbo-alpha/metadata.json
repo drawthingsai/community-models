@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "flux.1_turbo_alpha_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "flux.1_turbo_alpha_lora_f16.ckpt": "3687836ffef8e7eaa5b8145579781d14bdae531259d0fce3b60f5c472e4661e0"
   }

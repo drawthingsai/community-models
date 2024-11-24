@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "in_context__portrait_photography_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "in_context__portrait_photography_lora_f16.ckpt": "d158c3b36fd07085f7f157adbf2c6eecd4864d5a53b5fd92b0dee052096086fd"
   }

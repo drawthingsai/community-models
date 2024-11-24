@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "sd3",
   "file": "hyper_sd3_8_step_cfg_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "hyper_sd3_8_step_cfg_lora_f16.ckpt": "a7700e27b780ed0f4df91aad617725ce97c3f10a2caa9bb68931e9dca20f5bb7"
   }

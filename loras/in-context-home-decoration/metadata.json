@@ -7,6 +7,11 @@
   "is_lo_ha": false,
   "version": "flux1",
   "file": "in_context__home_decoration_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
   "converted": {
     "in_context__home_decoration_lora_f16.ckpt": "8f7ffaf7bd5823f96731bbecf67fb5193e22a5ee5a5003a8296e363367b6b628"
   }
