@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "in_context__portrait_illustration_lora_f16.ckpt"
+  "file": "in_context__portrait_illustration_lora_f16.ckpt",
+  "converted": {
+    "in_context__portrait_illustration_lora_f16.ckpt": "18fdcf19539e4efbb2f7ba4462c73221f960251d4df59817b12010542264d305"
+  }
 }

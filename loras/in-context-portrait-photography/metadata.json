@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "in_context__portrait_photography_lora_f16.ckpt"
+  "file": "in_context__portrait_photography_lora_f16.ckpt",
+  "converted": {
+    "in_context__portrait_photography_lora_f16.ckpt": "d158c3b36fd07085f7f157adbf2c6eecd4864d5a53b5fd92b0dee052096086fd"
+  }
 }

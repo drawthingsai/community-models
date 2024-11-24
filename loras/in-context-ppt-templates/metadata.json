@@ -6,5 +6,8 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "in_context__ppt_templates_lora_f16.ckpt"
+  "file": "in_context__ppt_templates_lora_f16.ckpt",
+  "converted": {
+    "in_context__ppt_templates_lora_f16.ckpt": "cc50fa3f6f38941649bd9cef445b6c08e6046284c5261229b0c9a7b22c2ea00c"
+  }
 }
