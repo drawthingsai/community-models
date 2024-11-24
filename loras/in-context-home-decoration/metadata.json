@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ali-vilab/In-Context-LoRA/resolve/main/home-decoration.safetensors"
+  },
+  "name": "In-Context: Home Decoration",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "in_context__home_decoration_lora_f16.ckpt"
+}

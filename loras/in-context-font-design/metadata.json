@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ali-vilab/In-Context-LoRA/resolve/main/font-design.safetensors"
+  },
+  "name": "In-Context: Font Design",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "in_context__font_design_lora_f16.ckpt"
+}

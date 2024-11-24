@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ali-vilab/In-Context-LoRA/resolve/main/ppt-templates.safetensors"
+  },
+  "name": "In-Context: PPT Templates",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "in_context__ppt_templates_lora_f16.ckpt"
+}

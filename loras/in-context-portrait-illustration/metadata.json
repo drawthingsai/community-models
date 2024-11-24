@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ali-vilab/In-Context-LoRA/resolve/main/portrait-illustration.safetensors"
+  },
+  "name": "In-Context: Portrait Illustration",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "in_context__portrait_illustration_lora_f16.ckpt"
+}

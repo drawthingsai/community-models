@@ -1,0 +1,10 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ali-vilab/In-Context-LoRA/resolve/main/film-storyboard.safetensors"
+  },
+  "name": "In-Context: Film Storyboard",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "in_context__film_storyboard_lora_f16.ckpt"
+}
