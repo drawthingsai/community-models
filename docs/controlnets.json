@@ -1,0 +1,234 @@
+[
+  {
+    "version": "flux1",
+    "file": "flux_1_redux_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "FLUX.1 Redux (FLUX.1)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "redux",
+    "image_encoder": "siglip_so400m_384_f16.ckpt",
+    "image_encoder_version": "siglip_l27_384"
+  },
+  {
+    "version": "flux1",
+    "file": "pulid_0.9.1_eva02_clip_l14_336_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "PuLID 0.9.1 (FLUX.1 [dev])",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "pulid",
+    "image_encoder": "eva02_clip_l14_336_f16.ckpt",
+    "image_encoder_version": "eva02_l14_336",
+    "preprocessor": "arcface_f16.ckpt",
+    "ip_adapter_config": {
+      "input_dim": 1024,
+      "query_dim": 1024,
+      "output_dim": 2048,
+      "head_dim": 64,
+      "num_heads": 16,
+      "grid": 24
+    }
+  },
+  {
+    "version": "flux1",
+    "file": "controlnet_alimama_inpaint_flux_1_dev_beta_q8p.ckpt",
+    "name": "Alimam Inpaint Beta (FLUX.1 [dev], ControlNet)",
+    "global_average_pooling": false,
+    "transformer_blocks": [
+      6,
+      0
+    ],
+    "type": "controlnet",
+    "modifier": "inpaint"
+  },
+  {
+    "version": "flux1",
+    "file": "controlnet_alimama_inpaint_flux_1_dev_beta_q6p.ckpt",
+    "name": "Alimam Inpaint Beta (FLUX.1 [dev], ControlNet) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [
+      6,
+      0
+    ],
+    "type": "controlnet",
+    "modifier": "inpaint"
+  },
+  {
+    "version": "flux1",
+    "file": "controlnet_union_pro_flux_1_dev_1.0_q8p.ckpt",
+    "name": "Union Pro (FLUX.1 [dev], ControlNet)",
+    "global_average_pooling": false,
+    "transformer_blocks": [
+      5,
+      10
+    ],
+    "type": "controlnetunion"
+  },
+  {
+    "version": "flux1",
+    "file": "controlnet_union_pro_flux_1_dev_1.0_q5p.ckpt",
+    "name": "Union Pro (FLUX.1 [dev], ControlNet) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [
+      5,
+      10
+    ],
+    "type": "controlnetunion"
+  },
+  {
+    "version": "flux1",
+    "file": "controlnet_jasper_ai_upscaler_flux_1_dev_1.0_f16.ckpt",
+    "name": "Jasper AI Upscaler (FLUX.1 [dev], ControlNet)",
+    "global_average_pooling": false,
+    "transformer_blocks": [
+      5,
+      0
+    ],
+    "type": "controlnet",
+    "modifier": "tile"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "ip_adapter_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "IP Adapter Plus (Kwai Kolors 1.0)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "ipadapterplus",
+    "image_encoder": "clip_vit_l14_336_vision_model_f16.ckpt",
+    "image_encoder_version": "clip_l14_336",
+    "ip_adapter_config": {
+      "input_dim": 2048,
+      "query_dim": 2048,
+      "output_dim": 2048,
+      "head_dim": 64,
+      "num_heads": 12,
+      "grid": 24
+    }
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_canny_kwai_kolors_1.0_f16.ckpt",
+    "modifier": "canny",
+    "name": "Canny Edge Map (Kwai Kolors 1.0)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_canny_kwai_kolors_1.0_q6p_q8p.ckpt",
+    "modifier": "canny",
+    "name": "Canny Edge Map (Kwai Kolors 1.0) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_depth_kwai_kolors_1.0_f16.ckpt",
+    "modifier": "depth",
+    "name": "Depth Map (Kwai Kolors 1.0)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_depth_kwai_kolors_1.0_q6p_q8p.ckpt",
+    "modifier": "depth",
+    "name": "Depth Map (Kwai Kolors 1.0) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_pose_kwai_kolors_1.0_f16.ckpt",
+    "modifier": "pose",
+    "name": "Pose (Kwai Kolors 1.0)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_pose_kwai_kolors_1.0_q6p_q8p.ckpt",
+    "modifier": "pose",
+    "name": "Pose (Kwai Kolors 1.0) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnet"
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "IP Adapter FaceID Plus (Kwai Kolors 1.0)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "ipadapterfaceidplus",
+    "image_encoder": "clip_vit_l14_336_vision_model_f16.ckpt",
+    "image_encoder_version": "clip_l14_336",
+    "preprocessor": "arcface_f16.ckpt",
+    "ip_adapter_config": {
+      "input_dim": 4096,
+      "query_dim": 4096,
+      "output_dim": 4096,
+      "head_dim": 64,
+      "num_heads": 64,
+      "grid": 24
+    }
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_q8p.ckpt",
+    "modifier": "shuffle",
+    "name": "IP Adapter FaceID Plus (Kwai Kolors 1.0) (8-bit)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "ipadapterfaceidplus",
+    "image_encoder": "clip_vit_l14_336_vision_model_f16.ckpt",
+    "image_encoder_version": "clip_l14_336",
+    "preprocessor": "arcface_f16.ckpt",
+    "ip_adapter_config": {
+      "input_dim": 4096,
+      "query_dim": 4096,
+      "output_dim": 4096,
+      "head_dim": 64,
+      "num_heads": 64,
+      "grid": 24
+    }
+  },
+  {
+    "version": "sdxl_base_v0.9",
+    "file": "controlnet_xinsir_union_promax_sdxl_1.0_f16.ckpt",
+    "name": "Xinsir Union ProMax (SDXL, ControlNet)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "controlnetunion"
+  },
+  {
+    "version": "v1",
+    "file": "ootd_garm_upper_body_1.0_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "Garment UNet (Upper-Body, Outfitting Fusion)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "inject_kv",
+    "image_encoder": "clip_vit_l14_vision_model_f16.ckpt",
+    "autoencoder": "vae_ft_mse_840000_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "file": "ootd_garm_full_body_1.0_f16.ckpt",
+    "modifier": "shuffle",
+    "name": "Garment UNet (Full-Body, Outfitting Fusion)",
+    "global_average_pooling": false,
+    "transformer_blocks": [],
+    "type": "inject_kv",
+    "image_encoder": "clip_vit_l14_vision_model_f16.ckpt",
+    "autoencoder": "vae_ft_mse_840000_f16.ckpt"
+  }
+]
