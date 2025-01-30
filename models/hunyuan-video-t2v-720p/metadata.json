@@ -1,0 +1,25 @@
+{
+  "name" : "Hunyuan Video T2V 720p",
+  "version" : "hunyuan_video",
+  "autoencoder" : "hunyuan_video_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 12,
+  "hires_fix_scale" : 24,
+  "file" : "hunyuan_video_t2v_720p_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "llava_llama_3_8b_v1.1_q8p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "guidance_embed": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[Hunyuan Video](https://huggingface.co/tencent/HunyuanVideo) is made by Tencent. It is a state-of-the-art text-to-video model that capable of generate up to 5-second video clips. It is recommended for resolutions of 960x544 or 1280x720. The number frames would be up to 129 and the recommended shift value is 7.0.",
+  "converted": {
+    "hunyuan_video_t2v_720p_q8p.ckpt": "17826560341114701ebc04a8f6b85a163026cb478cef4274b59beb7935203303",
+    "hunyuan_video_vae_f16.ckpt": "ae7745bce49371893085d4edb62d2f602ddb68cc064615d9dacdee82865334fd",
+    "llava_llama_3_8b_v1.1_q8p": "2e498fdda5ef906079990b03095aeeb4a584663fd2db78c949ec6ca18c28f24a"
+  }
+}
