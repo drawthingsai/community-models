@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest-l
+    runs-on: ubuntu-22.04-l
     steps:
       - uses: actions/checkout@v4
         with:
