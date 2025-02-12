@@ -1,0 +1,10 @@
+{
+  "name": "SD3 Medium 3.5 Turbo 8-Step",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "sd3",
+  "file": "sd3_medium_3.5_turbo_8_step_lora_f16.ckpt",
+  "converted": {
+    "sd3_medium_3.5_turbo_8_step_lora_f16.ckpt": "4c6d03c1eb5cc4d78279dd3001a8aba41644e76f4a744417a0b5694dd1ef1c5a"
+  }
+}

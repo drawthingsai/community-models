@@ -1,0 +1,22 @@
+{
+  "name" : "Shuttle Jaguar",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "shuttle_jaguar_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "shuttle_jaguar_q5p_svd.ckpt": "07a4df1c07e420bf1989bb39ddbb2d9d911fc4ae6665c90a63a6bedb75a3b2ff",
+    "shuttle_jaguar_q8p.ckpt": "a7250dcf1a7cb884264d29bb887745fa384dc2aecd10ddab07b44961d06fc951"
+  }
+}

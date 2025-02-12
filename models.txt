@@ -6,6 +6,10 @@ sd3-large-3.5
 sd3-large-3.5-exact
 sd3-medium-3.5
 hunyuan-video-t2v-720p
+shuttle-v3.1-aesthetic
+shuttle-jaguar
+schnellmode-v3.3
+artsy-vibe-v1
 kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
 flux-1-depth-dev

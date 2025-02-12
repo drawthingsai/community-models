@@ -1,0 +1,24 @@
+{
+  "name" : "Artsy Vibe v1",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "artsy_vibe_v1_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "padded_text_encoding_length": 512,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "artsy_vibe_v1_q5p_svd.ckpt": "530064361fccb785379587644bdd2d22da1feb892225cbb0bf5f520d86050fb1",
+    "artsy_vibe_v1_q8p.ckpt": "d08a56f155b73e2e4cee77bf72d7acad1e34bc5a3f258c1f34ef548a8688fb8e"
+  }
+}

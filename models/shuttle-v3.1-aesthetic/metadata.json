@@ -1,0 +1,22 @@
+{
+  "name" : "Shuttle v3.1 Aesthetic",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "shuttle_v3.1_aesthetic_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "shuttle_v3.1_aesthetic_q5p_svd.ckpt": "b03ca72d219684e53592a8ba9a3cfe347a8f299e54173b1f6f16d4e67df3bfe8",
+    "shuttle_v3.1_aesthetic_q8p.ckpt": "92a95557f2f826d87f93cacdf766ace1a0789afe46a92c31efd6404c94890392"
+  }
+}

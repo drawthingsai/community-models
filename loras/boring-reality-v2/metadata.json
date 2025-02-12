@@ -1,0 +1,10 @@
+{
+  "name": "Boring Reality v2 [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "boring_reality_v2_lora_f16.ckpt",
+  "converted": {
+    "boring_reality_v2_lora_f16.ckpt": "6258bba4712748de355e8b3269014bd2a957f3232fa17456bdfd2c84a8124599"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "schnellMODE v3.3",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "schnellmode_v3.3_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "schnellmode_v3.3_q5p_svd.ckpt": "d7672d2513e5bef58a7996ed6b58f981e04d5dbc80e8b9d706c9a70ff548696f",
+    "schnellmode_v3.3_q8p.ckpt": "ab62bd2f4785463b2084712c896e4dbc42282d958fcf74fba8b4ace802f13837"
+  }
+}

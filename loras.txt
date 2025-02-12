@@ -4,6 +4,8 @@ hyper-flux-1-dev-16-step
 flux-1-dev-to-schnell-4-step
 flux-1-depth-dev
 flux-1-canny-dev
+sd3-medium-3.5-turbo-8-step
+sd3-medium-3.5-turbo-4-step
 hyper-sd3-16-step-cfg
 hyper-sd3-8-step-cfg
 hyper-sd3-4-step-cfg
@@ -22,6 +24,7 @@ in-context-portrait-illustration
 in-context-portrait-photography
 in-context-ppt-templates
 amateur-photography-flux-1-dev-v3.5
+boring-reality-v2
 antiblur-flux-1-dev-v1.0
 360-degree-flux-1-dev
 pixel-art-xl-v1.1
