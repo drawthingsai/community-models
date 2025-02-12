@@ -1,0 +1,22 @@
+{
+  "name" : "devMODE v0.3 Turbo",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "devmode_v0.3_turbo_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "devmode_v0.3_turbo_q5p_svd.ckpt": "10c98e63617196c6019e681456f0304750f26efd7da3bb72df462e8700276f34",
+    "devmode_v0.3_turbo_q8p.ckpt": "fe4f6a46f1b65523e13b759cf50f88f7de5b10a2f2c46a41e6ecf171e81014c1"
+  }
+}

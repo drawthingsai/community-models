@@ -8,6 +8,7 @@ sd3-medium-3.5
 hunyuan-video-t2v-720p
 shuttle-v3.1-aesthetic
 shuttle-jaguar
+devmode-v0.3-turbo
 schnellmode-v3.3
 artsy-vibe-v1
 kwai-kolors-1.0
