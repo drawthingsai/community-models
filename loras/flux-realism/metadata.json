@@ -1,0 +1,16 @@
+
+{
+    "download": {
+    "file":"https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors"
+      
+    },
+    "name": "flux.1 RealismLora",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "",
+    
+    "converted": {
+     }
+  }
+  
