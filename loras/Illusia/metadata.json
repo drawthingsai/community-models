@@ -1,0 +1,9 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/1433868?type=Model&format=SafeTensor"
+  },
+  "version": "v1.0",
+  "name": "Illusia",
+  "prefix": "",
+  "is_lo_ha": false,
+}
