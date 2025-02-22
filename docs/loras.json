@@ -1,0 +1,503 @@
+[
+  {
+    "name": "FLUX.1 Turbo Alpha",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux.1_turbo_alpha_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper FLUX.1 [dev] 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "hyper_flux.1__dev__8_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper FLUX.1 [dev] 16-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "hyper_flux.1__dev__16_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 [dev] to [schnell] 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux.1__dev__to__schnell__4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "FLUX.1 Depth [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux_1_depth_dev_lora_f16.ckpt",
+    "modifier": "depth",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 Canny [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux_1_canny_dev_lora_f16.ckpt",
+    "modifier": "canny",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "SD3 Medium 3.5 Turbo 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "sd3_medium_3.5_turbo_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "SD3 Medium 3.5 Turbo 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "sd3_medium_3.5_turbo_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD3 16-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_16_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper SD3 8-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_8_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper SD3 4-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_4_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "PCM SD3 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "pcm_sd3_4_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "SDXL Lightning 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "sdxl_lightning_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "SDXL Lightning 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "sdxl_lightning_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SDXL 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "hyper_sdxl_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SDXL 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "hyper_sdxl_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "DMD2 SDXL 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "dmd2_sdxl_4_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Visual Identity Design",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__visual_identity_design_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Film Storyboard",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__film_storyboard_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Couple Profile",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__couple_profile_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Font Design",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__font_design_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Home Decoration",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__home_decoration_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Portrait Illustration",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__portrait_illustration_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Portrait Photography",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__portrait_photography_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: PPT Templates",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__ppt_templates_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Amateur Photography v3.5 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "amateur_photography_v3.5__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "Boring Reality v2 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "boring_reality_v2_lora_f16.ckpt"
+  },
+  {
+    "name": "AntiBlur v1.0 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "antiblur_v1.0__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "360 Degree [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "360_degree__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "Pixel Art XL v1.1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "pixel_art_xl_v1.1_lora_f16.ckpt",
+    "version": "sdxl_base_v0.9"
+  },
+  {
+    "name": "Papercut SDXL",
+    "prefix": "papercut ",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "papercut_sdxl_lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "name": "Add More Details (Detail Enhancer / Tweaker)",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "add_more_details__detail_enhancer___tweaker__lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "name": "SDXL Render v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "sdxl_render_v2.0_lora_f16.ckpt"
+  },
+  {
+    "name": "Age Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "age_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Weight Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "weight_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Mascular Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "mascular_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Fix Hands Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "fix_hands_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Long Hair Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "long_hair_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Smiling Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "smiling_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Surprised Look Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "surprised_look_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD v1.x 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "v1",
+    "is_consistency_model": true,
+    "file": "hyper_sd_v1.x_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD v1.x 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "v1",
+    "is_consistency_model": true,
+    "file": "hyper_sd_v1.x_4_step_lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "file": "moxin_v1.0_lora_f16.ckpt",
+    "name": "Moxin v1.0",
+    "prefix": "shuimobysim "
+  },
+  {
+    "version": "v1",
+    "name": "Moxin Shukezouma v1.1",
+    "prefix": "shukezouma ",
+    "file": "moxin_shukezouma_v1.1_lora_f16.ckpt"
+  },
+  {
+    "name": "Openjourney v1.0",
+    "file": "openjourney_v1_lora_f16.ckpt",
+    "prefix": "mdjrny-v4 ",
+    "version": "v1"
+  },
+  {
+    "name": "Analog Diffusion v1.0",
+    "file": "analog_diffusion_v1_lora_f16.ckpt",
+    "prefix": "analog ",
+    "version": "v1"
+  },
+  {
+    "name": "Adam's Artwork Style v.1",
+    "file": "adams_artwork_style_v0.1_lora_f16.ckpt",
+    "prefix": "ajaws ",
+    "version": "v1"
+  },
+  {
+    "name": "Cyberpunk 2077 Nightcity v1.15",
+    "file": "cyberpunk_2007_concept_art_nightcity_v1.15_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "name": "Epi Noise Offset v2",
+    "file": "epi_noiseoffset_v2_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "name": "Anime LineArt Style v2.0",
+    "file": "anime_lineart_style_v2.0_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "version": "v1",
+    "file": "theovercomer8s_contrast_fix_lora_f16.ckpt",
+    "prefix": "to8contrast style ",
+    "name": "Theovercomer8's Contrast Fix"
+  },
+  {
+    "version": "v2",
+    "file": "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt",
+    "prefix": "to8contrast style ",
+    "name": "Theovercomer8's Contrast Fix"
+  },
+  {
+    "version": "v1",
+    "file": "arcane_style_lora_f16.ckpt",
+    "prefix": "arcane style ",
+    "name": "Arcane Style"
+  },
+  {
+    "version": "v1",
+    "file": "crazy_expressions_lora_f16.ckpt",
+    "prefix": "crazy face ",
+    "name": "Crazy Expressions"
+  },
+  {
+    "version": "v1",
+    "file": "to8s_high_key_lora_f16.ckpt",
+    "prefix": "to8highkey ",
+    "name": "TO8's High Key"
+  },
+  {
+    "version": "v2",
+    "file": "to8s_high_key_sd_v2.x_lora_f16.ckpt",
+    "prefix": "to8highkey ",
+    "name": "TO8's High Key"
+  },
+  {
+    "version": "v1",
+    "file": "hipoly_3d_model_lora_f16.ckpt",
+    "prefix": "hiqcgbody ",
+    "name": "Hipoly 3D Model"
+  },
+  {
+    "version": "v1",
+    "file": "haute_couture_or_gowns_v1.0_lora_f16.ckpt",
+    "prefix": "hc_gown ",
+    "name": "Haute Couture or Gowns v1.0"
+  },
+  {
+    "name": "CCXL-Mucha Art Style",
+    "file": "ccxl_mucha_art_style_lora_f16.ckpt",
+    "prefix": "ccxl-mucha ",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9"
+  },
+  {
+    "version": "ssd_1b",
+    "file": "lcm_ssd_1b_lora_f16.ckpt",
+    "prefix": "",
+    "name": "LCM SSD 1B (Segmind)"
+  }
+]
