@@ -12,7 +12,5 @@
     "lower_bound": -1.5,
     "upper_bound": 2.5
   },
-  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is a effective transfer method that fine-tunes FLUX.1 Fill [dev] model. This LoRA enables sketch-to-image for the masked area.",
-  "converted": {
-  }
+  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is a effective transfer method that fine-tunes FLUX.1 Fill [dev] model. This LoRA enables sketch-to-image for the masked area."
 }
