@@ -6,11 +6,14 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "ace____portrait_lora_f16ckpt",
+  "file": "ace____portrait_lora_f16.ckpt",
   "weight": {
     "value": 1.0,
     "lower_bound": -1.5,
     "upper_bound": 2.5
   },
-  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is a effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a person's identity to a new image."
+  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is a effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a person's identity to a new image.",
+  "converted": {
+    "ace____portrait_lora_f16.ckpt": "7ea5def4f9a2fbe7a66656952421eb47db89b67e2ec527e9418a4a153762e4ae"
+  }
 }
