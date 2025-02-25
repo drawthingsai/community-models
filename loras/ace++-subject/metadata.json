@@ -12,7 +12,7 @@
     "lower_bound": -1.5,
     "upper_bound": 2.5
   },
-  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is a effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a subject (such as a logo) to a new image.",
+  "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is an effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a subject (such as a logo) to a new image.",
   "converted": {
     "ace____subject_lora_f16.ckpt": "7b3b83825df6c8733399554e613ba784f5d107558bde1267ea885b9442ba0f89"
   }

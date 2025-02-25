@@ -2,7 +2,7 @@
   "name" : "SkyReels v1 Hunyuan I2V 544p",
   "version" : "hunyuan_video",
   "autoencoder" : "hunyuan_video_vae_f16.ckpt",
-  "prefix" : "FPS-24,",
+  "prefix" : "FPS-24, ",
   "default_scale" : 12,
   "hires_fix_scale" : 24,
   "file" : "skyreels_v1_hunyuan_i2v_q8p.ckpt",
