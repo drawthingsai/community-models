@@ -2,3 +2,6 @@ flux-1-schnell
 flux-1-schnell-phone
 flux-1-dev
 flux-1-fill-dev
+hunyuan-video-t2v-720p
+skyreels-v1-hunyuan-t2v-544p
+skyreels-v1-hunyuan-i2v-544p
