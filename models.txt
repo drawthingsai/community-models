@@ -12,6 +12,7 @@ devmode-v0.3-turbo
 schnellmode-v3.3
 artsy-vibe-v1
 skyreels-v1-hunyuan-t2v-544p
+skyreels-v1-hunyuan-i2v-544p
 kwai-kolors-1.0
 kwai-kolors-inpainting-1.0
 flux-1-depth-dev
