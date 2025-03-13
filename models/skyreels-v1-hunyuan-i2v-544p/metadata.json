@@ -20,8 +20,8 @@
   "note": "[SkyReels v1](https://huggingface.co/collections/Skywork/skyreels-v1-67b34676ff65b4ec02d16307) is a significant fine-tune of Hunyuan Video, Tencent’s state-of-the-art text-to-video model. SkyReels v1 I2V is an image-to-video (img2vid) fine-tune that generates video clips up to 4 seconds long from a single image. The model supports up to 97 frames, with a recommended shift value of 7.0 or higher. For optimal results, disable \"Speedup w/ Guidance Embed\" by setting it to 1.0 and use a Text Guidance value of 6.",
   "converted": {
     "skyreels_v1_hunyuan_i2v_q8p.ckpt": "508ad6145618b9f35d38645fe33bbbfe428bae0d4129c6bb465f5575db36f0bb",
-    "skyreels_v1_hunyuan_i2v_q5p_svd.ckpt": "35332f4e531181b408c85f19996d09956b47afa011ae1f8ffcb67283dcfe2015",
+    "skyreels_v1_hunyuan_i2v_q5p_svd.ckpt": "fb22c98d0c6f14d05d73226493ad1017acdf238abd17c81a6a233131cd79f7d3",
     "hunyuan_video_vae_f16.ckpt": "ae7745bce49371893085d4edb62d2f602ddb68cc064615d9dacdee82865334fd",
-    "llava_llama_3_8b_v1.1_q8p.ckpt": "2e498fdda5ef906079990b03095aeeb4a584663fd2db78c949ec6ca18c28f24a"
+    "llava_llama_3_8b_v1.1_q8p.ckpt": "e75a3c2eae8443c974ef0e65129868efc759e1fdfcc39aa410dfb610b3c0bdc4"
   }
 }
