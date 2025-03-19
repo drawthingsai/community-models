@@ -1,0 +1,14 @@
+{
+    "download": {
+    "file":"https://huggingface.co/kudzueye/boreal-hl-v1/resolve/main/boreal-hl-v1.safetensors"
+
+    },
+    "name": "boreal-hl-v1",
+    "prefix": "phone photo of",
+    "is_lo_ha": false,
+    "version": "hunyuan_video",
+    "file": "boreal_hl_v1_lora_f16.ckpt",
+
+    "converted": {
+     }
+  }
