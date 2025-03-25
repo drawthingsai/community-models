@@ -18,9 +18,9 @@
   },
   "note": "[Hunyuan Video](https://huggingface.co/tencent/HunyuanVideo) is a state-of-the-art text-to-video model developed by Tencent. It can generate video clips of up to 5 seconds in length. The recommended resolutions are 960×544 or 1280×720. The model supports up to 129 frames, with a recommended shift value of 7.0.",
   "converted": {
-    "hunyuan_video_t2v_720p_q8p.ckpt": "58d38a12967f8e9c2c87c41d48496301d4c524fdc1554cd1cdcf614af8a52cd8",
-    "hunyuan_video_t2v_720p_q5p_svd.ckpt": "35332f4e531181b408c85f19996d09956b47afa011ae1f8ffcb67283dcfe2015",
+    "hunyuan_video_t2v_720p_q8p.ckpt": "aaa360067e4b07ff7534a4c199ffeb54a1e6c5abf67a2915de615f3fcb468160",
+    "hunyuan_video_t2v_720p_q5p_svd.ckpt": "2840601178556af62e3c34b8ce44fd501280523e63752230d645b471475aeddd",
     "hunyuan_video_vae_f16.ckpt": "ae7745bce49371893085d4edb62d2f602ddb68cc064615d9dacdee82865334fd",
-    "llava_llama_3_8b_v1.1_q8p.ckpt": "e75a3c2eae8443c974ef0e65129868efc759e1fdfcc39aa410dfb610b3c0bdc4"
+    "llava_llama_3_8b_v1.1_q8p.ckpt": "3ce75e9763350db0450ed8b9a986334888e76970e1ba76c4515cded6daf6ad40"
   }
 }
