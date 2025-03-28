@@ -1,6 +1,7 @@
 {
   "name" : "Wan 2.1 1.3B Fun InP",
   "version" : "wan_v2.1_1.3b",
+  "modifier" : "inpainting",
   "autoencoder" : "wan_v2.1_video_vae_f16.ckpt",
   "prefix" : "",
   "default_scale" : 8,
