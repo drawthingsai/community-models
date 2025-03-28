@@ -6,6 +6,7 @@ sd3-large-3.5
 sd3-large-3.5-exact
 sd3-medium-3.5
 hunyuan-video-t2v-720p
+wan-2.1-14b-fun-inp
 wan-2.1-1.3b-fun-inp
 shuttle-v3.1-aesthetic
 shuttle-jaguar
