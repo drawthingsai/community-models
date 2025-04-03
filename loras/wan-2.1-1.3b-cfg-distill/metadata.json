@@ -2,7 +2,7 @@
   "name": "Wan 2.1 1.3B CFG Distill",
   "prefix": "",
   "is_lo_ha": false,
-  "version": "flux1",
+  "version" : "wan_v2.1_1.3b",
   "is_consistency_model": true,
   "file": "wan_2.1_1.3b_cfg_distill_lora_f16.ckpt",
   "weight": {
