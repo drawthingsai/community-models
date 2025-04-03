@@ -17,6 +17,7 @@
       "condition_scale" : 1000
     }
   },
+  "tea_cache_coefficients": [7.33226126e+02, -4.01131952e+02,  6.75869174e+01, -3.14987800e+00, 9.61237896e-02],
   "note": "[SkyReels v1](https://huggingface.co/collections/Skywork/skyreels-v1-67b34676ff65b4ec02d16307) is a significant fine-tune of Hunyuan Video, Tencent’s state-of-the-art text-to-video model. SkyReels v1 I2V is an image-to-video (img2vid) fine-tune that generates video clips up to 4 seconds long from a single image. The model supports up to 97 frames, with a recommended shift value of 7.0 or higher. For optimal results, disable \"Speedup w/ Guidance Embed\" by setting it to 1.0 and use a Text Guidance value of 6.",
   "converted": {
     "skyreels_v1_hunyuan_i2v_q8p.ckpt": "508ad6145618b9f35d38645fe33bbbfe428bae0d4129c6bb465f5575db36f0bb",
