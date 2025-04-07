@@ -51,7 +51,7 @@ def download_and_convert_model(directory_path, download, metadata):
     return metadata
   # Update the files available in converted dictionary.
   for converted_file in converted.keys():
-      cmd = ['aws', 's3', 'cp', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']
+      cmd = ['aws', 's3', 'cp', '--checksum-algorithm=CRC32', os.path.join(build, converted_file), 's3://static-libnnc/', '--endpoint-url', 'https://cd96f610b0bb2657da157aca332052ec.r2.cloudflarestorage.com', '--region', 'auto']
       result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
       print(f"Uploaded, stdout: {result.stdout}, stderr: {result.stderr}")
       if result.returncode != 0:
