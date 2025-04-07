@@ -6,10 +6,13 @@
   "prefix": "Ghibli Art",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "ghibli_cartoon_art.ckpt",
+  "file": "ghibli_cartoon_art_lora_f16.ckpt",
   "weight": {
     "value": 1.0,
     "lower_bound": -1.5,
     "upper_bound": 2.5
+  },
+  "converted": {
+    "ghibli_cartoon_art_lora_f16.ckpt": "28440cdaea47edbbfcf1f69f1e2d564a84767f42f9b5a41fb78db14113311c03"
   }
 }
