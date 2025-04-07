@@ -27,6 +27,7 @@ in-context-home-decoration
 in-context-portrait-illustration
 in-context-portrait-photography
 in-context-ppt-templates
+ghibli-flux-cartoon-art
 amateur-photography-flux-1-dev-v3.5
 boring-reality-v2
 antiblur-flux-1-dev-v1.0

@@ -1,0 +1,15 @@
+{
+  "download": {
+    "file": "https://huggingface.co/strangerzonehf/Ghibli-Flux-Cartoon-LoRA/resolve/main/Ghibili-Cartoon-Art.safetensors"
+  },
+  "name": "Ghibli Cartoon Art",
+  "prefix": "Ghibli Art",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "ghibli_cartoon_art.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  }
+}
