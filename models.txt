@@ -2,6 +2,7 @@ flux-1-dev
 flux-1-fill-dev
 hidream-i1-dev-exact
 hidream-i1-full-exact
+hidream-i1-fast-exact
 flux-1-dev-exact
 sd3-large-turbo-3.5
 sd3-large-3.5
