@@ -12,7 +12,6 @@
   "clip_encoder" : "long_clip_vit_l14_f16.ckpt",
   "additional_clip_encoders": ["long_open_clip_vit_bigg14_f16.ckpt"],
   "high_precision_autoencoder": true,
-  "guidance_embed": true,
   "padded_text_encoding_length": 128,
   "objective" : {
     "u" : {
