@@ -17,7 +17,7 @@
     }
   },
   "tea_cache_coefficients": [2.57151496e+05, -3.54229917e+04,  1.40286849e+03, -1.35890334e+01, 1.32517977e-01],
-  "note": "[SkyReels v2 I2V 1.3B 540p](https://huggingface.co/Skywork/SkyReels-V2-I2V-1.3B-540P) is a image-to-video model developed by Skywork AI. It can generate video clips of up to 4 seconds in length. The model is trained at multiple resolutions, supports up to 97 frames, with a recommended shift value of 5.0. As a derivative of Wan 2.1 (1.3B), it performs best with similar generation settings.",
+  "note": "[SkyReels v2 I2V 1.3B 540p](https://huggingface.co/Skywork/SkyReels-V2-I2V-1.3B-540P) is a image-to-video model developed by Skywork AI. It can generate video clips of up to 4 seconds in length. The model is trained at 544x960, supports up to 97 frames, with a recommended shift value of 5.0. As a derivative of Wan 2.1 (1.3B), it performs best with similar generation settings.",
   "converted": {
     "wan_v2.1_video_vae_f16.ckpt": "4c518b128b3c1f2ea164aa46269d8875b4be3661d1fc0fba2709d03fa94e418b",
     "umt5_xxl_encoder_q8p.ckpt": "72ef62d22c09a3b764ac9e6fe0100f4029619fb3ff8ccec3432e509487b29831",
