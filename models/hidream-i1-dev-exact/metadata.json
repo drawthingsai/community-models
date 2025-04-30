@@ -19,6 +19,7 @@
       "condition_scale" : 1000
     }
   },
+  "note": "[HiDream-I1 [dev]](https://huggingface.co/HiDream-ai/HiDream-I1-Dev) is a state-of-the-art open-source image generation model known for its strong prompt adherence across diverse styles, including photorealistic, cartoon, and artistic. It is MIT-licensed and commercially friendly. The model is trained at multiple resolutions using a Flow Matching objective; trailing samplers yield the best results, with 20–30 sampling steps recommended. Text guidance is not effective for this model.",
   "converted": {
     "hidream_i1_dev_f16.ckpt": "57e0d93cc6dc14e329bda0464e8d7b1a49604ce0caaadb7bba717d4ff1fd5a74",
     "llama_3.1_8b_instruct_f16.ckpt": "c8fba68580e92a311805970a50535de685bd471514d60abceecb52ad32e98c90",
