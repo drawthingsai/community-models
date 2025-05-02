@@ -1,0 +1,21 @@
+{
+  "download": {
+    "file": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-FLUX.1-dev-16steps-lora.safetensors"
+  },
+  "name": "Transparent Image FLUX.1 [dev]",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "layer_flux_1_transparent_lora_f16.ckpt",
+  "alternative_decoder": "flux_1_transparent_vae_decoder_f16.ckpt",
+  "alternative_decoder_version": "transparent",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "flux_1_transparent_vae_decoder_f16.ckpt": "9b9167a182f968ea914898174d77ba5cfb007c57ce933614331248ae4309dfec",
+    "layer_flux_1_transparent_lora_f16.ckpt": "038b7d0bd71ce92e4173d64428489a739f0be3ad0bf431483a0a41f758df3199"
+  }
+}
