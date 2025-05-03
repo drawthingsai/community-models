@@ -9,6 +9,7 @@ sd3-large-3.5
 sd3-large-3.5-exact
 sd3-medium-3.5
 hunyuan-video-t2v-720p
+hidream-e1-full-exact
 wan-2.1-14b-v1.1-fun-inp
 wan-2.1-1.3b-v1.1-fun-inp
 skyreels-v2-1.3b-i2v-540p

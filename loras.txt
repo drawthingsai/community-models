@@ -4,7 +4,6 @@ hyper-flux-1-dev-16-step
 flux-1-dev-to-schnell-4-step
 flux-1-depth-dev
 flux-1-canny-dev
-transparent-image-flux-1
 wan-2.1-1.3b-cfg-distill
 sd3-medium-3.5-turbo-8-step
 sd3-medium-3.5-turbo-4-step
@@ -20,6 +19,7 @@ dmd2-sdxl-4-step
 ace++-portrait
 ace++-subject
 ace++-local-editing
+transparent-image-flux-1
 in-context-visual-identity-design
 in-context-film-storyboard
 in-context-couple-profile

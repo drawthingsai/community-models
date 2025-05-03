@@ -1,0 +1,30 @@
+{
+  "name" : "HiDream E1 [full] (Exact)",
+  "version" : "hidream_i1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "modifier" : "editing",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "hidream_e1_full_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "llama_3.1_8b_instruct_f16.ckpt",
+  "t5_encoder" : "t5_xxl_encoder_f16.ckpt",
+  "clip_encoder" : "long_clip_vit_l14_f16.ckpt",
+  "additional_clip_encoders": ["long_open_clip_vit_bigg14_f16.ckpt"],
+  "high_precision_autoencoder": true,
+  "padded_text_encoding_length": 128,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[HiDream-E1 [full]](https://huggingface.co/HiDream-ai/HiDream-E1-Full) is an image editing model built on HiDream-I1. It is MIT-licensed and commercially friendly. Trained at 768×768 resolution using a Flow Matching objective, the model performs best with trailing samplers and 30–50 sampling steps. For optimal results, ensure the width is set to 768 and use the following prompt format: Editing Instruction: {}. Target Image Description: {}.",
+  "converted": {
+    "hidream_e1_full_f16.ckpt": "635f48cdd3ed0c40efe3d572ddcbe77d8b5b243a8a7caf66217b5b1095a33367",
+    "llama_3.1_8b_instruct_f16.ckpt": "c8fba68580e92a311805970a50535de685bd471514d60abceecb52ad32e98c90",
+    "t5_xxl_encoder_f16.ckpt": "c526ebaf675e59bf0e7d736fd8ab1dd71096d14acb8d0e7c977d3109856814f6",
+    "long_clip_vit_l14_f16.ckpt": "82031eaa248d543a072af378ccd6280cd3be1d07f8733c5d15f9ec4feb82501a",
+    "long_open_clip_vit_bigg14_f16.ckpt": "6beca0db6c1f84b84b6facb0c2ce4abe56fb220be978ee1438064797861f949b"
+  }
+}
