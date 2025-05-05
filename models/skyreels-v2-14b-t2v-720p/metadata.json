@@ -15,6 +15,7 @@
       "condition_scale" : 1000
     }
   },
+  "frames_per_second": 24,
   "tea_cache_coefficients": [-3.03318725e+05, 4.90537029e+04, -2.65530556e+03, 5.87365115e+01, -3.15583525e-01],
   "note": "[SkyReels v2 T2V 14B 720p](https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P) is a image-to-video model developed by Skywork AI. It can generate video clips of up to 5 seconds in length. The model is trained at 720x1280, supports up to 121 frames, with a recommended shift value of 5.0. As a derivative of Wan 2.1 (14B), it performs best with similar generation settings.",
   "converted": {

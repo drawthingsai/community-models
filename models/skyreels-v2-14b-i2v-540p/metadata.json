@@ -16,6 +16,7 @@
       "condition_scale" : 1000
     }
   },
+  "frames_per_second": 24,
   "tea_cache_coefficients": [2.57151496e+05, -3.54229917e+04,  1.40286849e+03, -1.35890334e+01, 1.32517977e-01],
   "note": "[SkyReels v2 I2V 14B 540p](https://huggingface.co/Skywork/SkyReels-V2-I2V-14B-540P) is a image-to-video model developed by Skywork AI. It can generate video clips of up to 4 seconds in length. The model is trained at 544x960, supports up to 97 frames, with a recommended shift value of 5.0. As a derivative of Wan 2.1 (14B), it performs best with similar generation settings.",
   "converted": {

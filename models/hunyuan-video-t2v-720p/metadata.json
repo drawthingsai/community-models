@@ -16,6 +16,7 @@
       "condition_scale" : 1000
     }
   },
+  "frames_per_second": 30,
   "tea_cache_coefficients": [7.33226126e+02, -4.01131952e+02,  6.75869174e+01, -3.14987800e+00, 9.61237896e-02],
   "note": "[Hunyuan Video](https://huggingface.co/tencent/HunyuanVideo) is a state-of-the-art text-to-video model developed by Tencent. It can generate video clips of up to 5 seconds in length. The recommended resolutions are 960×544 or 1280×720. The model supports up to 129 frames, with a recommended shift value of 7.0.",
   "converted": {
