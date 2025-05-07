@@ -5,7 +5,7 @@
   "prefix" : "",
   "default_scale" : 16,
   "hires_fix_scale" : 24,
-  "file" : "hidream_i1_ffast_f16.ckpt",
+  "file" : "hidream_i1_fast_f16.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "llama_3.1_8b_instruct_f16.ckpt",
   "t5_encoder" : "t5_xxl_encoder_f16.ckpt",
