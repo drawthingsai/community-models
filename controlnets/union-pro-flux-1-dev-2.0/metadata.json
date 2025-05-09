@@ -1,0 +1,14 @@
+{
+  "version" : "flux1",
+  "file" : "controlnet_union_pro_flux_1_dev_2.0_q8p.ckpt",
+  "name" : "Union Pro 2.0 (FLUX.1 [dev], ControlNet)",
+  "global_average_pooling" : false,
+  "transformer_blocks" : [
+    6, 0
+  ],
+  "type" : "controlnet",
+  "converted": {
+    "controlnet_union_pro_flux_1_dev_2.0_q8p.ckpt": "15bc08b4badef3f69c65fb64bb19029cbc364c10c301a2f0cc1891822a415d08",
+    "controlnet_union_pro_flux_1_dev_2.0_q5p.ckpt": "05188798ff3a50f8c83b354384971136f0b14b66b4953263c2ebe63cec309f2a"
+  }
+}
