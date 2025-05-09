@@ -60,7 +60,7 @@ def collect_metadata_from_list(file_path):
             q6p_file = file[:-len('_q8p.ckpt')] + '_q6p.ckpt'
             if q5p_file in converted:
               metadata['file'] = q5p_file
-              metadata['name'] = metadata['name'] + ' (8-bit)'
+              metadata['name'] = metadata['name'] + ' (5-bit)'
               # Update other fields have reference to this file.
               for k, v in metadata.items():
                 if v == file:
@@ -68,7 +68,7 @@ def collect_metadata_from_list(file_path):
               metadata_array.append(copy.deepcopy(metadata))
             elif q6p_file in converted:
               metadata['file'] = q6p_file
-              metadata['name'] = metadata['name'] + ' (8-bit)'
+              metadata['name'] = metadata['name'] + ' (6-bit)'
               # Update other fields have reference to this file.
               for k, v in metadata.items():
                 if v == file:
