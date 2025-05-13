@@ -39,6 +39,7 @@ playground-v2
 sdxl-turbo
 svd-v1.0
 ssd-1b
+juggernaut-xl-ragnarok
 juggernaut-xl-v9
 animagine-xl
 dreamshaper-xl-v2.1-turbo

@@ -1,0 +1,22 @@
+{
+  "download": {
+    "file": "",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Juggernaut XL Ragnarok",
+  "modifier": "none",
+  "text_encoder": "juggernaut_xl_ragnarok_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "juggernaut_xl_ragnarok_clip_vit_l14_f16.ckpt",
+  "file": "juggernaut_xl_ragnarok_f16.ckpt",
+  "converted": {
+    "juggernaut_xl_ragnarok_open_clip_vit_bigg14_f16.ckpt": "8f09dc980d09fc423464c4cf588061d47889d117a4524ce8e7d258ac7e82fed2",
+    "juggernaut_xl_ragnarok_clip_vit_l14_f16.ckpt": "53330736e013235364f015ccf0d96b58e829023d209c728e01f466b7eea4abef",
+    "juggernaut_xl_ragnarok_f16.ckpt": "d8b59a654d5252cebeaccf86797b730b9f6e248bfb954e1b96f09797976e3ff7",
+    "juggernaut_xl_ragnarok_q6p_q8p.ckpt": "6afc259cd4e3cfa9592b90abba4c4d009c531f57a3bf3d657af4b2de7e786584"
+  }
+}
