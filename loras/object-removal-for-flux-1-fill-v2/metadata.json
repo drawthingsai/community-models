@@ -6,11 +6,14 @@
   "prefix": "",
   "is_lo_ha": false,
   "version": "flux1",
-  "file": "object_removal_for_flux_1_fill_v2_lora_f16.ckpt",
+  "file": "object_removal_for_flux.1_fill_v2_lora_f16.ckpt",
   "weight": {
     "value": 1.0,
     "lower_bound": -1.5,
     "upper_bound": 2.5
   },
-  "note": "This is an Object Removal LoRA fine-tuned from Flux Fill Dev model. The lora is designed to remove objects from specified masked areas, making it useful for image editing tasks where unwanted objects need to be erased seamlessly."
+  "note": "This is an Object Removal LoRA fine-tuned from Flux Fill Dev model. The lora is designed to remove objects from specified masked areas, making it useful for image editing tasks where unwanted objects need to be erased seamlessly.",
+  "converted": {
+    "object_removal_for_flux.1_fill_v2_lora_f16.ckpt": "f695be2b4b2128124b6027640ecb775f287a1002a7e60bbda19b720cbf0805c5"
+  }
 }
