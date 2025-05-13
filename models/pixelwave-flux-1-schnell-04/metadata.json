@@ -1,0 +1,24 @@
+{
+  "name" : "PixelWave FLUX.1 Schnell 04",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "pixelwave_flux_1_schnell_04_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "is_consistency_model": true,
+  "padded_text_encoding_length": 256,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "converted": {
+    "pixelwave_flux_1_schnell_04_q5p_svd.ckpt": "8dadf80ca02061cbd5913a18122c4f0ca09589740510812383769544b4182380",
+    "pixelwave_flux_1_schnell_04_q8p.ckpt": "13cee2fc724e61941bc25d55217439e8a7fd4bc3cf08943f7ab98a48a0920cae"
+  }
+}
