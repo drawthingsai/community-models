@@ -1,0 +1,16 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2676/removalTimestepAlpha2.9WdF.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22removal_timestep_alpha-2-1740.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20250513/us-east-1/s3/aws4_request&X-Amz-Date=20250513T024519Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f4be1371d26bac167eef2c6200d629fe89d3c5df3f5b6f263323f55bc4262647"
+  },
+  "name": "Object Removal for FLUX.1 Fill v2",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "object_removal_for_flux_1_fill_v2_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "note": "This is an Object Removal LoRA fine-tuned from Flux Fill Dev model. The lora is designed to remove objects from specified masked areas, making it useful for image editing tasks where unwanted objects need to be erased seamlessly."
+}

@@ -20,6 +20,7 @@ icedit-normal
 ace++-portrait
 ace++-subject
 ace++-local-editing
+object-removal-for-flux-1-fill-v2
 transparent-image-flux-1
 in-context-visual-identity-design
 in-context-film-storyboard
