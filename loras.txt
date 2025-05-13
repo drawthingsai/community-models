@@ -16,6 +16,7 @@ sdxl-lightning-4-step
 hyper-sdxl-8-step
 hyper-sdxl-4-step
 dmd2-sdxl-4-step
+icedit-normal
 ace++-portrait
 ace++-subject
 ace++-local-editing

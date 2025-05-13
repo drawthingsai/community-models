@@ -1,0 +1,16 @@
+{
+  "download": {
+    "file": "https://huggingface.co/RiverZ/ICEdit-normal-lora/resolve/main/pytorch_lora_weights.safetensors"
+  },
+  "name": "ICEdit Normal",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux1",
+  "file": "icedit_normal_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "note": "[ICEdit](https://huggingface.co/RiverZ/normal-lora) is an efficient and effective method for instruction-based image editing. With only 1% trainable parameters (200M) and 0.1% training data (50k) compared to previous methods, ICEdit demonstrates strong generalization capabilities and is capable of handling diverse editing tasks. The model uses the left-side reference image during generation."
+}
