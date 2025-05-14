@@ -67,10 +67,6 @@ def collect_all_apis():
             with open(metadata_path, 'r') as json_file:
                 metadata = json.load(json_file)
             
-            # Add the directory path as an identifier if not already present
-            if 'id' not in metadata:
-                metadata['id'] = directory
-            
             metadata_array.append(copy.deepcopy(metadata))
         else:
             print(f"Warning: No metadata.json found in {metadata_path}")

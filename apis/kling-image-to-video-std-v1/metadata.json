@@ -1,9 +1,9 @@
 {
     "upcast_attention" : false,
     "prefix" : "",
-    "name" : "kling image 2 video std api (5s)",
+    "name" : "Kling V1 Image to Video std (5s)",
     "default_scale" : 16,
-    "file" : "kling-v1-image-2-video",
+    "file" : "kling_v1_image_2_video",
     "version" : "flux1",
     "remote_api_model_config" : {
       "url" : "https:\/\/api.klingai.com\/",

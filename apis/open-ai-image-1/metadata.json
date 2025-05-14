@@ -1,5 +1,5 @@
 {
-  "name" : "openai-image-1",
+  "name" : "OpenAI GPT Image 1",
   "default_scale" : 16,
   "version" : "flux1",
   "upcast_attention" : false,
@@ -43,5 +43,5 @@
     }
   },
   "prefix" : "",
-  "file" : "openai-image-1"
+  "file" : "openai_gpt_image_1"
 }
