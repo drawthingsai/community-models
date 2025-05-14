@@ -1,0 +1,47 @@
+{
+  "name" : "openai-image-1",
+  "default_scale" : 16,
+  "version" : "flux1",
+  "upcast_attention" : false,
+  "remote_api_model_config" : {
+    "api_key" : "",
+    "status_path" : "",
+    "polling_interval" : 5,
+    "status_url_template" : "",
+    "settings_sections" : [
+      "model",
+      "remoteApiKey",
+      "batchSize"
+    ],
+    "api_secret" : "",
+    "pending_statuses" : [
+
+    ],
+    "url" : "https:\/\/api.openai.com\/",
+    "ephemeral_api_secret" : false,
+    "success_status" : "",
+    "request_type" : "direct",
+    "result_path" : {
+      "base64" : {
+        "path" : "data[].b64_json"
+      }
+    },
+    "task_id_path" : "",
+    "endpoint" : "v1\/images\/generations",
+    "remote_api_model_config_mapping" : {
+      "n" : "batchSize",
+      "prompt" : "text",
+      "image" : "image"
+    },
+    "failure_status" : "",
+    "error_msg_path" : "error.message",
+    "api_file_format" : "png",
+    "passthrough_configs" : {
+      "moderation" : "low",
+      "model" : "gpt-image-1",
+      "size" : "1024x1024"
+    }
+  },
+  "prefix" : "",
+  "file" : "openai-image-1"
+}
