@@ -1,0 +1,2 @@
+open-ai-image-1
+kling-image-to-video-std-v1
