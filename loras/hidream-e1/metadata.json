@@ -1,0 +1,19 @@
+{
+  "download": {
+    "file": "https://huggingface.co/HiDream-ai/HiDream-E1-Full/blob/main/HiDream-E1-Full.safetensors"
+  },
+  "name": "HiDream E1",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "hidream_i1",
+  "modifier": "editing",
+  "file": "hidream_e1_full_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "hidream_e1_full_lora_f16.ckpt": "503f0aa5202a2c43428dcd5401a0c5ad2f5c1147da5bb9f78736287dee2d6c61"
+  }
+}
