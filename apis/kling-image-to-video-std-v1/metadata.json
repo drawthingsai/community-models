@@ -14,7 +14,7 @@
       ],
       "success_status" : "succeed",
       "request_type" : "poll",
-      "api_file_format" : "mp4",
+      "api_file_format" : "video",
       "status_path" : "data.task_status",
       "settings_sections" : [
         "model",

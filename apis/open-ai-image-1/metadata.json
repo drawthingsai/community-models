@@ -35,7 +35,7 @@
     },
     "failure_status" : "",
     "error_msg_path" : "error.message",
-    "api_file_format" : "png",
+    "api_file_format" : "image",
     "passthrough_configs" : {
       "moderation" : "low",
       "model" : "gpt-image-1",
