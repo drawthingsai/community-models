@@ -1,0 +1,57 @@
+{
+    "file" : "wavespeed-ai-flux-dev",
+    "version" : "flux1",
+    "default_scale" : 16,
+    "prefix" : "",
+    "name" : "wavespeed-ai-flux-dev",
+    "remote_api_model_config" : {
+      "success_status" : "completed",
+      "failure_status" : "failed",
+      "ephemeral_api_secret" : false,
+      "passthrough_configs" : {
+        "enable_safety_checker" : true,
+        "enable_base64_output" : true
+      },
+      "polling_interval" : 5,
+      "api_secret" : "",
+      "status_path" : "data.status",
+      "pending_statuses" : [
+        "created",
+        "processing"
+      ],
+      "remote_api_model_config_mapping" : {
+        "seed" : "seed",
+        "num_inference_steps" : "steps",
+        "image" : "image",
+        "prompt" : "text",
+        "size" : "size",
+        "num_images" : "batchSize",
+        "strength" : "strength",
+        "guidance_scale" : "guidanceScale"
+      },
+      "error_msg_path" : "data.error",
+      "endpoint" : "api\/v2\/wavespeed-ai\/flux-dev",
+      "result_path" : {
+        "url" : {
+          "path" : "data.outputs[]"
+        }
+      },
+      "status_url_template" : "api\/v2\/predictions\/{{jq(data.id)}}\/result",
+      "api_key" : "",
+      "task_id_path" : "data.id",
+      "request_type" : "poll",
+      "api_file_format" : "image",
+      "settings_sections" : [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength",
+        "batchSize",
+        "seed",
+        "textGuidance",
+        "steps"
+      ],
+      "url" : "https:\/\/api.wavespeed.ai\/"
+    },
+    "upcast_attention" : false
+  }
