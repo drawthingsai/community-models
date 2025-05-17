@@ -1,0 +1,54 @@
+{
+    "remote_api_model_config" : {
+      "status_url_template" : "{{config.endpoint}}\/{{jq(data.task_id)}}",
+      "task_id_path" : "data.task_id",
+      "status_path" : "data.task_status",
+      "pending_statuses" : [
+        "submitted",
+        "processing"
+      ],
+      "polling_interval" : 30,
+      "passthrough_configs" : {
+        "model_name" : "kling-v2-master"
+      },
+      "remote_api_model_config_mapping" : {
+        "prompt" : "text",
+        "negative_prompt" : "negativeText",
+        "aspect_ratio" : "aspectRatio",
+        "cfg_scale" : "strength",
+        "image" : "image"
+      },
+      "result_path" : {
+        "url" : {
+          "path" : "data.task_result.videos[].url"
+        }
+      },
+      "url" : "https:\/\/api.klingai.com\/",
+      "error_msg_path" : "data.task_status_msg",
+      "api_file_format" : "video",
+      "api_key" : "",
+      "settings_sections" : [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength"
+      ],
+      "request_type" : "poll",
+      "custom_image_size_ratios" : [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "success_status" : "succeed",
+      "ephemeral_api_secret" : true,
+      "endpoint" : "v1\/videos\/image2video",
+      "failure_status" : "failed",
+      "api_secret" : ""
+    },
+    "upcast_attention" : false,
+    "name" : "Kling V2.0 i2v standard (5s)",
+    "file" : "kling-v2-image-2-video-std",
+    "prefix" : "",
+    "default_scale" : 16,
+    "version" : "flux1"
+  }
