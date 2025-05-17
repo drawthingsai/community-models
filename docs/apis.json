@@ -1,0 +1,103 @@
+[
+  {
+    "name": "OpenAI GPT Image 1",
+    "default_scale": 16,
+    "version": "flux1",
+    "upcast_attention": false,
+    "remote_api_model_config": {
+      "api_key": "",
+      "status_path": "",
+      "polling_interval": 5,
+      "status_url_template": "",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "batchSize"
+      ],
+      "api_secret": "",
+      "pending_statuses": [],
+      "url": "https://api.openai.com/",
+      "ephemeral_api_secret": false,
+      "success_status": "",
+      "request_type": "direct",
+      "result_path": {
+        "base64": {
+          "path": "data[].b64_json"
+        }
+      },
+      "task_id_path": "",
+      "endpoint": "v1/images/generations",
+      "remote_api_model_config_mapping": {
+        "n": "batchSize",
+        "prompt": "text",
+        "image": "image"
+      },
+      "failure_status": "",
+      "error_msg_path": "error.message",
+      "api_file_format": "image",
+      "passthrough_configs": {
+        "moderation": "low",
+        "model": "gpt-image-1",
+        "size": "1024x1024"
+      }
+    },
+    "prefix": "",
+    "file": "openai_gpt_image_1",
+    "id": "open-ai-image-1"
+  },
+  {
+    "upcast_attention": false,
+    "prefix": "",
+    "name": "Kling V1 Image to Video std (5s)",
+    "default_scale": 16,
+    "file": "kling_v1_image_2_video",
+    "version": "flux1",
+    "remote_api_model_config": {
+      "url": "https://api.klingai.com/",
+      "task_id_path": "data.task_id",
+      "pending_statuses": [
+        "submitted",
+        "processing"
+      ],
+      "success_status": "succeed",
+      "request_type": "poll",
+      "api_file_format": "video",
+      "status_path": "data.task_status",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength"
+      ],
+      "result_path": {
+        "url": {
+          "path": "data.task_result.videos[].url"
+        }
+      },
+      "passthrough_configs": {
+        "model_name": "kling-v1"
+      },
+      "status_url_template": "{{config.endpoint}}/{{jq(data.task_id)}}",
+      "api_key": "",
+      "error_msg_path": "data.task_status_msg",
+      "ephemeral_api_secret": true,
+      "polling_interval": 30,
+      "failure_status": "failed",
+      "endpoint": "v1/videos/image2video",
+      "remote_api_model_config_mapping": {
+        "cfg_scale": "strength",
+        "aspect_ratio": "aspectRatio",
+        "prompt": "text",
+        "negative_prompt": "negativeText",
+        "image": "image"
+      },
+      "api_secret": "",
+      "custom_image_size_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ]
+    },
+    "id": "kling-image-to-video-std-v1"
+  }
+]
