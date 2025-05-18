@@ -1,2 +1,7 @@
 open-ai-image-1
+kling-image-to-video-pro-v2
+kling-image-to-video-std-v2
+wavespeed-kling-image-to-video-pro-v1.6
+wavespeed-kling-text-to-video-standard-v1.6
 kling-image-to-video-std-v1
+wavespeed-flux-dev
