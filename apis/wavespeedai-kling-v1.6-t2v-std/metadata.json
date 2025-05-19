@@ -1,10 +1,10 @@
 {
-    "file" : "wavespeed-kling-v1.6-t2v-standard",
-    "version" : "flux1",
+    "file" : "wavespeedai_kling_v1.6_t2v_std",
+    "version" : "wan_v2.1_14b",
     "prefix" : "",
     "upcast_attention" : false,
     "default_scale" : 16,
-    "name" : "Wavespeed Kling V1.6 t2v standard",
+    "name" : "WaveSpeedAI Kling v1.6 T2V [std]",
     "remote_api_model_config" : {
       "polling_interval" : 30,
       "api_key" : "",

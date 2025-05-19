@@ -46,9 +46,9 @@
       "api_secret" : ""
     },
     "upcast_attention" : false,
-    "name" : "Kling V2.0 i2v standard (5s)",
-    "file" : "kling-v2-image-2-video-std",
+    "name" : "Kling v2.0 I2V [std]",
+    "file" : "kling_v2.0_i2v_std",
     "prefix" : "",
     "default_scale" : 16,
-    "version" : "flux1"
+    "version" : "wan_v2.1_14b"
   }

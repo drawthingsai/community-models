@@ -1,9 +1,9 @@
 {
-    "file" : "wavespeed-ai-flux-dev",
+    "file" : "wavespeedai_flux.1_dev",
     "version" : "flux1",
     "default_scale" : 16,
     "prefix" : "",
-    "name" : "wavespeed-ai-flux-dev",
+    "name" : "WaveSpeedAI FLUX.1 [dev]",
     "remote_api_model_config" : {
       "success_status" : "completed",
       "failure_status" : "failed",

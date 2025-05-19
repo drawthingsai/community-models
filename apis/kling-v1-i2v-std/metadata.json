@@ -1,10 +1,10 @@
 {
     "upcast_attention" : false,
     "prefix" : "",
-    "name" : "Kling V1 Image to Video std (5s)",
+    "name" : "Kling v1 I2V [std]",
     "default_scale" : 16,
-    "file" : "kling_v1_image_2_video",
-    "version" : "flux1",
+    "file" : "kling_v1_i2v_std",
+    "version" : "wan_v2.1_14b",
     "remote_api_model_config" : {
       "url" : "https:\/\/api.klingai.com\/",
       "task_id_path" : "data.task_id",
