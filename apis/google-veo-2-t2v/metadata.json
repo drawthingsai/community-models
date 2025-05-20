@@ -1,0 +1,62 @@
+{
+  "version" : "wan_v2.1_14b",
+  "upcast_attention" : false,
+  "file" : "veo-v2-t2v",
+  "default_scale" : 16,
+  "name" : "Google Veo V2.0 t2v",
+  "prefix" : "",
+  "remote_api_model_config" : {
+    "pending_statuses" : [
+
+    ],
+    "api_file_format" : "video",
+    "settings_sections" : [
+      "model",
+      "remoteApiKey",
+      "imageSize",
+      "batchSize"
+    ],
+    "custom_request_body" : {
+      "instances" : {
+        "prompt" : "text"
+      },
+      "parameters" : {
+        "negativePrompt" : "negativeText",
+        "sampleCount" : "batchSize",
+        "aspectRatio" : "aspectRatio"
+      }
+    },
+    "request_type" : "poll",
+    "remote_api_model_config_mapping" : {
+
+    },
+    "passthrough_configs" : {
+
+    },
+    "polling_interval" : 30,
+    "result_path" : {
+      "url" : {
+        "path" : "response.generateVideoResponse.generatedSamples[].video.uri"
+      }
+    },
+    "task_id_path" : "name",
+    "download_url_suffix" : "&key={{token}}",
+    "custom_image_size_ratios" : [
+      "16:9",
+      "9:16"
+    ],
+    "failure_status" : "failed",
+    "endpoint" : "models\/veo-2.0-generate-001:predictLongRunning",
+    "api_key" : "",
+    "error_msg_path" : "error.message",
+    "url" : "https:\/\/generativelanguage.googleapis.com\/v1beta\/",
+    "api_secret" : "",
+    "ephemeral_api_secret" : false,
+    "success_status" : "true",
+    "status_path" : "done",
+    "token_config" : {
+      "x-goog-api-key" : "{{token}}"
+    },
+    "status_url_template" : "{{jq(name)}}"
+  }
+}

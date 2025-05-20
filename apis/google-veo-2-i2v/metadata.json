@@ -1,0 +1,66 @@
+{
+    "file" : "veo-v2-i2v",
+    "prefix" : "",
+    "default_scale" : 16,
+    "upcast_attention" : false,
+    "version" : "wan_v2.1_14b",
+    "name" : "Google Veo V2.0 i2v",
+    "remote_api_model_config" : {
+      "polling_interval" : 30,
+      "remote_api_model_config_mapping" : {
+
+      },
+      "ephemeral_api_secret" : false,
+      "api_secret" : "",
+      "api_file_format" : "video",
+      "api_key" : "",
+      "failure_status" : "failed",
+      "pending_statuses" : [
+
+      ],
+      "result_path" : {
+        "url" : {
+          "path" : "response.generateVideoResponse.generatedSamples[].video.uri"
+        }
+      },
+      "download_url_suffix" : "&key={{token}}",
+      "success_status" : "true",
+      "custom_image_size_ratios" : [
+        "16:9",
+        "9:16"
+      ],
+      "passthrough_configs" : {
+
+      },
+      "token_config" : {
+        "x-goog-api-key" : "{{token}}"
+      },
+      "custom_request_body" : {
+        "instances" : {
+          "image" : {
+            "bytesBase64Encoded" : "image",
+            "mimeType" : "mimeType"
+          },
+          "prompt" : "text"
+        },
+        "parameters" : {
+          "sampleCount" : "batchSize",
+          "negativePrompt" : "negativeText",
+          "aspectRatio" : "aspectRatio"
+        }
+      },
+      "url" : "https:\/\/generativelanguage.googleapis.com\/v1beta\/",
+      "settings_sections" : [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "batchSize"
+      ],
+      "status_path" : "done",
+      "task_id_path" : "name",
+      "request_type" : "poll",
+      "endpoint" : "models\/veo-2.0-generate-001:predictLongRunning",
+      "status_url_template" : "{{jq(name)}}",
+      "error_msg_path" : "error.message"
+    }
+  }
