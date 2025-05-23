@@ -1,0 +1,2674 @@
+[
+    {
+        "file": "rev_animated_v1.22_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "rev_animated_v1.22_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "rev_animated_v1.22_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "sd3_medium_3.5_f16.ckpt",
+        "size": 4945141760
+    },
+    {
+        "file": "sd3_medium_3.5_q8p.ckpt",
+        "size": 2785964032
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "flux_1_canny_dev_q8p.ckpt",
+        "size": 12331282432
+    },
+    {
+        "file": "flux_1_canny_dev_q5p.ckpt",
+        "size": 9370169344
+    },
+    {
+        "file": "colorfulxl_v6.0_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "colorfulxl_v6.0_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "colorfulxl_v6.0_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "colorfulxl_v6.0_q6p_q8p.ckpt",
+        "size": 2099683328
+    },
+    {
+        "file": "chatglm3_6b_q6p_q8p.ckpt",
+        "size": 5249314816
+    },
+    {
+        "file": "kwai_kolors_inpainting_1.0_f16.ckpt",
+        "size": 5165645824
+    },
+    {
+        "file": "kwai_kolors_inpainting_1.0_q6p_q8p.ckpt",
+        "size": 2103173120
+    },
+    {
+        "file": "chatglm3_6b_q6p_q8p.ckpt",
+        "size": 5249314816
+    },
+    {
+        "file": "kwai_kolors_1.0_f16.ckpt",
+        "size": 5165613056
+    },
+    {
+        "file": "kwai_kolors_1.0_q6p_q8p.ckpt",
+        "size": 2113376256
+    },
+    {
+        "file": "icatcher_cartoon_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "icatcher_cartoon_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "icatcher_cartoon_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "icatcher_cartoon_q6p_q8p.ckpt",
+        "size": 2099658752
+    },
+    {
+        "file": "realvisxl_v4.0_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "realvisxl_v4.0_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "realvisxl_v4.0_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "realvisxl_v4.0_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "wan_2.1_1.3b_fun_inp_f16.ckpt",
+        "size": 3132825600
+    },
+    {
+        "file": "wan_2.1_1.3b_fun_inp_q8p.ckpt",
+        "size": 1631973376
+    },
+    {
+        "file": "disney_pixar_cartoon_type_b_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "disney_pixar_cartoon_type_b_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "skyreels_v2_i2v_14b_720p_q6p_svd.ckpt",
+        "size": 13272608768
+    },
+    {
+        "file": "skyreels_v2_i2v_14b_720p_q8p.ckpt",
+        "size": 17008975872
+    },
+    {
+        "file": "deliberate_v2_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "deliberate_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "sd3_large_3.5_f16.ckpt",
+        "size": 16309780480
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "skyreels_v2_t2v_14b_720p_q6p_svd.ckpt",
+        "size": 11586859008
+    },
+    {
+        "file": "skyreels_v2_t2v_14b_720p_q8p.ckpt",
+        "size": 14825861120
+    },
+    {
+        "file": "hunyuan_video_t2v_720p_q8p.ckpt",
+        "size": 13567959040
+    },
+    {
+        "file": "hunyuan_video_t2v_720p_q5p_svd.ckpt",
+        "size": 10734379008
+    },
+    {
+        "file": "hunyuan_video_vae_f16.ckpt",
+        "size": 493555712
+    },
+    {
+        "file": "llava_llama_3_8b_v1.1_q8p.ckpt",
+        "size": 8257081344
+    },
+    {
+        "file": "ootd_vton_full_body_1.0_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "anything_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "anything_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "anything_v3_vae_f16.ckpt",
+        "size": 167538688
+    },
+    {
+        "file": "animatelcm_svd_xt_v1.1_f16.ckpt",
+        "size": 2952314880
+    },
+    {
+        "file": "animatelcm_svd_xt_v1.1_q6p_q8p.ckpt",
+        "size": 1376313344
+    },
+    {
+        "file": "f222_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "sd_xl_turbo_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "sd_xl_turbo_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "wurstchen_3.0_stage_c_f32_f16.ckpt",
+        "size": 7234457600
+    },
+    {
+        "file": "wurstchen_3.0_stage_c_f32_q6p_q8p.ckpt",
+        "size": 3402522624
+    },
+    {
+        "file": "wurstchen_3.0_stage_b_f16.ckpt",
+        "size": 3130765312
+    },
+    {
+        "file": "wurstchen_3.0_stage_b_q6p_q8p.ckpt",
+        "size": 1469530112
+    },
+    {
+        "file": "wurstchen_3.0_stage_a_hq_f16.ckpt",
+        "size": 36880384
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "wan_2.1_14b_v1.1_fun_inp_q6p_svd.ckpt",
+        "size": 13294354432
+    },
+    {
+        "file": "wan_2.1_14b_v1.1_fun_inp_q8p.ckpt",
+        "size": 17008979968
+    },
+    {
+        "file": "sd3_large_3.5_q8p.ckpt",
+        "size": 8526135296
+    },
+    {
+        "file": "sd3_large_3.5_q6p.ckpt",
+        "size": 7190040576
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "flux_1_fill_dev_q8p.ckpt",
+        "size": 12332847104
+    },
+    {
+        "file": "flux_1_fill_dev_q5p.ckpt",
+        "size": 9371738112
+    },
+    {
+        "file": "eldenring_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "eldenring_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "proteus_v0.3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "proteus_v0.3_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "proteus_v0.3_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "proteus_v0.3_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "aloeveras_simpmaker_3k1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "voxelart_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "voxelart_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dreamshaper_v6.31_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "dreamshaper_v6.31_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "realistic_vision_v5.1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "realistic_vision_v5.1_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "realistic_vision_v5.1_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "hidream_i1_dev_f16.ckpt",
+        "size": 34245586944
+    },
+    {
+        "file": "llama_3.1_8b_instruct_f16.ckpt",
+        "size": 15024689152
+    },
+    {
+        "file": "t5_xxl_encoder_f16.ckpt",
+        "size": 9534062592
+    },
+    {
+        "file": "long_clip_vit_l14_f16.ckpt",
+        "size": 247959552
+    },
+    {
+        "file": "long_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391665152
+    },
+    {
+        "file": "papercut_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "papercut_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "modi_v1_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "modi_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "lvngvncnt_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "lvngvncnt_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dnd_classes_and_species_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "dnd_classes_and_species_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_ragnarok_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "juggernaut_xl_ragnarok_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_ragnarok_f16.ckpt",
+        "size": 5141692416
+    },
+    {
+        "file": "juggernaut_xl_ragnarok_q6p_q8p.ckpt",
+        "size": 2093752320
+    },
+    {
+        "file": "cyberpunk_anime_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "cyberpunk_anime_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "schnellmode_v3.3_q5p_svd.ckpt",
+        "size": 9618518016
+    },
+    {
+        "file": "schnellmode_v3.3_q8p.ckpt",
+        "size": 12310401024
+    },
+    {
+        "file": "supermarionation_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "supermarionation_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "balloonart_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "balloonart_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "hidream_e1_full_f16.ckpt",
+        "size": 34245586944
+    },
+    {
+        "file": "llama_3.1_8b_instruct_f16.ckpt",
+        "size": 15024689152
+    },
+    {
+        "file": "t5_xxl_encoder_f16.ckpt",
+        "size": 9534062592
+    },
+    {
+        "file": "long_clip_vit_l14_f16.ckpt",
+        "size": 247959552
+    },
+    {
+        "file": "long_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391665152
+    },
+    {
+        "file": "dreamshaper_xl_v2.1_turbo_clip_vit_l14_f16.ckpt",
+        "size": 247701504
+    },
+    {
+        "file": "dreamshaper_xl_v2.1_turbo_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "dreamshaper_xl_v2.1_turbo_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "dreamshaper_xl_v2.1_turbo_q6p_q8p.ckpt",
+        "size": 2099683328
+    },
+    {
+        "file": "mdjrny_v4_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "mdjrny_v4_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "wan_2.1_14b_fun_inp_q6p_svd.ckpt",
+        "size": 13275922432
+    },
+    {
+        "file": "wan_2.1_14b_fun_inp_q8p.ckpt",
+        "size": 17008963584
+    },
+    {
+        "file": "analog_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "analog_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "artsy_vibe_v1_q5p_svd.ckpt",
+        "size": 9638998016
+    },
+    {
+        "file": "artsy_vibe_v1_q8p.ckpt",
+        "size": 12330889216
+    },
+    {
+        "file": "auraflow_v0.2_q8p.ckpt",
+        "size": 7092285440
+    },
+    {
+        "file": "auraflow_v0.2_q5p.ckpt",
+        "size": 5533794304
+    },
+    {
+        "file": "lcm_sd_xl_base_1.0_f16.ckpt",
+        "size": 5141909504
+    },
+    {
+        "file": "lcm_sd_xl_base_1.0_q6p_q8p.ckpt",
+        "size": 2099748864
+    },
+    {
+        "file": "hna_3dkx_1.1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hna_3dkx_1.1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "flux_1_dev_f16.ckpt",
+        "size": 23828987904
+    },
+    {
+        "file": "t5_xxl_encoder_f16.ckpt",
+        "size": 9534062592
+    },
+    {
+        "file": "flux_1_dev_q8p.ckpt",
+        "size": 12330889216
+    },
+    {
+        "file": "flux_1_dev_q5p.ckpt",
+        "size": 9369780224
+    },
+    {
+        "file": "sd3_medium_f16.ckpt",
+        "size": 4174532608
+    },
+    {
+        "file": "sd3_medium_q8p.ckpt",
+        "size": 2877284352
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "seek_art_mega_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "seek_art_mega_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "devmode_v0.3_turbo_q5p_svd.ckpt",
+        "size": 9618518016
+    },
+    {
+        "file": "devmode_v0.3_turbo_q8p.ckpt",
+        "size": 12310401024
+    },
+    {
+        "file": "redshift_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "redshift_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "shuttle_jaguar_q5p_svd.ckpt",
+        "size": 9618513920
+    },
+    {
+        "file": "shuttle_jaguar_q8p.ckpt",
+        "size": 12310405120
+    },
+    {
+        "file": "ssd_1b_f16.ckpt",
+        "size": 2666225664
+    },
+    {
+        "file": "ssd_1b_q6p_q8p.ckpt",
+        "size": 1123565568
+    },
+    {
+        "file": "spiderverse_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "spiderverse_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "flux_1_dev_de_distill_q8p.ckpt",
+        "size": 12310405120
+    },
+    {
+        "file": "flux_1_dev_de_distill_q5p.ckpt",
+        "size": 9349296128
+    },
+    {
+        "file": "flux_1_depth_dev_q8p.ckpt",
+        "size": 12331282432
+    },
+    {
+        "file": "flux_1_depth_dev_q5p.ckpt",
+        "size": 9370173440
+    },
+    {
+        "file": "juggernaut_reborn_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "juggernaut_reborn_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_reborn_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "classicanim_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "classicanim_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "ghibli_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "ghibli_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "redshift_768_v_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "redshift_768_v_open_clip_vit_h14_f16.ckpt",
+        "size": 682082304
+    },
+    {
+        "file": "playground_v2.5_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "playground_v2.5_q6p_q8p.ckpt",
+        "size": 2099666944
+    },
+    {
+        "file": "skyreels_v1_hunyuan_t2v_q8p.ckpt",
+        "size": 13567963136
+    },
+    {
+        "file": "skyreels_v1_hunyuan_t2v_q5p_svd.ckpt",
+        "size": 10734383104
+    },
+    {
+        "file": "hunyuan_video_vae_f16.ckpt",
+        "size": 493555712
+    },
+    {
+        "file": "llava_llama_3_8b_v1.1_q8p.ckpt",
+        "size": 8257081344
+    },
+    {
+        "file": "majicmix_realistic_v7_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "majicmix_realistic_v7_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "majicmix_realistic_v7_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "lcm_ssd_1b_f16.ckpt",
+        "size": 2666389504
+    },
+    {
+        "file": "lcm_ssd_1b_q6p_q8p.ckpt",
+        "size": 1123631104
+    },
+    {
+        "file": "shuttle_v3.1_aesthetic_q5p_svd.ckpt",
+        "size": 9618513920
+    },
+    {
+        "file": "shuttle_v3.1_aesthetic_q8p.ckpt",
+        "size": 12310405120
+    },
+    {
+        "file": "icatcher_realistic_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "icatcher_realistic_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "icatcher_realistic_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "icatcher_realistic_q6p_q8p.ckpt",
+        "size": 2099691520
+    },
+    {
+        "file": "svd_i2v_xt_1.1_f16.ckpt",
+        "size": 2955182080
+    },
+    {
+        "file": "svd_i2v_xt_1.1_q6p_q8p.ckpt",
+        "size": 1525776384
+    },
+    {
+        "file": "open_clip_vit_h14_vision_model_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "pixelwave_v9_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "pixelwave_v9_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "pixelwave_v9_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "pixelwave_v9_q6p_q8p.ckpt",
+        "size": 2099675136
+    },
+    {
+        "file": "trnlgcy_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "trnlgcy_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "pixelwave_flux_1_schnell_04_q5p_svd.ckpt",
+        "size": 9618518016
+    },
+    {
+        "file": "pixelwave_flux_1_schnell_04_q8p.ckpt",
+        "size": 12310405120
+    },
+    {
+        "file": "arcane_v3_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "arcane_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "inkpunk_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "inkpunk_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_v9_lightning_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "juggernaut_xl_v9_lightning_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "juggernaut_xl_v9_lightning_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_v9_lightning_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "wan_2.1_1.3b_v1.1_fun_inp_f16.ckpt",
+        "size": 3132645376
+    },
+    {
+        "file": "wan_2.1_1.3b_v1.1_fun_inp_q8p.ckpt",
+        "size": 1631973376
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "skyreels_v2_i2v_14b_540p_q6p_svd.ckpt",
+        "size": 13268021248
+    },
+    {
+        "file": "skyreels_v2_i2v_14b_540p_q8p.ckpt",
+        "size": 17008979968
+    },
+    {
+        "file": "wd_v1.3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "skyreels_v2_t2v_14b_540p_q6p_svd.ckpt",
+        "size": 11586859008
+    },
+    {
+        "file": "skyreels_v2_t2v_14b_540p_q8p.ckpt",
+        "size": 14825857024
+    },
+    {
+        "file": "hidream_i1_fast_f16.ckpt",
+        "size": 34245586944
+    },
+    {
+        "file": "llama_3.1_8b_instruct_f16.ckpt",
+        "size": 15024689152
+    },
+    {
+        "file": "t5_xxl_encoder_f16.ckpt",
+        "size": 9534062592
+    },
+    {
+        "file": "long_clip_vit_l14_f16.ckpt",
+        "size": 247959552
+    },
+    {
+        "file": "long_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391665152
+    },
+    {
+        "file": "sd3_large_turbo_3.5_q8p.ckpt",
+        "size": 8526135296
+    },
+    {
+        "file": "sd3_large_turbo_3.5_q6p.ckpt",
+        "size": 7190040576
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "animagine_xl_v3.1_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "animagine_xl_v3.1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "animagine_xl_v3.1_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "animagine_xl_v3.1_q6p_q8p.ckpt",
+        "size": 2099695616
+    },
+    {
+        "file": "hidream_i1_full_f16.ckpt",
+        "size": 34245586944
+    },
+    {
+        "file": "llama_3.1_8b_instruct_f16.ckpt",
+        "size": 15024689152
+    },
+    {
+        "file": "t5_xxl_encoder_f16.ckpt",
+        "size": 9534062592
+    },
+    {
+        "file": "long_clip_vit_l14_f16.ckpt",
+        "size": 247959552
+    },
+    {
+        "file": "long_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391665152
+    },
+    {
+        "file": "counterfeit_v3.0_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "counterfeit_v3.0_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "counterfeit_v3.0_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "svd_i2v_1.0_f16.ckpt",
+        "size": 2955182080
+    },
+    {
+        "file": "svd_i2v_1.0_q6p_q8p.ckpt",
+        "size": 1334681600
+    },
+    {
+        "file": "open_clip_vit_h14_vision_model_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "nitro_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "nitro_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "samdoesart_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "samdoesart_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "wan_v2.1_video_vae_f16.ckpt",
+        "size": 254189568
+    },
+    {
+        "file": "umt5_xxl_encoder_q8p.ckpt",
+        "size": 6883270656
+    },
+    {
+        "file": "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "skyreels_v2_i2v_1.3b_540p_f16.ckpt",
+        "size": 3132645376
+    },
+    {
+        "file": "skyreels_v2_i2v_1.3b_540p_q8p.ckpt",
+        "size": 1631977472
+    },
+    {
+        "file": "dreamshaper_v8_f16.ckpt",
+        "size": 1721257984
+    },
+    {
+        "file": "dreamshaper_v8_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dreamshaper_v8_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "dnd_30000_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "dnd_30000_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "playground_v2_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "playground_v2_q6p_q8p.ckpt",
+        "size": 2099691520
+    },
+    {
+        "file": "ootd_vton_upper_body_1.0_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "skyreels_v1_hunyuan_i2v_q8p.ckpt",
+        "size": 13568352256
+    },
+    {
+        "file": "skyreels_v1_hunyuan_i2v_q5p_svd.ckpt",
+        "size": 10734772224
+    },
+    {
+        "file": "hunyuan_video_vae_f16.ckpt",
+        "size": 493555712
+    },
+    {
+        "file": "llava_llama_3_8b_v1.1_q8p.ckpt",
+        "size": 8257081344
+    },
+    {
+        "file": "hassanblend_v1.5.1.2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hassanblend_v1.5.1.2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_v9_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "juggernaut_xl_v9_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_v9_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "juggernaut_xl_v9_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "realistic_vision_v3.0_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "realistic_vision_v3.0_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "pixelwave_10_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "pixelwave_10_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "pixelwave_10_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "pixelwave_10_q6p_q8p.ckpt",
+        "size": 2099675136
+    },
+    {
+        "file": "juggernaut_xl_x_open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391300608
+    },
+    {
+        "file": "juggernaut_xl_x_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "juggernaut_xl_x_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "juggernaut_xl_x_q6p_q8p.ckpt",
+        "size": 2099683328
+    },
+    {
+        "file": "papercut_sdxl_lora_f16.ckpt",
+        "size": 352055296
+    },
+    {
+        "file": "in_context__visual_identity_design_lora_f16.ckpt",
+        "size": 202620928
+    },
+    {
+        "file": "hidream_e1_full_lora_f16.ckpt",
+        "size": 260227072
+    },
+    {
+        "file": "hyper_sd3_16_step_cfg_lora_f16.ckpt",
+        "size": 283283456
+    },
+    {
+        "file": "flux_1_canny_dev_lora_f16.ckpt",
+        "size": 1629523968
+    },
+    {
+        "file": "hyper_flux.1__dev__8_step_lora_f16.ckpt",
+        "size": 815067136
+    },
+    {
+        "file": "flux_1_transparent_vae_decoder_f16.ckpt",
+        "size": 208580608
+    },
+    {
+        "file": "layer_flux_1_transparent_lora_f16.ckpt",
+        "size": 1616023552
+    },
+    {
+        "file": "in_context__portrait_photography_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "hyper_flux.1__dev__16_step_lora_f16.ckpt",
+        "size": 815050752
+    },
+    {
+        "file": "hyper_sd_v1.x_1_step_lora_f16.ckpt",
+        "size": 136507392
+    },
+    {
+        "file": "hyper_sdxl_4_step_lora_f16.ckpt",
+        "size": 405204992
+    },
+    {
+        "file": "icedit_normal_lora_f16.ckpt",
+        "size": 273588224
+    },
+    {
+        "file": "hipoly_3d_model_lora_f16.ckpt",
+        "size": 154550272
+    },
+    {
+        "file": "flux.1_turbo_alpha_lora_f16.ckpt",
+        "size": 815071232
+    },
+    {
+        "file": "epi_noiseoffset_v2_lora_f16.ckpt",
+        "size": 84054016
+    },
+    {
+        "file": "cyberpunk_2007_concept_art_nightcity_v1.15_lora_f16.ckpt",
+        "size": 154550272
+    },
+    {
+        "file": "in_context__film_storyboard_lora_f16.ckpt",
+        "size": 202620928
+    },
+    {
+        "file": "mascular_slider_lora_f16.ckpt",
+        "size": 9732096
+    },
+    {
+        "file": "adams_artwork_style_v0.1_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "moxin_v1.0_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "openjourney_v1_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "anime_lineart_style_v2.0_lora_f16.ckpt",
+        "size": 15257600
+    },
+    {
+        "file": "age_slider_lora_f16.ckpt",
+        "size": 9732096
+    },
+    {
+        "file": "in_context__font_design_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "antiblur_v1.0__dev__lora_f16.ckpt",
+        "size": 808058880
+    },
+    {
+        "file": "hyper_sd_v1.x_4_step_lora_f16.ckpt",
+        "size": 136503296
+    },
+    {
+        "file": "long_hair_slider_lora_f16.ckpt",
+        "size": 9719808
+    },
+    {
+        "file": "moxin_shukezouma_v1.1_lora_f16.ckpt",
+        "size": 154558464
+    },
+    {
+        "file": "hyper_sdxl_2_step_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "amateur_photography_v3.5__dev__lora_f16.ckpt",
+        "size": 404430848
+    },
+    {
+        "file": "sdxl_lightning_2_step_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "flux.1__dev__to__schnell__4_step_lora_f16.ckpt",
+        "size": 202620928
+    },
+    {
+        "file": "in_context__couple_profile_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "object_removal_for_flux.1_fill_v2_lora_f16.ckpt",
+        "size": 90046464
+    },
+    {
+        "file": "weight_slider_lora_f16.ckpt",
+        "size": 9736192
+    },
+    {
+        "file": "analog_diffusion_v1_lora_f16.ckpt",
+        "size": 362389504
+    },
+    {
+        "file": "flux_1_depth_dev_lora_f16.ckpt",
+        "size": 1629528064
+    },
+    {
+        "file": "boring_reality_v2_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "sdxl_lightning_8_step_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "flash_sd3_lora_f16.ckpt",
+        "size": 222457856
+    },
+    {
+        "file": "hyper_sd3_8_step_cfg_lora_f16.ckpt",
+        "size": 283283456
+    },
+    {
+        "file": "ace____portrait_lora_f16.ckpt",
+        "size": 808042496
+    },
+    {
+        "file": "lcm_ssd_1b_lora_f16.ckpt",
+        "size": 215298048
+    },
+    {
+        "file": "sdxl_lightning_4_step_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "wan_2.1_1.3b_cfg_distill_lora_f16.ckpt",
+        "size": 94646272
+    },
+    {
+        "file": "hyper_sd3_4_step_cfg_lora_f16.ckpt",
+        "size": 283287552
+    },
+    {
+        "file": "in_context__portrait_illustration_lora_f16.ckpt",
+        "size": 202625024
+    },
+    {
+        "file": "ccxl_mucha_art_style_lora_f16.ckpt",
+        "size": 352055296
+    },
+    {
+        "file": "arcane_style_lora_f16.ckpt",
+        "size": 308871168
+    },
+    {
+        "file": "surprised_look_slider_lora_f16.ckpt",
+        "size": 9732096
+    },
+    {
+        "file": "dmd2_sdxl_4_step_lora_f16.ckpt",
+        "size": 405213184
+    },
+    {
+        "file": "hyper_sdxl_8_step_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "to8s_high_key_lora_f16.ckpt",
+        "size": 121188352
+    },
+    {
+        "file": "sd3_medium_3.5_turbo_4_step_lora_f16.ckpt",
+        "size": 145301504
+    },
+    {
+        "file": "smiling_slider_lora_f16.ckpt",
+        "size": 9732096
+    },
+    {
+        "file": "pcm_sd3_4_step_lora_f16.ckpt",
+        "size": 127209472
+    },
+    {
+        "file": "add_more_details__detail_enhancer___tweaker__lora_f16.ckpt",
+        "size": 10010624
+    },
+    {
+        "file": "in_context__ppt_templates_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "hyper_sd_v1.x_8_step_lora_f16.ckpt",
+        "size": 136499200
+    },
+    {
+        "file": "ghibli_cartoon_art_lora_f16.ckpt",
+        "size": 808046592
+    },
+    {
+        "file": "360_degree__dev__lora_f16.ckpt",
+        "size": 1615904768
+    },
+    {
+        "file": "haute_couture_or_gowns_v1.0_lora_f16.ckpt",
+        "size": 154558464
+    },
+    {
+        "file": "theovercomer8s_contrast_fix_lora_f16.ckpt",
+        "size": 121196544
+    },
+    {
+        "file": "sdxl_render_v2.0_lora_f16.ckpt",
+        "size": 184590336
+    },
+    {
+        "file": "to8s_high_key_sd_v2.x_lora_f16.ckpt",
+        "size": 174321664
+    },
+    {
+        "file": "ace____local_editing_lora_f16.ckpt",
+        "size": 202620928
+    },
+    {
+        "file": "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt",
+        "size": 174321664
+    },
+    {
+        "file": "crazy_expressions_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "ace____subject_lora_f16.ckpt",
+        "size": 202620928
+    },
+    {
+        "file": "sd3_medium_3.5_turbo_8_step_lora_f16.ckpt",
+        "size": 145199104
+    },
+    {
+        "file": "pixel_art_xl_v1.1_lora_f16.ckpt",
+        "size": 176443392
+    },
+    {
+        "file": "hyper_sd_v1.x_2_step_lora_f16.ckpt",
+        "size": 136503296
+    },
+    {
+        "file": "fix_hands_slider_lora_f16.ckpt",
+        "size": 9723904
+    },
+    {
+        "file": "hyper_sdxl_1_step_lora_f16.ckpt",
+        "size": 405200896
+    },
+    {
+        "file": "in_context__home_decoration_lora_f16.ckpt",
+        "size": 202616832
+    },
+    {
+        "file": "bad_prompt_v2_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "actionhelper_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "negativexl_ti_f16.ckpt",
+        "size": 77824
+    },
+    {
+        "file": "parchart_ti_f16.ckpt",
+        "size": 32768
+    },
+    {
+        "file": "charturner_ti_f16.ckpt",
+        "size": 16384
+    },
+    {
+        "file": "birb_style_ti_f16.ckpt",
+        "size": 12288
+    },
+    {
+        "file": "cinemahelper_ti_f16.ckpt",
+        "size": 32768
+    },
+    {
+        "file": "pure_eros_ti_f16.ckpt",
+        "size": 12288
+    },
+    {
+        "file": "charturner_v2_ti_f16.ckpt",
+        "size": 32768
+    },
+    {
+        "file": "sd2_papercut_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "classipeint_ti_f16.ckpt",
+        "size": 40960
+    },
+    {
+        "file": "drd_point_e_768_v_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "v2_dreamink_ti_f16.ckpt",
+        "size": 20480
+    },
+    {
+        "file": "vintagehelper_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "fast_negative_ti_f16.ckpt",
+        "size": 114688
+    },
+    {
+        "file": "double_exposure_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "laxpeint_v2_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "animescreencap_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "cloudport_v1.0_ti_f16.ckpt",
+        "size": 16384
+    },
+    {
+        "file": "photohelper_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "unaestheticxl_alb2_ti_f16.ckpt",
+        "size": 65536
+    },
+    {
+        "file": "easynegative_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "carhelper_ti_f16.ckpt",
+        "size": 20480
+    },
+    {
+        "file": "knollingcase_v4_kc16_5000_ti_f16.ckpt",
+        "size": 45056
+    },
+    {
+        "file": "controlnet_jasper_ai_upscaler_flux_1_dev_1.0_f16.ckpt",
+        "size": 3417108480
+    },
+    {
+        "file": "controlnet_depth_kwai_kolors_1.0_f16.ckpt",
+        "size": 2529349632
+    },
+    {
+        "file": "controlnet_depth_kwai_kolors_1.0_q6p_q8p.ckpt",
+        "size": 1024159744
+    },
+    {
+        "file": "ootd_garm_upper_body_1.0_f16.ckpt",
+        "size": 1716334592
+    },
+    {
+        "file": "ip_adapter_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+        "size": 1014210560
+    },
+    {
+        "file": "clip_vit_l14_336_vision_model_f16.ckpt",
+        "size": 608284672
+    },
+    {
+        "file": "controlnet_pose_kwai_kolors_1.0_f16.ckpt",
+        "size": 2529341440
+    },
+    {
+        "file": "controlnet_pose_kwai_kolors_1.0_q6p_q8p.ckpt",
+        "size": 1024159744
+    },
+    {
+        "file": "controlnet_union_pro_flux_1_dev_1.0_q8p.ckpt",
+        "size": 3590230016
+    },
+    {
+        "file": "controlnet_union_pro_flux_1_dev_1.0_q5p.ckpt",
+        "size": 2810982400
+    },
+    {
+        "file": "pulid_0.9_eva02_clip_l14_336_f16.ckpt",
+        "size": 1143619584
+    },
+    {
+        "file": "eva02_clip_l14_336_f16.ckpt",
+        "size": 610250752
+    },
+    {
+        "file": "arcface_f16.ckpt",
+        "size": 138993664
+    },
+    {
+        "file": "controlnet_union_pro_flux_1_dev_2.0_q8p.ckpt",
+        "size": 2221400064
+    },
+    {
+        "file": "controlnet_union_pro_flux_1_dev_2.0_q5p.ckpt",
+        "size": 1783078912
+    },
+    {
+        "file": "ootd_garm_full_body_1.0_f16.ckpt",
+        "size": 1716346880
+    },
+    {
+        "file": "pulid_0.9.1_eva02_clip_l14_336_f16.ckpt",
+        "size": 1143619584
+    },
+    {
+        "file": "eva02_clip_l14_336_f16.ckpt",
+        "size": 610250752
+    },
+    {
+        "file": "arcface_f16.ckpt",
+        "size": 138993664
+    },
+    {
+        "file": "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_q8p.ckpt",
+        "size": 1578790912
+    },
+    {
+        "file": "ip_adapter_faceid_plus_kwai_kolors_1.0_clip_l14_336_f16.ckpt",
+        "size": 2405056512
+    },
+    {
+        "file": "clip_vit_l14_336_vision_model_f16.ckpt",
+        "size": 608284672
+    },
+    {
+        "file": "arcface_f16.ckpt",
+        "size": 138993664
+    },
+    {
+        "file": "siglip_so400m_384_f16.ckpt",
+        "size": 827408384
+    },
+    {
+        "file": "flux_1_redux_f16.ckpt",
+        "size": 129150976
+    },
+    {
+        "file": "clip_vit_l14_336_vision_model_f16.ckpt",
+        "size": 608284672
+    },
+    {
+        "file": "llava_llama_3_8b_v1.1_multi_modal_projector_f16.ckpt",
+        "size": 42012672
+    },
+    {
+        "file": "controlnet_canny_kwai_kolors_1.0_f16.ckpt",
+        "size": 2529357824
+    },
+    {
+        "file": "controlnet_canny_kwai_kolors_1.0_q6p_q8p.ckpt",
+        "size": 1024159744
+    },
+    {
+        "file": "controlnet_xinsir_union_promax_sdxl_1.0_f16.ckpt",
+        "size": 2516549632
+    },
+    {
+        "file": "controlnet_alimama_inpaint_flux_1_dev_beta_q8p.ckpt",
+        "size": 2221432832
+    },
+    {
+        "file": "controlnet_alimama_inpaint_flux_1_dev_beta_q6p.ckpt",
+        "size": 1902637056
+    },
+    {
+        "file": "siglip2_so400m_512_f16.ckpt",
+        "size": 828506112
+    },
+    {
+        "file": "flex_1_redux_siglip2_512_f16.ckpt",
+        "size": 129150976
+    },
+    {
+        "file": "controlnet_canny_1.x_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_canny_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_depth_1.x_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_depth_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_normal_1.x_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_openpose_1.x_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_openpose_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_scribble_1.x_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_scribble_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_canny_2.x_f16.ckpt",
+        "size": 729473024
+    },
+    {
+        "file": "controlnet_depth_2.x_f16.ckpt",
+        "size": 729473024
+    },
+    {
+        "file": "controlnet_openpose_2.x_f16.ckpt",
+        "size": 729473024
+    },
+    {
+        "file": "controlnet_scribble_2.x_f16.ckpt",
+        "size": 729473024
+    },
+    {
+        "file": "t2iadapter_canny_1.x_f16.ckpt",
+        "size": 154189824
+    },
+    {
+        "file": "t2iadapter_depth_1.x_f16.ckpt",
+        "size": 154927104
+    },
+    {
+        "file": "t2iadapter_sketch_1.x_f16.ckpt",
+        "size": 154189824
+    },
+    {
+        "file": "t2iadapter_openpose_1.x_f16.ckpt",
+        "size": 154927104
+    },
+    {
+        "file": "t2iadapter_color_1.x_f16.ckpt",
+        "size": 37449728
+    },
+    {
+        "file": "controlnet_lineart_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_lineart_anime_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_softedge_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_normalbae_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_seg_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_mlsd_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_inpaint_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_ip2p_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_shuffle_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_tile_1.x_v1.1_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "controlnet_qr_code_monster_1.x_v2.0_f16.ckpt",
+        "size": 723558400
+    },
+    {
+        "file": "open_clip_vit_h14_vision_model_f16.ckpt",
+        "size": 1263398912
+    },
+    {
+        "file": "ip_adapter_plus_xl_base_open_clip_h14_f16.ckpt",
+        "size": 848461824
+    },
+    {
+        "file": "ip_adapter_plus_face_sd_v1.x_open_clip_h14_f16.ckpt",
+        "size": 98312192
+    },
+    {
+        "file": "ip_adapter_plus_sd_v1.x_open_clip_h14_f16.ckpt",
+        "size": 98312192
+    },
+    {
+        "file": "ip_adapter_plus_face_xl_base_open_clip_h14_f16.ckpt",
+        "size": 848461824
+    },
+    {
+        "file": "ip_adapter_full_face_sd_v1.x_open_clip_h14_f16.ckpt",
+        "size": 43655168
+    },
+    {
+        "file": "controlnet_canny_sdxl_v1.0_mid_f16.ckpt",
+        "size": 542621696
+    },
+    {
+        "file": "controlnet_depth_sdxl_v1.0_mid_f16.ckpt",
+        "size": 542597120
+    },
+    {
+        "file": "restoreformer_v1.0_f16.ckpt",
+        "size": 145604608
+    },
+    {
+        "file": "parsenet_v1.0_f16.ckpt",
+        "size": 42659840
+    },
+    {
+        "file": "dis_v1.0_f16.ckpt",
+        "size": 90996736
+    },
+    {
+        "file": "depth_anything_v1.0_f16.ckpt",
+        "size": 59633664
+    },
+    {
+        "file": "dino_v2_f16.ckpt",
+        "size": 610099200
+    },
+    {
+        "file": "is_net_v1.1_fp16.ckpt",
+        "size": 90742784
+    },
+    {
+        "file": "film_1.0_f16.ckpt",
+        "size": 114733056
+    },
+    {
+        "file": "clip_vit_l14_vision_model_f16.ckpt",
+        "size": 610385920
+    },
+    {
+        "file": "clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "depth_anything_v2.0_f16.ckpt",
+        "size": 669720576
+    },
+    {
+        "file": "schp_atr_fp16.ckpt",
+        "size": 133574656
+    },
+    {
+        "file": "schp_lip_fp16.ckpt",
+        "size": 133578752
+    },
+    {
+        "file": "blip2_eva_vit_q8p.ckpt",
+        "size": 1019551744
+    },
+    {
+        "file": "blip2_qformer_f16.ckpt",
+        "size": 214667264
+    },
+    {
+        "file": "opt_2.7b_q6p.ckpt",
+        "size": 2335154176
+    },
+    {
+        "file": "siglip_384_q8p.ckpt",
+        "size": 427065344
+    },
+    {
+        "file": "moondream1_q6p.ckpt",
+        "size": 1245224960
+    },
+    {
+        "file": "moondream2_q6p.ckpt",
+        "size": 1258229760
+    },
+    {
+        "file": "siglip_384_240520_q8p.ckpt",
+        "size": 427601920
+    },
+    {
+        "file": "moondream2_240520_q6p.ckpt",
+        "size": 1265614848
+    },
+    {
+        "file": "carhelper_ti_f16.ckpt",
+        "size": 20480
+    },
+    {
+        "file": "charturner_ti_f16.ckpt",
+        "size": 16384
+    },
+    {
+        "file": "cloudport_v1.0_ti_f16.ckpt",
+        "size": 16384
+    },
+    {
+        "file": "double_exposure_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "drd_point_e_768_v_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "pure_eros_ti_f16.ckpt",
+        "size": 12288
+    },
+    {
+        "file": "sd2_papercut_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "birb_style_ti_f16.ckpt",
+        "size": 12288
+    },
+    {
+        "file": "knollingcase_v4_kc16_5000_ti_f16.ckpt",
+        "size": 45056
+    },
+    {
+        "file": "laxpeint_v2_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "classipeint_ti_f16.ckpt",
+        "size": 40960
+    },
+    {
+        "file": "parchart_ti_f16.ckpt",
+        "size": 32768
+    },
+    {
+        "file": "cinemahelper_ti_f16.ckpt",
+        "size": 32768
+    },
+    {
+        "file": "animescreencap_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "v2_dreamink_ti_f16.ckpt",
+        "size": 20480
+    },
+    {
+        "file": "photohelper_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "vintagehelper_ti_f16.ckpt",
+        "size": 28672
+    },
+    {
+        "file": "actionhelper_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "bad_prompt_v2_ti_f16.ckpt",
+        "size": 24576
+    },
+    {
+        "file": "realesrgan_x2plus_f16.ckpt",
+        "size": 33710080
+    },
+    {
+        "file": "realesrgan_x4plus_f16.ckpt",
+        "size": 33697792
+    },
+    {
+        "file": "realesrgan_x4plus_anime_6b_f16.ckpt",
+        "size": 9027584
+    },
+    {
+        "file": "esrgan_4x_universal_upscaler_v2_sharp_f16.ckpt",
+        "size": 33697792
+    },
+    {
+        "file": "remacri_4x_f16.ckpt",
+        "size": 33697792
+    },
+    {
+        "file": "4x_ultrasharp_f16.ckpt",
+        "size": 33697792
+    },
+    {
+        "file": "open_clip_vit_h14_f16.ckpt",
+        "size": 682082304
+    },
+    {
+        "file": "sd_v1.4_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "vae_ft_mse_840000_f16.ckpt",
+        "size": 167538688
+    },
+    {
+        "file": "sd_v1.5_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "sd_v1.5_inpainting_f16.ckpt",
+        "size": 1721294848
+    },
+    {
+        "file": "sd_v2.0_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "sd_v2.1_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "sd_v2.0_inpainting_f16.ckpt",
+        "size": 1734107136
+    },
+    {
+        "file": "sd_v2.0_depth_f16.ckpt",
+        "size": 1734082560
+    },
+    {
+        "file": "sd_v2.0_768_v_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "sd_v2.1_768_v_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "minisd_v1.4_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "wd_v1.3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "classicanim_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "modi_v1_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "arcane_v3_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "cyberpunk_anime_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "redshift_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "redshift_768_v_f16.ckpt",
+        "size": 1734078464
+    },
+    {
+        "file": "redshift_768_v_open_clip_vit_h14_f16.ckpt",
+        "size": 682082304
+    },
+    {
+        "file": "dnd_30000_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "trnlgcy_f16.ckpt",
+        "size": 1721274368
+    },
+    {
+        "file": "classicanim_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "modi_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "arcane_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "cyberpunk_anime_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "redshift_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dnd_30000_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "trnlgcy_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "mdjrny_v4_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "mdjrny_v4_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "nitro_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "nitro_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "anything_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "anything_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "anything_v3_vae_f16.ckpt",
+        "size": 167538688
+    },
+    {
+        "file": "hassanblend_v1.4_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "lvngvncnt_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "lvngvncnt_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "spiderverse_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "spiderverse_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "eldenring_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "eldenring_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "papercut_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "papercut_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "voxelart_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "voxelart_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "balloonart_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "balloonart_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "f222_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "supermarionation_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "supermarionation_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "inkpunk_v2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "inkpunk_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "samdoesart_v3_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "samdoesart_v3_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "ghibli_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "ghibli_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "analog_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "analog_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dnd_classes_and_species_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "dnd_classes_and_species_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "aloeveras_simpmaker_3k1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hna_3dkx_1.0b_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hna_3dkx_1.0b_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "seek_art_mega_v1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "seek_art_mega_v1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "instruct_pix2pix_22000_f16.ckpt",
+        "size": 1721286656
+    },
+    {
+        "file": "hassanblend_v1.5.1.2_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hassanblend_v1.5.1.2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "hna_3dkx_1.1_f16.ckpt",
+        "size": 1721266176
+    },
+    {
+        "file": "hna_3dkx_1.1_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "kandinsky_f16.ckpt",
+        "size": 2460397568
+    },
+    {
+        "file": "kandinsky_diffusion_mapping_f16.ckpt",
+        "size": 2047447040
+    },
+    {
+        "file": "kandinsky_movq_f16.ckpt",
+        "size": 135798784
+    },
+    {
+        "file": "xlm_roberta_f16.ckpt",
+        "size": 1121021952
+    },
+    {
+        "file": "image_vit_l14_f16.ckpt",
+        "size": 609202176
+    },
+    {
+        "file": "deliberate_v2_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "deliberate_v2_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "disney_pixar_cartoon_type_b_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "disney_pixar_cartoon_type_b_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "realistic_vision_v3.0_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "realistic_vision_v3.0_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "dreamshaper_v6.31_q6p_q8p.ckpt",
+        "size": 820318208
+    },
+    {
+        "file": "dreamshaper_v6.31_clip_vit_l14_f16.ckpt",
+        "size": 246517760
+    },
+    {
+        "file": "open_clip_vit_bigg14_f16.ckpt",
+        "size": 1391304704
+    },
+    {
+        "file": "sd_xl_base_0.9_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "sd_xl_refiner_0.9_f16.ckpt",
+        "size": 4524371968
+    },
+    {
+        "file": "sdxl_vae_f16.ckpt",
+        "size": 167534592
+    },
+    {
+        "file": "sdxl_vae_v1.0_f16.ckpt",
+        "size": 167534592
+    },
+    {
+        "file": "sd_xl_base_1.0_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "sd_xl_refiner_1.0_f16.ckpt",
+        "size": 4524371968
+    },
+    {
+        "file": "sd_xl_base_1.0_q6p_q8p.ckpt",
+        "size": 2099683328
+    },
+    {
+        "file": "sd_xl_refiner_1.0_q6p_q8p.ckpt",
+        "size": 1980473344
+    },
+    {
+        "file": "ssd_1b_f16.ckpt",
+        "size": 2666225664
+    },
+    {
+        "file": "ssd_1b_q6p_q8p.ckpt",
+        "size": 1123565568
+    },
+    {
+        "file": "lcm_sd_xl_base_1.0_f16.ckpt",
+        "size": 5141909504
+    },
+    {
+        "file": "lcm_sd_xl_base_1.0_q6p_q8p.ckpt",
+        "size": 2099748864
+    },
+    {
+        "file": "lcm_ssd_1b_f16.ckpt",
+        "size": 2666389504
+    },
+    {
+        "file": "lcm_ssd_1b_q6p_q8p.ckpt",
+        "size": 1123631104
+    },
+    {
+        "file": "sd_xl_turbo_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "sd_xl_turbo_q6p_q8p.ckpt",
+        "size": 2099687424
+    },
+    {
+        "file": "svd_i2v_1.0_f16.ckpt",
+        "size": 2955182080
+    },
+    {
+        "file": "svd_i2v_1.0_q6p_q8p.ckpt",
+        "size": 1334681600
+    },
+    {
+        "file": "svd_i2v_xt_1.0_f16.ckpt",
+        "size": 2955182080
+    },
+    {
+        "file": "svd_i2v_xt_1.0_q6p_q8p.ckpt",
+        "size": 1334681600
+    },
+    {
+        "file": "fooocus_inpaint_sd_xl_v2.6_f16.ckpt",
+        "size": 5141716992
+    },
+    {
+        "file": "fooocus_inpaint_sd_xl_v2.6_q6p_q8p.ckpt",
+        "size": 2099703808
+    },
+    {
+        "file": "svd_i2v_xt_1.1_f16.ckpt",
+        "size": 2955182080
+    },
+    {
+        "file": "svd_i2v_xt_1.1_q6p_q8p.ckpt",
+        "size": 1525776384
+    },
+    {
+        "file": "wurstchen_3.0_stage_a_hq_f16.ckpt",
+        "size": 36880384
+    },
+    {
+        "file": "wurstchen_3.0_stage_b_q6p_q8p.ckpt",
+        "size": 1469530112
+    },
+    {
+        "file": "wurstchen_3.0_stage_c_f32_q6p_q8p.ckpt",
+        "size": 3402522624
+    },
+    {
+        "file": "wurstchen_3.0_stage_b_f16.ckpt",
+        "size": 3130765312
+    },
+    {
+        "file": "wurstchen_3.0_stage_c_f32_f16.ckpt",
+        "size": 7234457600
+    },
+    {
+        "file": "playground_v2.5_f16.ckpt",
+        "size": 5141745664
+    },
+    {
+        "file": "playground_v2.5_q6p_q8p.ckpt",
+        "size": 2099666944
+    },
+    {
+        "file": "open_clip_vit_h14_visual_proj_f16.ckpt",
+        "size": 2633728
+    },
+    {
+        "file": "wurstchen_3.0_stage_c_effnet_previewer_f32_f16.ckpt",
+        "size": 48451584
+    },
+    {
+        "file": "t5_xxl_encoder_q6p.ckpt",
+        "size": 3884990464
+    },
+    {
+        "file": "sd3_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "sd3_medium_q8p.ckpt",
+        "size": 2877284352
+    },
+    {
+        "file": "sd3_medium_f16.ckpt",
+        "size": 4174532608
+    },
+    {
+        "file": "pixart_sigma_xl_2_1024_ms_f16.ckpt",
+        "size": 1224155136
+    },
+    {
+        "file": "pixart_sigma_xl_2_1024_ms_q8p.ckpt",
+        "size": 646778880
+    },
+    {
+        "file": "pile_t5_xl_encoder_q8p.ckpt",
+        "size": 1327181824
+    },
+    {
+        "file": "auraflow_v0.1_q8p.ckpt",
+        "size": 7092285440
+    },
+    {
+        "file": "auraflow_v0.1_f16.ckpt",
+        "size": 13700063232
+    },
+    {
+        "file": "auraflow_v0.1_q5p.ckpt",
+        "size": 5533794304
+    },
+    {
+        "file": "auraflow_v0.2_q8p.ckpt",
+        "size": 7092285440
+    },
+    {
+        "file": "auraflow_v0.2_f16.ckpt",
+        "size": 13700063232
+    },
+    {
+        "file": "auraflow_v0.2_q5p.ckpt",
+        "size": 5533794304
+    },
+    {
+        "file": "flux_1_vae_f16.ckpt",
+        "size": 167870464
+    },
+    {
+        "file": "flux_1_schnell_q8p.ckpt",
+        "size": 12310405120
+    },
+    {
+        "file": "flux_1_schnell_f16.ckpt",
+        "size": 23808503808
+    },
+    {
+        "file": "flux_1_schnell_q5p.ckpt",
+        "size": 9349296128
+    },
+    {
+        "file": "openjourney_v1_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "moxin_v1.0_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "moxin_shukezouma_v1.1_lora_f16.ckpt",
+        "size": 154558464
+    },
+    {
+        "file": "adams_artwork_style_v0.1_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "cyberpunk_2007_concept_art_nightcity_v1.15_lora_f16.ckpt",
+        "size": 154550272
+    },
+    {
+        "file": "analog_diffusion_v1_lora_f16.ckpt",
+        "size": 362389504
+    },
+    {
+        "file": "epi_noiseoffset_v2_lora_f16.ckpt",
+        "size": 84054016
+    },
+    {
+        "file": "theovercomer8s_contrast_fix_lora_f16.ckpt",
+        "size": 121196544
+    },
+    {
+        "file": "anime_lineart_style_v2.0_lora_f16.ckpt",
+        "size": 15257600
+    },
+    {
+        "file": "to8s_high_key_lora_f16.ckpt",
+        "size": 121188352
+    },
+    {
+        "file": "arcane_style_lora_f16.ckpt",
+        "size": 308871168
+    },
+    {
+        "file": "crazy_expressions_lora_f16.ckpt",
+        "size": 154554368
+    },
+    {
+        "file": "hipoly_3d_model_lora_f16.ckpt",
+        "size": 154550272
+    },
+    {
+        "file": "haute_couture_or_gowns_v1.0_lora_f16.ckpt",
+        "size": 154558464
+    },
+    {
+        "file": "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt",
+        "size": 174321664
+    },
+    {
+        "file": "to8s_high_key_sd_v2.x_lora_f16.ckpt",
+        "size": 174321664
+    },
+    {
+        "file": "lcm_sd_v1.5_lora_f16.ckpt",
+        "size": 136499200
+    },
+    {
+        "file": "lcm_sd_xl_base_1.0_lora_f16.ckpt",
+        "size": 405204992
+    },
+    {
+        "file": "lcm_ssd_1b_lora_f16.ckpt",
+        "size": 215298048
+    },
+    {
+        "file": "sdxl_offset_v1.0_lora_f16.ckpt",
+        "size": 51707904
+    },
+    {
+        "file": "fooocus_inpaint_v2.6_lora_f16.ckpt",
+        "size": 2636050432
+    },
+    {
+        "file": "fooocus_inpaint_v2.6_lora_q8p.ckpt",
+        "size": 1359818752
+    },
+    {
+        "file": "tcd_sd_v1.5_lora_f16.ckpt",
+        "size": 136503296
+    },
+    {
+        "file": "tcd_sd_xl_base_1.0_lora_f16.ckpt",
+        "size": 405209088
+    },
+    {
+        "file": "transparent_vae_decoder_v1.0_f16.ckpt",
+        "size": 208584704
+    },
+    {
+        "file": "layer_xl_transparent_attn_v1.0_lora_f16.ckpt",
+        "size": 744173568
+    },
+    {
+        "file": "layer_xl_fg2ble_v1.0_lora_f16.ckpt",
+        "size": 704851968
+    }
+]
