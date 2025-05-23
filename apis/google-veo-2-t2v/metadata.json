@@ -3,7 +3,7 @@
   "upcast_attention" : false,
   "file" : "veo-v2-t2v",
   "default_scale" : 16,
-  "name" : "Google Veo V2.0 t2v",
+  "name" : "Google Veo v2.0 T2V",
   "prefix" : "",
   "remote_api_model_config" : {
     "pending_statuses" : [

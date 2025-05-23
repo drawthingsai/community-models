@@ -4,7 +4,7 @@
     "default_scale" : 16,
     "upcast_attention" : false,
     "version" : "wan_v2.1_14b",
-    "name" : "Google Veo V2.0 i2v",
+    "name" : "Google Veo v2.0 I2V",
     "remote_api_model_config" : {
       "polling_interval" : 30,
       "remote_api_model_config_mapping" : {
