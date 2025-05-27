@@ -5,11 +5,14 @@
   "name": "Wan 2.1 14B CausVid T2V",
   "prefix": "",
   "is_lo_ha": false,
-  "version" : "wan_v2.1_14b",
+  "version": "wan_v2.1_14b",
   "file": "wan_2.1_14b_causvid_t2v_lora_f16.ckpt",
   "weight": {
     "value": 1.0,
     "lower_bound": -1.5,
     "upper_bound": 2.5
+  },
+  "converted": {
+    "wan_2.1_14b_causvid_t2v_lora_f16.ckpt": "b70f6928b2c61d8e8dc6d9c9b05e44f793892a85306724734fae4141a6a40d0f"
   }
 }
