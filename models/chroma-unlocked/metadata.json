@@ -1,0 +1,23 @@
+{
+  "name" : "Chroma Unlocked",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "chroma_unlocked_qp8.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "padded_text_encoding_length": 512,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "tea_cache_coefficients": [4.98651651e+02, -2.83781631e+02,  5.58554382e+01, -3.82021401e+00, 2.64230861e-01],
+  "converted": {
+    "chroma_unlocked_qp8.ckpt": "needspopulating"
+  }
+}
