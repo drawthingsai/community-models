@@ -32,7 +32,7 @@ kwai-kolors-inpainting-1.0
 flux-1-depth-dev
 flux-1-canny-dev
 flux-1-dev-de-distill
-chroma-unlocked.ckpt
+chroma-unlocked
 stable-cascade
 sd3-medium
 svd-xt-v1.1
