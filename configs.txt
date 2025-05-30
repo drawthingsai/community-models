@@ -1,5 +1,7 @@
+hidream-i1-fast
+hidream-i1-dev
+hidream-i1-full
 flux-1-schnell
-flux-1-schnell-phone
 flux-1-dev
 flux-1-fill-dev
 hunyuan-video-t2v-720p

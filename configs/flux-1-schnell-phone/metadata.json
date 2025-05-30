@@ -24,6 +24,7 @@
     "speedUpWithGuidanceEmbed" : true,
     "steps" : 2,
     "strength" : 1,
+    "teaCache" : false,
     "t5TextEncoder" : true,
     "tiledDecoding" : false,
     "tiledDiffusion" : false,

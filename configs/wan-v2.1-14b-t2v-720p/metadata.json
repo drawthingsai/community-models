@@ -1,6 +1,8 @@
 {
   "configuration" : {
-    "batchCount":1,"seedMode":2,"height":448,"sampler":10,"strength":1,"sharpness":0,"tiledDecoding":false,"batchSize":1,"tiledDiffusion":false,"guidanceScale":5,"loras":[],"controls":[],"clipSkip":1,"maskBlur":1.5,"shift":5,"preserveOriginalAfterInpaint":true,"width":832,"model":"wan_v2.1_14b_720p_q6p_svd.ckpt","steps":30,"numFrames":81,"upscalerScaleFactor":0,"maskBlurOutset":0,"hiresFix":false
+    "batchCount":1,"seedMode":2,"height":448,"sampler":10,"strength":1,"sharpness":0,"tiledDecoding":false,"batchSize":1,"tiledDiffusion":false,"guidanceScale":5,"loras":[],"controls":[],"clipSkip":1,"maskBlur":1.5,"shift":5,"preserveOriginalAfterInpaint":true,"width":832,"model":"wan_v2.1_14b_720p_q6p_svd.ckpt","steps":30,"numFrames":81,"upscalerScaleFactor":0,"maskBlurOutset":0,"hiresFix":false,
+    "teaCache" : false,
+    "causalInference": 0
   },
   "name" : "Wan v2.1 T2V 14B 720p",
   "version" : "wan_v2.1_14b",
