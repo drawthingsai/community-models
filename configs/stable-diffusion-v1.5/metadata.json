@@ -1,31 +1,29 @@
 {
-  "configuration" : {
-    "batchCount" : 1,
-    "batchSize" : 1,
-    "clipSkip" : 1,
-    "controls" : [
-      ],
-    "guidanceScale" : 5,
-    "height" : 512,
-    "hiresFix" : false,
-    "loras" : [
-      ],
-    "maskBlur" : 2.5,
-    "maskBlurOutset" : 0,
-    "model" : "sd_v1.5_f16.ckpt",
-    "resolutionDependentShift" : false,
-    "sampler" : 12,
-    "seedMode" : 2,
-    "sharpness" : 0,
-    "shift" : 1,
-    "steps" : 16,
-    "strength" : 1,
-    "teaCache" : false,
-    "tiledDecoding" : false,
-    "tiledDiffusion" : false,
-    "upscalerScaleFactor" : 0,
-    "width" : 512
+  "configuration": {
+    "batchCount": 1,
+    "batchSize": 1,
+    "clipSkip": 1,
+    "controls": [],
+    "guidanceScale": 5,
+    "height": 512,
+    "hiresFix": false,
+    "loras": [],
+    "maskBlur": 2.5,
+    "maskBlurOutset": 0,
+    "model": "sd_v1.5_f16.ckpt",
+    "resolutionDependentShift": false,
+    "sampler": 12,
+    "seedMode": 2,
+    "sharpness": 0,
+    "shift": 1,
+    "steps": 16,
+    "strength": 1,
+    "teaCache": false,
+    "tiledDecoding": false,
+    "tiledDiffusion": false,
+    "upscalerScaleFactor": 0,
+    "width": 512
   },
-  "name" : "Stable Diffusion v1.5",
-  "version" : "v1"
+  "name": "Stable Diffusion v1.5",
+  "version": "v1"
 }
