@@ -9,5 +9,7 @@ wan-v2.1-1.3b-t2v-480p
 wan-v2.1-14b-t2v-720p
 wan-v2.1-14b-i2v-480p
 wan-v2.1-14b-i2v-720p
+stable-diffusion-v1.5
+sdxl-v1.0
 skyreels-v1-hunyuan-t2v-544p
 skyreels-v1-hunyuan-i2v-544p

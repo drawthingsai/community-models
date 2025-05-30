@@ -1,0 +1,41 @@
+{
+  "configuration" : {
+    "batchCount" : 1,
+    "batchSize" : 1,
+    "clipSkip" : 2,
+    "controls" : [
+      ],
+    "guidanceScale" : 5,
+    "height" : 1024,
+    "hiresFix" : false,
+    "loras" : [
+      ],
+    "maskBlur" : 2.5,
+    "maskBlurOutset" : 0,
+    "model" : "sd_xl_base_1.0_f16.ckpt",
+    "resolutionDependentShift" : false,
+    "sampler" : 12,
+    "seedMode" : 2,
+    "sharpness" : 0,
+    "shift" : 1,
+    "steps" : 16,
+    "strength" : 1,
+    "teaCache" : false,
+    "tiledDecoding" : false,
+    "tiledDiffusion" : false,
+    "upscalerScaleFactor" : 0,
+    "width" : 1024,
+    "aestheticScore" : 6.5,
+    "targetImageWidth" : 1024,
+    "cropLeft":0,
+    "negativeOriginalImageHeight" : 512,
+    "targetImageHeight" : 1024,
+    "originalImageHeight" : 1024,
+    "negativeAestheticScore" : 0,
+    "originalImageWidth" : 1024,
+    "zeroNegativePrompt" : true,
+    "negativeOriginalImageWidth" : 512
+  },
+  "name" : "SDXL v1.0",
+  "version" : "sdxl_base_v0.9"
+}
