@@ -28,7 +28,12 @@
     "tiledDiffusion": false,
     "upscalerScaleFactor": 0,
     "width": 960,
-    "numFrames": 129
+    "numFrames": 129,
+    "teaCacheThreshold": 0.15,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3
   },
-  "name": "Hunyuan Video T2V 720p"
+  "name": "Hunyuan Video T2V 720p",
+  "version": "hunyuan_video"
 }

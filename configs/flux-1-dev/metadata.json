@@ -28,6 +28,10 @@
     "tiledDiffusion": false,
     "upscalerScaleFactor": 0,
     "width": 1024
+    "teaCacheThreshold": 0.3,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3
   },
   "name": "FLUX.1 [dev]",
   "version": "flux1"

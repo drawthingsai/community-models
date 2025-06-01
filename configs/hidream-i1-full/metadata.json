@@ -25,7 +25,11 @@
     "tiledDecoding": false,
     "tiledDiffusion": false,
     "upscalerScaleFactor": 0,
-    "width": 1024
+    "width": 1024,
+    "teaCacheThreshold": 0.25,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3
   },
   "name": "HiDream-I1 [full]",
   "version": "hidream_i1"

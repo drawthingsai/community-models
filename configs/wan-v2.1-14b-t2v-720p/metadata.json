@@ -24,7 +24,11 @@
     "maskBlurOutset": 0,
     "hiresFix": false,
     "teaCache": false,
-    "causalInference": 0
+    "causalInference": 0,
+    "teaCacheThreshold": 0.2,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3
   },
   "name": "Wan v2.1 T2V 14B 720p",
   "version": "wan_v2.1_14b",
