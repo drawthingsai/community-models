@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "text_encoder": "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Smooth_Mix_NoobAI_Illustrious_Pony_Illustrious_v.3_1470541",
+  "file": "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_f16.ckpt",
+  "clip_encoder": "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_clip_vit_l14_f16.ckpt": "aa26206da4d29a0b555ef6845d572c64fc41f8d42c88b3220f21ca92955e5c3d",
+    "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_f16.ckpt": "d8de5d23589f2a3850adaa4a4f80acc3090c067d787a38d79f50aaf4d01668a5",
+    "smooth_mix_noobai_illustrious_pony_illustrious_v.3_1470541_open_clip_vit_bigg14_f16.ckpt": "0f0567df66ca45a8e6ea0de25c001456ac758b117a86d58b822f4ddfbc8d3b70"
+  }
+}

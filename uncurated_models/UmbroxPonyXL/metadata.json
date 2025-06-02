@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "clip_encoder": "umbroxponyxl_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "name": "UmbroxPonyXL",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "file": "umbroxponyxl_f16.ckpt",
+  "text_encoder": "umbroxponyxl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "umbroxponyxl_open_clip_vit_bigg14_f16.ckpt": "4ef4adbd32ee64210a9831e5f7beb5ddeb93a0767cd21505e22dba2f7837f7b5",
+    "umbroxponyxl_f16.ckpt": "03e7e32d95af16a54858f76a7f7aaafab12533a5bb6e2f70ac64a9b6a601abf9",
+    "umbroxponyxl_clip_vit_l14_f16.ckpt": "a6c5064e6fb7702fc6924fc2e1e1682485b5edcc93c69e9a7fb02df620f746ba"
+  }
+}

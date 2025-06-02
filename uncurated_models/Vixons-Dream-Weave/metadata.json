@@ -1,0 +1,17 @@
+{
+  "name": "Vixon_s-Dream-Weave",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "vixon_s_dream_weave_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "vixon_s_dream_weave_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "file": "vixons_dream_weave_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "prefix": "",
+  "converted": {
+    "vixon_s_dream_weave_f16.ckpt": "e26d80771ec75a6124f82c6b71933225e594aec79b39ae220008771b27866541",
+    "vixon_s_dream_weave_clip_vit_l14_f16.ckpt": "18a2d25324dec0da79b0971faeb35e5c31cdba516e61329ecb77c3e872e21267",
+    "vixon_s_dream_weave_open_clip_vit_bigg14_f16.ckpt": "254d8b1d5ea3689c37e6dc1e3dd6ef95a8270e83f822c838b201298ead33af0c"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bismuth-Illustrious-Mix",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "clip_encoder": "bismuth_illustrious_mix_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "file": "bismuth_illustrious_mix_f16.ckpt",
+  "text_encoder": "bismuth_illustrious_mix_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "modifier": "none",
+  "converted": {
+    "bismuth_illustrious_mix_clip_vit_l14_f16.ckpt": "67253ac86b2ca961202955a5a075c1883325b10c1d0e010e1ce2ddca85dea6cb",
+    "bismuth_illustrious_mix_f16.ckpt": "b06b2b6d9e500046da462b9e692af152b2598d416451eb1771391550556e6611",
+    "bismuth_illustrious_mix_open_clip_vit_bigg14_f16.ckpt": "1c11d154ab35f03e6c3f3f50a3279fa1b3991d4d48ef1ad63b0987c0e5ded27e"
+  }
+}

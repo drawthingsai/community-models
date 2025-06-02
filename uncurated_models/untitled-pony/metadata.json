@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "file": "untitled_pony_f16.ckpt",
+  "text_encoder": "untitled_pony_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "name": "untitled-pony",
+  "clip_encoder": "untitled_pony_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "untitled_pony_f16.ckpt": "1f6e0b237b3ad6fa4e2c39a96809d7c56ae09307427348f04bda061193c149d0",
+    "untitled_pony_clip_vit_l14_f16.ckpt": "ba04714b75c7ce8f3fd4176ebc35c6f234e5639f2986a6667f3598c1e18e2adf",
+    "untitled_pony_open_clip_vit_bigg14_f16.ckpt": "bfb85cdbbef63149f439c72b8e5969f2db42a710a8b6a7641b91b2576003973d"
+  }
+}

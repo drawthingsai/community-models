@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "clip_encoder": "koronemix_illustrious_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "file": "koronemix_illustrious_f16.ckpt",
+  "prefix": "",
+  "name": "koronemix-illustrious",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "text_encoder": "koronemix_illustrious_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "koronemix_illustrious_clip_vit_l14_f16.ckpt": "aa7e24ef4758921035ad39dc5493e11fcfae78c43f6bb1cdf515b158515a49d4",
+    "koronemix_illustrious_open_clip_vit_bigg14_f16.ckpt": "f270805be02e9a6c8e05236f0cae3abd808ac2b4b3fc2e728ee85a40c649ba0c",
+    "koronemix_illustrious_f16.ckpt": "88b3d7267a0e258e8b48514808ee05799d59bd90fe934c3821fe2e50fc44e998"
+  }
+}

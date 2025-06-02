@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "name": "Illustrious-Realism-by-klaabu",
+  "modifier": "none",
+  "clip_encoder": "illustrious_realism_by_klaabu_clip_vit_l14_f16.ckpt",
+  "file": "illustrious_realism_by_klaabu_f16.ckpt",
+  "text_encoder": "illustrious_realism_by_klaabu_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "illustrious_realism_by_klaabu_f16.ckpt": "434332600f21158841bb5fd8472a86edf23257364e1ceb6194c5f7b910dc0c93",
+    "illustrious_realism_by_klaabu_clip_vit_l14_f16.ckpt": "d8de49052c2bfff06adb8a3fa3dd5afb34ab0643895ef084cf33907284e7a619",
+    "illustrious_realism_by_klaabu_open_clip_vit_bigg14_f16.ckpt": "4af0ce837ee2cef148b1846e6ef7ad57c104aa481e5d6e67d9871e5c6c4aaa13"
+  }
+}

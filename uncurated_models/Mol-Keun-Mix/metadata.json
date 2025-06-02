@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "default_scale": 16,
+  "modifier": "none",
+  "file": "mol_keun_mix_f16.ckpt",
+  "name": "Mol-Keun-Mix",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "mol_keun_mix_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "mol_keun_mix_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "mol_keun_mix_f16.ckpt": "47649d105ddddc5877d60cd92d1bac846a8eb67ef9a73937f8af716d4ca9b21d",
+    "mol_keun_mix_clip_vit_l14_f16.ckpt": "dec7f3255fc5c14c2762216ca2943e7e5b16174efdd67ee0d7c67da42f598648",
+    "mol_keun_mix_open_clip_vit_bigg14_f16.ckpt": "7df42529ff19977c9b6acf2bda9f7f594bcb70d4943380221caa79b8fcd7fb91"
+  }
+}

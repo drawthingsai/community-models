@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "file": "indigo_void_furry_vpred_furry_noobai_v_pred_f16.ckpt",
+  "name": "Indigo-Void-Furry-Vpred-Furry-NoobAI-V-pred",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "indigo_void_furry_vpred_furry_noobai_v_pred_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "text_encoder": "indigo_void_furry_vpred_furry_noobai_v_pred_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "indigo_void_furry_vpred_furry_noobai_v_pred_clip_vit_l14_f16.ckpt": "ec8a196e43fbaa7c6cab4f458e0916611956e9a949f949dd0df3db9583d059e3",
+    "indigo_void_furry_vpred_furry_noobai_v_pred_f16.ckpt": "e715282b459e95604e4958d2a76c6e78aeaecaa2311a0dab7ee575f84e9bb2b8",
+    "indigo_void_furry_vpred_furry_noobai_v_pred_open_clip_vit_bigg14_f16.ckpt": "0fae5744694c344da900ca3e9faf5cf08802c26d7bb0731b26267a1148039d44"
+  }
+}

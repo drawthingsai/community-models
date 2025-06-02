@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "upcast_attention": false,
+  "prefix": "",
+  "modifier": "none",
+  "clip_encoder": "like_reality_pony_by_ethanar_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "like_reality_pony_by_ethanar_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Like-Reality-Pony-by-Ethanar",
+  "file": "like_reality_pony_by_ethanar_f16.ckpt",
+  "converted": {
+    "like_reality_pony_by_ethanar_open_clip_vit_bigg14_f16.ckpt": "4435c594752296b753c74d9293fcd7e7b5054b214130ea66d69fcf0ac34fdd6d",
+    "like_reality_pony_by_ethanar_clip_vit_l14_f16.ckpt": "d4943c3fac999d5d935692ec544c7b0aaf7c6dce33ca57a5303f48abeae85f44",
+    "like_reality_pony_by_ethanar_f16.ckpt": "22c1225b5611072854e390f7846a5baae6303364c36aa8656075de2c8c306c29"
+  }
+}

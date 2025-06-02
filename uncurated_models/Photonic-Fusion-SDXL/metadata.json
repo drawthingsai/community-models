@@ -1,0 +1,17 @@
+{
+  "name": "Photonic-Fusion-SDXL",
+  "file": "photonic_fusion_sdxl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "text_encoder": "photonic_fusion_sdxl_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "modifier": "none",
+  "clip_encoder": "photonic_fusion_sdxl_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "photonic_fusion_sdxl_clip_vit_l14_f16.ckpt": "3864ad7873de4003626e51f2e745bac46dc1c2a9675bd68f62c6dbc3e6d8144e",
+    "photonic_fusion_sdxl_f16.ckpt": "878fe1f43343031aa718fef33522e180d641ab54bb8808ed78dbd5cb54e108e3",
+    "photonic_fusion_sdxl_open_clip_vit_bigg14_f16.ckpt": "8e23d53aa8bfd805653649f43818fa25272b39881306ce3a439cb096ff602c81"
+  }
+}

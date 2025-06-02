@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "name": "Prefect_illustrious_XL_v1.5_1731647",
+  "text_encoder": "prefect_illustrious_xl_v1.5_1731647_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "prefect_illustrious_xl_v1.5_1731647_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "prefix": "",
+  "default_scale": 16,
+  "file": "prefect_illustrious_xl_v1.5_1731647_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "prefect_illustrious_xl_v1.5_1731647_open_clip_vit_bigg14_f16.ckpt": "ad5cac571daa869885703b10b9363e87e29e930a1965a5410d2e80f7e4958512",
+    "prefect_illustrious_xl_v1.5_1731647_f16.ckpt": "8e3b60be4d4ca0511dbd753f5e62b79f5002a3327d6e78276a2753477abe4f97",
+    "prefect_illustrious_xl_v1.5_1731647_clip_vit_l14_f16.ckpt": "145e5b5194c7347b752a6222c044753e229f7f50218f129c67477d1557c383e4"
+  }
+}

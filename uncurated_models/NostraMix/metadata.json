@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "name": "NostraMix",
+  "clip_encoder": "nostramix_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "nostramix_open_clip_vit_bigg14_f16.ckpt",
+  "file": "nostramix_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "nostramix_open_clip_vit_bigg14_f16.ckpt": "25fa2ea4dca4647460c5141166b213b6d03f4f433fafbfca2f1bd3aaff1975bc",
+    "nostramix_f16.ckpt": "1491376f4ce11abdbbf26470dbb3529679e0641969e3efbdb84c8252f3ba7ac9",
+    "nostramix_clip_vit_l14_f16.ckpt": "c15c696090537f07ee49967ea423ed2dae4e03b163b445f0feb4fa908f15cee0"
+  }
+}

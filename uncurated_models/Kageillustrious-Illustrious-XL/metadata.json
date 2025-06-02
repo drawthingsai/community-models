@@ -1,0 +1,17 @@
+{
+  "name": "Kageillustrious-Illustrious-XL",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "text_encoder": "kageillustrious_illustrious_xl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "kageillustrious_illustrious_xl_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "file": "kageillustrious_illustrious_xl_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "kageillustrious_illustrious_xl_f16.ckpt": "0e4911ced8b6a8ac84d06695c060aee2f11fc0a7df2986b8fa0853d20d661649",
+    "kageillustrious_illustrious_xl_clip_vit_l14_f16.ckpt": "ec37d8b4c842afab56bd82205b627e6acd9993cc41b68a4822316ad9ef595b4a",
+    "kageillustrious_illustrious_xl_open_clip_vit_bigg14_f16.ckpt": "a5e98064823e8fa385b5238e78a00c16797ba7fe2b227f2d33859659d70ba65d"
+  }
+}

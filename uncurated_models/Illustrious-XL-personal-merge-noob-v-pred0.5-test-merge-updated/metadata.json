@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "name": "Illustrious-XL-personal-merge-noob-v-pred0.5-test-merge-updated",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "upcast_attention": false,
+  "file": "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_f16.ckpt",
+  "clip_encoder": "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_open_clip_vit_bigg14_f16.ckpt": "c0af6a845a3e474e70efb81dcfa0f068df860c6b6effaacf09eefe94d40312e0",
+    "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_f16.ckpt": "bd0a5ca6e275e3d90f6e6a13c0ff57e74cd1deffad5d662bc899d15c5004b7e9",
+    "illustrious_xl_personal_merge_noob_v_pred0.5_test_merge_updated_clip_vit_l14_f16.ckpt": "da08f9019e30f0cf95094f2ae7d2eea1e126f3d650d469fc6fa479182fcc29a5"
+  }
+}

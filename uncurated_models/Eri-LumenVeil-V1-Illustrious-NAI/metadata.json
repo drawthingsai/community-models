@@ -1,0 +1,17 @@
+{
+  "name": "Eri-LumenVeil-V1-Illustrious-NAI",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "eri_lumenveil_v1_illustrious_nai_clip_vit_l14_f16.ckpt",
+  "text_encoder": "eri_lumenveil_v1_illustrious_nai_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "file": "eri_lumenveil_v1_illustrious_nai_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "converted": {
+    "eri_lumenveil_v1_illustrious_nai_open_clip_vit_bigg14_f16.ckpt": "46917d7ef5c0a4d22149ca823114e678e2f7792095dda647f85976423273e6ca",
+    "eri_lumenveil_v1_illustrious_nai_f16.ckpt": "76694e1815ed5dfa538cc9919000d0594eace6897d63dcb4681a184cf189c91c",
+    "eri_lumenveil_v1_illustrious_nai_clip_vit_l14_f16.ckpt": "ee66323d9b0408c2ba2d6e7ecb0dcb424b6c4ea4b00829dcf13d3330d2fca7c2"
+  }
+}

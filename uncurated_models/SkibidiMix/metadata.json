@@ -1,0 +1,17 @@
+{
+  "clip_encoder": "skibidimix_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "SkibidiMix",
+  "file": "skibidimix_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "skibidimix_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "skibidimix_open_clip_vit_bigg14_f16.ckpt": "102ae2ef8d1d519b67acae30b0b82d2c6b589b2db190760efc3def6d915f7046",
+    "skibidimix_f16.ckpt": "4c08e12c6b82e6441b72b7a74ab4e1ac9efe34a56364d6813d6e59a1c5260047",
+    "skibidimix_clip_vit_l14_f16.ckpt": "017377c663f489e6e168da23cbcfc6062e736b2466b47cb4ad1729e88bbfeb4a"
+  }
+}

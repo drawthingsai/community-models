@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "illustrious_gehenna_illustrious_checkpoint_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "prefix": "",
+  "name": "Illustrious-Gehenna-Illustrious-Checkpoint",
+  "text_encoder": "illustrious_gehenna_illustrious_checkpoint_open_clip_vit_bigg14_f16.ckpt",
+  "file": "illustrious_gehenna_illustrious_checkpoint_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "illustrious_gehenna_illustrious_checkpoint_clip_vit_l14_f16.ckpt": "e84f69794be4ed2aa95a9d653fac96f3850ca45ae13f6a7016f7f8d4e0e51c7f",
+    "illustrious_gehenna_illustrious_checkpoint_f16.ckpt": "29ee75c804aff3abc40b65e317c51f3b6a991b9a5da3905647cde71594878060",
+    "illustrious_gehenna_illustrious_checkpoint_open_clip_vit_bigg14_f16.ckpt": "26e660e9b8129ca1a86a4f45a05dbdf84f2b69c560f8f8a796a298b5dd34a110"
+  }
+}

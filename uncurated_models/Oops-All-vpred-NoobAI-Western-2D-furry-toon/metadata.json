@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "name": "Oops-All-vpred-NoobAI-Western-2D-furry-toon",
+  "upcast_attention": false,
+  "text_encoder": "oops_all_vpred_noobai_western_2d_furry_toon_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "oops_all_vpred_noobai_western_2d_furry_toon_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "file": "oops_all_vpred_noobai_western_2d_furry_toon_f16.ckpt",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "oops_all_vpred_noobai_western_2d_furry_toon_f16.ckpt": "163a042961519cad75dc63933d7c6d58a21747d191b546d1018f687f26e5302a",
+    "oops_all_vpred_noobai_western_2d_furry_toon_open_clip_vit_bigg14_f16.ckpt": "115757d497e5969c4f67623ac38f7390eac7380f735bd08382b6eadd05af756d",
+    "oops_all_vpred_noobai_western_2d_furry_toon_clip_vit_l14_f16.ckpt": "065effccfc00056148a8da27ffbea75bc7c81d0d7be475252b55d84110e09d11"
+  }
+}

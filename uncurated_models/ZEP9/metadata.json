@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "default_scale": 16,
+  "clip_encoder": "zep9_clip_vit_l14_f16.ckpt",
+  "file": "zep9_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "text_encoder": "zep9_open_clip_vit_bigg14_f16.ckpt",
+  "name": "ZEP9",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "zep9_open_clip_vit_bigg14_f16.ckpt": "2299d93c8cb4cb30940fdc1094e14428a400af68a5cc84a98af5317d4ea31467",
+    "zep9_clip_vit_l14_f16.ckpt": "4abb6c414699a0ffeefb2a8368fc9f9759f5689d00321a05aa1bf8d4c0b7a468",
+    "zep9_f16.ckpt": "011960653d4d82555c38b84732c5958506b7dc3ef8bb6375dbab6cd9098cae8a"
+  }
+}

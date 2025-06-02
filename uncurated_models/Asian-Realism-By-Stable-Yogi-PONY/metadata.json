@@ -1,0 +1,17 @@
+{
+  "file": "asian_realism_by_stable_yogi_pony_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "text_encoder": "asian_realism_by_stable_yogi_pony_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "asian_realism_by_stable_yogi_pony_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "name": "Asian-Realism-By-Stable-Yogi-PONY",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "converted": {
+    "asian_realism_by_stable_yogi_pony_open_clip_vit_bigg14_f16.ckpt": "ffde260456a7b5f729a028b0af6c0dd91bf09a8e81f79f90711d196de83f2651",
+    "asian_realism_by_stable_yogi_pony_f16.ckpt": "8eb8394067d0e554a483e8a3915f1cb4187c7f45b2786af083bfb27a62857521",
+    "asian_realism_by_stable_yogi_pony_clip_vit_l14_f16.ckpt": "15ae258393dd865ab2ee54488a5afe91dd498cb3e36a687e4ed4ffa4b1ad507b"
+  }
+}

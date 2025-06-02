@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "name": "DHXL-v1.0",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "default_scale": 16,
+  "text_encoder": "dhxl_v1.0_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "dhxl_v1.0_clip_vit_l14_f16.ckpt",
+  "file": "dhxl_v1.0_f16.ckpt",
+  "converted": {
+    "dhxl_v1.0_f16.ckpt": "dc62200e9b409ffc75db0589f56dc215d0b50b6f3dcb076a2211c6913815e5c3",
+    "dhxl_v1.0_clip_vit_l14_f16.ckpt": "68523541e72b570a3bdfc677d43fdf2fbd453753afefe3a5fd4b13419723961b",
+    "dhxl_v1.0_open_clip_vit_bigg14_f16.ckpt": "2a317e9c68a874bea4a936f0e9e4a4305eebbd0260311664efeee3cdf0775c3c"
+  }
+}

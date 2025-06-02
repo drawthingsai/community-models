@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "modifier": "none",
+  "default_scale": 16,
+  "file": "nova_flat_xl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Nova-Flat-XL",
+  "text_encoder": "nova_flat_xl_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "nova_flat_xl_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "nova_flat_xl_f16.ckpt": "53864f910fd1a70fe2ccbcc67c921206740948bd440b00eaeec89dd08187df82",
+    "nova_flat_xl_open_clip_vit_bigg14_f16.ckpt": "7f444f30567846546807b61e79aae996b06e5c64a891309872f644e7df849b7e",
+    "nova_flat_xl_clip_vit_l14_f16.ckpt": "071775f7be3959a6ac53c67bda50f7997696a7b96616c4f378cc90054ccf3184"
+  }
+}

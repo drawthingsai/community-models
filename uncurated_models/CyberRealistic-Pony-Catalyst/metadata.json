@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "name": "CyberRealistic-Pony-Catalyst",
+  "file": "cyberrealistic_pony_catalyst_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "cyberrealistic_pony_catalyst_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "clip_encoder": "cyberrealistic_pony_catalyst_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "converted": {
+    "cyberrealistic_pony_catalyst_open_clip_vit_bigg14_f16.ckpt": "b78a8e692ee50ff9e6e60055eee26acbc225fd12922a278699997c09984198e5",
+    "cyberrealistic_pony_catalyst_f16.ckpt": "a2ec078dfe84c0ed9eaa9a56f53b1c4c4345dd13eed8affb647f2e570b18bd7a",
+    "cyberrealistic_pony_catalyst_clip_vit_l14_f16.ckpt": "9e04cad1258cd2d231179c7aae3dbbe1ef12de84eb7665e7d237900ac57ce078"
+  }
+}

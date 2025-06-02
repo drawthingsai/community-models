@@ -1,0 +1,17 @@
+{
+  "file": "indigo_furry_mix_xl_f16.ckpt",
+  "modifier": "none",
+  "text_encoder": "indigo_furry_mix_xl_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Indigo-Furry-Mix-XL",
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "clip_encoder": "indigo_furry_mix_xl_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "indigo_furry_mix_xl_f16.ckpt": "6083916854047d5f82bde7fc430fc39b6640dd9b2a770dbb2b11da18b9628de3",
+    "indigo_furry_mix_xl_open_clip_vit_bigg14_f16.ckpt": "0cf66b1f83b4065330d836214aac1ed56c23328047f474bf362c5b312d973844",
+    "indigo_furry_mix_xl_clip_vit_l14_f16.ckpt": "34695b6956d0cc711792090ee45ae6e33e1d9e5a2f0a15b2b1c778dfea55d3d4"
+  }
+}

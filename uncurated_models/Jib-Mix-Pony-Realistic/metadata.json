@@ -1,0 +1,17 @@
+{
+  "clip_encoder": "jib_mix_pony_realistic_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Jib-Mix-Pony-Realistic",
+  "modifier": "none",
+  "file": "jib_mix_pony_realistic_f16.ckpt",
+  "text_encoder": "jib_mix_pony_realistic_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "converted": {
+    "jib_mix_pony_realistic_f16.ckpt": "ae4176522fafc64209f838aa1c7a596a84719e2f326f3479dc80e180559b9180",
+    "jib_mix_pony_realistic_clip_vit_l14_f16.ckpt": "69b3c2790f9d788866bae116247432d692ecc7d9b60252d34754f38238ca54d6",
+    "jib_mix_pony_realistic_open_clip_vit_bigg14_f16.ckpt": "d7e62c601c33d93c4f3f3aa87b91bbf79112bf258aadb517e93bfc79c4dc6185"
+  }
+}

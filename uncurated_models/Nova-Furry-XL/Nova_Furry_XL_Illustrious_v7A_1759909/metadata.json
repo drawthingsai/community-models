@@ -1,0 +1,17 @@
+{
+  "file": "nova_furry_xl_illustrious_v7a_1759909_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "nova_furry_xl_illustrious_v7a_1759909_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Nova_Furry_XL_Illustrious_v7A_1759909",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "nova_furry_xl_illustrious_v7a_1759909_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "nova_furry_xl_illustrious_v7a_1759909_clip_vit_l14_f16.ckpt": "41f7fa970aea1e69ca119586f3db073f2216f0c8853dc5236587fa47c9034672",
+    "nova_furry_xl_illustrious_v7a_1759909_open_clip_vit_bigg14_f16.ckpt": "e05425ea3913f6d8a32a4287a28d47838df399fd32c14dc15d2f30b68365cc8b",
+    "nova_furry_xl_illustrious_v7a_1759909_f16.ckpt": "0166bafb077666058e478d15573f5c49f956bcd522fd124c8f860f2482ee0dc8"
+  }
+}

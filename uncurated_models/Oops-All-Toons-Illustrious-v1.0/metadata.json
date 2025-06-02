@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "file": "oops_all_toons_illustrious_v1.0_f16.ckpt",
+  "name": "Oops-All-Toons-Illustrious-v1.0",
+  "upcast_attention": false,
+  "text_encoder": "oops_all_toons_illustrious_v1.0_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "oops_all_toons_illustrious_v1.0_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "oops_all_toons_illustrious_v1.0_clip_vit_l14_f16.ckpt": "76a9e669b08084838f03cc69eab216682be94fb120a4f7e8171691a001456c92",
+    "oops_all_toons_illustrious_v1.0_open_clip_vit_bigg14_f16.ckpt": "39b8fd812d88342646db77142e74dcd23da184f572b09954c1c59115f061466c",
+    "oops_all_toons_illustrious_v1.0_f16.ckpt": "b23923631fc84fecd3b6d67eb0bffcf992c70537d8f868eb3882dd7f373806a3"
+  }
+}

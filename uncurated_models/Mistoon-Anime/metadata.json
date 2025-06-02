@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "mistoon_anime_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "mistoon_anime_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "file": "mistoon_anime_f16.ckpt",
+  "name": "Mistoon-Anime",
+  "modifier": "none",
+  "upcast_attention": false,
+  "converted": {
+    "mistoon_anime_f16.ckpt": "7bc32b5d61528086ce106fcc6626df95e9471deed09eec44b4b498191c375e12",
+    "mistoon_anime_open_clip_vit_bigg14_f16.ckpt": "fcd3ed8af6cb377e94b45bc6727277c0b6c2f9e068eb68288717959526bcd048",
+    "mistoon_anime_clip_vit_l14_f16.ckpt": "b698bb5dd5a1f5f69d8897e0b0a1c2254a18ae97d27035356f461d93037fed4d"
+  }
+}

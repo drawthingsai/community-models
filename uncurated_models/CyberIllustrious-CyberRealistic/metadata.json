@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "text_encoder": "cyberillustrious_cyberrealistic_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "clip_encoder": "cyberillustrious_cyberrealistic_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "name": "CyberIllustrious-CyberRealistic",
+  "file": "cyberillustrious_cyberrealistic_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "cyberillustrious_cyberrealistic_clip_vit_l14_f16.ckpt": "044d364179d7d6c401aea2ca2ad479dce626533b1527155cc4e90e7cd374d2a6",
+    "cyberillustrious_cyberrealistic_open_clip_vit_bigg14_f16.ckpt": "285232052e7ff77ca0a23b17856cbdfc4becb663b6f3b4b27c8b497ed4568fdb",
+    "cyberillustrious_cyberrealistic_f16.ckpt": "3dd10c92d23d56e0960d33af3f2c066711e848c3a04ce453e82392a11d93a35c"
+  }
+}

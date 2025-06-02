@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "clip_encoder": "madly_mix_ver_nightnoob_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "prefix": "",
+  "text_encoder": "madly_mix_ver_nightnoob_open_clip_vit_bigg14_f16.ckpt",
+  "file": "madly_mix_ver_nightnoob_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Madly-Mix-ver-NightNoob",
+  "converted": {
+    "madly_mix_ver_nightnoob_open_clip_vit_bigg14_f16.ckpt": "9f88bfe4d899b5c9aba4217789262ca1e55675ed02f22a534e6f5b763ac3e997",
+    "madly_mix_ver_nightnoob_f16.ckpt": "7a2b4923b6a1492672cdbff137c46de2f7444eff193d7038314c09c63fd1ab50",
+    "madly_mix_ver_nightnoob_clip_vit_l14_f16.ckpt": "18f034d19d3cf9e048dcd155866a6a253cda766674d430a67235154cb0ab0f61"
+  }
+}

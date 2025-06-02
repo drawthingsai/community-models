@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Pony_Realism_v2.2_914390",
+  "prefix": "",
+  "default_scale": 16,
+  "file": "pony_realism_v2.2_914390_f16.ckpt",
+  "clip_encoder": "pony_realism_v2.2_914390_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "text_encoder": "pony_realism_v2.2_914390_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "pony_realism_v2.2_914390_open_clip_vit_bigg14_f16.ckpt": "c8de59bb7102672d3b02a6ed6dbaf3a50ab5a3a7c54548bc59e3d065e0776b72",
+    "pony_realism_v2.2_914390_clip_vit_l14_f16.ckpt": "b1896437d14c89d656d65833b4fa782640a5573f8153389d8c541d25d1489e46",
+    "pony_realism_v2.2_914390_f16.ckpt": "ac6faf5c26eb1cf5cd5c6ef00ec1bb2ba684f1376c52fcd9588c536e696855e9"
+  }
+}

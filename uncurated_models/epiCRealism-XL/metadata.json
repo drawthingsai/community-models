@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "text_encoder": "epicrealism_xl_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "epicrealism_xl_clip_vit_l14_f16.ckpt",
+  "file": "epicrealism_xl_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "epiCRealism-XL",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "modifier": "none",
+  "converted": {
+    "epicrealism_xl_f16.ckpt": "ca9d008385acfd810b16f9db3ac8118e1d40bb8eba32f31c4268d4d97bbe4720",
+    "epicrealism_xl_open_clip_vit_bigg14_f16.ckpt": "bc30473d054de6b6abe4ebf5a9926fb26b54396cf34c2f783cb4c6e2a33df577",
+    "epicrealism_xl_clip_vit_l14_f16.ckpt": "6dc663135642ff2a5ed946c4d8566f8e123f7316852f8bf4dbf10c544313e509"
+  }
+}

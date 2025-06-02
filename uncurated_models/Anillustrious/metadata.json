@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "text_encoder": "anillustrious_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Anillustrious",
+  "file": "anillustrious_f16.ckpt",
+  "clip_encoder": "anillustrious_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "anillustrious_clip_vit_l14_f16.ckpt": "a07e5897f54a8f582a8ae33e71d3b449661cf60febcae2f136032419dad75c26",
+    "anillustrious_open_clip_vit_bigg14_f16.ckpt": "ee85d0cbf0a3bff27ec7892314dde7801ac74881a92624277d22dd69089ee06d",
+    "anillustrious_f16.ckpt": "609d919aeb1bfb1dbf9bbea82aa602d3688356065f032805a9ffe017c0d538b9"
+  }
+}

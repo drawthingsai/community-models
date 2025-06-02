@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "file": "praeclarus_illustriousxl_f16.ckpt",
+  "text_encoder": "praeclarus_illustriousxl_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Praeclarus-IllustriousXL",
+  "modifier": "none",
+  "prefix": "",
+  "clip_encoder": "praeclarus_illustriousxl_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "praeclarus_illustriousxl_clip_vit_l14_f16.ckpt": "70e6903997a26662d44455f550e594c03ee52cc94f4b3768c23419089c50ce15",
+    "praeclarus_illustriousxl_f16.ckpt": "30e40cee54ce9f77d0bb38b66b0926cc7887237313111363a04e3a669c0dd338",
+    "praeclarus_illustriousxl_open_clip_vit_bigg14_f16.ckpt": "f5e8b3a7e46eaa49cbfb7bc8ad69e6c4a0432676a1fcdbc5e2bb5d192e50e593"
+  }
+}

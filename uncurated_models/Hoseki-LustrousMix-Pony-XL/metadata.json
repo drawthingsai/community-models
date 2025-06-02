@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "file": "hoseki_lustrousmix_pony_xl_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "clip_encoder": "hoseki_lustrousmix_pony_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "hoseki_lustrousmix_pony_xl_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Hoseki-LustrousMix-Pony-XL",
+  "default_scale": 16,
+  "prefix": "",
+  "converted": {
+    "hoseki_lustrousmix_pony_xl_open_clip_vit_bigg14_f16.ckpt": "2634bd7c196e373c72dd3a0f11b8b2e4cf2fa622c900aedfb2332e62ae56c674",
+    "hoseki_lustrousmix_pony_xl_f16.ckpt": "0902419fbb236b6d07b5da01332fde6b49c64e3072a001a4b498f4e31a17db3b",
+    "hoseki_lustrousmix_pony_xl_clip_vit_l14_f16.ckpt": "51e338e73713a213a5ffd49c9b7bd01207ea9980b5db2e2325f4ec81e6dccb7f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "file": "plant_milk_model_suite_flax_1331188_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "plant_milk_model_suite_flax_1331188_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "plant_milk_model_suite_flax_1331188_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "name": "Plant_Milk_Model_Suite_Flax_1331188",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "plant_milk_model_suite_flax_1331188_clip_vit_l14_f16.ckpt": "ace1ed1c72ece10da150f48ef3618a0df8df310b3f0c0ef20ac81868a286a504",
+    "plant_milk_model_suite_flax_1331188_open_clip_vit_bigg14_f16.ckpt": "76f0c3ef26f18fa899c255ab8a00728f79f7daaeceb62ed7884329a238d54bc6",
+    "plant_milk_model_suite_flax_1331188_f16.ckpt": "1de1fe54293fd76122e7343881e65a56bdd8da70dc1dfe5710e6609a25878b3e"
+  }
+}

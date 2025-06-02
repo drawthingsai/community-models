@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "file": "nova_reality_xl_f16.ckpt",
+  "name": "Nova-Reality-XL",
+  "upcast_attention": false,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "nova_reality_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "nova_reality_xl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "nova_reality_xl_f16.ckpt": "49c09fbfe5681c9bf21c509578da1173874d372781af59f6ada8febca81a82ee",
+    "nova_reality_xl_open_clip_vit_bigg14_f16.ckpt": "4901bbeb208989534fb801d680d2da86551cf710e3d559b18fc01e79bedf4c81",
+    "nova_reality_xl_clip_vit_l14_f16.ckpt": "f8f975c93d16fae6e23baf1d2de974d6f675548ccd5c1627c19c0f46241d094a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "file": "jujumix_f16.ckpt",
+  "text_encoder": "jujumix_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "jujumix_clip_vit_l14_f16.ckpt",
+  "name": "JujuMix",
+  "prefix": "",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "jujumix_clip_vit_l14_f16.ckpt": "78454dfc05fa75cf29d8e40d41072ce69d36804fb38717d4402e68a07e56520d",
+    "jujumix_open_clip_vit_bigg14_f16.ckpt": "8d6c5d9516651b2ea922522634185e34b4111ddc69d53a8034523577008b1e59",
+    "jujumix_f16.ckpt": "9b86a18ea9a53c5117207e5b8477b7f79c2e52bed8df5df89442090ad4be8ad8"
+  }
+}

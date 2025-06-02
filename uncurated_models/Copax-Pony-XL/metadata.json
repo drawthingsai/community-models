@@ -1,0 +1,17 @@
+{
+  "file": "copax_pony_xl_f16.ckpt",
+  "name": "Copax-Pony-XL",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "copax_pony_xl_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "default_scale": 16,
+  "prefix": "",
+  "upcast_attention": false,
+  "text_encoder": "copax_pony_xl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "copax_pony_xl_clip_vit_l14_f16.ckpt": "ca4a15756bd6a1efe3724a0c7c2adda97bdcf1f2c12bdca5104f85633a07bf26",
+    "copax_pony_xl_open_clip_vit_bigg14_f16.ckpt": "6d4a358069346784af4a5ec0c635d7ac48af539cad424e29d7087a855a928410",
+    "copax_pony_xl_f16.ckpt": "9f42393f490a9757cd48d3bce615e680be80eebee1e36c9b5b8419a7926e33db"
+  }
+}

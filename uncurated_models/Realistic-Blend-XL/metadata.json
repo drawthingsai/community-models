@@ -1,0 +1,17 @@
+{
+  "clip_encoder": "realistic_blend_xl_clip_vit_l14_f16.ckpt",
+  "file": "realistic_blend_xl_f16.ckpt",
+  "upcast_attention": false,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Realistic-Blend-XL",
+  "modifier": "none",
+  "text_encoder": "realistic_blend_xl_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "realistic_blend_xl_clip_vit_l14_f16.ckpt": "bc29747a733c94ac786c95e070742354b8ed5d2e8005e548f40642a122e003d7",
+    "realistic_blend_xl_open_clip_vit_bigg14_f16.ckpt": "1dd387d104a995dd7b783b349955830dfcbffc960c1c67cfe9ee4123fc6ef3c5",
+    "realistic_blend_xl_f16.ckpt": "35b79f629f0ffbfa9c32dc2e9201a9ef778d18547a4ad021dbe3ed4ea743cdb1"
+  }
+}

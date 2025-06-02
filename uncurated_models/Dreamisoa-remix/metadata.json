@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "modifier": "none",
+  "file": "dreamisoa_remix_f16.ckpt",
+  "name": "Dreamisoa-remix",
+  "default_scale": 16,
+  "text_encoder": "dreamisoa_remix_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "dreamisoa_remix_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "dreamisoa_remix_clip_vit_l14_f16.ckpt": "ba0d9ed48e1626f7dbea71e52573b49cd936fa6f1936d00b64683fc7a975ec31",
+    "dreamisoa_remix_f16.ckpt": "722fdf36d9ddcac8d6cf25bf6566c479bedd142585d3aded0e79ced5aaaf121b",
+    "dreamisoa_remix_open_clip_vit_bigg14_f16.ckpt": "0d083227dae68dbe7fe882dd142fef6f9008ff8f4105b92789cbd9480c0a3c5d"
+  }
+}

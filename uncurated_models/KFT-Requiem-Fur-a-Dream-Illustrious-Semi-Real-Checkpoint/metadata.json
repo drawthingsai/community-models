@@ -1,0 +1,17 @@
+{
+  "name": "KFT-Requiem-Fur-a-Dream-Illustrious-Semi-Real-Checkpoint",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "file": "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_f16.ckpt",
+  "text_encoder": "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "clip_encoder": "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_clip_vit_l14_f16.ckpt": "6a299eca534d8a0bcee2d01f6fb2b417e0dab7a1716bc5cbf63591af410dbbcf",
+    "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_open_clip_vit_bigg14_f16.ckpt": "9baddcc46be02df58f57f8abf7e26ff388a7fd8c86c7eacbc4563f897aa9e58f",
+    "kft_requiem_fur_a_dream_illustrious_semi_real_checkpoint_f16.ckpt": "e43a3f30eeb57fd40cbf1fd061d2e35d84246738ed1d8c3e0d7619e58232e289"
+  }
+}

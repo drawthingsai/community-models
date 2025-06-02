@@ -1,0 +1,17 @@
+{
+  "clip_encoder": "virtual_diffusion_pony_xl_2025_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "text_encoder": "virtual_diffusion_pony_xl_2025_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "name": "Virtual-Diffusion-Pony-XL-2025",
+  "file": "virtual_diffusion_pony_xl_2025_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "virtual_diffusion_pony_xl_2025_f16.ckpt": "113ff5a8591a4095241830819142ee06df5520077efc2e53f351b25919909634",
+    "virtual_diffusion_pony_xl_2025_clip_vit_l14_f16.ckpt": "161e1717130afcbdd082003a00cbae82420d03b2cd9b01c54343898077b0d5a7",
+    "virtual_diffusion_pony_xl_2025_open_clip_vit_bigg14_f16.ckpt": "1b4e176b2ef6bd3e27eccabc3fd8982f33b1652f3d61d22112a323055a9467d2"
+  }
+}

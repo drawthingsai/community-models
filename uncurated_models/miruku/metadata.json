@@ -1,0 +1,17 @@
+{
+  "name": "miruku",
+  "prefix": "",
+  "clip_encoder": "miruku_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "miruku_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "file": "miruku_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "miruku_clip_vit_l14_f16.ckpt": "5d500388a1ec0689831481eccefaace84574bf4e4a5fc9bfe4a47cc0b29ab7d8",
+    "miruku_open_clip_vit_bigg14_f16.ckpt": "3355d3164bde09f0261c9b3bfd75fd1e7583035c18cb5613cfbb273caabddff1",
+    "miruku_f16.ckpt": "7ced9e939935a992bd1d7b3e56febaf75664201ec3a44e4af664959a3fd73f96"
+  }
+}

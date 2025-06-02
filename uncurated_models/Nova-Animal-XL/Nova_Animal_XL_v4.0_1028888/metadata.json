@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "name": "Nova_Animal_XL_v4.0_1028888",
+  "default_scale": 16,
+  "prefix": "",
+  "text_encoder": "nova_animal_xl_v4.0_1028888_open_clip_vit_bigg14_f16.ckpt",
+  "file": "nova_animal_xl_v4.0_1028888_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "nova_animal_xl_v4.0_1028888_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "nova_animal_xl_v4.0_1028888_open_clip_vit_bigg14_f16.ckpt": "77019d1e489cb541a43783a0fa14f8f0e25f44562e75209e81a99234f78af1cf",
+    "nova_animal_xl_v4.0_1028888_clip_vit_l14_f16.ckpt": "f0cc9dbdc1eb5652b3bbd8a3dcfe6aa6b53774aebb09b7d0c743ec747a29fc8e",
+    "nova_animal_xl_v4.0_1028888_f16.ckpt": "a86085e8e182d4b1dd617d804149561968d330e50e5e6c40df2ce8aabcbac891"
+  }
+}

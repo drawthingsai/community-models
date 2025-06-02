@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "prefix": "",
+  "name": "boleromixillustrious",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "boleromixillustrious_clip_vit_l14_f16.ckpt",
+  "text_encoder": "boleromixillustrious_open_clip_vit_bigg14_f16.ckpt",
+  "file": "boleromixillustrious_f16.ckpt",
+  "upcast_attention": false,
+  "modifier": "none",
+  "converted": {
+    "boleromixillustrious_clip_vit_l14_f16.ckpt": "3ec67cfb4df89703dc203e2bf3b687465bcc8a8f491b3fb609adccbd556f64ba",
+    "boleromixillustrious_open_clip_vit_bigg14_f16.ckpt": "9b1a71aaf6a5d4ccbef30b8dec944d74e4cea3388d51e01face39b68824985d1",
+    "boleromixillustrious_f16.ckpt": "483cf382b9f6d5446ec878576a625427214b12327bea468c41cb127635a17e76"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "text_encoder": "big_love_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "modifier": "none",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "name": "Big-Love",
+  "clip_encoder": "big_love_clip_vit_l14_f16.ckpt",
+  "file": "big_love_f16.ckpt",
+  "converted": {
+    "big_love_f16.ckpt": "cb16d1125d0cc3d3d42551541ba9dcec27a7f72570e80f085cc52db43a1d05ca",
+    "big_love_open_clip_vit_bigg14_f16.ckpt": "40801285fa7952e27069cdada14e0e1c17f450338e941dde947dea72266a7610",
+    "big_love_clip_vit_l14_f16.ckpt": "804ac21e31460b729efc2ac0f598732f9c613a769b3634f61146237694c927da"
+  }
+}

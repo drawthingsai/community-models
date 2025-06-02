@@ -1,0 +1,14 @@
+{
+  "default_scale": 8,
+  "upcast_attention": false,
+  "prefix": "",
+  "name": "CyberRealistic",
+  "text_encoder": "cyberrealistic_clip_vit_l14_f16.ckpt",
+  "version": "v1",
+  "file": "cyberrealistic_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "cyberrealistic_f16.ckpt": "64c2b199a6bbf023c498cf57543bf0bc350a33420909e2a6b5f701a78e48248c",
+    "cyberrealistic_clip_vit_l14_f16.ckpt": "309151613f0db873393739641620c408b9664adce458f5547addaa0b66b9478e"
+  }
+}

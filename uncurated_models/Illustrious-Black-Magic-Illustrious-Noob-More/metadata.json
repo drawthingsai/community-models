@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "name": "Illustrious-Black-Magic-Illustrious-Noob-More",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "file": "illustrious_black_magic_illustrious_noob_more_f16.ckpt",
+  "clip_encoder": "illustrious_black_magic_illustrious_noob_more_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "modifier": "none",
+  "text_encoder": "illustrious_black_magic_illustrious_noob_more_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "illustrious_black_magic_illustrious_noob_more_f16.ckpt": "fb16ca1de3a063d5305d9e44d8fe4f22e77512a3d637ba32a4b9b20caec01744",
+    "illustrious_black_magic_illustrious_noob_more_clip_vit_l14_f16.ckpt": "18f034d19d3cf9e048dcd155866a6a253cda766674d430a67235154cb0ab0f61",
+    "illustrious_black_magic_illustrious_noob_more_open_clip_vit_bigg14_f16.ckpt": "9f88bfe4d899b5c9aba4217789262ca1e55675ed02f22a534e6f5b763ac3e997"
+  }
+}

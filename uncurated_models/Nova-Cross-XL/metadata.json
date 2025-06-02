@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "upcast_attention": false,
+  "file": "nova_cross_xl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "name": "Nova-Cross-XL",
+  "text_encoder": "nova_cross_xl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "nova_cross_xl_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "nova_cross_xl_clip_vit_l14_f16.ckpt": "785abd5541af3d0b88145b1e48e6c93f0ac79347573b5c2e84d578da63de2933",
+    "nova_cross_xl_f16.ckpt": "9999822476c8bdfc9fe7e44c2c7a90bd868c5840cf7acc3db4f827706eb44e6d",
+    "nova_cross_xl_open_clip_vit_bigg14_f16.ckpt": "3182f3b0d4e2a5fbf26ce65b8a33b75b7b983c7a5f8a4e47860d1f5d6ed3e04c"
+  }
+}

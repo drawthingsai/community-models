@@ -1,0 +1,17 @@
+{
+  "text_encoder": "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "name": "Indigo_Void_Furry_Fused_XL_Furry_NoobAI_NoobAI_v1.8_1731573",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "file": "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_f16.ckpt",
+  "clip_encoder": "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_clip_vit_l14_f16.ckpt": "80bd9824385f0d7392771cf25fb21dce161c1cfe8d33e02c6595c4d2751b8048",
+    "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_open_clip_vit_bigg14_f16.ckpt": "0e835829f158f7372b2ee2f24fe712eb81801bdf943878ab6ebf296bf7fc17bd",
+    "indigo_void_furry_fused_xl_furry_noobai_noobai_v1.8_1731573_f16.ckpt": "a341eaad7198cf216d8bc80f9fd0b3cde1d38891ffbdf81c3f74744300e0b188"
+  }
+}

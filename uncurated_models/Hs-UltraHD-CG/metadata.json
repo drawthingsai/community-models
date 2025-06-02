@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "clip_encoder": "hs_ultrahd_cg_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "name": "Hs-UltraHD-CG",
+  "upcast_attention": false,
+  "file": "hs_ultrahd_cg_f16.ckpt",
+  "modifier": "none",
+  "text_encoder": "hs_ultrahd_cg_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "hs_ultrahd_cg_f16.ckpt": "52626f36965f2352a7b73c1dbba08a6c1d1dea9c0506f9f9695a3d0477e63207",
+    "hs_ultrahd_cg_clip_vit_l14_f16.ckpt": "b4fd580fcab9dda8f23872d7ad1fd733a33e415f68e4b0776244c19c32063b8c",
+    "hs_ultrahd_cg_open_clip_vit_bigg14_f16.ckpt": "339766d592628c61c74d67c3e6aa83b9260defb4c2320dbf5705eaf47bea791b"
+  }
+}

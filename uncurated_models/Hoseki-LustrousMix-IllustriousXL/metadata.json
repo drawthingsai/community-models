@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "upcast_attention": false,
+  "file": "hoseki_lustrousmix_illustriousxl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "hoseki_lustrousmix_illustriousxl_clip_vit_l14_f16.ckpt",
+  "name": "Hoseki-LustrousMix-IllustriousXL",
+  "prefix": "",
+  "text_encoder": "hoseki_lustrousmix_illustriousxl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "hoseki_lustrousmix_illustriousxl_f16.ckpt": "bc84b6aae14b1d4fe6786007f851ed5ded6bb921d50dced425989efc41addc07",
+    "hoseki_lustrousmix_illustriousxl_clip_vit_l14_f16.ckpt": "8894551f0c255b118e95061e97291e7fd85a69dad331c51da03259832d2b0277",
+    "hoseki_lustrousmix_illustriousxl_open_clip_vit_bigg14_f16.ckpt": "fbaded16fa18538f6e0584a8907ea420e7e8947003769ed604ed2486167acacc"
+  }
+}

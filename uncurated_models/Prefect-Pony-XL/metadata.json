@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "name": "Prefect-Pony-XL",
+  "upcast_attention": false,
+  "text_encoder": "prefect_pony_xl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "prefect_pony_xl_clip_vit_l14_f16.ckpt",
+  "file": "prefect_pony_xl_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "prefect_pony_xl_f16.ckpt": "cd257c4420704684be192cf12cfb5871c89c128388ed503b14f5fc81e4f5f277",
+    "prefect_pony_xl_clip_vit_l14_f16.ckpt": "ba9ca774999581ad26f5808646d584dd0861c7fb39ce3f0fb00d061bd0262bb5",
+    "prefect_pony_xl_open_clip_vit_bigg14_f16.ckpt": "051544fc80414db1422e01a4a1adb915fdb1297ced8fe3d3b99ff83319ede83a"
+  }
+}

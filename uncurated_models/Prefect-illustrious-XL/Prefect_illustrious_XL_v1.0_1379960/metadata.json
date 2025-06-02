@@ -1,0 +1,17 @@
+{
+  "text_encoder": "prefect_illustrious_xl_v1.0_1379960_open_clip_vit_bigg14_f16.ckpt",
+  "file": "prefect_illustrious_xl_v1.0_1379960_f16.ckpt",
+  "clip_encoder": "prefect_illustrious_xl_v1.0_1379960_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "name": "Prefect_illustrious_XL_v1.0_1379960",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "prefix": "",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "prefect_illustrious_xl_v1.0_1379960_open_clip_vit_bigg14_f16.ckpt": "cf240c491d189b39e656c73bcdc211327de86144ab575bd78830ba3ccebf0511",
+    "prefect_illustrious_xl_v1.0_1379960_clip_vit_l14_f16.ckpt": "c11766f55cdb20762709857700a4930e1b38dbc5b25cac5d875765ba06a0b89f",
+    "prefect_illustrious_xl_v1.0_1379960_f16.ckpt": "9182e89707d7d592624d4108e68473b9544e90c5782da2c21595ca9714ebc05e"
+  }
+}

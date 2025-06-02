@@ -1,0 +1,17 @@
+{
+  "name": "Rillusm-Realistic-IL",
+  "modifier": "none",
+  "clip_encoder": "rillusm___realistic_il_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "rillusm___realistic_il_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "file": "rillusm___realistic_il_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "rillusm___realistic_il_f16.ckpt": "11f19c195da2f75af19006c865666a68ab16eb54d492c057c2798cf89a8ce2ed",
+    "rillusm___realistic_il_clip_vit_l14_f16.ckpt": "65a043d802de5881b80537d65c9724945b29b58ebadcefddb062004eb0ae73b4",
+    "rillusm___realistic_il_open_clip_vit_bigg14_f16.ckpt": "1c0e53fab474a6a2a95ad92451d78b8570b2e2f1e140c067d8accaafe2c1072e"
+  }
+}

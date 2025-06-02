@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "file": "molcajetemix_noobil_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "MolcajeteMix-NoobIL",
+  "upcast_attention": false,
+  "text_encoder": "molcajetemix_noobil_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "molcajetemix_noobil_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "converted": {
+    "molcajetemix_noobil_f16.ckpt": "f2dd8c37b0bf7bb2926985bccdcbbf447c954f1d778a817b986932a86b9905f9",
+    "molcajetemix_noobil_open_clip_vit_bigg14_f16.ckpt": "22095b348b469cc5d16c313e85e79c617421ebc1135b3a182cc2641f8af21465",
+    "molcajetemix_noobil_clip_vit_l14_f16.ckpt": "d5893cc589ce3e3112cfec6bedfbed6462db0b104492063975c2dc039722027f"
+  }
+}

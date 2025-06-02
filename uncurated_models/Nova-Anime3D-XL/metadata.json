@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "nova_anime3d_xl_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "name": "Nova-Anime3D-XL",
+  "file": "nova_anime3d_xl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "text_encoder": "nova_anime3d_xl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "nova_anime3d_xl_f16.ckpt": "f02d6cabdbc3530b0a88d9467e273d127b6ed7ca37be7c1dc6f09641e2c76b65",
+    "nova_anime3d_xl_clip_vit_l14_f16.ckpt": "88f0bdbbb44b9e72eb47ecf3521891f624167e3d0ef2aa18d6c22cf326350274",
+    "nova_anime3d_xl_open_clip_vit_bigg14_f16.ckpt": "bfedc3f0a135a83a304f23a02babbbf39048de7aa3e2a7b2d90665f1aa0b8866"
+  }
+}

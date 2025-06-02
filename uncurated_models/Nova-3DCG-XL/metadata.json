@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "name": "Nova-3DCG-XL",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "file": "nova_3dcg_xl_f16.ckpt",
+  "text_encoder": "nova_3dcg_xl_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "nova_3dcg_xl_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "nova_3dcg_xl_f16.ckpt": "49bafe969a1ae496864aed330d1f89363f01a3b2fc8276ffb96fcdb432bfcb47",
+    "nova_3dcg_xl_clip_vit_l14_f16.ckpt": "1ee84f8ced9b36b476c18321437b27002c8a4be851dbe0d4e46ef9e05de7349a",
+    "nova_3dcg_xl_open_clip_vit_bigg14_f16.ckpt": "0746592d54d96041912af1594393632634aeccca8f9b45d6b72e30d53878266d"
+  }
+}

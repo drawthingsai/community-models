@@ -1,0 +1,17 @@
+{
+  "name": "DucHaiten_Pony_XL_no_score_v5.2_706363",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "file": "duchaiten_pony_xl_no_score_v5.2_706363_f16.ckpt",
+  "clip_encoder": "duchaiten_pony_xl_no_score_v5.2_706363_clip_vit_l14_f16.ckpt",
+  "text_encoder": "duchaiten_pony_xl_no_score_v5.2_706363_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "duchaiten_pony_xl_no_score_v5.2_706363_clip_vit_l14_f16.ckpt": "f4fc2ac679d8d6d1d5bf35d4096854a5ae8378b5dbbaf030dd9fbf191fd9cad2",
+    "duchaiten_pony_xl_no_score_v5.2_706363_open_clip_vit_bigg14_f16.ckpt": "753cac45092077359a23ba29601a389a90100affc3168c721d08bce8c421cf64",
+    "duchaiten_pony_xl_no_score_v5.2_706363_f16.ckpt": "6349cab7127c77fc20b9e50ade8ab0023aa752d409d4af1b9fba30254ad8c64c"
+  }
+}

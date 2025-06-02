@@ -1,0 +1,17 @@
+{
+  "text_encoder": "artofura_furry_mix_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "file": "artofura_furry_mix_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "artofura_furry_mix_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "name": "Artofura-Furry-mix",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "converted": {
+    "artofura_furry_mix_clip_vit_l14_f16.ckpt": "2c82de8bfbde17ccac6b69088b69dfa2fefcb0a71bda7d9e6a998cb5eab83c42",
+    "artofura_furry_mix_f16.ckpt": "2856a44233af1835132a469984263c41eec0046e0eb215b373d8ddb7b7ed33c5",
+    "artofura_furry_mix_open_clip_vit_bigg14_f16.ckpt": "5ae3c65edb1b8c03d379e7c033a3a7285994dcd52c019f323efe67d51c113f0b"
+  }
+}

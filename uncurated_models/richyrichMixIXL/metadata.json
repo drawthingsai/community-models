@@ -1,0 +1,17 @@
+{
+  "file": "richyrichmixixl_f16.ckpt",
+  "name": "richyrichMixIXL",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "richyrichmixixl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "richyrichmixixl_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "richyrichmixixl_f16.ckpt": "86490c7925470bb21bff397f492c31c20bf8bc4ab8ed9d03f31d902779a08aae",
+    "richyrichmixixl_clip_vit_l14_f16.ckpt": "24a95ef884b2ae2f367cfa417e0ac6682d88334c3e0c3ad773d06ac153d5ffcf",
+    "richyrichmixixl_open_clip_vit_bigg14_f16.ckpt": "ba30a2ee3f004ee83f6f87d5c94062a9a3e875a6e21fad51e56195d377943b3c"
+  }
+}

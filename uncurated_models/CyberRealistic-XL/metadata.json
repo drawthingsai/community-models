@@ -1,0 +1,17 @@
+{
+  "file": "cyberrealistic_xl_f16.ckpt",
+  "name": "CyberRealistic-XL",
+  "upcast_attention": false,
+  "text_encoder": "cyberrealistic_xl_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "cyberrealistic_xl_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "cyberrealistic_xl_open_clip_vit_bigg14_f16.ckpt": "b9708730ba92b185e9673ed18be5bad82601140401f65a6c0ed5cfc26d9d1038",
+    "cyberrealistic_xl_clip_vit_l14_f16.ckpt": "8c307d4d386383b422931d18c1b6f9098827efba5827121b7786ba86a76afd4b",
+    "cyberrealistic_xl_f16.ckpt": "dede34bbe4db160c82a38fe29f03f0a881db12e0f97f61d1fb2dbc52a36672e8"
+  }
+}

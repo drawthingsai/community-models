@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "snowpony_open_clip_vit_bigg14_f16.ckpt",
+  "name": "SnowPony",
+  "modifier": "none",
+  "file": "snowpony_f16.ckpt",
+  "clip_encoder": "snowpony_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "snowpony_clip_vit_l14_f16.ckpt": "e470588c84d992cee26a3a3bcf32645ca3543c745f720273170ca1299fbf4bee",
+    "snowpony_open_clip_vit_bigg14_f16.ckpt": "19cb3011c4cfadfd3993213f9979b5520de0ee3d87186f6444952bca6dc9a0b5",
+    "snowpony_f16.ckpt": "4eab637b4c83fe4815adcec1f0b931f7505d5343146cef269d5609cd33b84dbd"
+  }
+}

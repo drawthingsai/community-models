@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "file": "illustrij_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "modifier": "none",
+  "text_encoder": "illustrij_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "illustrij_clip_vit_l14_f16.ckpt",
+  "name": "Illustrij",
+  "prefix": "",
+  "converted": {
+    "illustrij_f16.ckpt": "1fc4e0bcae5dc7d1110980ca27c432e670a99db94c8aa84cf4da552d69f1a8d3",
+    "illustrij_open_clip_vit_bigg14_f16.ckpt": "3de5b9fe9be5edef73d6c8529405c3f3590906f28cfc5964578aa275bb9344cb",
+    "illustrij_clip_vit_l14_f16.ckpt": "5a2cd7f74ad6d3bebef49fcf62d0dac539782a2a0d965a6ff51d5bd1d4547084"
+  }
+}

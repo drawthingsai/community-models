@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "file": "illumiyume_xl_illustrious_f16.ckpt",
+  "clip_encoder": "illumiyume_xl_illustrious_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "upcast_attention": false,
+  "text_encoder": "illumiyume_xl_illustrious_open_clip_vit_bigg14_f16.ckpt",
+  "name": "IllumiYume-XL-Illustrious",
+  "converted": {
+    "illumiyume_xl_illustrious_clip_vit_l14_f16.ckpt": "1747a28f266eba17d3daccc84cd95d79c0100d46ae8656bce4d2f93be8725682",
+    "illumiyume_xl_illustrious_f16.ckpt": "d7ca83bf7399140ecb3a43c37ebfad1500b654cb149ed46e4b84c4cf0f6f4f27",
+    "illumiyume_xl_illustrious_open_clip_vit_bigg14_f16.ckpt": "20ddf85649a5a5218f4a029f748c0b9aff3244165e283261ad6880ba134d3883"
+  }
+}

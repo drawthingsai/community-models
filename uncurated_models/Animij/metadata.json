@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "text_encoder": "animij_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "file": "animij_f16.ckpt",
+  "prefix": "",
+  "name": "Animij",
+  "clip_encoder": "animij_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "animij_f16.ckpt": "8714e88434848b6b12cd815525b5996194fed2215061eda33b430eb7b9223d3d",
+    "animij_clip_vit_l14_f16.ckpt": "c5ca321944dc4b9431fb85ad50ee947bf88cf738a2bd3fddbf9b5ba33816cd8e",
+    "animij_open_clip_vit_bigg14_f16.ckpt": "da3e0048098068e2c019da51b0e788b0c9f15fcc00a0f97b9bf421f63cac3648"
+  }
+}

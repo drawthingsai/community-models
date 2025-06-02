@@ -1,0 +1,17 @@
+{
+  "file": "amanatsu_illustrious_f16.ckpt",
+  "clip_encoder": "amanatsu_illustrious_clip_vit_l14_f16.ckpt",
+  "text_encoder": "amanatsu_illustrious_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "name": "Amanatsu-Illustrious",
+  "default_scale": 16,
+  "converted": {
+    "amanatsu_illustrious_open_clip_vit_bigg14_f16.ckpt": "4bb92299cc611c810abbf2ca7fb1ac4fb4b6fc700d0c90ca3e0143e622482577",
+    "amanatsu_illustrious_clip_vit_l14_f16.ckpt": "68854f9e062a8fb652af558a4f9257abb137a739924f2ca78dd9d6839bd00971",
+    "amanatsu_illustrious_f16.ckpt": "2541aecae6ae04884de3e89d5fdb2150f0154a7d2697276faf3b4b7209a81d2e"
+  }
+}

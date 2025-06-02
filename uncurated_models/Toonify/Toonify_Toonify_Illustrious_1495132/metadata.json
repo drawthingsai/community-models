@@ -1,0 +1,17 @@
+{
+  "text_encoder": "toonify_toonify_illustrious_1495132_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "name": "Toonify_Toonify_Illustrious_1495132",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "toonify_toonify_illustrious_1495132_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "file": "toonify_toonify_illustrious_1495132_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "toonify_toonify_illustrious_1495132_f16.ckpt": "05e769945a73b8059cc5f5af49aa182ded7492eb44e6618f2b4e9ea1b4cb97d2",
+    "toonify_toonify_illustrious_1495132_clip_vit_l14_f16.ckpt": "e3bc53195b236b89700e3454af4a102596797e876cbadba816f3f1a9f23aafd7",
+    "toonify_toonify_illustrious_1495132_open_clip_vit_bigg14_f16.ckpt": "a4e2a7ea2cae2b9ade0a2697aa139be5d3ef39c2b9aa663e9631735f0dd7a5fe"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "clip_encoder": "wai_shuffle_noob_clip_vit_l14_f16.ckpt",
+  "text_encoder": "wai_shuffle_noob_open_clip_vit_bigg14_f16.ckpt",
+  "name": "WAI-SHUFFLE-NOOB",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "file": "wai_shuffle_noob_f16.ckpt",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "wai_shuffle_noob_clip_vit_l14_f16.ckpt": "11de9529f9ee16708ed2a4b681bfe612a74cfffc2ddf04323ac8ac6f76db70c5",
+    "wai_shuffle_noob_f16.ckpt": "6e2fb3449a60d1e2ccd240beb1e87b9349ada897e43275a99f3fd2ef74ef0f8d",
+    "wai_shuffle_noob_open_clip_vit_bigg14_f16.ckpt": "a2f21bddc386f9c9a8c89992bee5f17606cc4b028d3f54eef33839ff6cd14f1a"
+  }
+}

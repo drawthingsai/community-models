@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "text_encoder": "noobai_xl_nai_xl_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "noobai_xl_nai_xl_clip_vit_l14_f16.ckpt",
+  "name": "NoobAI-XL-NAI-XL",
+  "modifier": "none",
+  "upcast_attention": false,
+  "file": "noobai_xl_nai_xl_f16.ckpt",
+  "converted": {
+    "noobai_xl_nai_xl_open_clip_vit_bigg14_f16.ckpt": "46aa6fd03a999809b17267e432c4b65986fdeb15b11aa1abf65a110a1bf60f04",
+    "noobai_xl_nai_xl_f16.ckpt": "ce3b836cb877d9abfd187071b288144956884fb42d22cc6e4ff264bf441778c7",
+    "noobai_xl_nai_xl_clip_vit_l14_f16.ckpt": "78b056811bb3a3dd34a0e450508a370ed7d90fe142b35da0ea272c910e9e784f"
+  }
+}

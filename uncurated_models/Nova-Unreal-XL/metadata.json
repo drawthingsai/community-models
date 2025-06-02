@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "prefix": "",
+  "modifier": "none",
+  "file": "nova_unreal_xl_f16.ckpt",
+  "name": "Nova-Unreal-XL",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "text_encoder": "nova_unreal_xl_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "nova_unreal_xl_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "nova_unreal_xl_f16.ckpt": "c4bb9de4b2eaf71368de40e5305fecbd6c31da74f195e3bd097347fc3aaf5693",
+    "nova_unreal_xl_open_clip_vit_bigg14_f16.ckpt": "be02720fb628b7c254856c9f0009c997ba6a4fde7592be3325a420d0273561f0",
+    "nova_unreal_xl_clip_vit_l14_f16.ckpt": "aaac3bb5e1bccc354fc4046cf9c80fb501f95a5bd67ee1b5fa9eef8c817762e1"
+  }
+}

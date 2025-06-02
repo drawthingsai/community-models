@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "file": "duchaiten_cool_age_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "duchaiten_cool_age_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "duchaiten_cool_age_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "name": "DucHaiten-Cool-Age",
+  "converted": {
+    "duchaiten_cool_age_open_clip_vit_bigg14_f16.ckpt": "f2b671505287d55ac9e0d1a5965c3571d0aa64fa3c5bce13ab9c33fd5debfb39",
+    "duchaiten_cool_age_f16.ckpt": "e3f9a23847225ed2c479fc9c854132260b8e52b7eec3bb515fcc92030e02768c",
+    "duchaiten_cool_age_clip_vit_l14_f16.ckpt": "160c0b21e62c6c8ee39ad95c3a57e00db8f99163aaa9d458f36148d3d0e554cf"
+  }
+}

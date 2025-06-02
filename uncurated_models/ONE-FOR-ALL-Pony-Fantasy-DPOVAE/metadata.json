@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "ONE-FOR-ALL-Pony-Fantasy-DPOVAE",
+  "upcast_attention": false,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "one_for_all_pony_fantasy_dpovae_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "file": "one_for_all_pony_fantasy_dpovae_f16.ckpt",
+  "clip_encoder": "one_for_all_pony_fantasy_dpovae_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "one_for_all_pony_fantasy_dpovae_open_clip_vit_bigg14_f16.ckpt": "79d22139a8bc070863a7b5188d78550984be0b76e3ac145555eb895dc259b522",
+    "one_for_all_pony_fantasy_dpovae_f16.ckpt": "28ca4881e5df85e32364d491885d6d2e62588aa151a55c0a57e1ad7488e83bcd",
+    "one_for_all_pony_fantasy_dpovae_clip_vit_l14_f16.ckpt": "cab9f403316774fc91819d028339bc6a11e40dc369aac6c6893c2b50c6b33e04"
+  }
+}

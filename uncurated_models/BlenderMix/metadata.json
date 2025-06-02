@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "blendermix_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "file": "blendermix_f16.ckpt",
+  "modifier": "none",
+  "text_encoder": "blendermix_open_clip_vit_bigg14_f16.ckpt",
+  "name": "BlenderMix",
+  "upcast_attention": false,
+  "converted": {
+    "blendermix_clip_vit_l14_f16.ckpt": "29b9e7101005b85b852e2f232b2d14ef88cc426507672196fef950b7024fa2ec",
+    "blendermix_f16.ckpt": "4e78838d98000ff03cfe59463d653603b554efde1c0e8d745a3405c6c52afbd8",
+    "blendermix_open_clip_vit_bigg14_f16.ckpt": "ebc9fa05f3ffd6ff7915267da607b0ba38fd651472051f8088715466b31b6310"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Lox_s-Souls-Mix-Prisma-",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "lox_s_souls_mix_prisma__open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "lox_s_souls_mix_prisma__clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "modifier": "none",
+  "file": "lox_s_souls_mix_prisma__f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "lox_s_souls_mix_prisma__f16.ckpt": "07ba7756cd3aea65f1a0d1b2d2c1c56da2adb336a1f7b7649053fccca5a3343d",
+    "lox_s_souls_mix_prisma__open_clip_vit_bigg14_f16.ckpt": "5b0a45abf57ae3e41388f80e03ff2a3adde91766366df1fe5edee6f9d2134a8b",
+    "lox_s_souls_mix_prisma__clip_vit_l14_f16.ckpt": "44204ba757c57686f067680f33b48b8698ffc1abb701cced65a248cb0d01e860"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "name": "IcedCoffeeIL",
+  "default_scale": 16,
+  "text_encoder": "icedcoffeeil_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "clip_encoder": "icedcoffeeil_clip_vit_l14_f16.ckpt",
+  "file": "icedcoffeeil_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "icedcoffeeil_open_clip_vit_bigg14_f16.ckpt": "d26c90a314b71e1639f5461acdcb4156d55493fb165e96a793b618e01df3d917",
+    "icedcoffeeil_clip_vit_l14_f16.ckpt": "d4a1db74565c3ce05cedf8242002c84ca0df6da5765e12e94d492b51c787c413",
+    "icedcoffeeil_f16.ckpt": "3d842c039524ed427f289f3d7d968949f5c9286d661f8151906c99e80e24628d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "modifier": "none",
+  "file": "steinillustrious_f16.ckpt",
+  "text_encoder": "steinillustrious_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "clip_encoder": "steinillustrious_clip_vit_l14_f16.ckpt",
+  "name": "SteinIllustrious",
+  "converted": {
+    "steinillustrious_open_clip_vit_bigg14_f16.ckpt": "edb65c52a4bbca14c6697c97769f0f65db8350f9620f43f233d22e0c026bb9b6",
+    "steinillustrious_f16.ckpt": "997a083f3bcc69189a5036d5dfc1a8a28ebe4eca647d88c4c1b55d04aee6b8c0",
+    "steinillustrious_clip_vit_l14_f16.ckpt": "aa222fcde5af0400466739269bc301840154d586f6caf49750c66ed739c044f2"
+  }
+}

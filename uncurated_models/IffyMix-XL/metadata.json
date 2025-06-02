@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "prefix": "",
+  "default_scale": 16,
+  "clip_encoder": "iffymix_xl_clip_vit_l14_f16.ckpt",
+  "file": "iffymix_xl_f16.ckpt",
+  "name": "IffyMix-XL",
+  "text_encoder": "iffymix_xl_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "iffymix_xl_f16.ckpt": "6b2cb96979244671e2306cde180edbf4a95671af53249f4a9e136619bb64947d",
+    "iffymix_xl_clip_vit_l14_f16.ckpt": "dec7f3255fc5c14c2762216ca2943e7e5b16174efdd67ee0d7c67da42f598648",
+    "iffymix_xl_open_clip_vit_bigg14_f16.ckpt": "7df42529ff19977c9b6acf2bda9f7f594bcb70d4943380221caa79b8fcd7fb91"
+  }
+}

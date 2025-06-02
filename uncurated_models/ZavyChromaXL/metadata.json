@@ -1,0 +1,17 @@
+{
+  "text_encoder": "zavychromaxl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "prefix": "",
+  "clip_encoder": "zavychromaxl_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "name": "ZavyChromaXL",
+  "file": "zavychromaxl_f16.ckpt",
+  "converted": {
+    "zavychromaxl_clip_vit_l14_f16.ckpt": "68417a19f611d6dfea8064e151b328214dcad3a388e843b0d4a9dc8ca060d8e1",
+    "zavychromaxl_open_clip_vit_bigg14_f16.ckpt": "b6f8212b3e6632ddca490f4194ec193947b9f0bdc6fc45a4ba2e43b4ec262118",
+    "zavychromaxl_f16.ckpt": "2bf77084ab559fb7f782b169666fe523dc3a5a3ff5c72b6423dc053d15c8bcaf"
+  }
+}

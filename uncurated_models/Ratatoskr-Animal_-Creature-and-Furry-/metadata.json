@@ -1,0 +1,17 @@
+{
+  "file": "ratatoskr_animal__creature_and_furry__f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "upcast_attention": false,
+  "clip_encoder": "ratatoskr_animal__creature_and_furry__clip_vit_l14_f16.ckpt",
+  "name": "Ratatoskr-Animal_-Creature-and-Furry-",
+  "text_encoder": "ratatoskr_animal__creature_and_furry__open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "ratatoskr_animal__creature_and_furry__clip_vit_l14_f16.ckpt": "263ec0258924054fe1c0681fee01f7a47570d19fcfdfcba107b2ef3d64ac25dc",
+    "ratatoskr_animal__creature_and_furry__f16.ckpt": "95fb401826a119e9c4b68501f50555efc827476fb8ab9b1dad6e7e352a4d2b23",
+    "ratatoskr_animal__creature_and_furry__open_clip_vit_bigg14_f16.ckpt": "54f048e4ceae0f1b2ac8a6bad71a6fb92aca67c41b047d638c339ac8f075b60f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "clip_encoder": "2dn_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "name": "2DN",
+  "text_encoder": "2dn_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "file": "2dn_f16.ckpt",
+  "converted": {
+    "2dn_open_clip_vit_bigg14_f16.ckpt": "90201c98398021b957d3be773d43f178a607cddd4d9e2d09f244f6c7e0f5a08c",
+    "2dn_f16.ckpt": "e5a0c58cc67218f16b8030917e7c0b381b822cc4cdd78d78425e2fdd9142d3d9",
+    "2dn_clip_vit_l14_f16.ckpt": "ede5d01f7cf323b94a199f7d69fc1bff92ddeed099ac05cb73601257b3811549"
+  }
+}

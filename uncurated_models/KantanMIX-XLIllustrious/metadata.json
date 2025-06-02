@@ -1,0 +1,17 @@
+{
+  "text_encoder": "kantanmix_xlillustrious_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "file": "kantanmix_xlillustrious_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "clip_encoder": "kantanmix_xlillustrious_clip_vit_l14_f16.ckpt",
+  "name": "KantanMIX-XLIllustrious",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "kantanmix_xlillustrious_open_clip_vit_bigg14_f16.ckpt": "71cba569fbd4bdc1416c2a25a240596d1fec14b67fcbd7d728c38d4e879a01dc",
+    "kantanmix_xlillustrious_f16.ckpt": "b9b4e5f4368be88c3702454ef2ace3dd19eb4808e6ef72580bd3eea81ec0c69b",
+    "kantanmix_xlillustrious_clip_vit_l14_f16.ckpt": "4b1788f96d7f8dfd9de40fd5149dcae9d9d46e7dac27f11d9a5b39aa3050425a"
+  }
+}

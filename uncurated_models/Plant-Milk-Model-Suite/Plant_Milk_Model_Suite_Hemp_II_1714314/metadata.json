@@ -1,0 +1,17 @@
+{
+  "file": "plant_milk_model_suite_hemp_ii_1714314_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "plant_milk_model_suite_hemp_ii_1714314_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "name": "Plant_Milk_Model_Suite_Hemp_II_1714314",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "modifier": "none",
+  "clip_encoder": "plant_milk_model_suite_hemp_ii_1714314_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "plant_milk_model_suite_hemp_ii_1714314_open_clip_vit_bigg14_f16.ckpt": "3966c4217c05480e299a5d89adb218ed74a8b48194ec81c927a53ad9584e0e17",
+    "plant_milk_model_suite_hemp_ii_1714314_clip_vit_l14_f16.ckpt": "ace1ed1c72ece10da150f48ef3618a0df8df310b3f0c0ef20ac81868a286a504",
+    "plant_milk_model_suite_hemp_ii_1714314_f16.ckpt": "3cc75e30a7ddc49081d5d952e53ae6f2535069231c9a65a05c92c03518d74293"
+  }
+}

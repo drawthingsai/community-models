@@ -1,0 +1,17 @@
+{
+  "name": "Realism-SDXL-By-Stable-Yogi",
+  "text_encoder": "realism_sdxl_by_stable_yogi_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "file": "realism_sdxl_by_stable_yogi_f16.ckpt",
+  "default_scale": 16,
+  "clip_encoder": "realism_sdxl_by_stable_yogi_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "realism_sdxl_by_stable_yogi_open_clip_vit_bigg14_f16.ckpt": "f26db489410c3f4b18732a75efc9adbda170e5dc5a0f7e504bb8025f037d45cb",
+    "realism_sdxl_by_stable_yogi_f16.ckpt": "a05bf8363de08672bb04d31233cd0bfaa0837d769ec85dec3639de4db5b58d93",
+    "realism_sdxl_by_stable_yogi_clip_vit_l14_f16.ckpt": "979a45678aff8984544b8039ad5cbd356c966826e04104f2fe82aa54b5f15f89"
+  }
+}

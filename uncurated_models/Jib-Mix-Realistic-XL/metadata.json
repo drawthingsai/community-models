@@ -1,0 +1,17 @@
+{
+  "name": "Jib-Mix-Realistic-XL",
+  "clip_encoder": "jib_mix_realistic_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "jib_mix_realistic_xl_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "file": "jib_mix_realistic_xl_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "prefix": "",
+  "converted": {
+    "jib_mix_realistic_xl_clip_vit_l14_f16.ckpt": "29bebf9e0292d6fb4c06d9acf55e41c4a8a4f6fdb9d0bc61fa1edc08ff77ec5c",
+    "jib_mix_realistic_xl_f16.ckpt": "cfab65e5ced11ece620a23338be9e0f0bcc0ce486403e12428dd51d1dcbaff94",
+    "jib_mix_realistic_xl_open_clip_vit_bigg14_f16.ckpt": "4902c62fa0a22ca6610aeec686b89f911ff2359cd8130ecafe725a1f119e4d9d"
+  }
+}

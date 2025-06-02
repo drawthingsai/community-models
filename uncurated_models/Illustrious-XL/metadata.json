@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "modifier": "none",
+  "name": "Illustrious-XL",
+  "clip_encoder": "illustrious_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "illustrious_xl_open_clip_vit_bigg14_f16.ckpt",
+  "file": "illustrious_xl_f16.ckpt",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "converted": {
+    "illustrious_xl_f16.ckpt": "79bacdade34642af21839fd94c3b586c6289929f0d7139a39e1b3c0fa6a6ff24",
+    "illustrious_xl_open_clip_vit_bigg14_f16.ckpt": "29a1c38931ac19afb757ac9fe5493298247759d13ee708716750904f6e266009",
+    "illustrious_xl_clip_vit_l14_f16.ckpt": "3cd60a7c672f9651d80f57ba93749c34e83fdced17eb448a734ac071a903383e"
+  }
+}

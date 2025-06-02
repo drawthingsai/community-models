@@ -1,0 +1,17 @@
+{
+  "file": "nova_asian_xl_f16.ckpt",
+  "name": "Nova-Asian-XL",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "clip_encoder": "nova_asian_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "nova_asian_xl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "converted": {
+    "nova_asian_xl_clip_vit_l14_f16.ckpt": "0388a96cec7da1b439eb61f19840f19cad1a4670de233f477fdcd12816c5c053",
+    "nova_asian_xl_open_clip_vit_bigg14_f16.ckpt": "d4e5502fce4358c23b3a24b83d5502e321144fac86dfccb9f7edc47fd328925e",
+    "nova_asian_xl_f16.ckpt": "894dd8fd34bc730d34f4f2962d88b7a59dc0e86dd3c2725d8c1687f862c8e3aa"
+  }
+}

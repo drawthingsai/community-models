@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "file": "five_stars_illustrious_4.0_1657020_f16.ckpt",
+  "upcast_attention": false,
+  "name": "Five_Stars_Illustrious_4.0_1657020",
+  "default_scale": 16,
+  "prefix": "",
+  "clip_encoder": "five_stars_illustrious_4.0_1657020_clip_vit_l14_f16.ckpt",
+  "text_encoder": "five_stars_illustrious_4.0_1657020_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "five_stars_illustrious_4.0_1657020_open_clip_vit_bigg14_f16.ckpt": "c83e88868d27758f18ad3a4bc12f1a8473428fb1fcf6a25169f1efb9213cd3ae",
+    "five_stars_illustrious_4.0_1657020_clip_vit_l14_f16.ckpt": "a2f54e1bf39094bc1de1a2f6a2c68ab7716fd0354ed93fc78ee53fadfd11bd8a",
+    "five_stars_illustrious_4.0_1657020_f16.ckpt": "e4d1532d11498d6db11985e570fc968ed49757d1c599107bc4609686510bd8d0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "file": "editijon_k_pop_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "editijon_k_pop_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "editijon_k_pop_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "name": "Editijon-K-POP",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "editijon_k_pop_open_clip_vit_bigg14_f16.ckpt": "998892c4a50cf300a69e8142c56d567b7203e25e42e1f7d32da410674b4e229e",
+    "editijon_k_pop_f16.ckpt": "b64d28d6ed456124c0143096cee989548db9e2873bdccd49ace9dc49b7a5012f",
+    "editijon_k_pop_clip_vit_l14_f16.ckpt": "2a96c775dc506de51598fc76ad219c6877b1ef5c002466182ffade6beba52777"
+  }
+}

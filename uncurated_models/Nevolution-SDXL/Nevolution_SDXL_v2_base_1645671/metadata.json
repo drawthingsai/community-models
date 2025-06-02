@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "text_encoder": "nevolution_sdxl_v2_base_1645671_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Nevolution_SDXL_v2_base_1645671",
+  "file": "nevolution_sdxl_v2_base_1645671_f16.ckpt",
+  "default_scale": 16,
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "nevolution_sdxl_v2_base_1645671_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {
+    "nevolution_sdxl_v2_base_1645671_clip_vit_l14_f16.ckpt": "da217bc43df1f801560ee438c3eae8342d56f5433a55cf8ad109562f95dad527",
+    "nevolution_sdxl_v2_base_1645671_f16.ckpt": "6bdd74b8920f90a0cbadd175a73d45bf34463f91d02acafd34a6a776842384a3",
+    "nevolution_sdxl_v2_base_1645671_open_clip_vit_bigg14_f16.ckpt": "081ea525f5fe5236f17e0a1af4903fe0255a159e90d37041e5a45c6d42f653d5"
+  }
+}

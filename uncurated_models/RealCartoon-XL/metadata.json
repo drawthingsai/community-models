@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "clip_encoder": "realcartoon_xl_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "file": "realcartoon_xl_f16.ckpt",
+  "name": "RealCartoon-XL",
+  "prefix": "",
+  "text_encoder": "realcartoon_xl_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "realcartoon_xl_f16.ckpt": "295523a01b286fe16a6ca1a6269dc6a817b183535d67380bdb78eb35747258c6",
+    "realcartoon_xl_clip_vit_l14_f16.ckpt": "4846c3debdd084b33eddccac6e06b3800abe09a9dbaeaf3c0ad3b4003492f35f",
+    "realcartoon_xl_open_clip_vit_bigg14_f16.ckpt": "c6376eb4c422e66395a736284811846991abc63f56938e795b688486269481b4"
+  }
+}

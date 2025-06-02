@@ -1,0 +1,17 @@
+{
+  "name": "Realism_By_Stable_Yogi_v4.0_FP16_1422871",
+  "prefix": "",
+  "modifier": "none",
+  "file": "realism_by_stable_yogi_v4.0_fp16_1422871_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "realism_by_stable_yogi_v4.0_fp16_1422871_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "realism_by_stable_yogi_v4.0_fp16_1422871_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "converted": {
+    "realism_by_stable_yogi_v4.0_fp16_1422871_f16.ckpt": "a5444ace8142cddd4407ef9e397c6bfbd95004bea8f0241411294352cc1e030d",
+    "realism_by_stable_yogi_v4.0_fp16_1422871_open_clip_vit_bigg14_f16.ckpt": "df43279252b734fc13eb36b9d870fd627a83751f8902b30e22dac63f710383bb",
+    "realism_by_stable_yogi_v4.0_fp16_1422871_clip_vit_l14_f16.ckpt": "4aa9e7bfc33ccd1487ee461ae463c6cc34c83f231b3987de59d3ea5502557bd3"
+  }
+}

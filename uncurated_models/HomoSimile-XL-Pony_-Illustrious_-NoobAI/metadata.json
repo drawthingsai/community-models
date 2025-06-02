@@ -1,0 +1,17 @@
+{
+  "file": "homosimile_xl_pony__illustrious__noobai_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "homosimile_xl_pony__illustrious__noobai_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "clip_encoder": "homosimile_xl_pony__illustrious__noobai_clip_vit_l14_f16.ckpt",
+  "name": "HomoSimile-XL-Pony_-Illustrious_-NoobAI",
+  "converted": {
+    "homosimile_xl_pony__illustrious__noobai_f16.ckpt": "30096bfab432023b9703414d8fdccc1a7967ea2f523ac8793fbca18e2019ff6d",
+    "homosimile_xl_pony__illustrious__noobai_open_clip_vit_bigg14_f16.ckpt": "5ec57ea3fd7074821aecd9e14d4f0c47f94d241b6b24b2f86bba5f47e1da91d2",
+    "homosimile_xl_pony__illustrious__noobai_clip_vit_l14_f16.ckpt": "eec9b241e44f946f741a2dd006334203d507f86995ae0ebef269ad8a7c8fc509"
+  }
+}

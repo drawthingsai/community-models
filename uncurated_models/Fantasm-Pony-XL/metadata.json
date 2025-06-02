@@ -1,0 +1,17 @@
+{
+  "name": "Fantasm-Pony-XL",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "fantasm_pony_xl_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "default_scale": 16,
+  "file": "fantasm_pony_xl_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "fantasm_pony_xl_open_clip_vit_bigg14_f16.ckpt",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "fantasm_pony_xl_open_clip_vit_bigg14_f16.ckpt": "1b5b6dd54f2f769d2f55a54d3d7a7771799687bb42824abebcf07baadbd755d4",
+    "fantasm_pony_xl_f16.ckpt": "f2a7931a1cfeeccade2397b4a33982e2e73b6ad0d7ee67fa24f3104cb0707906",
+    "fantasm_pony_xl_clip_vit_l14_f16.ckpt": "3d7801c923e542907e8941dc31b86c889417b1f34477a1bf721990a5bb5c0b78"
+  }
+}

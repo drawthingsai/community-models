@@ -1,0 +1,17 @@
+{
+  "clip_encoder": "lunargrapemix_illustrious_clip_vit_l14_f16.ckpt",
+  "file": "lunargrapemix_illustrious_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "modifier": "none",
+  "text_encoder": "lunargrapemix_illustrious_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "LunarGrapeMix-Illustrious",
+  "prefix": "",
+  "upcast_attention": false,
+  "converted": {
+    "lunargrapemix_illustrious_f16.ckpt": "76ba370356c1cfd20520fa233a451c457ad4334dea3abdd1613cf4f8db595aa0",
+    "lunargrapemix_illustrious_open_clip_vit_bigg14_f16.ckpt": "4cfc86dd616cde98c217199719055beb6ee6503ad44510c5a48399c9fd7bd7eb",
+    "lunargrapemix_illustrious_clip_vit_l14_f16.ckpt": "75d8ee54a8c106600d4eb747a113317c2657a802e6f45a5361cd6224585c744f"
+  }
+}

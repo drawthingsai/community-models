@@ -77,6 +77,7 @@ jobs:
         run: |
           cd "${GITHUB_WORKSPACE}/main"
           python3 utils/models_json.py
+          python3 utils/uncurated_models_json.py
           python3 utils/loras_json.py
           python3 utils/embeddings_json.py
           python3 utils/controlnets_json.py

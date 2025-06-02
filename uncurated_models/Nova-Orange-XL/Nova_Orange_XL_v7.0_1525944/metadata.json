@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "file": "nova_orange_xl_v7.0_1525944_f16.ckpt",
+  "clip_encoder": "nova_orange_xl_v7.0_1525944_clip_vit_l14_f16.ckpt",
+  "name": "Nova_Orange_XL_v7.0_1525944",
+  "default_scale": 16,
+  "prefix": "",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "nova_orange_xl_v7.0_1525944_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "nova_orange_xl_v7.0_1525944_clip_vit_l14_f16.ckpt": "7e517ebb973b1127157c9ce69b3a668042b4509ff6e1cb4cdd62c052f0d4e6a8",
+    "nova_orange_xl_v7.0_1525944_open_clip_vit_bigg14_f16.ckpt": "f609a266488edb92c059810c99be9fb4874a891e5d73465f15e4db03cdb5e13f",
+    "nova_orange_xl_v7.0_1525944_f16.ckpt": "ea9222df3164dac99f15460376e092c88b133e241572f0f3a7266b05ae493ca5"
+  }
+}

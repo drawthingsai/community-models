@@ -1,0 +1,17 @@
+{
+  "file": "throwing_pasta_mix_spaghetti_f16.ckpt",
+  "clip_encoder": "throwing_pasta_mix_spaghetti_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "name": "Throwing-Pasta-MIX-Spaghetti",
+  "text_encoder": "throwing_pasta_mix_spaghetti_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "throwing_pasta_mix_spaghetti_f16.ckpt": "8c35a246a0696a9d2f9d4265d5685a9f88d2cbc7c6f57dca5bf212624cd16195",
+    "throwing_pasta_mix_spaghetti_clip_vit_l14_f16.ckpt": "4bda744e48e2d3e1a2ab69010563b8367e867fe33774b123d3986d009d9fecb2",
+    "throwing_pasta_mix_spaghetti_open_clip_vit_bigg14_f16.ckpt": "1af379eb663008eb933a36682521deade9c705ef1e715d6d1fd95b94861deb03"
+  }
+}

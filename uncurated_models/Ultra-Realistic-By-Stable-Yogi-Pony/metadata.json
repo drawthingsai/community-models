@@ -1,0 +1,17 @@
+{
+  "name": "Ultra-Realistic-By-Stable-Yogi-Pony",
+  "prefix": "",
+  "file": "ultra_realistic_by_stable_yogi_pony_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "text_encoder": "ultra_realistic_by_stable_yogi_pony_open_clip_vit_bigg14_f16.ckpt",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "ultra_realistic_by_stable_yogi_pony_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "converted": {
+    "ultra_realistic_by_stable_yogi_pony_open_clip_vit_bigg14_f16.ckpt": "83a9b8e8faf5c9903f45905465535b946f004fd7bdda4772053281d1e7c8fa95",
+    "ultra_realistic_by_stable_yogi_pony_clip_vit_l14_f16.ckpt": "87eedb7e5119120e37db94d6bc4f10d507c1870f4cb96a42392e17533a46a6de",
+    "ultra_realistic_by_stable_yogi_pony_f16.ckpt": "f1b7078f8f0b3813be61604eb4439f0ad6aae628905ee040deae784e08650c4f"
+  }
+}

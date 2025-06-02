@@ -1,0 +1,17 @@
+{
+  "text_encoder": "singlo_illustrious_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "clip_encoder": "singlo_illustrious_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "name": "SinGlo-illustrious",
+  "file": "singlo_illustrious_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "modifier": "none",
+  "converted": {
+    "singlo_illustrious_open_clip_vit_bigg14_f16.ckpt": "1064e321bf92329f66efb4a46b53dec45c2dde8c15891487470c785fef66c7e8",
+    "singlo_illustrious_f16.ckpt": "f10c0a86d90df59353bfbcd4cdb3d1dfc21376731adeff548c9fc7a984a1e4d5",
+    "singlo_illustrious_clip_vit_l14_f16.ckpt": "d16b8bb01ec9de4a35e5d289a422b7338a3fb1e568317699bc963ae69fdfbfef"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "file": "duchaiten_pony_real_f16.ckpt",
+  "text_encoder": "duchaiten_pony_real_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "name": "DucHaiten-Pony-Real",
+  "prefix": "",
+  "modifier": "none",
+  "clip_encoder": "duchaiten_pony_real_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "duchaiten_pony_real_clip_vit_l14_f16.ckpt": "f4fc2ac679d8d6d1d5bf35d4096854a5ae8378b5dbbaf030dd9fbf191fd9cad2",
+    "duchaiten_pony_real_f16.ckpt": "9b6f03fb8eb9cddce3a342233851f52c7d6c0bccce3fc30df57dc4b27798d5bc",
+    "duchaiten_pony_real_open_clip_vit_bigg14_f16.ckpt": "753cac45092077359a23ba29601a389a90100affc3168c721d08bce8c421cf64"
+  }
+}

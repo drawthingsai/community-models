@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "prefix": "",
+  "file": "aungir_aungir_t6ao4.5_1723632_f16.ckpt",
+  "clip_encoder": "aungir_aungir_t6ao4.5_1723632_clip_vit_l14_f16.ckpt",
+  "text_encoder": "aungir_aungir_t6ao4.5_1723632_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Aungir_Aungir_T6AO4.5_1723632",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "aungir_aungir_t6ao4.5_1723632_clip_vit_l14_f16.ckpt": "6960bdcb338d49d38f6ce46f810ab3ea968dff818afa070d8ba33157616387cc",
+    "aungir_aungir_t6ao4.5_1723632_open_clip_vit_bigg14_f16.ckpt": "aea7d1a895654472c305b9263de1d78c5de782e44b026f0cbe2af1ca307ee320",
+    "aungir_aungir_t6ao4.5_1723632_f16.ckpt": "59fd0852f72ce9f739b2b8ef1d40646d43b8efd4722a28f69c8c0a2225603917"
+  }
+}

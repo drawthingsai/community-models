@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "prefix": "",
+  "text_encoder": "dixar_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "dixar_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "name": "Dixar",
+  "modifier": "none",
+  "file": "dixar_f16.ckpt",
+  "converted": {
+    "dixar_f16.ckpt": "a1384dd6d61acca27316aa3e841c0e040cb081b3635ee195809dfbe003803c21",
+    "dixar_clip_vit_l14_f16.ckpt": "9c3857016abef274505260853355e138264f2b95add42bbaa6373a3db7139943",
+    "dixar_open_clip_vit_bigg14_f16.ckpt": "8201fd5350345faaa90d4389f6968801cc187475f572a9b78dab47d82eb9d40b"
+  }
+}

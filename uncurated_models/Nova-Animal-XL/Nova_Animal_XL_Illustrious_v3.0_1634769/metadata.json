@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "text_encoder": "nova_animal_xl_illustrious_v3.0_1634769_open_clip_vit_bigg14_f16.ckpt",
+  "name": "Nova_Animal_XL_Illustrious_v3.0_1634769",
+  "clip_encoder": "nova_animal_xl_illustrious_v3.0_1634769_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "file": "nova_animal_xl_illustrious_v3.0_1634769_f16.ckpt",
+  "prefix": "",
+  "converted": {
+    "nova_animal_xl_illustrious_v3.0_1634769_f16.ckpt": "7b6d239beddf79a901a6b1e7837af4c8a5b6b475e55c329b07b66a03947b2cf9",
+    "nova_animal_xl_illustrious_v3.0_1634769_open_clip_vit_bigg14_f16.ckpt": "6d21029d0b05d5f2542dc7db29db5c8ef6896b08d12d6732bdccf741c6601cf4",
+    "nova_animal_xl_illustrious_v3.0_1634769_clip_vit_l14_f16.ckpt": "e34a81b2e740afd8324681dcd74ef5b325550901141b853ea5d4a71c41c98cb9"
+  }
+}

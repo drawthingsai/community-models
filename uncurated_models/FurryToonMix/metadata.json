@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "default_scale": 16,
+  "file": "furrytoonmix_f16.ckpt",
+  "prefix": "",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "furrytoonmix_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "name": "FurryToonMix",
+  "text_encoder": "furrytoonmix_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {
+    "furrytoonmix_open_clip_vit_bigg14_f16.ckpt": "cdc95eaa8f6a6b7c2d64a57eec4ff62c7c41b6d77f69a607520cd78e619fa078",
+    "furrytoonmix_f16.ckpt": "d3d9a200f3cf07b928e6b2b6600a56471af80b602c876a22bb5ae79ca340a2a5",
+    "furrytoonmix_clip_vit_l14_f16.ckpt": "7215f0bb4788f751d5005090c76be5ef4c061d523cfc89d81a4ea13b230b186a"
+  }
+}

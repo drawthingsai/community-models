@@ -1,0 +1,14 @@
+{
+  "default_scale": 8,
+  "upcast_attention": false,
+  "file": "tt_animerge_f16.ckpt",
+  "text_encoder": "tt_animerge_clip_vit_l14_f16.ckpt",
+  "name": "tt-animerge",
+  "version": "v1",
+  "modifier": "none",
+  "prefix": "",
+  "converted": {
+    "tt_animerge_clip_vit_l14_f16.ckpt": "d726f7ab588dbc83053223686430e8d25e5ada4260ce4e9233d89efe547da94b",
+    "tt_animerge_f16.ckpt": "b1a93882529583dc59fb68c3f8514cd3f5452f51d2f357cb545a2eac74e5eea6"
+  }
+}

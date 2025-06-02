@@ -1,0 +1,17 @@
+{
+  "name": "Smooth_Mix_NoobAI_Illustrious_Pony_Realism_1675843",
+  "prefix": "",
+  "modifier": "none",
+  "text_encoder": "smooth_mix_noobai_illustrious_pony_realism_1675843_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "smooth_mix_noobai_illustrious_pony_realism_1675843_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "file": "smooth_mix_noobai_illustrious_pony_realism_1675843_f16.ckpt",
+  "upcast_attention": false,
+  "default_scale": 16,
+  "converted": {
+    "smooth_mix_noobai_illustrious_pony_realism_1675843_f16.ckpt": "9d90285d089696a372e09e428207c62750b4b764a9c312fd5460cc18509a8ed0",
+    "smooth_mix_noobai_illustrious_pony_realism_1675843_clip_vit_l14_f16.ckpt": "14f3c486ae6486dc392fbf3f2f6dc8a5c47ad06e7fc2aa83258bd7c045cc9615",
+    "smooth_mix_noobai_illustrious_pony_realism_1675843_open_clip_vit_bigg14_f16.ckpt": "6c19bc44977042a3b3a274791e6a6f92a8d052019590c4c1f546d591b8bd78ea"
+  }
+}

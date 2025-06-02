@@ -1,0 +1,17 @@
+{
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "modifier": "none",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "name": "Candied-Anime-IllustriousXL",
+  "upcast_attention": false,
+  "clip_encoder": "candied_anime_illustriousxl_clip_vit_l14_f16.ckpt",
+  "file": "candied_anime_illustriousxl_f16.ckpt",
+  "text_encoder": "candied_anime_illustriousxl_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "candied_anime_illustriousxl_open_clip_vit_bigg14_f16.ckpt": "aae2cb86224857df8d529ccef9cf2b84ef941c6fe49afde284de2259f323cb0a",
+    "candied_anime_illustriousxl_f16.ckpt": "de86f6646d5fc39ad1942c281cb0c1f996c2a2244c75f1829bf7c4ed0f8aab12",
+    "candied_anime_illustriousxl_clip_vit_l14_f16.ckpt": "fc064ab72ab9d06025ffdf51482acc87ede34a620a23e411508a30087be28b04"
+  }
+}

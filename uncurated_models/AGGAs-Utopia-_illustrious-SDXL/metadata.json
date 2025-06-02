@@ -1,0 +1,17 @@
+{
+  "file": "agga_s_utopia__illustrious_sdxl_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "text_encoder": "agga_s_utopia__illustrious_sdxl_open_clip_vit_bigg14_f16.ckpt",
+  "default_scale": 16,
+  "name": "AGGAs-Utopia-_illustrious-SDXL",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "clip_encoder": "agga_s_utopia__illustrious_sdxl_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "agga_s_utopia__illustrious_sdxl_open_clip_vit_bigg14_f16.ckpt": "276a1a21a52784ec4467165734a6e2f0a3854e6870fddc3ff2316c46fbd4129f",
+    "agga_s_utopia__illustrious_sdxl_clip_vit_l14_f16.ckpt": "72a23f7481c6effa32372570f3b3dd1138a29e3bdf50774de36072564671338d",
+    "agga_s_utopia__illustrious_sdxl_f16.ckpt": "90d7de22972e07582ec59b6db5181e3a57684f347623b0638a58ff9870a6ba70"
+  }
+}

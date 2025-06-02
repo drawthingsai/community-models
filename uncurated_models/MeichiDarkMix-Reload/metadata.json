@@ -1,0 +1,17 @@
+{
+  "file": "meichidarkmix_reload_f16.ckpt",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "text_encoder": "meichidarkmix_reload_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "upcast_attention": false,
+  "name": "MeichiDarkMix-Reload",
+  "default_scale": 16,
+  "prefix": "",
+  "clip_encoder": "meichidarkmix_reload_clip_vit_l14_f16.ckpt",
+  "converted": {
+    "meichidarkmix_reload_clip_vit_l14_f16.ckpt": "d0b7336215a1815d06fe7ce65941e65b0074ca61fbfcd4a5da46ade191bb98d1",
+    "meichidarkmix_reload_f16.ckpt": "059bb129366f9f924ec445d30198fae478cbbba85361c0c1fd9956adea7236b0",
+    "meichidarkmix_reload_open_clip_vit_bigg14_f16.ckpt": "0a4a688af281a6bc8a08afa16b4c95d5f399f03e1f869fcc2710235c1ec6ce8d"
+  }
+}

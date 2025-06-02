@@ -1,0 +1,17 @@
+{
+  "prefix": "",
+  "modifier": "none",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "file": "duchaiten_noobai_cinematic_f16.ckpt",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "name": "DucHaiten-NoobAI-Cinematic",
+  "clip_encoder": "duchaiten_noobai_cinematic_clip_vit_l14_f16.ckpt",
+  "default_scale": 16,
+  "text_encoder": "duchaiten_noobai_cinematic_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "duchaiten_noobai_cinematic_open_clip_vit_bigg14_f16.ckpt": "00307615c8f3f00bc3e65efd1dc8fd5a0348efbc69039909a7ed3b8ec0b01a18",
+    "duchaiten_noobai_cinematic_f16.ckpt": "dc84cd2335b10bde059b193e44a90add299bd8f4a26eb7a6c90ef5f661ffdc6d",
+    "duchaiten_noobai_cinematic_clip_vit_l14_f16.ckpt": "a8a172eb528198ff8e4b237418c12a05442117d0fd6d3db256e0578b79abe58f"
+  }
+}

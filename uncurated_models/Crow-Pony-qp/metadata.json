@@ -1,0 +1,17 @@
+{
+  "text_encoder": "crow___pony_qp_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "crow___pony_qp_clip_vit_l14_f16.ckpt",
+  "modifier": "none",
+  "name": "Crow-Pony-qp",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "file": "crow___pony_qp_f16.ckpt",
+  "converted": {
+    "crow___pony_qp_clip_vit_l14_f16.ckpt": "0d9873e16d589d51d967f3759e3d59b5b028994a4c60b763ddae14af8c3c1d15",
+    "crow___pony_qp_open_clip_vit_bigg14_f16.ckpt": "79784b3f1b119b5068978ffc5d52d533e301ef7cdf43df90255b863f01aa6404",
+    "crow___pony_qp_f16.ckpt": "8c3eea5f1e00a74aee879d70d0a610e8c5ec19166a6e3026ff67f320eec26218"
+  }
+}

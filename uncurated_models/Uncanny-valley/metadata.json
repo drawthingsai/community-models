@@ -1,0 +1,17 @@
+{
+  "modifier": "none",
+  "clip_encoder": "uncanny_valley_clip_vit_l14_f16.ckpt",
+  "prefix": "",
+  "text_encoder": "uncanny_valley_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "name": "Uncanny-valley",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "file": "uncanny_valley_f16.ckpt",
+  "converted": {
+    "uncanny_valley_f16.ckpt": "35a82f931a8802050b05d97122f187548b00b75aac64f7a570363709dfd94133",
+    "uncanny_valley_clip_vit_l14_f16.ckpt": "ab5ae511e485b994960e1210e58e1a4594e615ef5b6e3d47372eaeb2e4fb8f59",
+    "uncanny_valley_open_clip_vit_bigg14_f16.ckpt": "b18406b278a48c5c208994c4c6fe464188f09ec61a1bb0f1b2d6141f6d73a1f2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "default_scale": 16,
+  "prefix": "",
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "file": "circusmix_f16.ckpt",
+  "text_encoder": "circusmix_open_clip_vit_bigg14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "clip_encoder": "circusmix_clip_vit_l14_f16.ckpt",
+  "name": "CircusMix",
+  "modifier": "none",
+  "converted": {
+    "circusmix_open_clip_vit_bigg14_f16.ckpt": "0f40e60c5780aa607d575b9679de0f066150eb533482e368e3ecbbf623cd8c33",
+    "circusmix_f16.ckpt": "919dc89f26162e96c94f82834eca7b64a23ab9615b0fe066255de6619315b49c",
+    "circusmix_clip_vit_l14_f16.ckpt": "845b47e627b3f8ac4f67844e850768700380d7ffc4896815c459972100c146bb"
+  }
+}

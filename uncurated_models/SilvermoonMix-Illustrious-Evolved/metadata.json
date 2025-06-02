@@ -1,0 +1,17 @@
+{
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "prefix": "",
+  "default_scale": 16,
+  "file": "silvermoonmix_illustrious_evolved_f16.ckpt",
+  "text_encoder": "silvermoonmix_illustrious_evolved_open_clip_vit_bigg14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "clip_encoder": "silvermoonmix_illustrious_evolved_clip_vit_l14_f16.ckpt",
+  "upcast_attention": false,
+  "name": "SilvermoonMix-Illustrious-Evolved",
+  "converted": {
+    "silvermoonmix_illustrious_evolved_f16.ckpt": "8873831d015586b599d41d29603f1e74ba1ca2a006b58f29866e9d49694fc38c",
+    "silvermoonmix_illustrious_evolved_clip_vit_l14_f16.ckpt": "78b056811bb3a3dd34a0e450508a370ed7d90fe142b35da0ea272c910e9e784f",
+    "silvermoonmix_illustrious_evolved_open_clip_vit_bigg14_f16.ckpt": "63a2c38439ab8be8c6cc54c3ca5e27eb77f15b1c2bef0d7770163e1e0df12218"
+  }
+}

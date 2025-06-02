@@ -1,0 +1,17 @@
+{
+  "name": "RedCraft-CADS-UPdated-May4-Commercial-_-Advertising-Design-System",
+  "upcast_attention": false,
+  "clip_encoder": "redcraft___cads_updated_may4_commercial___advertising_design_system_clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "modifier": "none",
+  "text_encoder": "redcraft___cads_updated_may4_commercial___advertising_design_system_open_clip_vit_bigg14_f16.ckpt",
+  "file": "redcraft___cads_updated_may4_commercial___advertising_design_system_f16.ckpt",
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "default_scale": 16,
+  "converted": {
+    "redcraft___cads_updated_may4_commercial___advertising_design_system_open_clip_vit_bigg14_f16.ckpt": "9e88fb2a3be05be6cbcbbd0517e6e97f217c1f4ad0eeae190f41078522b93aeb",
+    "redcraft___cads_updated_may4_commercial___advertising_design_system_f16.ckpt": "f3da11fdcc126a8897c62106c2c7ab0367dccbb2a0c92c8fdc41689380d33709",
+    "redcraft___cads_updated_may4_commercial___advertising_design_system_clip_vit_l14_f16.ckpt": "af9d6cf5148f208fb15344f6f8ce8318e68e2f20cad841365e9d5154ec90b367"
+  }
+}

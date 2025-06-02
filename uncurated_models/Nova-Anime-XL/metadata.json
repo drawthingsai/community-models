@@ -1,0 +1,17 @@
+{
+  "upcast_attention": false,
+  "clip_encoder": "nova_anime_xl_clip_vit_l14_f16.ckpt",
+  "text_encoder": "nova_anime_xl_open_clip_vit_bigg14_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "version": "sdxl_base_v0.9",
+  "name": "Nova-Anime-XL",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "file": "nova_anime_xl_f16.ckpt",
+  "converted": {
+    "nova_anime_xl_open_clip_vit_bigg14_f16.ckpt": "317222580e7f6a0bf51c291f851f54b79fd102da57d98e81cd12c853673b9eaa",
+    "nova_anime_xl_clip_vit_l14_f16.ckpt": "4975be868041952347585474783b3a1fb47925b61ad876f9bb46211793aaf9b1",
+    "nova_anime_xl_f16.ckpt": "553ed5bceb205add00012c0a8c9112612394aba4a14f244e36d14e44828951e8"
+  }
+}
