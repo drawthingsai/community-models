@@ -47,7 +47,7 @@ def get_builtins(builtin_file):
     return builtins
             
 current_parent_path = Path(__file__).resolve().parent.parent
-root_directories = [current_parent_path / "models", current_parent_path / "loras", current_parent_path / "embeddings", current_parent_path / "controlnets"]  # Replace with the root directory path
+root_directories = [current_parent_path / "models", current_parent_path / "loras", current_parent_path / "embeddings", current_parent_path / "controlnets", current_parent_path / "uncurated_models"]  # Replace with the root directory path
 converted_files = traverse_and_get_converted_filenames(root_directories)
 converted_files.extend(get_builtins("builtin.txt"))
 file_sizes_metadata = []
