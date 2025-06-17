@@ -5,7 +5,7 @@ wavespeedai-kling-v1.6-i2v-pro
 wavespeedai-kling-v1.6-t2v-std
 kling-v1-i2v-std
 wavespeedai-flux-1-dev
-wavespeedai-Google-veo3-t2v
+wavespeedai-google-veo3-t2v
 wavespeedai-seedance-i2v-1080p-lite
 wavespeedai-seedance-i2v-1080p-pro
 wavespeedai-seedance-i2v-720p-lite

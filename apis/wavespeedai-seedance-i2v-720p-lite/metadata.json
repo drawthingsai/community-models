@@ -1,7 +1,7 @@
 {
     "version" : "flux1",
     "upcast_attention" : false,
-    "name" : "WaveSpeedAI seedance i2v 720p [lite]",
+    "name" : "WaveSpeedAI Seedance I2V 720p [lite]",
     "remote_api_model_config" : {
       "settings_sections" : [
         "model",
