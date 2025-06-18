@@ -14,3 +14,5 @@ wavespeedai-seedance-t2v-1080p-lite
 wavespeedai-seedance-t2v-1080p-pro
 wavespeedai-seedance-t2v-720p-lite
 wavespeedai-seedance-t2v-720p-pro
+wavespeedai-minimax-hailuo-02-768p
+wavespeedai-minimax-hailuo-02-1080p
