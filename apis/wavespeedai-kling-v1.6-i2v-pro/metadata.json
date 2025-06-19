@@ -42,6 +42,7 @@
     },
     "prefix" : "",
     "version" : "wan_v2.1_14b",
+    "frames_per_second": 30,
     "name" : "WaveSpeedAI Kling v1.6 I2V [pro]",
     "file" : "wavespeedai_kling_v1.6_i2v_pro"
   }

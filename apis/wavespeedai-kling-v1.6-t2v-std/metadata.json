@@ -1,6 +1,7 @@
 {
     "file" : "wavespeedai_kling_v1.6_t2v_std",
     "version" : "wan_v2.1_14b",
+    "frames_per_second": 30,
     "prefix" : "",
     "upcast_attention" : false,
     "default_scale" : 16,
