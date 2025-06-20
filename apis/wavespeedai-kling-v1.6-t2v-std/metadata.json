@@ -5,7 +5,7 @@
     "prefix" : "",
     "upcast_attention" : false,
     "default_scale" : 16,
-    "name" : "WaveSpeedAI Kling v1.6 T2V [std]",
+    "name" : "Kling v1.6 T2V [std] via WaveSpeedAI",
     "remote_api_model_config" : {
       "polling_interval" : 30,
       "api_key" : "",

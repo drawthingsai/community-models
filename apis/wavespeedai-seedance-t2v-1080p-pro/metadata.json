@@ -2,7 +2,7 @@
     "version" : "wan_v2.1_14b",
     "frames_per_second": 30,
     "upcast_attention" : false,
-    "name" : "WaveSpeedAI Seedance T2V 1080p [pro]",
+    "name" : "Seedance T2V 1080p [pro] via WaveSpeedAI",
     "remote_api_model_config" : {
       "settings_sections" : [
         "model",
