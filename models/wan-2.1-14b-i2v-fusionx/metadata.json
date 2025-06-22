@@ -1,0 +1,26 @@
+{
+  "name" : "Wan 2.1 14B I2V FusionX",
+  "version" : "wan_v2.1_14b",
+  "modifier" : "inpainting",
+  "autoencoder" : "wan_v2.1_video_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 12,
+  "hires_fix_scale" : 16,
+  "file" : "wan_2.1_14b_i2v_fusionx_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "umt5_xxl_encoder_q8p.ckpt",
+  "clip_encoder" : "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "frames_per_second": 16,
+  "tea_cache_coefficients": [8.10705460e+03,  2.13393892e+03, -3.72934672e+02,  1.66203073e+01, -4.17769401e-02],
+  "note": "[Wan2.1 14B FusionX](https://huggingface.co/vrgamedevgirl84/Wan14BT2VFusioniX) is a merged model of multiple quality and acceleration LoRAs.",
+  "converted": {
+    "wan_2.1_14b_i2v_fusionx_q6p_svd.ckpt": "7f9189c60308386f1ab711db7a60d8c99296cd5fd20e0937bfbe7d7fbe8f1ac4",
+    "wan_2.1_14b_i2v_fusionx_q8p.ckpt": "4f9a4bdc48ebaaffa098879ddc26f9f15bc76393ed49a89a9018d597fa0e7afa"
+  }
+}
