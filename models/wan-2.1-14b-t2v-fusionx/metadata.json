@@ -8,7 +8,6 @@
   "file" : "wan_2.1_14b_t2v_fusionx_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "umt5_xxl_encoder_q8p.ckpt",
-  "clip_encoder" : "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
   "high_precision_autoencoder": false,
   "objective" : {
     "u" : {
