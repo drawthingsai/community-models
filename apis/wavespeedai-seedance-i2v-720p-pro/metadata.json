@@ -8,7 +8,8 @@
         "model",
         "remoteApiKey",
         "strength",
-        "seed"
+        "seed",
+        "imageSize"
       ],
       "api_key" : "",
       "remote_api_model_config_mapping" : {
