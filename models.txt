@@ -1,3 +1,5 @@
+flux-1-kontext-dev
+flux-1-kontext-dev-exact
 flux-1-dev
 flux-1-fill-dev
 hidream-i1-dev-exact
