@@ -1,10 +1,6 @@
 openai-gpt-image-1
 kling-v2.0-i2v-pro
 kling-v2.0-i2v-std
-wavespeedai-kling-v1.6-i2v-pro
-wavespeedai-kling-v1.6-t2v-std
-kling-v1-i2v-std
-wavespeedai-flux-1-dev
 wavespeedai-google-veo3-t2v
 wavespeedai-seedance-i2v-1080p-lite
 wavespeedai-seedance-i2v-1080p-pro
@@ -16,3 +12,7 @@ wavespeedai-seedance-t2v-720p-lite
 wavespeedai-seedance-t2v-720p-pro
 wavespeedai-minimax-hailuo-02-768p
 wavespeedai-minimax-hailuo-02-1080p
+wavespeedai-kling-v1.6-i2v-pro
+wavespeedai-kling-v1.6-t2v-std
+kling-v1-i2v-std
+wavespeedai-flux-1-dev
