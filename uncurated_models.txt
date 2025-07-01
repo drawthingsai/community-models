@@ -132,6 +132,7 @@ WAI-SHUFFLE-NOOB
 ZEP9
 ZavyChromaXL
 boleromixillustrious
+chroma-v38-detail-calibrated
 epiCRealism-XL
 koronemix-illustrious
 miruku
