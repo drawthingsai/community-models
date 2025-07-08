@@ -1,0 +1,30 @@
+{
+  "name" : "Chroma v42 Detail Calibrated",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "chroma_v42_detail_calibrated_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "padded_text_encoding_length": 256,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "mmdit" : {
+    "dual_attention_layers" : [
+    ],
+    "distilled_guidance_layers" : 5,
+    "qk_norm" : true
+  },
+  "converted": {
+    "chroma_v42_detail_calibrated_q8p.ckpt": "1affbfc77589d4f9cf213f0e7371d789b835f88c760c22eac1002165a9adc222",
+    "chroma_v42_detail_calibrated_q5p.ckpt": "3e4993ed567e3648c342842fabcee6c9ca3e381e34ecc8dcb109402c9a590b5e"
+  },
+  "note": "See more about [Chroma](https://huggingface.co/lodestones/Chroma)."
+}

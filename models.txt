@@ -23,9 +23,9 @@ skyreels-v2-14b-t2v-540p
 skyreels-v2-14b-t2v-720p
 wan-2.1-14b-fun-inp
 wan-2.1-1.3b-fun-inp
+chroma-v42-detail-calibrated
 chroma-v41-detail-calibrated
 chroma-v40-detail-calibrated
-chroma-v39-detail-calibrated
 pixelwave-flux-1-schnell-04
 shuttle-v3.1-aesthetic
 shuttle-jaguar
