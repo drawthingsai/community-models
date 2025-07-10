@@ -134,6 +134,7 @@ ZavyChromaXL
 boleromixillustrious
 chroma-v38-detail-calibrated
 chroma-v39-detail-calibrated
+chroma-v40-detail-calibrated
 epiCRealism-XL
 koronemix-illustrious
 miruku
