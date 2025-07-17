@@ -5,6 +5,7 @@ flux-1-dev-to-schnell-4-step
 flux-1-depth-dev
 flux-1-canny-dev
 wan-2.1-14b-self-forcing-t2v
+wan-2.1-14b-480p-self-forcing-i2v
 wan-2.1-14b-causvid-t2v
 wan-2.1-1.3b-cfg-distill
 wan-2.1-1.3b-causvid-t2v
