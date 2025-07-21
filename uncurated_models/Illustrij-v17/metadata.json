@@ -2,7 +2,7 @@
   "download": {
     "file": "https://civitai.com/api/download/models/2001618"
   },
-  "name": "Illustrij v17",
+  "name": "Illustrij-v17",
   "file": "illustrij_v17_f16.ckpt",
   "prefix": "",
   "modifier": "none",

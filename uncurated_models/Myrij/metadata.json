@@ -2,7 +2,7 @@
   "download": {
     "file": "https://civitai.com/api/download/models/1970243"
   },
-  "name": "Myrij alpha",
+  "name": "Myrij",
   "file": "myrij__f16.ckpt",
   "prefix": "",
   "modifier": "none",

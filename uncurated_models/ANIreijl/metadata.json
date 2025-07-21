@@ -2,7 +2,7 @@
   "download": {
     "file": "https://civitai.com/api/download/models/1672279"
   },
-  "name": "ANIreijl v1.0",
+  "name": "ANIreijl",
   "file": "anireijl_v10_f16.ckpt",
   "prefix": "",
   "modifier": "none",
