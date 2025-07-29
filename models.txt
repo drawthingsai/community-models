@@ -12,6 +12,8 @@ sd3-large-3.5
 sd3-large-3.5-exact
 sd3-medium-3.5
 hunyuan-video-t2v-720p
+wan-v2.2-a14b-hne-t2v
+wan-v2.2-a14b-lne-t2v
 wan-2.1-14b-t2v-fusionx
 wan-2.1-14b-i2v-fusionx
 wan-2.1-14b-v1.1-fun-inp
