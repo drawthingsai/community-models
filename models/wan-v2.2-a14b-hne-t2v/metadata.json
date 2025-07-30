@@ -20,7 +20,6 @@
   "converted": {
     "wan_v2.1_video_vae_f16.ckpt": "4c518b128b3c1f2ea164aa46269d8875b4be3661d1fc0fba2709d03fa94e418b",
     "umt5_xxl_encoder_q8p.ckpt": "72ef62d22c09a3b764ac9e6fe0100f4029619fb3ff8ccec3432e509487b29831",
-    "wan_v2.2_a14b_hne_t2v_q6p_svd.ckpt": "f3d3adb772520896bc5d016d00f9159c8595fbdec2ecc33dff2572bffb39cadd",
     "wan_v2.2_a14b_hne_t2v_q8p.ckpt": "63b3dc2eaac38d1019017c4745ea763e9894b5aa55a97fb52dfe26985abc42e6"
   }
 }
