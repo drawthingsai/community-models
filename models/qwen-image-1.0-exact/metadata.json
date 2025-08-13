@@ -1,0 +1,23 @@
+{
+  "name" : "Qwen Image 1.0 (Exact)",
+  "version" : "qwen_image",
+  "autoencoder" : "qwen_image_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "qwen_image_1.0_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_2.5_vl_7b_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[Qwen Image](https://huggingface.co/Qwen/Qwen-Image) is a state-of-the-art open-source image generation model known for its exceptional text layout and prompt adherence across a wide range of styles, including photorealistic, cartoon, and artistic. It is Apache 2.0-licensed and commercially friendly. The model is trained at multiple resolutions using a Flow Matching objective; trailing samplers yield the best results, with 30–50 sampling steps recommended.",
+  "converted": {
+    "qwen_image_vae_f16.ckpt": "701e7c46ed6c2fa8036543780317e06d264374f9b4dbfc22f27c0b3181bb988a",
+    "qwen_image_1.0_f16.ckpt": "8f2089e48f56ee2c2fd173ae4cb9789c6cc1f999d58a6eab935a1a068dd48cc6",
+    "qwen_2.5_vl_7b_f16.ckpt": "7e48af7ad29ff22c15dc75ece31a0eb14938905c9d23ddaccbf5e347921ddff7"
+  }
+}

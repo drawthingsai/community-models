@@ -3,6 +3,8 @@ flux-1-kontext-dev-exact
 flux-1-krea-dev
 flux-1-dev
 flux-1-fill-dev
+qwen-image-bf-exact
+qwen-image-exact
 hidream-i1-dev-exact
 hidream-i1-full-exact
 hidream-i1-fast-exact
@@ -29,9 +31,6 @@ chroma-1-hd
 chroma-1-hd-annealed
 chroma-v48-detail-calibrated
 chroma-v47-detail-calibrated
-chroma-v46-detail-calibrated
-chroma-v45-detail-calibrated
-chroma-v44-detail-calibrated
 pixelwave-flux-1-schnell-04
 shuttle-v3.1-aesthetic
 shuttle-jaguar
