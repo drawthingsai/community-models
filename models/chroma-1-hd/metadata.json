@@ -1,0 +1,30 @@
+{
+  "name" : "Chroma1 HD",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "chroma_1_hd_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "padded_text_encoding_length": 256,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "mmdit" : {
+    "dual_attention_layers" : [
+    ],
+    "distilled_guidance_layers" : 5,
+    "qk_norm" : true
+  },
+  "converted": {
+    "chroma_1_hd_q8p.ckpt": "d46fd2278dc924d791a2e01a65748cb6108a02c3c47a4d339a3a12edeede00dd",
+    "chroma_1_hd_q5p.ckpt": "5ce2465393e2abf5ed498760ea2f1269dfaf4db4d4fd3b7acef34f191a8678ee"
+  },
+  "note": "See more about [Chroma1 HD](https://huggingface.co/lodestones/Chroma1-HD)."
+}

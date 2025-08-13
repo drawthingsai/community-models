@@ -25,6 +25,8 @@ skyreels-v2-14b-t2v-720p
 anisora-v2-i2v-wan-2.1-14b
 wan-2.1-14b-fun-inp
 wan-2.1-1.3b-fun-inp
+chroma-1-hd
+chroma-1-hd-annealed
 chroma-v48-detail-calibrated
 chroma-v47-detail-calibrated
 chroma-v46-detail-calibrated
