@@ -1,3 +1,6 @@
+qwen-image-1.0
+wan-v2.2-14b-t2v
+wan-v2.2-14b-i2v
 hidream-i1-fast
 hidream-i1-dev
 hidream-i1-full
