@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "866874_myhumanflux_12train_q8p.ckpt": "d21c76e58005eced7de96abe0d139a357fb1a8dc3dfe36085006f89bf41f487d"
+  },
+  "default_scale": 16,
+  "file": "866874_myhumanflux_12train_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Myhuman_Flux_12Train",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

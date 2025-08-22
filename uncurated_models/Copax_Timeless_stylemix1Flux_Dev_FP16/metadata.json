@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "894590_copaxtimeless_stylemix1fluxdevfp16_q8p.ckpt": "6c3e5e6adb54de4e008df94f525dab0583e9f389c7eddd9d9057d8b9dfaaa136"
+  },
+  "default_scale": 16,
+  "file": "894590_copaxtimeless_stylemix1fluxdevfp16_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Copax_Timeless_stylemix1Flux_Dev_FP16",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

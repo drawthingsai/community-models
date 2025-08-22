@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "835744_lyhanimeflux_delete_q8p.ckpt": "77b15910da2276ffc2516b1edb486ebe441e158c286bba48aec042b34096b6aa"
+  },
+  "default_scale": 16,
+  "file": "835744_lyhanimeflux_delete_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Lyh_Anime_Flux_delete",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

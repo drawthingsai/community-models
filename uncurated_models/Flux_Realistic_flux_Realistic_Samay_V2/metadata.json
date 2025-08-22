@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "959302_fluxrealistic_fluxrealisticsamayv2_q8p.ckpt": "af247f964f9f46d6c4436f3fb0278fa900fee20bf2c6bf9a2e7f02b8e29cc80e"
+  },
+  "default_scale": 16,
+  "file": "959302_fluxrealistic_fluxrealisticsamayv2_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Flux_Realistic_flux_Realistic_Samay_V2",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1095703_ultrarealfinetune_v10_q8p.ckpt": "7afd24d1b8c2cfc1b574cf4a72c8323249a6a130f3277e2182cc0b62f79cea8c"
+  },
+  "default_scale": 16,
+  "file": "1095703_ultrarealfinetune_v10_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Ultrareal_Fine_Tune_v10",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

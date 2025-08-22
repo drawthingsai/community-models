@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1292596_moxiefusionflux_v15s_q8p.ckpt": "3479cdc9ace80d7db32b53e953ccffe7d75597ac802a016e68df82025e1628cf"
+  },
+  "default_scale": 16,
+  "file": "1292596_moxiefusionflux_v15s_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Moxie_Fusion_Flux_v15S",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1519801_flux1eastfp8_depth_q8p.ckpt": "75f624bb54173c5c4cf1faed7d9b7aa7a38bb161e7f785ec48a4550db1e11b74"
+  },
+  "default_scale": 16,
+  "file": "1519801_flux1eastfp8_depth_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "depth",
+  "name": "Flux1east_Fp8_depth",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

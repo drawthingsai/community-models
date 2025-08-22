@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1024165_ratatoskranimalcreature_v594fp8dev1hybrid_q8p.ckpt": "9923abf1f6f9a3d3144e5d8d39a8ded6bd56677c199d8e0d37dda672672abe95"
+  },
+  "default_scale": 16,
+  "file": "1024165_ratatoskranimalcreature_v594fp8dev1hybrid_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Ratatoskr_Animal_Creature_v594FP8Dev1Hybrid",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

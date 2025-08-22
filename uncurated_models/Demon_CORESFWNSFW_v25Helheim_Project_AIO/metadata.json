@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1357212_demoncoresfwnsfw_v25helheimprojectaio_q8p.ckpt": "2f1387e3b5b7f9efd8eaea47dd73cbf3d84f9218beb007bcc5e2af44923b204b"
+  },
+  "default_scale": 16,
+  "file": "1357212_demoncoresfwnsfw_v25helheimprojectaio_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Demon_CORESFWNSFW_v25Helheim_Project_AIO",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

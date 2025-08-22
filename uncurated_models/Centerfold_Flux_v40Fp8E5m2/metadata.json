@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1845222_centerfoldflux_v40fp8e5m2_q8p.ckpt": "f749fcd8bbcf657137bdb3e1d3e14fb3307d97daf5bcb9bcc2dc8e8bd52fe3a5"
+  },
+  "default_scale": 16,
+  "file": "1845222_centerfoldflux_v40fp8e5m2_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Centerfold_Flux_v40Fp8E5m2",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

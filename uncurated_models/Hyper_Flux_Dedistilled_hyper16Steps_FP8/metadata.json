@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1254943_hyperfluxdedistilled_hyper16stepsfp8_q8p.ckpt": "8b4eadbfffa3749b43923fdb946859cf9d109165e5af002178b6e9ba5e13cdc8"
+  },
+  "default_scale": 16,
+  "file": "1254943_hyperfluxdedistilled_hyper16stepsfp8_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Hyper_Flux_Dedistilled_hyper16Steps_FP8",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

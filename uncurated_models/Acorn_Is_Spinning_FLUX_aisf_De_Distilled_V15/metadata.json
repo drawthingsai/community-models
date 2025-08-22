@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1450688_acornisspinningflux_aisfdedistilledv15_q8p.ckpt": "86b1f5af09169bb1bf4a9f0d32278bd5fe0764058b52ed7182720e61de383aa2"
+  },
+  "default_scale": 16,
+  "file": "1450688_acornisspinningflux_aisfdedistilledv15_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Acorn_Is_Spinning_FLUX_aisf_De_Distilled_V15",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "973626_iniversemixsfwnsfw_flux1dnsfwfp16v12_q8p.ckpt": "6865786e262a4f568038149623e892a334b5e7c384f35aa559aa92b882f90f97"
+  },
+  "default_scale": 16,
+  "file": "973626_iniversemixsfwnsfw_flux1dnsfwfp16v12_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Iniverse_Mix_SFWNSFW_flux1DNsfw_Fp16V12",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

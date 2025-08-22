@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "996001_colossusprojectflux_21dedistilledaioexp_q8p.ckpt": "94f45caa0b553e8f9ffc70d451f93b25a6e7c671aabe2f3d3d8cbec3882bddee"
+  },
+  "default_scale": 16,
+  "file": "996001_colossusprojectflux_21dedistilledaioexp_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Colossus_Project_Flux_21De_Distilled_AIOExp",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

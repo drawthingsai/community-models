@@ -1,0 +1,31 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "795206_fenrisxlflux_fenrisfluxv1fp8_q8p.ckpt": "048d31f4a2a41ff47f2fe2f4784640aab3f590a50d8c72f4dcf3dd22750acfd4"
+  },
+  "default_scale": 16,
+  "file": "795206_fenrisxlflux_fenrisfluxv1fp8_q8p.ckpt",
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Fenrisxl_Flux_fenris_Flux_V1FP8",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}

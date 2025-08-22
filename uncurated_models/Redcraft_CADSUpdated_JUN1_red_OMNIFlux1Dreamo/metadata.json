@@ -1,0 +1,32 @@
+{
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "converted": {
+    "1849802_redcraftcadsupdatedjun1_redomniflux1dreamo_q8p.ckpt": "8ded6312c7e842a497b30a4301e8831c2cd4f8078c81accf957a92784cf0fd12"
+  },
+  "default_scale": 16,
+  "file": "1849802_redcraftcadsupdatedjun1_redomniflux1dreamo_q8p.ckpt",
+  "guidance_embed": true,
+  "high_precision_autoencoder": true,
+  "hires_fix_scale": 24,
+  "modifier": "none",
+  "name": "Redcraft_CADSUpdated_JUN1_red_OMNIFlux1Dreamo",
+  "noise_discretization": {
+    "rf": {
+      "_0": {
+        "condition_scale": 1000,
+        "sigma_max": 1,
+        "sigma_min": 0
+      }
+    }
+  },
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "prefix": "",
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "upcast_attention": false,
+  "version": "flux1"
+}
