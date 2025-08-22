@@ -129,6 +129,7 @@ Uncanny-valley
 Virtual-Diffusion-Pony-XL-2025
 Vixons-Dream-Weave
 WAI-SHUFFLE-NOOB
+Xuer_One_Cyan_Ten_Color_flux_V10
 ZEP9
 ZavyChromaXL
 boleromixillustrious
