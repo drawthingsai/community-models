@@ -391,6 +391,7 @@
   "wai_shuffle_noob_clip_vit_l14_f16.ckpt": "11de9529f9ee16708ed2a4b681bfe612a74cfffc2ddf04323ac8ac6f76db70c5",
   "wai_shuffle_noob_f16.ckpt": "6e2fb3449a60d1e2ccd240beb1e87b9349ada897e43275a99f3fd2ef74ef0f8d",
   "wai_shuffle_noob_open_clip_vit_bigg14_f16.ckpt": "a2f21bddc386f9c9a8c89992bee5f17606cc4b028d3f54eef33839ff6cd14f1a",
+  "951641_xueronecyantencolor_fluxv10_q8p.ckpt": "9f341c740ad7a6c6abf138ad38e0416c2a1aea3b31326f850c19e609367be904",
   "zep9_open_clip_vit_bigg14_f16.ckpt": "2299d93c8cb4cb30940fdc1094e14428a400af68a5cc84a98af5317d4ea31467",
   "zep9_clip_vit_l14_f16.ckpt": "4abb6c414699a0ffeefb2a8368fc9f9759f5689d00321a05aa1bf8d4c0b7a468",
   "zep9_f16.ckpt": "011960653d4d82555c38b84732c5958506b7dc3ef8bb6375dbab6cd9098cae8a",
@@ -434,6 +435,5 @@
   "tt_animerge_f16.ckpt": "b1a93882529583dc59fb68c3f8514cd3f5452f51d2f357cb545a2eac74e5eea6",
   "untitled_pony_f16.ckpt": "1f6e0b237b3ad6fa4e2c39a96809d7c56ae09307427348f04bda061193c149d0",
   "untitled_pony_clip_vit_l14_f16.ckpt": "ba04714b75c7ce8f3fd4176ebc35c6f234e5639f2986a6667f3598c1e18e2adf",
-  "untitled_pony_open_clip_vit_bigg14_f16.ckpt": "bfb85cdbbef63149f439c72b8e5969f2db42a710a8b6a7641b91b2576003973d",
-  "951641_xueronecyantencolor_fluxv10_q8p.ckpt": "9f341c740ad7a6c6abf138ad38e0416c2a1aea3b31326f850c19e609367be904"
+  "untitled_pony_open_clip_vit_bigg14_f16.ckpt": "bfb85cdbbef63149f439c72b8e5969f2db42a710a8b6a7641b91b2576003973d"
 }
