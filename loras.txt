@@ -1,5 +1,7 @@
 qwen-image-1.0-lightning-8-step-v1.1
 qwen-image-1.0-lightning-4-step-v1.0
+qwen-image-edit-1.0-lightning-8-step-v1.0
+qwen-image-edit-1.0-lightning-4-step-v1.0
 flux-1-turbo-alpha
 hyper-flux-1-dev-8-step
 hyper-flux-1-dev-16-step
