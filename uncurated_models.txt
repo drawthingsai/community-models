@@ -351,6 +351,7 @@ chroma-v43-detail-calibrated
 chroma-v44-detail-calibrated
 chroma-v45-detail-calibrated
 chroma-v46-detail-calibrated
+chroma-1-hd-annealed
 epiCRealism-XL
 koronemix-illustrious
 miruku

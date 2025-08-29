@@ -5,7 +5,7 @@
   "prefix" : "",
   "default_scale" : 16,
   "hires_fix_scale" : 24,
-  "file" : "chroma_1_hd_q8p.ckpt",
+  "file" : "chroma_1_hd_r0.1_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
   "clip_encoder" : "clip_vit_l14_f16.ckpt",
@@ -23,8 +23,8 @@
     "qk_norm" : true
   },
   "converted": {
-    "chroma_1_hd_q8p.ckpt": "83f65910a2f605799a15c7103ee9a95073161b0730699282f5761b7dd2f724dd",
-    "chroma_1_hd_q5p.ckpt": "d46fd2278dc924d791a2e01a65748cb6108a02c3c47a4d339a3a12edeede00dd"
+    "chroma_1_hd_r0.1_q8p.ckpt": "b4313f59293088ba085c6a3dbfeea237d28faaced5dc39a3f73738ccb27f5242",
+    "chroma_1_hd_r0.1_q5p.ckpt": "ce0ab4a8b8e653c3d353dad8cb81c83885e0c86f81e326516b85cca35fda2111"
   },
   "note": "See more about [Chroma1 HD](https://huggingface.co/lodestones/Chroma1-HD)."
 }
