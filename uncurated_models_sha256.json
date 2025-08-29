@@ -628,6 +628,8 @@
   "chroma_v45_detail_calibrated_q5p.ckpt": "3b9dea42c29b6e2691f394884b12f2f87a4ffaf94222faab0a7b02d28a84d4bb",
   "chroma_v46_detail_calibrated_q8p.ckpt": "874ca1dacdfeea4fc48cffc48650be0d2297b8b6456fcc535e512cc79068a2e4",
   "chroma_v46_detail_calibrated_q5p.ckpt": "4dbfac1712a6c6531be16afaacd332ca96c6b60b9d7aa1aafc5e1b4e40542bec",
+  "chroma_1_hd_annealed_q8p.ckpt": "8d40f6742c41918ffce4860ecb76e1c20d05632fa4dc5e57c92a74c968744896",
+  "chroma_1_hd_annealed_q5p.ckpt": "5ce2465393e2abf5ed498760ea2f1269dfaf4db4d4fd3b7acef34f191a8678ee",
   "epicrealism_xl_f16.ckpt": "ca9d008385acfd810b16f9db3ac8118e1d40bb8eba32f31c4268d4d97bbe4720",
   "epicrealism_xl_open_clip_vit_bigg14_f16.ckpt": "bc30473d054de6b6abe4ebf5a9926fb26b54396cf34c2f783cb4c6e2a33df577",
   "epicrealism_xl_clip_vit_l14_f16.ckpt": "6dc663135642ff2a5ed946c4d8566f8e123f7316852f8bf4dbf10c544313e509",
