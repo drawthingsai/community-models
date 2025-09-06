@@ -1,12 +1,12 @@
 {
-  "name" : "AniSora v3 I2V Wan 2.1 14B",
+  "name" : "AniSora v3.1 I2V Wan 2.1 14B",
   "version" : "wan_v2.1_14b",
   "modifier" : "inpainting",
   "autoencoder" : "wan_v2.1_video_vae_f16.ckpt",
   "prefix" : "",
   "default_scale" : 12,
   "hires_fix_scale" : 16,
-  "file" : "anisora_v3_i2v_wan_2.1_14b_q8p.ckpt",
+  "file" : "anisora_v3.1_i2v_wan_2.1_14b_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "umt5_xxl_encoder_q8p.ckpt",
   "clip_encoder" : "open_clip_xlm_roberta_large_vit_h14_f16.ckpt",
@@ -18,12 +18,12 @@
   },
   "frames_per_second": 16,
   "tea_cache_coefficients": [8.10705460e+03,  2.13393892e+03, -3.72934672e+02,  1.66203073e+01, -4.17769401e-02],
-  "note": "[AniSora v3](https://huggingface.co/IndexTeam/Index-anisora) is a state-of-the-art image-to-video model fine-tuned by Bilibili for anime generation.",
+  "note": "[AniSora v3.1](https://huggingface.co/IndexTeam/Index-anisora) is a state-of-the-art image-to-video model fine-tuned by Bilibili for anime generation.",
   "converted": {
     "wan_v2.1_video_vae_f16.ckpt": "4c518b128b3c1f2ea164aa46269d8875b4be3661d1fc0fba2709d03fa94e418b",
     "umt5_xxl_encoder_q8p.ckpt": "72ef62d22c09a3b764ac9e6fe0100f4029619fb3ff8ccec3432e509487b29831",
     "open_clip_xlm_roberta_large_vit_h14_f16.ckpt": "362c9940a36acce5a4e13b9167d5daebd005ac026443cd37b7955ac0acd72083",
-    "anisora_v3_i2v_wan_2.1_14b_q6p_svd.ckpt": "9044309174ff77178c0af90498c1a0b1e8503dd9de2124d18be575e6e0410b32",
-    "anisora_v3_i2v_wan_2.1_14b_q8p.ckpt": "465115161e073d07bf0cd16ed0f11cda4c7cf0c969cc4a572a48bf594acd0f7a"
+    "anisora_v3.1_i2v_wan_2.1_14b_q6p_svd.ckpt": "ac3089680cd82661f0ecade0ab340b15f35a979d9d1ffb48f19e19e54811515e",
+    "anisora_v3.1_i2v_wan_2.1_14b_q8p.ckpt": "14527d22fa1a8cde2eae65ecd2f48769e08720ac83f132163a983cac24c7073a"
   }
 }
