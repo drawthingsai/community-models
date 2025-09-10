@@ -28,6 +28,5 @@
     "teaCacheMaxSkipSteps": 3
   },
   "name": "Qwen Image Edit 1.0",
-  "version": "qwen_image",
   "negative": " "
 }
