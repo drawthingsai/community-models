@@ -8,6 +8,10 @@ hidream-i1-full
 flux-1-schnell
 flux-1-dev
 flux-1-fill-dev
+qwen-image-1.0-with-lightning-4-step-v2.0
+qwen-image-1.0-with-lightning-8-step-v1.1
+qwen-image-edit-1.0-with-lightning-4-step-v1.0
+qwen-image-edit-1.0-with-lightning-8-step-v1.0
 hunyuan-video-t2v-720p
 wan-v2.1-1.3b-t2v-480p
 wan-v2.1-14b-t2v-720p
