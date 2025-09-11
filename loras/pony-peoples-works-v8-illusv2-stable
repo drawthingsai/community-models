@@ -1,0 +1,34 @@
+{
+  "name": "Pony: People’s Works + v8_Illusv2.0Stable",
+  "slug": "pony-peoples-works-v8-illusv2-stable",
+  "type": "lora",
+  "author": "Dajiejiekong (大姐姐控)",
+  "version": "v8_Illusv2.0Stable",
+  "base_model": "Illustrious",
+  "framework": "sdxl",
+  "format": "safetensors",
+  "precision": "fp16",
+  "license": {
+    "name": "Other / Unspecified on Civitai",
+    "url": "https://civitai.com/models/1400090/pony-peoples-works"
+  },
+  "source": {
+    "page_url": "https://civitai.com/models/1400090/pony-peoples-works?modelVersionId=2034730",
+    "download_url": "https://civitai.com/api/download/models/2034730?type=Model&format=SafeTensor"
+  },
+  "recommended_parameters": {
+    "strength": 1.0,
+    "sampler": "DPM++ SDE Karras",
+    "steps": 30,
+    "guidance_scale": 7.5,
+    "resolution": "1024x1024",
+    "positive_triggers": ["masterpiece", "best quality", "very aesthetic"],
+    "negative_triggers": ["low quality", "displeasing"]
+  },
+  "notes": "Specifically v8_Illusv2.0Stable version of Pony: People’s Works; usage strength 1; style LoRA.",
+  "tags": ["pony", "style", "Illustrious", "sdxl", "lora"],
+  "examples": [
+    "assets/01.jpg",
+    "assets/02.jpg"
+  ]
+}
