@@ -1,6 +1,6 @@
 {
-  "name": "getphat FLUX Reality NSFW",
-  "slug": "getphat-flux-reality-nsfw",
+  "name": "getphat FLUX Reality NSFW v11 Softcore",
+  "slug": "getphat-flux-reality-nsfw_v11-Softcore",
   "type": "checkpoint",
   "framework": "flux",
   "base_model": "FLUX.1 [dev]",
@@ -13,7 +13,7 @@
   },
   "source": {
     "page_url": "https://civitai.com/models/861840",
-    "download_url": ""
+    "download_url": "https://civitai.com/api/download/models/2060393?type=Model&format=SafeTensor&size=full&fp=fp16"
   },
   "recommended_parameters": {
     "sampler": "DPM++ SDE Karras",
