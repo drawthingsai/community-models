@@ -1,0 +1,27 @@
+{
+  "name": "getphat FLUX Reality NSFW",
+  "slug": "getphat-flux-reality-nsfw",
+  "type": "checkpoint",
+  "framework": "flux",
+  "base_model": "FLUX.1 [dev]",
+  "format": "safetensors",
+  "precision": "fp16",
+  "author": "getphat",
+  "license": {
+    "name": "FLUX.1 [dev] Non-Commercial License",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md"
+  },
+  "source": {
+    "page_url": "https://civitai.com/models/861840",
+    "download_url": ""
+  },
+  "recommended_parameters": {
+    "sampler": "DPM++ SDE Karras",
+    "steps": 28,
+    "guidance_scale": 7.0,
+    "resolution": "1024x1024"
+  },
+  "notes": "Checkpoint based on FLUX.1 [dev]; non-commercial base license. NSFW-capable. Mirrors indicate FLUX.1 lineage and license; use baked defaults for Flux unless author states otherwise.",
+  "tags": ["flux", "checkpoint", "realistic", "nsfw"],
+  "examples": ["assets/01.jpg", "assets/02.jpg"]
+}
