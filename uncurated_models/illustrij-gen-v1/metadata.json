@@ -1,0 +1,29 @@
+{
+  "name": "Illustrij-GEN v1",
+  "slug": "illustrij-gen-v1",
+  "type": "checkpoint",
+  "framework": "sdxl",
+  "base_model": "Illustrious",
+  "format": "safetensors",
+  "precision": "fp16",
+  "author": "reijlita",
+  "license": {
+    "name": "FAIPL-1.0-SD (Illustrious License)",
+    "url": "https://freedevproject.org/faipl-1.0-sd/"
+  },
+  "source": {
+    "page_url": "https://civitai.com/models/2003939",
+    "download_url": "https://civitai.com/api/download/models/2268246?type=Model&format=SafeTensor&size=full&fp=fp16"
+  },
+  "recommended_parameters": {
+    "sampler": "DPM++ SDE Karras",
+    "steps": 30,
+    "guidance_scale": 4.0 - 7.0,
+    "resolution": "1832 x 1216 ►► 1040 x 1510"
+  },
+  "tags": ["checkpoint", "illustrious", "sdxl"],
+  "examples": [
+    "assets/01.jpg",
+    "assets/02.jpg"
+  ]
+}
