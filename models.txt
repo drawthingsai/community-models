@@ -3,6 +3,7 @@ flux-1-kontext-dev-exact
 flux-1-krea-dev
 flux-1-dev
 flux-1-fill-dev
+wan-v2.2-a14b-hne-t2v-lightning-250928
 qwen-image-1.0-bf-exact
 qwen-image-1.0-exact
 qwen-image-edit-2509-bf-exact
