@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/lightx2v/Qwen-Image-Lightning/blob/main/Qwen-Image-Edit-Lightning-8steps-V1.0.safetensors"
+  },
+  "name": "Qwen Image Edit 2509 Lightning 8-Step v1.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_image_edit_2509_lightning_8_step_v1.0_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_image_edit_2509_lightning_8_step_v1.0_lora_f16.ckpt": "33edcd73043fc9d6a1dfb85f5d18d9085682f5ace8c72529c2a3c6aee9c9ce50"
+  }
+}
