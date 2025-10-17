@@ -1,0 +1,20 @@
+{
+  "name": "Inbetweij — No.04",
+  "slug": "inbetweij-no04",
+  "type": "checkpoint",
+  "framework": "sdxl",
+  "format": "safetensors",
+  "precision": "fp16",
+  "base_model": "Illustrious",
+  "author": "reijlita",
+  "license": {
+    "name": "FAIPL-1.0-SD",
+    "url": "https://freedevproject.org/faipl-1.0-sd/"
+  },
+  "source": {
+    "download_url": "https://civitai.com/api/download/models/1803659?type=Model&format=SafeTensor&size=full&fp=fp16",
+    "page_url": "https://civitai.green/models/1587181/inbetweij?modelVersionId=1803659"
+  },
+  "examples": ["assets/01.jpg","assets/02.jpg"],
+  "tags": ["sdxl","illustrative","illustrious"]
+}
