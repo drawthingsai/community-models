@@ -1,0 +1,27 @@
+{
+  "name": "CyberRealistic Flux v2.5",
+  "slug": "cyberrealistic-flux-v2-5",
+  "type": "checkpoint",
+  "framework": "flux",
+  "base_model": "FLUX.1 [dev]",
+  "format": "safetensors",
+  "precision": "fp16",
+  "author": "CyberRealistic",
+  "license": {
+    "name": "FLUX.1 [dev] Non-Commercial License",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md"
+  },
+  "source": {
+    "page_url": "https://civitai.com/models/1799857?modelVersionId=2287992",
+    "download_url": "https://civitai.com/api/download/models/2287992?type=Model&format=SafeTensor&size=full&fp=fp16"
+  },
+  "recommended_parameters": {
+    "sampler": ["DPM++ 2M", "Euler"],
+    "steps": [20, 30],
+    "guidance_scale": "2–3.5 (distilled CFG)",
+    "resolution": "1024x1024"
+  },
+  "notes": "Flux-based realistic checkpoint. Provided usage notes: DPM++ 2M or Euler; 20–30 steps; distilled CFG 2–3.5.",
+  "tags": ["checkpoint", "flux", "realistic"],
+  "examples": ["assets/01.jpeg", "assets/02.jpeg"]
+}
