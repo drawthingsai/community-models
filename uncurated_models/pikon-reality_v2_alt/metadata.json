@@ -1,0 +1,30 @@
+{
+  "name": "Pikon-Realism v2_alt",
+  "slug": "pikon-realism-v2_alt",
+  "type": "checkpoint",
+  "framework": "sdxl",
+  "base_model": "sdxl 1.0",
+  "format": "safetensors",
+  "precision": "fp16",
+  "author": "Kranos94",
+  "license": {
+    "name": "CreativeML Open RAIL++-M Addendum",
+    "url": "https://github.com/Stability-AI/generative-models/blob/main/model_licenses/LICENSE-SDXL1.0/"
+  },
+  "source": {
+    "page_url": "https://civitai.com/models/2078284?modelVersionId=2351588",
+    "download_url": "https://civitai.com/api/download/models/2296481?type=Model&format=SafeTensor&size=full&fp=fp16"
+  },
+  "recommended_parameters": {
+    "sampler": "LCM",
+    "steps": 16,
+    "guidance_scale": 1.0,
+    "resolution": "1024x1024"
+  },
+  "notes": "Version v2_alt of Pikon-Realism; style-oriented checkpoint. Confirm author tips on the model page for best effect.",
+  "tags": ["checkpoint", "realism", "style", "sdxl"],
+  "examples": [
+    "assets/01.jpeg",
+    "assets/02.jpeg"
+  ]
+}
