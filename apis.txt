@@ -16,3 +16,9 @@ wavespeedai-kling-v1.6-i2v-pro
 wavespeedai-kling-v1.6-t2v-std
 kling-v1-i2v-std
 wavespeedai-flux-1-dev
+wavespeedai-google-veo3.1-i2v
+wavespeedai-google-veo3.1-t2v
+wavespeedai-openai-sora2-i2v
+wavespeedai-openai-sora2-t2v
+wavespeedai-wan2.5-1080p-i2v
+wavespeedai-wan2.5-1080p-t2v
