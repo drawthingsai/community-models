@@ -9,7 +9,6 @@
     "remote_api_model_config" : {
       "task_id_path" : "data.id",
       "passthrough_configs" : {
-        "duration" : 4
       },
       "status_path" : "data.status",
       "ephemeral_api_secret" : false,

@@ -10,7 +10,6 @@
     "task_id_path" : "data.id",
     "passthrough_configs" : {
       "resolution": "1080p",
-      "duration" : 5,
       "size": "1920*1080"
     },
     "status_path" : "data.status",

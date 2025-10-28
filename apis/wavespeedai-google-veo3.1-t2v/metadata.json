@@ -30,8 +30,8 @@
       },
       "status_url_template" : "api\/v3\/predictions\/{{jq(data.id)}}\/result",
       "passthrough_configs" : {
-        "enable_safety_checker" : true,
-        "enable_base64_output" : true
+         "resolution" : "1080p",
+         "generate_audio" : false
       },
       "pending_statuses" : [
         "created",
