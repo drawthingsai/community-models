@@ -1,0 +1,13 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/1672279"
+  },
+  "name": "ANIreijl",
+  "file": "anireijl_v10_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "version": "sdxl_base_v0.9",
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt"
+}
