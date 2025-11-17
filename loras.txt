@@ -10,6 +10,10 @@ flux-1-turbo-alpha
 hyper-flux-1-dev-8-step
 hyper-flux-1-dev-16-step
 flux-1-dev-to-schnell-4-step
+wan-v2.2-a14b-hne-t2v-lightning-v2.0
+wan-v2.2-a14b-lne-t2v-lightning-v2.0
+wan-v2.2-a14b-hne-i2v-lightning-251022
+wan-v2.2-a14b-lne-i2v-lightning-251022
 wan-v2.2-a14b-hne-t2v-lightning-v1.1
 wan-v2.2-a14b-lne-t2v-lightning-250928
 wan-v2.2-a14b-lne-t2v-lightning-v1.1
