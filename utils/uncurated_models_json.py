@@ -48,6 +48,8 @@ def download_and_convert_model(directory_path, download, metadata):
         print(f"Directory 'build' already exists, so it was not created again.")
     
     build = os.path.abspath('build')
+    print("file:")
+    print(file)
     cmd = ['bazel', 'run', 'Apps:ModelConverter', '--compilation_mode=opt', '--', 
            '--file', file, '--name', metadata['name'], '-o', build]
     

@@ -1,0 +1,82 @@
+name: json
+on:
+  push:
+    branches:
+      - fixDownloadNameParsing
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04-l
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: main
+
+      - name: Checkout Tools
+        uses: actions/checkout@v4
+        with:
+          repository: drawthingsai/draw-things-community
+          token: ${{ secrets.GHA_BOT_ORG_ACCESS_TOKEN }}
+          path: tools
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - run: |
+          cd "${GITHUB_WORKSPACE}/main"
+          pip install -r utils/requirements.txt
+
+      - name: Cache Bazel
+        id: cache-bazel
+        uses: actions/cache@v4
+        with:
+          path: tools/.cache
+          key: ${{ runner.os }}-bazel
+
+      - name: Configure S3 / R2
+        run: |
+          aws configure set aws_access_key_id ${{ secrets.GHA_BOT_AWS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.GHA_BOT_AWS_ACCESS_KEY }}
+          aws configure set default.s3.max_concurrent_requests 2
+          aws configure set default.region auto
+          aws configure set default.output json
+
+      - name: Install bazelisk
+        run: |
+          curl -LO "https://github.com/bazelbuild/bazelisk/releases/download/v1.19.0/bazelisk-linux-amd64"
+          mkdir -p "${GITHUB_WORKSPACE}/bin/"
+          mv bazelisk-linux-amd64 "${GITHUB_WORKSPACE}/bin/bazel"
+          chmod +x "${GITHUB_WORKSPACE}/bin/bazel"
+
+      - name: Install Swift dependencies
+        run: |
+          sudo apt update
+          sudo apt -y install clang libicu-dev
+          wget https://download.swift.org/swift-5.10.1-release/ubuntu2204/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-ubuntu22.04.tar.gz
+          tar xzf swift-5.10.1-RELEASE-ubuntu22.04.tar.gz
+          echo "$(pwd)/swift-5.10.1-RELEASE-ubuntu22.04/usr/bin" >> $GITHUB_PATH
+
+      - name: Setup clang
+        run: |
+          sudo apt -y install libpng-dev libjpeg-dev libatlas-base-dev libblas-dev libgsl-dev clang llvm libdispatch-dev libomp-dev liblinear-dev libfftw3-dev libtesseract-dev
+          cd "${GITHUB_WORKSPACE}/tools"
+          ./Scripts/setup_clang.sh /usr
+          ./Scripts/install.sh
+          echo "build --config=clang" >> "${GITHUB_WORKSPACE}/tools/.bazelrc.local"
+          bazel build Apps:ModelConverter --compilation_mode=opt
+          bazel build Apps:LoRAConverter --compilation_mode=opt
+          bazel build Apps:EmbeddingConverter --compilation_mode=opt
+          bazel build Apps:ModelQuantizer --compilation_mode=opt
+
+      - name: Run JSON generation.
+        run: |
+          cd "${GITHUB_WORKSPACE}/main"
+          python3 utils/uncurated_models_json.py
+
+
+
