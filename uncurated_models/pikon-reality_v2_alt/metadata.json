@@ -10,5 +10,13 @@
   "upcast_attention": false,
   "name": "Pikon_Realism_v2_alt",
   "modifier": "none",
-  "file": "Pikon_Realism_v2_altf16.ckpt"
+  "file": "pikon_realism_v2_alt_f16.ckpt",
+  "clip_encoder": "pikon_realism_v2_alt_clip_vit_l14_f16.ckpt",
+  "text_encoder": "pikon_realism_v2_alt_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "pikon_realism_v2_alt_clip_vit_l14_f16.ckpt": "801876dc73db9b40045c752360ba09579b4b3b15b3066fde94b4cf6a96ddf75a",
+    "pikon_realism_v2_alt_f16.ckpt": "47dcebd42efee2f8ae0bfeb90442e17880c0548ab5536b3ebf8adad7b14f15f2",
+    "pikon_realism_v2_alt_open_clip_vit_bigg14_f16.ckpt": "8d4cd4f3c2d85013abf1b101c6d77a80cfd7fa38b62cef981d358b0849e8f119",
+    "pikon_realism_v2_alt_q6p_q8p.ckpt": "e45cc909006e9d052bc02fd98a208aced77d8c63dd9a46c93fb14a912bcaa82d"
+  }
 }

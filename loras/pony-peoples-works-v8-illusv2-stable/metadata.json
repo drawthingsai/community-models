@@ -2,10 +2,12 @@
   "download": {
     "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3358846/ppwV8Illuv2stable128.xvPV.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22ppw_v8_Illuv2stable_128.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T221903Z&X-Amz-SignedHeaders=host&X-Amz-Signature=fa1da9f240b97d1422935c32684533e1a9e127ceadcb10bdee46f20937f6055e"
   },
-  "name": "Pony: People’s Works v8_Illusv 2.0 Stable",
+  "name": "Pony: People\u2019s Works v8_Illusv 2.0 Stable",
   "prefix": "",
   "is_lo_ha": false,
   "version": "sdxl_base_v0.9",
-  "file": "pony_peoples_works_v8_illusv2_lora_f16.ckpt"
+  "file": "pony__people_s_works_v8_illusv_2.0_stable_lora_f16.ckpt",
+  "converted": {
+    "pony__people_s_works_v8_illusv_2.0_stable_lora_f16.ckpt": "19c2a8cc9a187a363dcc928c1323f3a4355dc775e100eba47ff93b16860b4225"
+  }
 }
-
