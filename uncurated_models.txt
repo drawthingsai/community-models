@@ -160,7 +160,7 @@ IllumiYume-XL-Illustrious
 Illustration_Juaner_Ghibli_v10
 Illustration_Juaner_Ghibli_v20
 Illustrij
-Illustrij_GEN_v1
+illustrij-gen-v1
 Illustrious-Black-Magic-Illustrious-Noob-More
 Illustrious-Gehenna-Illustrious-Checkpoint
 Illustrious-Realism-by-klaabu
