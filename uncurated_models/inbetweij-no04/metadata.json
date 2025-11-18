@@ -3,12 +3,21 @@
     "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3920049/inbetweij20no04.0UYI.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22inbetweij_no04.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T000251Z&X-Amz-SignedHeaders=host&X-Amz-Signature=42b29376ac875e280cb0baa37d95e940a1c235d15a7631b78f3b9ee608b107af",
     "autoencoder": ""
   },
-  "file": "inbetweij_no04_f16.ckpt",
   "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
   "default_scale": 16,
   "prefix": "",
   "version": "sdxl_base_v0.9",
   "upcast_attention": false,
   "name": "Inbetweij — No.04",
-  "modifier": "none"
+  "modifier": "none",
+  "clip_encoder": "inbetweij___no.04_clip_vit_l14_f16.ckpt",
+  "file": "inbetweij___no.04_f16.ckpt",
+  "text_encoder": "inbetweij___no.04_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "inbetweij___no.04_clip_vit_l14_f16.ckpt": "67b4ddfc9de32cd1983c7c951f6161a3aed162804eb24215c14b02019a8a61dc",
+    "inbetweij___no.04_open_clip_vit_bigg14_f16.ckpt": "3de672272562b61a791bf55e2f5917cf2540c809206934f22b346e5b10b8a68f",
+    "inbetweij___no.04_f16.ckpt": "76ac1a98f5ebb1f06c26cc77e4cd8cfa5002c65d361d7d3de5a6ce22f0263261",
+    "inbetweij___no.04_q6p_q8p.ckpt": "ac4c7fc02bf91b5b5ea0f2daac883cb828279ee446879c3f80e1d4113ba453e7"
+  }
 }
+
