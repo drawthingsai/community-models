@@ -1,30 +1,14 @@
 {
-  "name": "Pikon-Realism v2_alt",
-  "slug": "pikon-realism-v2_alt",
-  "type": "checkpoint",
-  "framework": "sdxl",
-  "base_model": "sdxl 1.0",
-  "format": "safetensors",
-  "precision": "fp16",
-  "author": "Kranos94",
-  "license": {
-    "name": "CreativeML Open RAIL++-M Addendum",
-    "url": "https://github.com/Stability-AI/generative-models/blob/main/model_licenses/LICENSE-SDXL1.0/"
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/4674225/pikonV2.gBs3.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22pikonRealism_v2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T223048Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5a975c7cf7b16ed1bb2860267eb847e14ba54fcaafddc26b3d2027affbe13de3",
+    "autoencoder": ""
   },
-  "source": {
-    "page_url": "https://civitai.com/models/2078284?modelVersionId=2351588",
-    "download_url": "https://civitai.com/api/download/models/2296481?type=Model&format=SafeTensor&size=full&fp=fp16"
-  },
-  "recommended_parameters": {
-    "sampler": "LCM",
-    "steps": 16,
-    "guidance_scale": 1.0,
-    "resolution": "1024x1024"
-  },
-  "notes": "Version v2_alt of Pikon-Realism; style-oriented checkpoint. Confirm author tips on the model page for best effect.",
-  "tags": ["checkpoint", "realism", "style", "sdxl"],
-  "examples": [
-    "assets/01.jpeg",
-    "assets/02.jpeg"
-  ]
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Pikon_Realism_v2_alt",
+  "modifier": "none",
+  "file": "Pikon_Realism_v2_altf16.ckpt"
 }
