@@ -12,10 +12,7 @@ def download_file(url):
         for line in result.stdout.splitlines():
             if line.startswith('Saving to:'):
                 # The file path is quoted, we're extracting it
-                # Remove "Saving to: " prefix first
-                filepath = line.replace('Saving to: ', '', 1).strip()
-                # Remove any surrounding quotes (single or double, including curly quotes)
-                filepath = filepath.strip('\'"''"')
+                filepath = line.split('‘')[1].split('’')[0]
                 return filepath
     else:
         print(f"Failed to download file. Error: {result.stderr}")
@@ -50,7 +47,11 @@ def download_and_convert_model(directory_path, download, metadata):
     build = os.path.abspath('build')
     print("file:")
     print(file)
-    cmd = ['bazel', 'run', 'Apps:ModelConverter', '--compilation_mode=opt', '--', 
+    print("Directory contents:")
+    subprocess.run(['ls', '-la', os.path.dirname(file)], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    ls_result = subprocess.run(['ls', '-la', os.path.dirname(file)], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    print(ls_result.stdout)
+    cmd = ['bazel', 'run', 'Apps:ModelConverter', '--compilation_mode=opt', '--',
            '--file', file, '--name', metadata['name'], '-o', build]
     
     if autoencoder is not None:
