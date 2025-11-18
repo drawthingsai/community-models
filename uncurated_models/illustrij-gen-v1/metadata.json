@@ -1,29 +1,14 @@
 {
-  "name": "Illustrij-GEN v1",
-  "slug": "illustrij-gen-v1",
-  "type": "checkpoint",
-  "framework": "sdxl",
-  "base_model": "Illustrious",
-  "format": "safetensors",
-  "precision": "fp16",
-  "author": "reijlita",
-  "license": {
-    "name": "FAIPL-1.0-SD (Illustrious License)",
-    "url": "https://freedevproject.org/faipl-1.0-sd/"
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3920049/illustrijGEN.WhYo.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22illustrijGEN_1.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T194035Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a2c4c2e9a087d640d28be95177df63ad926cb18d3c38e5e36d6b12c78ff3bdf4",
+    "autoencoder": ""
   },
-  "source": {
-    "page_url": "https://civitai.com/models/2003939",
-    "download_url": "https://civitai.com/api/download/models/2268246?type=Model&format=SafeTensor&size=full&fp=fp16"
-  },
-  "recommended_parameters": {
-    "sampler": "DPM++ SDE Karras",
-    "steps": 30,
-    "guidance_scale": 4.0 - 7.0,
-    "resolution": "1832 x 1216 ►► 1040 x 1510"
-  },
-  "tags": ["checkpoint", "illustrious", "sdxl"],
-  "examples": [
-    "assets/01.jpg",
-    "assets/02.jpg"
-  ]
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Illustrij-GENv1",
+  "modifier": "none",
+  "file": "inbetweij_GENv1_f16.ckpt",
 }
