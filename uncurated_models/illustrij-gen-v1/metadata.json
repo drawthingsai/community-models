@@ -10,5 +10,5 @@
   "upcast_attention": false,
   "name": "Illustrij-GENv1",
   "modifier": "none",
-  "file": "inbetweij_GENv1_f16.ckpt",
+  "file": "inbetweij_GENv1_f16.ckpt"
 }
