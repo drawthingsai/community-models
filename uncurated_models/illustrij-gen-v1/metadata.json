@@ -10,5 +10,13 @@
   "upcast_attention": false,
   "name": "Illustrij-GENv1",
   "modifier": "none",
-  "file": "inbetweij_GENv1_f16.ckpt"
+  "file": "illustrij_genv1_f16.ckpt",
+  "clip_encoder": "illustrij_genv1_clip_vit_l14_f16.ckpt",
+  "text_encoder": "illustrij_genv1_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "illustrij_genv1_clip_vit_l14_f16.ckpt": "d03a10dc42d266c005ed773eae5c0235555da72186f70863c173ad99407535f4",
+    "illustrij_genv1_open_clip_vit_bigg14_f16.ckpt": "7eaccd7757e50a25370db05651ff59feef392fa8bb3cac22e3a477f25bba808d",
+    "illustrij_genv1_f16.ckpt": "bd6f0a63173ab0ca2c396230cd1a1463b5f3e9fac1880fdc6a45fc36534841b4",
+    "illustrij_genv1_q6p_q8p.ckpt": "912f30276b5931094f361a05db8db2ba0f97676a23f8f0757c2b9ffd5f397e1e"
+  }
 }

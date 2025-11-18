@@ -22,6 +22,7 @@ def sha256sum(file):
     """Calculate SHA256 checksum of a file"""
     result = subprocess.run(['sha256sum', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     if result.returncode == 0:
+        print(f"Computing SHA256 for: {file}, {result.stdout.strip().split()[0]}")
         return result.stdout.strip().split()[0]
     return None
 
