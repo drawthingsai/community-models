@@ -1,20 +1,13 @@
 {
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/3920049/inbetweij20no04.0UYI.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22inbetweij_no04.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T000251Z&X-Amz-SignedHeaders=host&X-Amz-Signature=42b29376ac875e280cb0baa37d95e940a1c235d15a7631b78f3b9ee608b107af",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
   "name": "Inbetweij — No.04",
-  "slug": "inbetweij-no04",
-  "type": "checkpoint",
-  "framework": "sdxl",
-  "format": "safetensors",
-  "precision": "fp16",
-  "base_model": "Illustrious",
-  "author": "reijlita",
-  "license": {
-    "name": "FAIPL-1.0-SD",
-    "url": "https://freedevproject.org/faipl-1.0-sd/"
-  },
-  "source": {
-    "download_url": "https://civitai.com/api/download/models/1803659?type=Model&format=SafeTensor&size=full&fp=fp16",
-    "page_url": "https://civitai.green/models/1587181/inbetweij?modelVersionId=1803659"
-  },
-  "examples": ["assets/01.jpg","assets/02.jpg"],
-  "tags": ["sdxl","illustrative","illustrious"]
+  "modifier": "none"
 }
