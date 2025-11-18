@@ -1,0 +1,23 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/1781941/getphat20flux20reality.6EA3.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22getphatFLUXReality_v11Softcore.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T231227Z&X-Amz-SignedHeaders=host&X-Amz-Signature=166a2cfebec7203a6e3c06afe3e1bcfbe4ec4c4531e9a825b514dc0d0a32eb72"
+  },
+  "name": "getphat FLUX Reality NSFW v11 Softcore",
+  "version" : "flux1",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "upcast_attention" : false,
+  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "guidance_embed": true,
+  "padded_text_encoding_length": 512,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "tea_cache_coefficients": [4.98651651e+02, -2.83781631e+02,  5.58554382e+01, -3.82021401e+00, 2.64230861e-01]
+}
