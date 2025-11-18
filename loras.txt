@@ -5,6 +5,9 @@ qwen-image-1.0-lightning-4-step-v1.0
 qwen-image-edit-2509-lightning-4-step-v1.0
 qwen-image-edit-2509-lightning-8-step-v1.0
 qwen-edit-2509-multiple-angles
+qwen-edit-2509-fusion
+qwen-edit-2509-relight
+qwen-edit-2509-white-to-scene
 qwen-image-edit-1.0-lightning-8-step-v1.0
 qwen-image-edit-1.0-lightning-4-step-v1.0
 flux-1-turbo-alpha
