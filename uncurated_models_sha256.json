@@ -254,6 +254,10 @@
   "illustrij_f16.ckpt": "1fc4e0bcae5dc7d1110980ca27c432e670a99db94c8aa84cf4da552d69f1a8d3",
   "illustrij_open_clip_vit_bigg14_f16.ckpt": "3de5b9fe9be5edef73d6c8529405c3f3590906f28cfc5964578aa275bb9344cb",
   "illustrij_clip_vit_l14_f16.ckpt": "5a2cd7f74ad6d3bebef49fcf62d0dac539782a2a0d965a6ff51d5bd1d4547084",
+  "illustrij_genv1_clip_vit_l14_f16.ckpt": "d03a10dc42d266c005ed773eae5c0235555da72186f70863c173ad99407535f4",
+  "illustrij_genv1_open_clip_vit_bigg14_f16.ckpt": "7eaccd7757e50a25370db05651ff59feef392fa8bb3cac22e3a477f25bba808d",
+  "illustrij_genv1_f16.ckpt": "bd6f0a63173ab0ca2c396230cd1a1463b5f3e9fac1880fdc6a45fc36534841b4",
+  "illustrij_genv1_q6p_q8p.ckpt": "912f30276b5931094f361a05db8db2ba0f97676a23f8f0757c2b9ffd5f397e1e",
   "illustrious_black_magic_illustrious_noob_more_f16.ckpt": "fb16ca1de3a063d5305d9e44d8fe4f22e77512a3d637ba32a4b9b20caec01744",
   "illustrious_black_magic_illustrious_noob_more_clip_vit_l14_f16.ckpt": "18f034d19d3cf9e048dcd155866a6a253cda766674d430a67235154cb0ab0f61",
   "illustrious_black_magic_illustrious_noob_more_open_clip_vit_bigg14_f16.ckpt": "9f88bfe4d899b5c9aba4217789262ca1e55675ed02f22a534e6f5b763ac3e997",
@@ -646,5 +650,13 @@
   "tt_animerge_f16.ckpt": "b1a93882529583dc59fb68c3f8514cd3f5452f51d2f357cb545a2eac74e5eea6",
   "untitled_pony_f16.ckpt": "1f6e0b237b3ad6fa4e2c39a96809d7c56ae09307427348f04bda061193c149d0",
   "untitled_pony_clip_vit_l14_f16.ckpt": "ba04714b75c7ce8f3fd4176ebc35c6f234e5639f2986a6667f3598c1e18e2adf",
-  "untitled_pony_open_clip_vit_bigg14_f16.ckpt": "bfb85cdbbef63149f439c72b8e5969f2db42a710a8b6a7641b91b2576003973d"
+  "untitled_pony_open_clip_vit_bigg14_f16.ckpt": "bfb85cdbbef63149f439c72b8e5969f2db42a710a8b6a7641b91b2576003973d",
+  "pikon_realism_v2_alt_clip_vit_l14_f16.ckpt": "801876dc73db9b40045c752360ba09579b4b3b15b3066fde94b4cf6a96ddf75a",
+  "pikon_realism_v2_alt_f16.ckpt": "47dcebd42efee2f8ae0bfeb90442e17880c0548ab5536b3ebf8adad7b14f15f2",
+  "pikon_realism_v2_alt_open_clip_vit_bigg14_f16.ckpt": "8d4cd4f3c2d85013abf1b101c6d77a80cfd7fa38b62cef981d358b0849e8f119",
+  "pikon_realism_v2_alt_q6p_q8p.ckpt": "e45cc909006e9d052bc02fd98a208aced77d8c63dd9a46c93fb14a912bcaa82d",
+  "inbetweij___no.04_clip_vit_l14_f16.ckpt": "67b4ddfc9de32cd1983c7c951f6161a3aed162804eb24215c14b02019a8a61dc",
+  "inbetweij___no.04_open_clip_vit_bigg14_f16.ckpt": "3de672272562b61a791bf55e2f5917cf2540c809206934f22b346e5b10b8a68f",
+  "inbetweij___no.04_f16.ckpt": "76ac1a98f5ebb1f06c26cc77e4cd8cfa5002c65d361d7d3de5a6ce22f0263261",
+  "inbetweij___no.04_q6p_q8p.ckpt": "ac4c7fc02bf91b5b5ea0f2daac883cb828279ee446879c3f80e1d4113ba453e7"
 }

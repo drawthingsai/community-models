@@ -1,0 +1,22 @@
+{
+  "download": {
+    "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/4674225/pikonV2.gBs3.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22pikonRealism_v2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251118/us-east-1/s3/aws4_request&X-Amz-Date=20251118T223048Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5a975c7cf7b16ed1bb2860267eb847e14ba54fcaafddc26b3d2027affbe13de3",
+    "autoencoder": ""
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 16,
+  "prefix": "",
+  "version": "sdxl_base_v0.9",
+  "upcast_attention": false,
+  "name": "Pikon_Realism_v2_alt",
+  "modifier": "none",
+  "file": "pikon_realism_v2_alt_f16.ckpt",
+  "clip_encoder": "pikon_realism_v2_alt_clip_vit_l14_f16.ckpt",
+  "text_encoder": "pikon_realism_v2_alt_open_clip_vit_bigg14_f16.ckpt",
+  "converted": {
+    "pikon_realism_v2_alt_clip_vit_l14_f16.ckpt": "801876dc73db9b40045c752360ba09579b4b3b15b3066fde94b4cf6a96ddf75a",
+    "pikon_realism_v2_alt_f16.ckpt": "47dcebd42efee2f8ae0bfeb90442e17880c0548ab5536b3ebf8adad7b14f15f2",
+    "pikon_realism_v2_alt_open_clip_vit_bigg14_f16.ckpt": "8d4cd4f3c2d85013abf1b101c6d77a80cfd7fa38b62cef981d358b0849e8f119",
+    "pikon_realism_v2_alt_q6p_q8p.ckpt": "e45cc909006e9d052bc02fd98a208aced77d8c63dd9a46c93fb14a912bcaa82d"
+  }
+}

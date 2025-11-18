@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/dx8152/Qwen-Image-Edit-2509-Relight/resolve/main/Qwen-Edit-Relight.safetensors"
+  },
+  "name": "Qwen Edit 2509 Relight",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_edit_2509_relight_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_edit_2509_relight_lora_f16.ckpt": "e95adbf821eaaf3317f77ef0c239292935f3558e6cc20cb0603c0ac57ea9ac33"
+  }
+}

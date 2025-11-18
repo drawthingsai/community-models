@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/dx8152/Qwen-Edit-2509-Multiple-angles/resolve/main/%E9%95%9C%E5%A4%B4%E8%BD%AC%E6%8D%A2.safetensors"
+  },
+  "name": "Qwen Edit 2509 Multiple Angles",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_edit_2509_multiple_angles_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_edit_2509_multiple_angles_lora_f16.ckpt": "2651ec7e53e1759f048e7969a53b7c954c7854b985166393a17195c2f8c304bd"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/dx8152/Qwen-Image-Edit-2509-Fusion/resolve/main/%E6%BA%B6%E5%9B%BE.safetensors"
+  },
+  "name": "Qwen Edit 2509 Fusion",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_edit_2509_fusion_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_edit_2509_fusion_lora_f16.ckpt": "1a59058dcad0bd6a35504c13bfd83b939a10f2ec53e64a5f924ed56bcbf25166"
+  }
+}

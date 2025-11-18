@@ -28,6 +28,6 @@
     "teaCacheEnd": -1,
     "teaCacheMaxSkipSteps": 3
   },
-  "name": "Qwen Image 1.0 with Lighting 8-Step v1.1",
+  "name": "Qwen Image 1.0 with Lightning 8-Step v1.1",
   "negative": " "
 }
