@@ -12,14 +12,10 @@ def download_file(url):
         for line in result.stdout.splitlines():
             if line.startswith('Saving to:'):
                 # The file path is quoted, we're extracting it
-                # Handle both single and double quotes (straight quotes, not curly)
-                if "'" in line:
-                    filepath = line.split("'")[1]
-                elif '"' in line:
-                    filepath = line.split('"')[1]
-                else:
-                    # Fallback: extract everything after "Saving to: "
-                    filepath = line.split('Saving to: ')[1].strip()
+                # Remove "Saving to: " prefix first
+                filepath = line.replace('Saving to: ', '', 1).strip()
+                # Remove any surrounding quotes (single or double, including curly quotes)
+                filepath = filepath.strip('\'"''"')
                 return filepath
     else:
         print(f"Failed to download file. Error: {result.stderr}")
