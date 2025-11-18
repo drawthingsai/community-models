@@ -146,7 +146,7 @@ Genova_APEX_genova_V2
 Genova_APEX_plus
 Genova_APEX_real
 Genova_APEX_s
-getphat-flux-reality-nsfw_v11-softcore
+getphat-flux-reality-nsfw
 Gonzalomo_XLFlux_Pony_v03Fluxity_Fp8
 Gonzalomo_XLFlux_Pony_v10Fluxity_Fp8
 HomoSimile-XL-Pony_-Illustrious_-NoobAI
