@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/low_noise_model.safetensors"
+  },
+  "name": "Wan 2.2 A14B Lightning Low Noise Expert T2V v2.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "wan_v2.1_14b",
+  "file": "wan_v2.2_a14b_lne_t2v_lightning_v2.0_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "wan_v2.2_a14b_lne_t2v_lightning_v2.0_lora_f16.ckpt": "17ce3b5496f1c97515e132d8bd594997b5dc197c1d5e778bbe0393654790fe33"
+  }
+}

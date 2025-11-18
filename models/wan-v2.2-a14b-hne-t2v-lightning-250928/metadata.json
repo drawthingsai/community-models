@@ -1,0 +1,26 @@
+{
+  "name" : "Wan v2.2 High Noise Expert T2V A14B Lightning 250928",
+  "version" : "wan_v2.1_14b",
+  "autoencoder" : "wan_v2.1_video_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 12,
+  "hires_fix_scale" : 16,
+  "file" : "wan_v2.2_a14b_hne_t2v_lightning_250928_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "umt5_xxl_encoder_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "frames_per_second": 16,
+  "tea_cache_coefficients": [-3.03318725e+05, 4.90537029e+04, -2.65530556e+03, 5.87365115e+01, -3.15583525e-01],
+  "note": "[Wan2.2 High Noise Expert T2V A14B Lightning 250928](https://huggingface.co/lightx2v/Wan2.2-Lightning/tree/main/Wan2.2-T2V-A14B-4steps-250928-dyno) is a fine-tune of Wan v2.2 High Noise Expert model. It can generate more dynamic motions with 4 steps and text guidance 1.0.",
+  "converted": {
+    "wan_v2.1_video_vae_f16.ckpt": "4c518b128b3c1f2ea164aa46269d8875b4be3661d1fc0fba2709d03fa94e418b",
+    "umt5_xxl_encoder_q8p.ckpt": "72ef62d22c09a3b764ac9e6fe0100f4029619fb3ff8ccec3432e509487b29831",
+    "wan_v2.2_a14b_hne_t2v_lightning_250928_q6p_svd.ckpt": "3ab1a557ebbcf4abfce73e7a317048522db84a157cfcb3dbda5e7a094455b1ed",
+    "wan_v2.2_a14b_hne_t2v_lightning_250928_q8p.ckpt": "83e55da6d37e91016de26b8b53b9a1bafdd792fe2abb16000508a2ec1f3c0eb5"
+  }
+}

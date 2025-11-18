@@ -28,6 +28,6 @@
     "teaCacheEnd": -1,
     "teaCacheMaxSkipSteps": 3
   },
-  "name": "Qwen Image Edit 1.0 with Lighting 8-Step v1.0",
+  "name": "Qwen Image Edit 1.0 with Lightning 8-Step v1.0",
   "negative": " "
 }

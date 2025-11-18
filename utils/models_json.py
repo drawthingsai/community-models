@@ -66,8 +66,11 @@ def download_and_convert_model(directory_path, download, metadata):
     converted_file = updated_metadata['file']
     if converted_file.endswith('_f16.ckpt'):
       # Generate 8-bit file.
-      q8p_file = converted_file[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
-      cmd = ['bazel', 'run', 'Apps:ModelQuantizer', '--compilation_mode=opt', '--', '-i', os.path.join(build, converted_file), '-o', os.path.join(build, q8p_file)]
+      if metadata['version'] == "flux1":
+        q8p_file = converted_file[:-len('_f16.ckpt')] + '_q8p.ckpt'
+      else:
+        q8p_file = converted_file[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
+      cmd = ['bazel', 'run', 'Apps:ModelQuantizer', '--compilation_mode=opt', '--', '-i', os.path.join(build, converted_file),  '--model-version', metadata['version'], '-o', os.path.join(build, q8p_file)]
       result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
       if result.returncode == 0:
         sha256 = sha256sum(os.path.join(build, q8p_file))
@@ -159,7 +162,10 @@ def collect_metadata_from_list(file_path):
               q8p_file = file[:-len('_f16.ckpt')] + '_q8p.ckpt'
               if q8p_file in converted:
                 metadata['file'] = q8p_file
-                metadata['name'] = metadata['name'] + ' (8-bit)'
+                suffix_8bit = ' (8-bit)'
+                if metadata['version'] == "flux1":
+                  suffix_8bit = ''
+                metadata['name'] = metadata['name'] + suffix_8bit
                 # Update other fields have reference to this file.
                 for k, v in metadata.items():
                   if v == file:

@@ -160,11 +160,13 @@ IllumiYume-XL-Illustrious
 Illustration_Juaner_Ghibli_v10
 Illustration_Juaner_Ghibli_v20
 Illustrij
+illustrij-gen-v1
 Illustrious-Black-Magic-Illustrious-Noob-More
 Illustrious-Gehenna-Illustrious-Checkpoint
 Illustrious-Realism-by-klaabu
 Illustrious-XL
 Illustrious-XL-personal-merge-noob-v-pred0.5-test-merge-updated
+Inbetweij-no04
 Indigo-Furry-Mix-XL
 Indigo-Void-Furry-Vpred-Furry-NoobAI-V-pred
 Indigo_Void_Furry_Fused_XL_Furry_NoobAI_NoobAI_v1.7_1569147
@@ -359,3 +361,4 @@ richyrichMixIXL
 tt-animerge
 untitled-pony
 pikon-reality_v2_alt
+inbetweij-no04

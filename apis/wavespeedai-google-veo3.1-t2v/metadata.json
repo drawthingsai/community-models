@@ -1,0 +1,48 @@
+{
+    "version" : "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention" : false,
+    "name" : "Google Veo3 T2V via WaveSpeedAI",
+    "remote_api_model_config" : {
+      "settings_sections" : [
+        "model",
+        "remoteApiKey",
+        "seed",
+        "imageSize"
+      ],
+      "api_key" : "",
+      "remote_api_model_config_mapping" : {
+        "prompt" : "text",
+        "seed" : "seed"
+      },
+      "api_secret" : "",
+      "polling_interval" : 30,
+      "status_path" : "data.status",
+      "task_id_path" : "data.id",
+      "success_status" : "completed",
+      "error_msg_path" : "data.error",
+      "request_type" : "poll",
+      "url" : "https:\/\/api.wavespeed.ai\/",
+      "result_path" : {
+        "url" : {
+          "path" : "data.outputs[]"
+        }
+      },
+      "status_url_template" : "api\/v3\/predictions\/{{jq(data.id)}}\/result",
+      "passthrough_configs" : {
+         "resolution" : "1080p",
+         "generate_audio" : false
+      },
+      "pending_statuses" : [
+        "created",
+        "processing"
+      ],
+      "endpoint" : "api\/v3\/google\/veo3",
+      "api_file_format" : "video",
+      "ephemeral_api_secret" : false,
+      "failure_status" : "failed"
+    },
+    "default_scale" : 16,
+    "prefix" : "",
+    "file" : "wavespeedai_google_veo3_t2v"
+  }

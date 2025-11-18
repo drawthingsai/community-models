@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/dx8152/Qwen-Image-Edit-2509-White_to_Scene/resolve/main/%E7%99%BD%E5%BA%95%E5%9B%BE%E8%BD%AC%E5%9C%BA%E6%99%AF.safetensors"
+  },
+  "name": "Qwen Edit 2509 White to Scene",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_edit_2509_white_to_scene_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_edit_2509_white_to_scene_lora_f16.ckpt": "db05e157c679531707b1a92628675afb6d6cb0e6756410e7e197d506bba741ba"
+  }
+}

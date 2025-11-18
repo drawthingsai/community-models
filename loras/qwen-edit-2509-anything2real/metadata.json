@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/lrzjason/QwenEdit-Anything2Real_Alpha/resolve/main/Anything2RealAlpha.safetensors"
+  },
+  "name": "Qwen Edit 2509 Anything2Real",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_edit_2509_anything2real_lora_f16.ckpt",
+  "weight": {
+    "value": 0.9,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_edit_2509_anything2real_lora_f16.ckpt": "edbc466732f9e1fb237d64b3bbda2a3a37f009e8178b81d868dee44b7843efdd"
+  }
+}
