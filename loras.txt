@@ -93,3 +93,4 @@ hipoly-3d-model
 haute-couture-or-gowns-v1.0
 ccxl-mucha-art-style
 lcm-ssd-1b
+pony-peoples-works-v8-illusv2-stable
