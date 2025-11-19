@@ -224,6 +224,8 @@
   "1209969_genovaapex_plus_q8p.ckpt": "2cb2357375f0ec788633fb16105798014f582fb7779b943dc869bbb4e872cd84",
   "1111281_genovaapex_real_q8p.ckpt": "146ae254b223176d6656ea1fdc29b10513c35e5b17707aee8eb75fe8ca8970e3",
   "1068773_genovaapex_s_q8p.ckpt": "fe00e50abf2cf6ae5c9de734c19436b303cbda730f89bf1aaa784103e69138bb",
+  "getphat_flux_reality_nsfw_v11_softcore_f16.ckpt": "da732b84646705c0c420c61c8d1d2aa978fe83dce4b732f2492c156b264d2bdb",
+  "getphat_flux_reality_nsfw_v11_softcore_q8p.ckpt": "15d073026d474f317c57e4939c9f6e9f6039f4d8530b7989243290cc2f80effd",
   "1868950_gonzalomoxlfluxpony_v03fluxityfp8_q8p.ckpt": "bcffed7db68b19a06e062e85d4da4761acb03330a51adeffd35ca222968e6c48",
   "1883195_gonzalomoxlfluxpony_v10fluxityfp8_q8p.ckpt": "7ae42e0351b3a9e38d9717857fcc52bc425b015c8a6afa683889fc6da8f8f719",
   "homosimile_xl_pony__illustrious__noobai_f16.ckpt": "30096bfab432023b9703414d8fdccc1a7967ea2f523ac8793fbca18e2019ff6d",
