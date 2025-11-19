@@ -27,9 +27,8 @@
     0.264230861
   ],
   "modifier": "none",
-  "file": "getphat_flux_reality_nsfw_v11_softcore_f16.ckpt",
+  "file": "getphat_flux_reality_nsfw_v11_softcore_q8p.ckpt",
   "converted": {
-    "getphat_flux_reality_nsfw_v11_softcore_f16.ckpt": "da732b84646705c0c420c61c8d1d2aa978fe83dce4b732f2492c156b264d2bdb",
     "getphat_flux_reality_nsfw_v11_softcore_q8p.ckpt": "15d073026d474f317c57e4939c9f6e9f6039f4d8530b7989243290cc2f80effd"
   }
 }

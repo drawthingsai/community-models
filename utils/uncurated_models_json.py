@@ -96,6 +96,8 @@ def download_and_convert_model(directory_path, download, metadata):
                 sha256 = sha256sum(os.path.join(build, q8p_file))
                 if sha256 is not None:
                     converted[q8p_file] = sha256
+                    if metadata['version'] == "flux1" and converted_file.endswith('_f16.ckpt'):
+                        del converted[converted_file]
         
         os.chdir(original_directory)
     else:
