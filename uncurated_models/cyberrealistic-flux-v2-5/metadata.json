@@ -3,21 +3,32 @@
     "file": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/6357/cyberrealisticFluxV25.MHUT.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22cyberrealisticFlux_v25.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251120/us-east-1/s3/aws4_request&X-Amz-Date=20251120T183358Z&X-Amz-SignedHeaders=host&X-Amz-Signature=275153c6d84dd6f6d67ff1fa827bfc5d92736e210808ac5a4ffac99b825b925d"
   },
   "name": "CyberRealistic Flux v2.5",
-  "version" : "flux1",
-  "autoencoder" : "flux_1_vae_f16.ckpt",
-  "prefix" : "",
-  "default_scale" : 16,
-  "hires_fix_scale" : 24,
-  "upcast_attention" : false,
-  "text_encoder" : "t5_xxl_encoder_q6p.ckpt",
-  "clip_encoder" : "clip_vit_l14_f16.ckpt",
+  "version": "flux1",
+  "autoencoder": "flux_1_vae_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "hires_fix_scale": 24,
+  "upcast_attention": false,
+  "text_encoder": "t5_xxl_encoder_q6p.ckpt",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
   "high_precision_autoencoder": true,
   "guidance_embed": true,
   "padded_text_encoding_length": 512,
-  "objective" : {
-    "u" : {
-      "condition_scale" : 1000
+  "objective": {
+    "u": {
+      "condition_scale": 1000
     }
   },
-  "tea_cache_coefficients": [4.98651651e+02, -2.83781631e+02,  5.58554382e+01, -3.82021401e+00, 2.64230861e-01]
+  "tea_cache_coefficients": [
+    498.651651,
+    -283.781631,
+    55.8554382,
+    -3.82021401,
+    0.264230861
+  ],
+  "file": "cyberrealistic_flux_v2.5_f16.ckpt",
+  "modifier": "none",
+  "converted": {
+    "cyberrealistic_flux_v2.5_q8p.ckpt": "97c6fa942d955e457765c4e4e804a7cfc4ecb6ef761f5baeef0026c1d3ebeb59"
+  }
 }

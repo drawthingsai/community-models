@@ -666,5 +666,6 @@
   "inbetweij___no.04_clip_vit_l14_f16.ckpt": "67b4ddfc9de32cd1983c7c951f6161a3aed162804eb24215c14b02019a8a61dc",
   "inbetweij___no.04_open_clip_vit_bigg14_f16.ckpt": "3de672272562b61a791bf55e2f5917cf2540c809206934f22b346e5b10b8a68f",
   "inbetweij___no.04_f16.ckpt": "76ac1a98f5ebb1f06c26cc77e4cd8cfa5002c65d361d7d3de5a6ce22f0263261",
-  "inbetweij___no.04_q6p_q8p.ckpt": "ac4c7fc02bf91b5b5ea0f2daac883cb828279ee446879c3f80e1d4113ba453e7"
+  "inbetweij___no.04_q6p_q8p.ckpt": "ac4c7fc02bf91b5b5ea0f2daac883cb828279ee446879c3f80e1d4113ba453e7",
+  "cyberrealistic_flux_v2.5_q8p.ckpt": "97c6fa942d955e457765c4e4e804a7cfc4ecb6ef761f5baeef0026c1d3ebeb59"
 }
