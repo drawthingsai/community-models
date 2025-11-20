@@ -19,6 +19,8 @@ Agflux_V3Fp8
 Amanatsu-Illustrious
 Anillustrious
 Animij
+anisora-v3.1-i2v-wan-2.1-14b
+anisora-v2-i2v-wan-2.1-14b
 Artofura-Furry-mix
 Artsy_Dream_v1FP16
 Artsy_Dream_v1FP8

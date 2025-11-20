@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/nvidia/ChronoEdit-14B-Diffusers-Upscaler-Lora/blob/main/upsample_lora_diffusers.safetensors"
+  },
+  "name": "ChronoEdit 14B Upsample",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "wan_v2.1_14b",
+  "file": "chronoedit_14b_upsample_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "chronoedit_14b_upsample_f16.ckpt": "fd8d3274576cc9b6cc5350b72c07d3f4710d670f7ca7ef5a1d8cd31a31a73ac9"
+  }
+}

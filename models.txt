@@ -22,13 +22,14 @@ wan-2.1-14b-t2v-fusionx
 wan-2.1-14b-i2v-fusionx
 wan-2.1-14b-v1.1-fun-inp
 wan-2.1-1.3b-v1.1-fun-inp
+anisora-v3.2-i2v-wan-2.2-a14b-hne
+anisora-v3.2-i2v-wan-2.2-a14b-lne
+chronoedit-14b
 skyreels-v2-1.3b-i2v-540p
 skyreels-v2-14b-i2v-540p
 skyreels-v2-14b-i2v-720p
 skyreels-v2-14b-t2v-540p
 skyreels-v2-14b-t2v-720p
-anisora-v3.1-i2v-wan-2.1-14b
-anisora-v2-i2v-wan-2.1-14b
 wan-2.1-14b-fun-inp
 wan-2.1-1.3b-fun-inp
 chroma-1-hd

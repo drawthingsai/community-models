@@ -24,6 +24,8 @@ wan-v2.2-a14b-lne-t2v-lightning-250928
 wan-v2.2-a14b-lne-t2v-lightning-v1.1
 wan-v2.2-a14b-hne-i2v-lightning-v1.0
 wan-v2.2-a14b-lne-i2v-lightning-v1.0
+chronoedit-14b-step-distill
+chronoedit-14b-upsample
 wan-2.1-14b-self-forcing-t2v-v2
 wan-2.1-14b-480p-self-forcing-i2v
 wan-2.1-14b-causvid-t2v

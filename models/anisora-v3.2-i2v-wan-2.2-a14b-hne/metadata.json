@@ -1,0 +1,27 @@
+{
+  "name" : "AniSora v3.2 I2V Wan 2.2 A14B High Noise Expert",
+  "version" : "wan_v2.1_14b",
+  "modifier" : "inpainting",
+  "autoencoder" : "wan_v2.1_video_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 12,
+  "hires_fix_scale" : 16,
+  "file" : "anisora_v3.2_i2v_wan_2.2_a14b_hne_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "umt5_xxl_encoder_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "frames_per_second": 16,
+  "tea_cache_coefficients": [2.57151496e+05, -3.54229917e+04, 1.40286849e+03, -1.35890334e+01, 1.32517977e-01],
+  "note": "[AniSora v3.2](https://huggingface.co/IndexTeam/Index-anisora) is a state-of-the-art image-to-video model fine-tuned by Bilibili for anime generation.",
+  "converted": {
+    "wan_v2.1_video_vae_f16.ckpt": "4c518b128b3c1f2ea164aa46269d8875b4be3661d1fc0fba2709d03fa94e418b",
+    "umt5_xxl_encoder_q8p.ckpt": "72ef62d22c09a3b764ac9e6fe0100f4029619fb3ff8ccec3432e509487b29831",
+    "anisora_v3.2_i2v_wan_2.2_a14b_hne_q6p_svd.ckpt": "23b427660cc7c39bf3061a0d798688421907a8f67eddd1fc9c42eaf6761491b8",
+    "anisora_v3.2_i2v_wan_2.2_a14b_hne_q8p.ckpt": "6e75e422e467adc396f1713e9d4ecf7cbbed953c60f13240992e673a274cfb6f"
+  }
+}
