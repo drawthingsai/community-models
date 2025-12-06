@@ -1,0 +1,22 @@
+{
+  "name" : "Z Image Turbo 1.0 (Exact)",
+  "version" : "z_image",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "z_image_turbo_1.0_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_4b_instruct_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[Z Image Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) is is a powerful and highly efficient image generation model with 6B parameters. It is Apache 2.0-licensed and commercially friendly. The model is trained at multiple resolutions using a Flow Matching objective; trailing samplers yield the best results, with 8 sampling steps recommended.",
+  "converted": {
+    "z_image_turbo_1.0_f16.ckpt": "6d90c3f0342410a747396ae7b7dedfb03caa4621ee426744793fc57e60766c52",
+    "qwen_3_vl_4b_instruct_f16.ckpt": "7ba2e5a8714f228bb12d2765779040bb20bc19764d0173d8daab952458f09c8a"
+  }
+}
