@@ -1,3 +1,5 @@
+flux-2-dev
+flux-2-dev-exact
 flux-1-kontext-dev
 flux-1-kontext-dev-exact
 flux-1-krea-dev
