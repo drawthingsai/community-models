@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/blob/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-fp32.safetensors"
+  },
+  "name": "Qwen Image Edit 2511 Lightning 4-Step v1.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_image_edit_2511_lightning_4_step_v1.0_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_image_edit_2511_lightning_4_step_v1.0_lora_f16.ckpt": "f8a3d906c4c493acbef7c4e504f653042e9091bbfedd16e01ac1bf740c95135d"
+  }
+}
