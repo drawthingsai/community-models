@@ -7,7 +7,7 @@
   "hires_fix_scale" : 24,
   "file" : "qwen_image_2512_bf16_q8p.ckpt",
   "upcast_attention" : false,
-  "text_encoder" : "qwen_2.5_vl_7b_f16.ckpt",
+  "text_encoder" : "qwen_2.5_vl_7b_q8p.ckpt",
   "high_precision_autoencoder": false,
   "objective" : {
     "u" : {
@@ -42,6 +42,6 @@
     "qwen_image_vae_f16.ckpt": "701e7c46ed6c2fa8036543780317e06d264374f9b4dbfc22f27c0b3181bb988a",
     "qwen_image_2512_bf16_q6p.ckpt": "885933321537a509e1a200d5ccddecbeaa4d0b2ef72886452dabf2425ddb026a",
     "qwen_image_2512_bf16_q8p.ckpt": "adeadfb2217c1087a4d91b8dde8557f922ceb41ebb774f69c920a87036b99e96",
-    "qwen_2.5_vl_7b_f16.ckpt": "7e48af7ad29ff22c15dc75ece31a0eb14938905c9d23ddaccbf5e347921ddff7"
+    "qwen_2.5_vl_7b_q8p.ckpt": "513b759b24619946d3ca13c0bf57464a32098593bbf8342001358fbfa51f78b1"
   }
 }
