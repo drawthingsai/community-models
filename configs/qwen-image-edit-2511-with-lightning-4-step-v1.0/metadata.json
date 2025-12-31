@@ -9,15 +9,15 @@
     "batchSize": 1,
     "tiledDiffusion": false,
     "guidanceScale": 1,
-    "loras": [{"mode": "all", "file": "qwen_image_edit_2509_lightning_8_step_v1.0_lora_f16.ckpt", "weight": 1}],
+    "loras": [{"mode": "all", "file": "qwen_image_edit_2511_lightning_4_step_v1.0_lora_f16.ckpt", "weight": 1}],
     "controls": [],
     "clipSkip": 1,
     "maskBlur": 1.5,
     "shift": 3,
     "resolutionDependentShift": false,
     "preserveOriginalAfterInpaint": true,
-    "model": "qwen_image_edit_2509_q6p.ckpt",
-    "steps": 8,
+    "model": "qwen_image_edit_2511_q6p.ckpt",
+    "steps": 4,
     "upscalerScaleFactor": 0,
     "maskBlurOutset": 0,
     "hiresFix": false,
@@ -28,6 +28,6 @@
     "teaCacheEnd": -1,
     "teaCacheMaxSkipSteps": 3
   },
-  "name": "Qwen Image Edit 2509 with Lightning 8-Step v1.0",
+  "name": "Qwen Image Edit 2511 with Lightning 4-Step v1.0",
   "negative": " "
 }

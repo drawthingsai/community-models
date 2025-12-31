@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/fal/FLUX.2-dev-Turbo/resolve/main/flux.2-turbo-lora.safetensors"
+  },
+  "name": "FLUX.2 [dev] Turbo",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "flux2",
+  "file": "flux_2_dev_turbo_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "flux_2_dev_turbo_lora_f16.ckpt": "44c293c42781ad96eb07440bfde7577af732abad88c9aee4eecae4b45c015dea"
+  }
+}

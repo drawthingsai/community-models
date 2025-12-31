@@ -8,16 +8,15 @@
     "tiledDecoding": false,
     "batchSize": 1,
     "tiledDiffusion": false,
-    "guidanceScale": 1,
-    "loras": [{"mode": "all", "file": "qwen_image_edit_2509_lightning_8_step_v1.0_lora_f16.ckpt", "weight": 1}],
+    "guidanceScale": 4,
+    "loras": [],
     "controls": [],
     "clipSkip": 1,
     "maskBlur": 1.5,
-    "shift": 3,
-    "resolutionDependentShift": false,
+    "shift": 2,
     "preserveOriginalAfterInpaint": true,
-    "model": "qwen_image_edit_2509_q6p.ckpt",
-    "steps": 8,
+    "model": "qwen_image_2512_bf16_q6p.ckpt",
+    "steps": 30,
     "upscalerScaleFactor": 0,
     "maskBlurOutset": 0,
     "hiresFix": false,
@@ -28,6 +27,7 @@
     "teaCacheEnd": -1,
     "teaCacheMaxSkipSteps": 3
   },
-  "name": "Qwen Image Edit 2509 with Lightning 8-Step v1.0",
-  "negative": " "
+  "name": "Qwen Image 2512",
+  "version": "qwen_image",
+  "negative": "低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。"
 }

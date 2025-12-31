@@ -1,3 +1,5 @@
+qwen-image-2512
+flux-2-dev
 qwen-image-1.0
 qwen-image-edit-2509
 z-image-turbo-1.0
@@ -12,6 +14,7 @@ flux-1-dev
 flux-1-fill-dev
 qwen-image-1.0-with-lightning-4-step-v2.0
 qwen-image-1.0-with-lightning-8-step-v2.0
+qwen-image-edit-2511-with-lightning-4-step-v1.0
 qwen-image-edit-2509-with-lightning-4-step-v1.0
 qwen-image-edit-2509-with-lightning-8-step-v1.0
 qwen-image-edit-1.0-with-lightning-4-step-v1.0

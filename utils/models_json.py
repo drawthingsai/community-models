@@ -171,6 +171,47 @@ def collect_metadata_from_list(file_path):
                   if v == file:
                     metadata[k] = q8p_file
                 metadata_array.append(copy.deepcopy(metadata))
+          elif file.endswith('_bf16_q8p.ckpt'):
+            q5p_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q5p.ckpt'
+            q5p_svd_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q5p_svd.ckpt'
+            q6p_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q6p.ckpt'
+            q6p_svd_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q6p_svd.ckpt'
+            if metadata['name'].endswith(' (BF16)'):
+              metadata['name'] = metadata['name'][:-len(' (BF16)')]
+            if q5p_file in converted:
+              metadata['file'] = q5p_file
+              metadata['name'] = metadata['name'] + ' (BF16, 5-bit)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q5p_file
+              metadata_array.append(copy.deepcopy(metadata))
+            elif q5p_svd_file in converted:
+              metadata['file'] = q5p_svd_file
+              metadata['builtin_lora'] = True
+              metadata['name'] = metadata['name'] + ' (BF16, 5-bit, SVDQuant)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q5p_svd_file
+              metadata_array.append(copy.deepcopy(metadata))
+            elif q6p_file in converted:
+              metadata['file'] = q6p_file
+              metadata['name'] = metadata['name'] + ' (BF16, 6-bit)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q6p_file
+              metadata_array.append(copy.deepcopy(metadata))
+            elif q6p_svd_file in converted:
+              metadata['file'] = q6p_svd_file
+              metadata['builtin_lora'] = True
+              metadata['name'] = metadata['name'] + ' (BF16, 6-bit, SVDQuant)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = q6p_svd_file
+              metadata_array.append(copy.deepcopy(metadata))
           elif file.endswith('_q8p.ckpt'):
             q5p_file = file[:-len('_q8p.ckpt')] + '_q5p.ckpt'
             q5p_svd_file = file[:-len('_q8p.ckpt')] + '_q5p_svd.ckpt'
