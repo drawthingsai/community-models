@@ -1,3 +1,5 @@
+qwen-image-2512-lightning-4-step-v1.0
+qwen-image-2512-turbo-4-step-v1.0
 flux-2-dev-turbo
 qwen-image-1.0-lightning-8-step-v2.0
 qwen-image-1.0-lightning-8-step-v1.1

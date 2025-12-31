@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/Wuli-art/Qwen-Image-2512-Turbo-LoRA/resolve/main/Wuli-Qwen-Image-2512-Turbo-LoRA-4steps-V1.0-bf16.safetensors"
+  },
+  "name": "Qwen Image 2512 Turbo 4-Step v1.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_image_2512_turbo_4_step_v1.0_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_image_2512_turbo_4_step_v1.0_lora_f16.ckpt": "a3ee04fd6bf525bba74c977e1cbf05cc7b3053bf598110d2b64e3e79000cb657"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors"
+  },
+  "name": "Qwen Image 2512 Lightning 4-Step v1.0",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "qwen_image",
+  "file": "qwen_image_2512_lightning_4_step_v1.0_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "qwen_image_2512_lightning_4_step_v1.0_lora_f16.ckpt": "92cba3da81e1373ff3f9d34ff484e121ec02bb2b92a30680b9da6696e45c4685"
+  }
+}
