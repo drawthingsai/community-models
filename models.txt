@@ -1,4 +1,3 @@
-qwen-image-2512-bf
 qwen-image-2512-bf-exact
 flux-2-dev
 flux-2-dev-exact
