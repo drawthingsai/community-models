@@ -1,0 +1,26 @@
+{
+  "name" : "FLUX.2 [klein] 4B Base (Exact)",
+  "version" : "flux2_4b",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "kontext",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "file" : "flux_2_klein_base_4b_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_4b_f16.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "padded_text_encoding_length": 512,
+  "note" : "[FLUX.2 [klein] 4B Base](https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B) is a 4 billion parameter rectified flow transformer capable of generating, editing and combining images based on text instructions.",
+  "copyright" : "© 2026 Black Forest Labs",
+  "converted": {
+    "flux_2_klein_base_4b_f16.ckpt": "34c96459ad84e7dd1998a8d51d09b2839fe4de88f77ab0656b4632152a68e157",
+    "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
+    "qwen_3_4b_f16.ckpt": "0faeb3422d29ce4fb0a93291bf88283a8cf02d95e17d946cf984a6cf3b4613f1"
+  }
+}
