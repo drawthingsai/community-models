@@ -1,4 +1,5 @@
 qwen-image-2512-bf-exact
+flux-2-klein-9b
 flux-2-dev
 flux-2-dev-exact
 z-image-turbo-1.0-exact
