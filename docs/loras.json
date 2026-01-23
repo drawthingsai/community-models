@@ -1,0 +1,1011 @@
+[
+  {
+    "name": "Qwen Image 2512 Lightning 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_2512_lightning_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image 2512 Turbo 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_2512_turbo_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.2 [dev] Turbo",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux2",
+    "file": "flux_2_dev_turbo_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image 1.0 Lightning 8-Step v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_1.0_lightning_8_step_v2.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image 1.0 Lightning 8-Step v1.1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_1.0_lightning_8_step_v1.1_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image 1.0 Lightning 4-Step v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_1.0_lightning_4_step_v2.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image 1.0 Lightning 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_1.0_lightning_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image Edit 2511 Lightning 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_edit_2511_lightning_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image Edit 2509 Lightning 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_edit_2509_lightning_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image Edit 2509 Lightning 8-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_edit_2509_lightning_8_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Edit 2509 Multiple Angles",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_edit_2509_multiple_angles_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Edit 2509 Fusion",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_edit_2509_fusion_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Edit 2509 Relight",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_edit_2509_relight_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Edit 2509 White to Scene",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_edit_2509_white_to_scene_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Edit 2509 Anything2Real",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_edit_2509_anything2real_lora_f16.ckpt",
+    "weight": {
+      "value": 0.9,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image Edit 1.0 Lightning 8-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_edit_1.0_lightning_8_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Qwen Image Edit 1.0 Lightning 4-Step v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "qwen_image",
+    "file": "qwen_image_edit_1.0_lightning_4_step_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 Turbo Alpha",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux.1_turbo_alpha_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper FLUX.1 [dev] 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "hyper_flux.1__dev__8_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper FLUX.1 [dev] 16-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "hyper_flux.1__dev__16_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 [dev] to [schnell] 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux.1__dev__to__schnell__4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning High Noise Expert T2V v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_hne_t2v_lightning_v2.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning Low Noise Expert T2V v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_lne_t2v_lightning_v2.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning High Noise Expert I2V 251022",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_hne_i2v_lightning_251022_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning Low Noise Expert I2V 251022",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_lne_i2v_lightning_251022_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning High Noise Expert T2V v1.1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_hne_t2v_lightning_v1.1_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning Low Noise Expert T2V 250928",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_lne_t2v_lightning_250928_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning Low Noise Expert T2V v1.1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_lne_t2v_lightning_v1.1_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning High Noise Expert I2V v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_hne_i2v_lightning_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.2 A14B Lightning Low Noise Expert I2V v1.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_v2.2_a14b_lne_i2v_lightning_v1.0_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "ChronoEdit 14B Step Distill",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "chronoedit_14b_step_distill_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "ChronoEdit 14B Upsample",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "chronoedit_14b_upsample_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.1 14B Self-Forcing T2V",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_2.1_14b_self_forcing_t2v_v2_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.1 14B 480p Self-Forcing I2V",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_2.1_14b_480p_self_forcing_i2v_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.1 14B CausVid T2V",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_14b",
+    "file": "wan_2.1_14b_causvid_t2v_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.1 1.3B CFG Distill",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_1.3b",
+    "is_consistency_model": true,
+    "file": "wan_2.1_1.3b_cfg_distill_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Wan 2.1 1.3B CausVid T2V",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "wan_v2.1_1.3b",
+    "file": "wan_2.1_1.3b_causvid_t2v_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "HiDream E1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "hidream_i1",
+    "modifier": "editing",
+    "file": "hidream_e1_full_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 Depth [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux_1_depth_dev_lora_f16.ckpt",
+    "modifier": "depth",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "FLUX.1 Canny [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "flux_1_canny_dev_lora_f16.ckpt",
+    "modifier": "canny",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "SD3 Medium 3.5 Turbo 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "sd3_medium_3.5_turbo_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "SD3 Medium 3.5 Turbo 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "sd3_medium_3.5_turbo_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD3 16-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_16_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper SD3 8-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_8_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Hyper SD3 4-Step CFG",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "hyper_sd3_4_step_cfg_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "PCM SD3 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sd3",
+    "file": "pcm_sd3_4_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "SDXL Lightning 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "sdxl_lightning_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "SDXL Lightning 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "sdxl_lightning_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SDXL 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "hyper_sdxl_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SDXL 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "is_consistency_model": true,
+    "file": "hyper_sdxl_4_step_lora_f16.ckpt"
+  },
+  {
+    "name": "DMD2 SDXL 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "dmd2_sdxl_4_step_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "ICEdit Normal",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "icedit_normal_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "note": "[ICEdit](https://huggingface.co/RiverZ/normal-lora) is an efficient and effective method for instruction-based image editing. With only 1% trainable parameters (200M) and 0.1% training data (50k) compared to previous methods, ICEdit demonstrates strong generalization capabilities and is capable of handling diverse editing tasks. The model uses the left-side reference image during generation."
+  },
+  {
+    "name": "ACE++: Portrait",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "ace____portrait_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is an effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a person's identity to a new image."
+  },
+  {
+    "name": "ACE++: Subject",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "ace____subject_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is an effective transfer method that fine-tunes FLUX.1 Fill [dev] model. The reference image is placed on the left, while the right side is either the image to edit or left blank. The model uses the left-side reference image during generation. This LoRA enables the transfer of a subject (such as a logo) to a new image."
+  },
+  {
+    "name": "ACE++: Local Editing",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "ace____local_editing_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "note": "[ACE++](https://huggingface.co/ali-vilab/ACE_Plus) is an effective transfer method that fine-tunes FLUX.1 Fill [dev] model. This LoRA enables sketch-to-image for the masked area."
+  },
+  {
+    "name": "Object Removal for FLUX.1 Fill v2",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "object_removal_for_flux.1_fill_v2_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "note": "This is an Object Removal LoRA fine-tuned from Flux Fill Dev model by [lrzjason](https://huggingface.co/lrzjason). The lora is designed to remove objects from specified masked areas, making it useful for image editing tasks where unwanted objects need to be erased seamlessly."
+  },
+  {
+    "name": "Transparent Image FLUX.1 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "layer_flux_1_transparent_lora_f16.ckpt",
+    "alternative_decoder": "flux_1_transparent_vae_decoder_f16.ckpt",
+    "alternative_decoder_version": "transparent",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Visual Identity Design",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__visual_identity_design_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Film Storyboard",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__film_storyboard_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Couple Profile",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__couple_profile_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Font Design",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__font_design_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Home Decoration",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__home_decoration_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Portrait Illustration",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__portrait_illustration_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: Portrait Photography",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__portrait_photography_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "In-Context: PPT Templates",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "in_context__ppt_templates_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Ghibli Cartoon Art",
+    "prefix": "Ghibli Art",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "ghibli_cartoon_art_lora_f16.ckpt",
+    "weight": {
+      "value": 1.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    }
+  },
+  {
+    "name": "Amateur Photography v3.5 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "amateur_photography_v3.5__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "Boring Reality v2 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "boring_reality_v2_lora_f16.ckpt"
+  },
+  {
+    "name": "AntiBlur v1.0 [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "antiblur_v1.0__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "360 Degree [dev]",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "flux1",
+    "file": "360_degree__dev__lora_f16.ckpt"
+  },
+  {
+    "name": "Pixel Art XL v1.1",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "pixel_art_xl_v1.1_lora_f16.ckpt",
+    "version": "sdxl_base_v0.9"
+  },
+  {
+    "name": "Papercut SDXL",
+    "prefix": "papercut ",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "papercut_sdxl_lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "name": "Add More Details (Detail Enhancer / Tweaker)",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "add_more_details__detail_enhancer___tweaker__lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "name": "SDXL Render v2.0",
+    "prefix": "",
+    "is_lo_ha": false,
+    "file": "sdxl_render_v2.0_lora_f16.ckpt"
+  },
+  {
+    "name": "Age Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "age_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Weight Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "weight_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Mascular Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "mascular_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Fix Hands Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "fix_hands_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Long Hair Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "long_hair_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Smiling Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "smiling_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Surprised Look Slider",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "surprised_look_slider_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD v1.x 8-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "v1",
+    "is_consistency_model": true,
+    "file": "hyper_sd_v1.x_8_step_lora_f16.ckpt"
+  },
+  {
+    "name": "Hyper SD v1.x 4-Step",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "v1",
+    "is_consistency_model": true,
+    "file": "hyper_sd_v1.x_4_step_lora_f16.ckpt"
+  },
+  {
+    "version": "v1",
+    "file": "moxin_v1.0_lora_f16.ckpt",
+    "name": "Moxin v1.0",
+    "prefix": "shuimobysim "
+  },
+  {
+    "version": "v1",
+    "name": "Moxin Shukezouma v1.1",
+    "prefix": "shukezouma ",
+    "file": "moxin_shukezouma_v1.1_lora_f16.ckpt"
+  },
+  {
+    "name": "Openjourney v1.0",
+    "file": "openjourney_v1_lora_f16.ckpt",
+    "prefix": "mdjrny-v4 ",
+    "version": "v1"
+  },
+  {
+    "name": "Analog Diffusion v1.0",
+    "file": "analog_diffusion_v1_lora_f16.ckpt",
+    "prefix": "analog ",
+    "version": "v1"
+  },
+  {
+    "name": "Adam's Artwork Style v.1",
+    "file": "adams_artwork_style_v0.1_lora_f16.ckpt",
+    "prefix": "ajaws ",
+    "version": "v1"
+  },
+  {
+    "name": "Cyberpunk 2077 Nightcity v1.15",
+    "file": "cyberpunk_2007_concept_art_nightcity_v1.15_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "name": "Epi Noise Offset v2",
+    "file": "epi_noiseoffset_v2_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "name": "Anime LineArt Style v2.0",
+    "file": "anime_lineart_style_v2.0_lora_f16.ckpt",
+    "prefix": "",
+    "version": "v1"
+  },
+  {
+    "version": "v1",
+    "file": "theovercomer8s_contrast_fix_lora_f16.ckpt",
+    "prefix": "to8contrast style ",
+    "name": "Theovercomer8's Contrast Fix"
+  },
+  {
+    "version": "v2",
+    "file": "theovercomer8s_contrast_fix_sd_v2.x_lora_f16.ckpt",
+    "prefix": "to8contrast style ",
+    "name": "Theovercomer8's Contrast Fix"
+  },
+  {
+    "version": "v1",
+    "file": "arcane_style_lora_f16.ckpt",
+    "prefix": "arcane style ",
+    "name": "Arcane Style"
+  },
+  {
+    "version": "v1",
+    "file": "crazy_expressions_lora_f16.ckpt",
+    "prefix": "crazy face ",
+    "name": "Crazy Expressions"
+  },
+  {
+    "version": "v1",
+    "file": "to8s_high_key_lora_f16.ckpt",
+    "prefix": "to8highkey ",
+    "name": "TO8's High Key"
+  },
+  {
+    "version": "v2",
+    "file": "to8s_high_key_sd_v2.x_lora_f16.ckpt",
+    "prefix": "to8highkey ",
+    "name": "TO8's High Key"
+  },
+  {
+    "version": "v1",
+    "file": "hipoly_3d_model_lora_f16.ckpt",
+    "prefix": "hiqcgbody ",
+    "name": "Hipoly 3D Model"
+  },
+  {
+    "version": "v1",
+    "file": "haute_couture_or_gowns_v1.0_lora_f16.ckpt",
+    "prefix": "hc_gown ",
+    "name": "Haute Couture or Gowns v1.0"
+  },
+  {
+    "name": "CCXL-Mucha Art Style",
+    "file": "ccxl_mucha_art_style_lora_f16.ckpt",
+    "prefix": "ccxl-mucha ",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9"
+  },
+  {
+    "version": "ssd_1b",
+    "file": "lcm_ssd_1b_lora_f16.ckpt",
+    "prefix": "",
+    "name": "LCM SSD 1B (Segmind)"
+  },
+  {
+    "name": "Pony: People\u2019s Works v8_Illusv 2.0 Stable",
+    "prefix": "",
+    "is_lo_ha": false,
+    "version": "sdxl_base_v0.9",
+    "file": "pony__people_s_works_v8_illusv_2.0_stable_lora_f16.ckpt"
+  }
+]
