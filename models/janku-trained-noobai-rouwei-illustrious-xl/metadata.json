@@ -1,0 +1,16 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/2358314"
+  },
+  "name": "JANKU Trained + NoobAI + RouWei Illustrious XL",
+  "file": "janku_trained_noobai_rouwei_illustrious_xl_f16.ckpt",
+  "prefix": "",
+  "modifier": "none",
+  "default_scale": 16,
+  "upcast_attention": false,
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "text_encoder": "janku_trained_noobai_rouwei_illustrious_xl_open_clip_vit_bigg14_f16.ckpt",
+  "clip_encoder": "janku_trained_noobai_rouwei_illustrious_xl_clip_vit_l14_f16.ckpt",
+  "version": "sdxl_base_v0.9",
+  "converted": {}
+}
