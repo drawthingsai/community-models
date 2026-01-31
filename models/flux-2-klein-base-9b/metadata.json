@@ -9,7 +9,7 @@
   "file" : "flux_2_klein_base_9b_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "qwen_3_8b_q8p.ckpt",
-  "high_precision_autoencoder": true,
+  "high_precision_autoencoder": false,
   "objective" : {
     "u" : {
       "condition_scale" : 1000
