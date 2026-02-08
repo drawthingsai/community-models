@@ -1,8 +1,11 @@
 qwen-image-2512
 qwen-image-edit-2511
 z-image-turbo-1.0
+z-image-base-1.0
 flux-2-klein-9b
+flux-2-klein-9b-base
 flux-2-klein-4b
+flux-2-klein-4b-base
 flux-2-dev
 wan-v2.2-14b-t2v
 wan-v2.2-14b-i2v

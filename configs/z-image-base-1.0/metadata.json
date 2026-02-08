@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "batchCount": 1,
+    "seedMode": 2,
+    "sampler": 17,
+    "strength": 1,
+    "sharpness": 0,
+    "tiledDecoding": false,
+    "batchSize": 1,
+    "tiledDiffusion": false,
+    "guidanceScale": 4,
+    "loras": [],
+    "controls": [],
+    "clipSkip": 1,
+    "maskBlur": 1.5,
+    "resolutionDependentShift": true,
+    "preserveOriginalAfterInpaint": true,
+    "model": "z_image_base_1.0_q6p.ckpt",
+    "steps": 30,
+    "upscalerScaleFactor": 0,
+    "maskBlurOutset": 0,
+    "hiresFix": false,
+    "teaCache": false,
+    "causalInference": 0,
+    "teaCacheThreshold": 0.2,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3
+  },
+  "name": "Z Image Base 1.0",
+  "negative": ""
+}
