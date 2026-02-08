@@ -15,7 +15,7 @@
     "maskBlur": 1.5,
     "shift": 2,
     "preserveOriginalAfterInpaint": true,
-    "model": "qwen_image_2512_bf16_q6p.ckpt",
+    "model": "qwen_image_2512_q6p.ckpt",
     "steps": 30,
     "upscalerScaleFactor": 0,
     "maskBlurOutset": 0,
