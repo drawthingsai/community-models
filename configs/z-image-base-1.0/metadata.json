@@ -15,7 +15,7 @@
     "maskBlur": 1.5,
     "resolutionDependentShift": true,
     "preserveOriginalAfterInpaint": true,
-    "model": "z_image_base_1.0_q6p.ckpt",
+    "model": "z_image_1.0_q6p.ckpt",
     "steps": 30,
     "upscalerScaleFactor": 0,
     "maskBlurOutset": 0,
