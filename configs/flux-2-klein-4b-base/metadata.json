@@ -10,7 +10,7 @@
     "loras": [],
     "maskBlur": 2.5,
     "maskBlurOutset": 0,
-    "model": "flux_2_klein_4b_base_q6p.ckpt",
+    "model": "flux_2_klein_base_4b_q6p.ckpt",
     "resolutionDependentShift": true,
     "sampler": 16,
     "seedMode": 2,
