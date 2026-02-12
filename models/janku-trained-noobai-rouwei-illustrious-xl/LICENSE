@@ -1,0 +1,20 @@
+Model License
+This model's license inherits from https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0 fair-ai-public-license-1.0-sd and adds the following terms. Any use of this model and its variants is bound by this license.
+
+I. Usage Restrictions
+Prohibited use for harmful, malicious, or illegal activities, including but not limited to harassment, threats, and spreading misinformation.
+Prohibited generation of unethical or offensive content.
+Prohibited violation of laws and regulations in the user's jurisdiction.
+
+II. Commercial Prohibition
+We prohibit any form of commercialization, including but not limited to monetization or commercial use of the model, derivative models, or model-generated products.
+
+III. Open Source Community
+To foster a thriving open-source community, users MUST comply with the following requirements:
+
+Open source derivative models, merged models, LoRAs, and products based on the above models.
+Share work details such as synthesis formulas, prompts, and workflows.
+Follow the fair-ai-public-license to ensure derivative works remain open source.
+
+IV. Disclaimer
+Generated models may produce unexpected or harmful outputs. Users must assume all risks and potential consequences of usage.
