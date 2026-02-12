@@ -8,6 +8,7 @@ flux-2-klein-9b-exact
 flux-2-klein-base-9b-exact
 flux-2-dev-exact
 z-image-turbo-1.0-exact
+z-image-1.0-exact
 qwen-image-1.0-bf-exact
 qwen-image-1.0-exact
 qwen-image-edit-2509-bf-exact

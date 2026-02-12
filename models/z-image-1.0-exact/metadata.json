@@ -1,0 +1,51 @@
+{
+  "name" : "Z Image Base 1.0 (Exact)",
+  "version" : "z_image",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "z_image_1.0_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_4b_instruct_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "mmdit" : {
+    "dual_attention_layers" : [
+    ],
+    "qk_norm" : true,
+    "activation_qk_scaling" : {
+      "0": 1, "1": 1, "2": 32, "3": 32, "4": 32, "5": 32, "6": 32, "7": 32, "8": 32, "9": 32,
+      "10": 32, "11": 32, "12": 32, "13": 32, "14": 32, "15": 32, "16": 32, "17": 32, "18": 32, "19": 32,
+      "20": 32, "21": 32, "22": 32, "23": 32, "24": 32, "25": 32, "26": 32, "27": 32, "28": 32, "29": 32,
+      "30": 32, "31": 32, "32": 32, "33": 32
+    },
+    "activation_proj_scaling" : {
+      "0": 2, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1,
+      "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1,
+      "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1,
+      "30": 1, "31": 1, "32": 1, "33": 1
+    },
+    "activation_ffn_proj_up_scaling" : {
+      "0": 1, "1": 1, "2": 32, "3": 32, "4": 32, "5": 32, "6": 32, "7": 32, "8": 32, "9": 32,
+      "10": 32, "11": 32, "12": 32, "13": 32, "14": 32, "15": 32, "16": 32, "17": 32, "18": 32, "19": 32,
+      "20": 32, "21": 32, "22": 32, "23": 32, "24": 32, "25": 32, "26": 32, "27": 32, "28": 32, "29": 32,
+      "30": 32, "31": 32, "32": 32, "33": 32
+    },
+    "activation_ffn_scaling" : {
+      "0": 2, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1,
+      "10": 1, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 1, "17": 1, "18": 1, "19": 1,
+      "20": 1, "21": 1, "22": 1, "23": 1, "24": 1, "25": 1, "26": 1, "27": 1, "28": 1, "29": 1,
+      "30": 1, "31": 1, "32": 1, "33": 1
+    }
+  },
+  "note": "[Z Image](https://huggingface.co/Tongyi-MAI/Z-Image) is a powerful and highly efficient image generation model with 6B parameters. It is Apache 2.0-licensed and commercially friendly. The model is trained at multiple resolutions using a Flow Matching objective; trailing samplers yield the best results, with 28 to 50 sampling steps recommended.",
+  "converted": {
+    "z_image_1.0_f16.ckpt": "d6e4cd2d766f7b7b4bc0f161f11d8e0620804f8bbf85cb190194ff874e4951d8",
+    "qwen_3_vl_4b_instruct_f16.ckpt": "7ba2e5a8714f228bb12d2765779040bb20bc19764d0173d8daab952458f09c8a"
+  }
+}
