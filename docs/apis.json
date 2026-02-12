@@ -1,0 +1,1214 @@
+[
+  {
+    "name": "OpenAI GPT Image 1",
+    "default_scale": 16,
+    "version": "flux1",
+    "upcast_attention": false,
+    "remote_api_model_config": {
+      "api_key": "",
+      "status_path": "",
+      "polling_interval": 5,
+      "status_url_template": "",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "batchSize"
+      ],
+      "api_secret": "",
+      "pending_statuses": [],
+      "url": "https://api.openai.com/",
+      "ephemeral_api_secret": false,
+      "success_status": "",
+      "request_type": "direct",
+      "result_path": {
+        "base64": {
+          "path": "data[].b64_json"
+        }
+      },
+      "task_id_path": "",
+      "endpoint": "v1/images/generations",
+      "remote_api_model_config_mapping": {
+        "n": "batchSize",
+        "prompt": "text",
+        "image": "image"
+      },
+      "failure_status": "",
+      "error_msg_path": "error.message",
+      "api_file_format": "image",
+      "passthrough_configs": {
+        "moderation": "low",
+        "model": "gpt-image-1",
+        "size": "1024x1024"
+      }
+    },
+    "prefix": "",
+    "file": "openai_gpt_image_1",
+    "id": "openai-gpt-image-1"
+  },
+  {
+    "remote_api_model_config": {
+      "status_url_template": "{{config.endpoint}}/{{jq(data.task_id)}}",
+      "task_id_path": "data.task_id",
+      "status_path": "data.task_status",
+      "pending_statuses": [
+        "submitted",
+        "processing"
+      ],
+      "polling_interval": 30,
+      "passthrough_configs": {
+        "model_name": "kling-v2-master",
+        "mode": "pro"
+      },
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "negative_prompt": "negativeText",
+        "aspect_ratio": "aspectRatio",
+        "cfg_scale": "strength",
+        "image": "image"
+      },
+      "result_path": {
+        "url": {
+          "path": "data.task_result.videos[].url"
+        }
+      },
+      "url": "https://api.klingai.com/",
+      "error_msg_path": "data.task_status_msg",
+      "api_file_format": "video",
+      "api_key": "",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength"
+      ],
+      "request_type": "poll",
+      "custom_image_size_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "success_status": "succeed",
+      "ephemeral_api_secret": true,
+      "endpoint": "v1/videos/image2video",
+      "failure_status": "failed",
+      "api_secret": ""
+    },
+    "upcast_attention": false,
+    "name": "Kling v2.0 I2V [pro]",
+    "file": "kling_v2.0_i2v_pro",
+    "prefix": "",
+    "default_scale": 16,
+    "version": "wan_v2.1_14b",
+    "id": "kling-v2.0-i2v-pro"
+  },
+  {
+    "remote_api_model_config": {
+      "status_url_template": "{{config.endpoint}}/{{jq(data.task_id)}}",
+      "task_id_path": "data.task_id",
+      "status_path": "data.task_status",
+      "pending_statuses": [
+        "submitted",
+        "processing"
+      ],
+      "polling_interval": 30,
+      "passthrough_configs": {
+        "model_name": "kling-v2-master"
+      },
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "negative_prompt": "negativeText",
+        "aspect_ratio": "aspectRatio",
+        "cfg_scale": "strength",
+        "image": "image"
+      },
+      "result_path": {
+        "url": {
+          "path": "data.task_result.videos[].url"
+        }
+      },
+      "url": "https://api.klingai.com/",
+      "error_msg_path": "data.task_status_msg",
+      "api_file_format": "video",
+      "api_key": "",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength"
+      ],
+      "request_type": "poll",
+      "custom_image_size_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "success_status": "succeed",
+      "ephemeral_api_secret": true,
+      "endpoint": "v1/videos/image2video",
+      "failure_status": "failed",
+      "api_secret": ""
+    },
+    "upcast_attention": false,
+    "name": "Kling v2.0 I2V [std]",
+    "file": "kling_v2.0_i2v_std",
+    "prefix": "",
+    "default_scale": 16,
+    "version": "wan_v2.1_14b",
+    "id": "kling-v2.0-i2v-std"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Google Veo3 T2V via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/google/veo3",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_google_veo3_t2v",
+    "id": "wavespeedai-google-veo3-t2v"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance I2V 1080p [lite] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-lite-i2v-1080p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_i2v_1080p_lite",
+    "id": "wavespeedai-seedance-i2v-1080p-lite"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance I2V 1080p [pro] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-pro-i2v-1080p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_i2v_1080p_pro",
+    "id": "wavespeedai-seedance-i2v-1080p-pro"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance I2V 720p [lite] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-lite-i2v-720p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_i2v_720p_lite",
+    "id": "wavespeedai-seedance-i2v-720p-lite"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance I2V 720p [pro] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-pro-i2v-720p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_i2v_720p_pro",
+    "id": "wavespeedai-seedance-i2v-720p-pro"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance T2V 1080p [lite] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-lite-t2v-1080p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_t2v_1080p_lite",
+    "id": "wavespeedai-seedance-t2v-1080p-lite"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance T2V 1080p [pro] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-pro-t2v-1080p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_t2v_1080p_pro",
+    "id": "wavespeedai-seedance-t2v-1080p-pro"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance T2V 720p [lite] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-lite-t2v-720p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_t2v_720p_lite",
+    "id": "wavespeedai-seedance-t2v-720p-lite"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Seedance T2V 720p [pro] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "guidance_scale": "strength",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/bytedance/seedance-v1-pro-t2v-720p",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_seedance_t2v_720p_pro",
+    "id": "wavespeedai-seedance-t2v-720p-pro"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "file": "wavespeedai_minimax_hailuo_02_768p",
+    "upcast_attention": false,
+    "remote_api_model_config": {
+      "api_secret": "",
+      "failure_status": "failed",
+      "url": "https://api.wavespeed.ai/",
+      "remote_api_model_config_mapping": {
+        "image": "image",
+        "prompt": "text"
+      },
+      "request_type": "poll",
+      "endpoint": "api/v3/minimax/video-02",
+      "task_id_path": "data.id",
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "error_msg_path": "data.error",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "polling_interval": 30,
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "ephemeral_api_secret": false,
+      "api_key": "",
+      "passthrough_configs": {
+        "resolution": "768p",
+        "enable_prompt_expansion": true
+      },
+      "status_path": "data.status",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize"
+      ],
+      "api_file_format": "video",
+      "success_status": "completed"
+    },
+    "name": "MiniMax Hailuo 02 768p via WaveSpeedAI",
+    "default_scale": 16,
+    "prefix": "",
+    "id": "wavespeedai-minimax-hailuo-02-768p"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "file": "wavespeedai_minimax_hailuo_02_1080p",
+    "upcast_attention": false,
+    "remote_api_model_config": {
+      "api_secret": "",
+      "failure_status": "failed",
+      "url": "https://api.wavespeed.ai/",
+      "remote_api_model_config_mapping": {
+        "image": "image",
+        "prompt": "text"
+      },
+      "request_type": "poll",
+      "endpoint": "api/v3/minimax/video-02",
+      "task_id_path": "data.id",
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "error_msg_path": "data.error",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "polling_interval": 30,
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "ephemeral_api_secret": false,
+      "api_key": "",
+      "passthrough_configs": {
+        "resolution": "1080p",
+        "enable_prompt_expansion": true
+      },
+      "status_path": "data.status",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize"
+      ],
+      "api_file_format": "video",
+      "success_status": "completed"
+    },
+    "name": "MiniMax Hailuo 02 1080p via WaveSpeedAI",
+    "default_scale": 16,
+    "prefix": "",
+    "id": "wavespeedai-minimax-hailuo-02-1080p"
+  },
+  {
+    "upcast_attention": false,
+    "default_scale": 16,
+    "remote_api_model_config": {
+      "endpoint": "api/v3/kwaivgi/kling-v1.6-i2v-pro",
+      "polling_interval": 30,
+      "passthrough_configs": {
+        "enable_base64_output": true,
+        "enable_safety_checker": true
+      },
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength"
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "ephemeral_api_secret": false,
+      "api_key": "",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "api_file_format": "video",
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength"
+      ],
+      "status_path": "data.status",
+      "failure_status": "failed",
+      "task_id_path": "data.id",
+      "error_msg_path": "data.error",
+      "api_secret": ""
+    },
+    "prefix": "",
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "name": "Kling v1.6 I2V [pro] via WaveSpeedAI",
+    "file": "wavespeedai_kling_v1.6_i2v_pro",
+    "id": "wavespeedai-kling-v1.6-i2v-pro"
+  },
+  {
+    "file": "wavespeedai_kling_v1.6_t2v_std",
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "prefix": "",
+    "upcast_attention": false,
+    "default_scale": 16,
+    "name": "Kling v1.6 T2V [std] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "polling_interval": 30,
+      "api_key": "",
+      "passthrough_configs": {
+        "enable_base64_output": true,
+        "enable_safety_checker": true
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image",
+        "guidance_scale": "strength"
+      },
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "task_id_path": "data.id",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "strength"
+      ],
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "ephemeral_api_secret": false,
+      "error_msg_path": "data.error",
+      "api_secret": "",
+      "success_status": "completed",
+      "status_path": "data.status",
+      "request_type": "poll",
+      "api_file_format": "video",
+      "endpoint": "api/v3/kwaivgi/kling-v1.6-t2v-standard"
+    },
+    "id": "wavespeedai-kling-v1.6-t2v-std"
+  },
+  {
+    "upcast_attention": false,
+    "prefix": "",
+    "name": "Kling v1 I2V [std]",
+    "default_scale": 16,
+    "file": "kling_v1_i2v_std",
+    "version": "wan_v2.1_14b",
+    "remote_api_model_config": {
+      "url": "https://api.klingai.com/",
+      "task_id_path": "data.task_id",
+      "pending_statuses": [
+        "submitted",
+        "processing"
+      ],
+      "success_status": "succeed",
+      "request_type": "poll",
+      "api_file_format": "video",
+      "status_path": "data.task_status",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength"
+      ],
+      "result_path": {
+        "url": {
+          "path": "data.task_result.videos[].url"
+        }
+      },
+      "passthrough_configs": {
+        "model_name": "kling-v1"
+      },
+      "status_url_template": "{{config.endpoint}}/{{jq(data.task_id)}}",
+      "api_key": "",
+      "error_msg_path": "data.task_status_msg",
+      "ephemeral_api_secret": true,
+      "polling_interval": 30,
+      "failure_status": "failed",
+      "endpoint": "v1/videos/image2video",
+      "remote_api_model_config_mapping": {
+        "cfg_scale": "strength",
+        "aspect_ratio": "aspectRatio",
+        "prompt": "text",
+        "negative_prompt": "negativeText",
+        "image": "image"
+      },
+      "api_secret": "",
+      "custom_image_size_ratios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ]
+    },
+    "id": "kling-v1-i2v-std"
+  },
+  {
+    "file": "wavespeedai_flux.1_dev",
+    "version": "flux1",
+    "default_scale": 16,
+    "prefix": "",
+    "name": "FLUX.1 [dev] via WaveSpeedAI",
+    "remote_api_model_config": {
+      "success_status": "completed",
+      "failure_status": "failed",
+      "ephemeral_api_secret": false,
+      "passthrough_configs": {
+        "enable_safety_checker": true,
+        "enable_base64_output": true
+      },
+      "polling_interval": 5,
+      "api_secret": "",
+      "status_path": "data.status",
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "remote_api_model_config_mapping": {
+        "seed": "seed",
+        "num_inference_steps": "steps",
+        "image": "image",
+        "prompt": "text",
+        "size": "size",
+        "num_images": "batchSize",
+        "strength": "strength",
+        "guidance_scale": "guidanceScale"
+      },
+      "error_msg_path": "data.error",
+      "endpoint": "api/v2/wavespeed-ai/flux-dev",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v2/predictions/{{jq(data.id)}}/result",
+      "api_key": "",
+      "task_id_path": "data.id",
+      "request_type": "poll",
+      "api_file_format": "image",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "strength",
+        "batchSize",
+        "seed",
+        "textGuidance",
+        "steps"
+      ],
+      "url": "https://api.wavespeed.ai/"
+    },
+    "upcast_attention": false,
+    "id": "wavespeedai-flux-1-dev"
+  },
+  {
+    "file": "wavespeedai_google_veo3.1_i2v",
+    "upcast_attention": false,
+    "prefix": "",
+    "frames_per_second": 30,
+    "version": "wan_v2.1_14b",
+    "default_scale": 16,
+    "name": "Google Veo3.1 I2V via WaveSpeedAI",
+    "remote_api_model_config": {
+      "task_id_path": "data.id",
+      "passthrough_configs": {
+        "resolution": "1080p",
+        "generate_audio": false
+      },
+      "status_path": "data.status",
+      "ephemeral_api_secret": false,
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "seed": "seed",
+        "prompt": "text",
+        "image": "image"
+      },
+      "polling_interval": 30,
+      "api_key": "",
+      "endpoint": "api/v3/google/veo3.1/image-to-video",
+      "error_msg_path": "data.error",
+      "api_file_format": "video",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "seed",
+        "imageSize"
+      ],
+      "api_secret": ""
+    },
+    "id": "wavespeedai-google-veo3.1-i2v"
+  },
+  {
+    "version": "wan_v2.1_14b",
+    "frames_per_second": 30,
+    "upcast_attention": false,
+    "name": "Google Veo3 T2V via WaveSpeedAI",
+    "remote_api_model_config": {
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "seed",
+        "imageSize"
+      ],
+      "api_key": "",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "seed": "seed"
+      },
+      "api_secret": "",
+      "polling_interval": 30,
+      "status_path": "data.status",
+      "task_id_path": "data.id",
+      "success_status": "completed",
+      "error_msg_path": "data.error",
+      "request_type": "poll",
+      "url": "https://api.wavespeed.ai/",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "passthrough_configs": {
+        "resolution": "1080p",
+        "generate_audio": false
+      },
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "endpoint": "api/v3/google/veo3",
+      "api_file_format": "video",
+      "ephemeral_api_secret": false,
+      "failure_status": "failed"
+    },
+    "default_scale": 16,
+    "prefix": "",
+    "file": "wavespeedai_google_veo3_t2v",
+    "id": "wavespeedai-google-veo3.1-t2v"
+  },
+  {
+    "file": "wavespeedai_openai_sora2_i2v",
+    "upcast_attention": false,
+    "prefix": "",
+    "frames_per_second": 30,
+    "version": "wan_v2.1_14b",
+    "default_scale": 16,
+    "name": "OpenAI Sora2 I2V via WaveSpeedAI",
+    "remote_api_model_config": {
+      "task_id_path": "data.id",
+      "passthrough_configs": {},
+      "status_path": "data.status",
+      "ephemeral_api_secret": false,
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "image": "image"
+      },
+      "polling_interval": 30,
+      "api_key": "",
+      "endpoint": "api/v3/openai/sora-2/image-to-video",
+      "error_msg_path": "data.error",
+      "api_file_format": "video",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize"
+      ],
+      "api_secret": ""
+    },
+    "id": "wavespeedai-openai-sora2-i2v"
+  },
+  {
+    "file": "wavespeedai_openai_sora2_t2v",
+    "upcast_attention": false,
+    "prefix": "",
+    "frames_per_second": 30,
+    "version": "wan_v2.1_14b",
+    "default_scale": 16,
+    "name": "OpenAI Sora2 T2V via WaveSpeedAI",
+    "remote_api_model_config": {
+      "task_id_path": "data.id",
+      "passthrough_configs": {},
+      "status_path": "data.status",
+      "ephemeral_api_secret": false,
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "prompt": "text"
+      },
+      "polling_interval": 30,
+      "api_key": "7239ae49a572a93825eddb6b63dc2b7ee060d3f480f3bb0fa742bbd63a97b6fb",
+      "endpoint": "api/v3/openai/sora-2/text-to-video",
+      "error_msg_path": "data.error",
+      "api_file_format": "video",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize"
+      ],
+      "api_secret": ""
+    },
+    "id": "wavespeedai-openai-sora2-t2v"
+  },
+  {
+    "file": "wavespeedai_wan2.5_1080p_i2v",
+    "upcast_attention": false,
+    "prefix": "",
+    "frames_per_second": 30,
+    "version": "wan_v2.1_14b",
+    "default_scale": 16,
+    "name": "Alibaba Wan2.5 I2V 1080p via WaveSpeedAI",
+    "remote_api_model_config": {
+      "task_id_path": "data.id",
+      "passthrough_configs": {
+        "resolution": "1080p",
+        "size": "1920*1080"
+      },
+      "status_path": "data.status",
+      "ephemeral_api_secret": false,
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "negative_prompt": "negativeText",
+        "image": "image"
+      },
+      "polling_interval": 30,
+      "api_key": "7239ae49a572a93825eddb6b63dc2b7ee060d3f480f3bb0fa742bbd63a97b6fb",
+      "endpoint": "api/v3/alibaba/wan-2.5/image-to-video",
+      "error_msg_path": "data.error",
+      "api_file_format": "video",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "seed"
+      ],
+      "api_secret": ""
+    },
+    "id": "wavespeedai-wan2.5-1080p-i2v"
+  },
+  {
+    "file": "wavespeedai_wan2.5_1080p_t2v",
+    "upcast_attention": false,
+    "prefix": "",
+    "frames_per_second": 30,
+    "version": "wan_v2.1_14b",
+    "default_scale": 16,
+    "name": "Alibaba Wan2.5 T2V 1080p via WaveSpeedAI",
+    "remote_api_model_config": {
+      "task_id_path": "data.id",
+      "passthrough_configs": {
+        "resolution": "1080p",
+        "size": "1920*1080"
+      },
+      "status_path": "data.status",
+      "ephemeral_api_secret": false,
+      "pending_statuses": [
+        "created",
+        "processing"
+      ],
+      "request_type": "poll",
+      "success_status": "completed",
+      "remote_api_model_config_mapping": {
+        "prompt": "text",
+        "negative_prompt": "negativeText"
+      },
+      "polling_interval": 30,
+      "api_key": "",
+      "endpoint": "api/v3/alibaba/wan-2.5/text-to-video",
+      "error_msg_path": "data.error",
+      "api_file_format": "video",
+      "result_path": {
+        "url": {
+          "path": "data.outputs[]"
+        }
+      },
+      "status_url_template": "api/v3/predictions/{{jq(data.id)}}/result",
+      "url": "https://api.wavespeed.ai/",
+      "failure_status": "failed",
+      "settings_sections": [
+        "model",
+        "remoteApiKey",
+        "imageSize",
+        "seed"
+      ],
+      "api_secret": ""
+    },
+    "id": "wavespeedai-wan2.5-1080p-t2v"
+  }
+]
