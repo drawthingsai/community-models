@@ -1,3 +1,11 @@
+ltx-2-19b-distilled
+ltx-2-19b-camera-control-dolly-in
+ltx-2-19b-camera-control-dolly-left
+ltx-2-19b-camera-control-dolly-out
+ltx-2-19b-camera-control-dolly-right
+ltx-2-19b-camera-control-jib-down
+ltx-2-19b-camera-control-jib-up
+ltx-2-19b-camera-control-static
 qwen-image-2512-lightning-4-step-v1.0
 qwen-image-2512-turbo-4-step-v1.0
 flux-2-dev-turbo

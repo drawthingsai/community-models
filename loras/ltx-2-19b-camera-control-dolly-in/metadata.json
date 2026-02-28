@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In/resolve/main/ltx-2-19b-lora-camera-control-dolly-in.safetensors"
+  },
+  "name": "LTX-2 19B Camera Control Dolly In",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "ltx2",
+  "file": "ltx_2_19b_camera_control_dolly_in_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "ltx_2_19b_camera_control_dolly_in_lora_f16.ckpt": "7ac0fa9d660699a7084aed78ed97e66f8122214da7ec41402973fd91d0a6d469"
+  }
+}

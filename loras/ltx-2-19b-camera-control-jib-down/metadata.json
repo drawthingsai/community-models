@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Down/resolve/main/ltx-2-19b-lora-camera-control-jib-down.safetensors"
+  },
+  "name": "LTX-2 19B Camera Control Jib Down",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "ltx2",
+  "file": "ltx_2_19b_camera_control_jib_down_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "ltx_2_19b_camera_control_jib_down_lora_f16.ckpt": "91ede584c205016cd33aa63840542ddb40d227326fc43c25e6f4b8622f31cdc2"
+  }
+}

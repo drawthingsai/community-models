@@ -1,0 +1,18 @@
+{
+  "download": {
+    "file": "https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static/resolve/main/ltx-2-19b-lora-camera-control-static.safetensors"
+  },
+  "name": "LTX-2 19B Camera Control Static",
+  "prefix": "",
+  "is_lo_ha": false,
+  "version": "ltx2",
+  "file": "ltx_2_19b_camera_control_static_lora_f16.ckpt",
+  "weight": {
+    "value": 1.0,
+    "lower_bound": -1.5,
+    "upper_bound": 2.5
+  },
+  "converted": {
+    "ltx_2_19b_camera_control_static_lora_f16.ckpt": "8767aaf478e7700014c740d26a5f4d7707538bb93375b36c749d32a25291ca7a"
+  }
+}
