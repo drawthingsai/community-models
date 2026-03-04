@@ -3,7 +3,7 @@
     "batchCount": 1,
     "seedMode": 2,
     "height": 768,
-    "sampler": 10,
+    "sampler": 17,
     "strength": 1,
     "sharpness": 0,
     "tiledDecoding": false,
