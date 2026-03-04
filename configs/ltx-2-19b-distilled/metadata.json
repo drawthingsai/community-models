@@ -1,0 +1,33 @@
+{
+  "configuration": {
+    "batchCount": 1,
+    "seedMode": 2,
+    "height": 768,
+    "sampler": 10,
+    "strength": 1,
+    "sharpness": 0,
+    "tiledDecoding": false,
+    "batchSize": 1,
+    "tiledDiffusion": false,
+    "guidanceScale": 1,
+    "loras": [],
+    "controls": [],
+    "clipSkip": 1,
+    "maskBlur": 1.5,
+    "shift": 5,
+    "preserveOriginalAfterInpaint": true,
+    "width": 1280,
+    "model": "ltx_2_19b_distilled_q8p.ckpt",
+    "steps": 8,
+    "numFrames": 121,
+    "upscalerScaleFactor": 0,
+    "maskBlurOutset": 0,
+    "hiresFix": false,
+    "teaCache": false,
+    "causalInference": 0,
+    "compressionArtifactsQuality":43.1,
+    "compressionArtifacts":"h264"
+  },
+  "name": "LTX-2 19B [distilled] 720p",
+  "negative": "worst quality, inconsistent motion, blurry, jittery, distorted"
+}
