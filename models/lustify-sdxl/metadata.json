@@ -1,0 +1,10 @@
+{
+  "name": "Lustify SDXL",
+  "description": "A fine-tuned SDXL checkpoint for high-quality realistic and stylized generations.",
+  "author": "lustify",
+  "homepage": "https://civitai.com/models/573152",
+  "source": "https://civitai.com/api/download/models/640108",
+  "format": "safetensors",
+  "base_model": "sdxl",
+  "tags": ["realistic", "photorealistic", "stylized", "nsfw"]
+}
