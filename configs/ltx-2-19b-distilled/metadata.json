@@ -28,6 +28,5 @@
     "compressionArtifactsQuality":43.1,
     "compressionArtifacts":"h264"
   },
-  "name": "LTX-2 19B [distilled] 720p",
-  "negative": "worst quality, inconsistent motion, blurry, jittery, distorted"
+  "name": "LTX-2 19B [distilled] 720p"
 }
