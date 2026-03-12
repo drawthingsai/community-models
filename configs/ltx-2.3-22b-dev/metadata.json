@@ -26,7 +26,7 @@
     "teaCache": false,
     "causalInference": 0,
     "compressionArtifactsQuality":43.1,
-    "compressionArtifacts":"h264"
+    "compressionArtifacts":"disabled"
   },
   "name": "LTX-2.3 22B [dev] 720p",
   "version": "ltx2",
