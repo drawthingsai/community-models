@@ -6,6 +6,8 @@ flux-2-klein-9b
 flux-2-klein-9b-base
 flux-2-klein-4b
 flux-2-klein-4b-base
+ltx-2.3-22b-distilled
+ltx-2.3-22b-dev
 ltx-2-19b-distilled
 ltx-2-19b-dev
 flux-2-dev
