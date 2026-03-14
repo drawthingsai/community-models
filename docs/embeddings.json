@@ -1,0 +1,163 @@
+[
+  {
+    "keyword": "charturnerv2",
+    "version": "v1",
+    "name": "Character Turner v2",
+    "file": "charturner_v2_ti_f16.ckpt",
+    "length": 15
+  },
+  {
+    "keyword": "fastnegativev2",
+    "version": "v1",
+    "name": "Fast Negative",
+    "file": "fast_negative_ti_f16.ckpt",
+    "length": 67
+  },
+  {
+    "keyword": "easynegative",
+    "version": "v1",
+    "name": "EasyNegative",
+    "length": 8,
+    "file": "easynegative_ti_f16.ckpt"
+  },
+  {
+    "keyword": "negativexl_d",
+    "name": "NegativeXL",
+    "version": "sdxl_base_v0.9",
+    "file": "negativexl_ti_f16.ckpt",
+    "length": 16
+  },
+  {
+    "keyword": "unaestheticxl_alb2",
+    "name": "UnaestheticXL Alb2",
+    "version": "sdxl_base_v0.9",
+    "file": "unaestheticxl_alb2_ti_f16.ckpt",
+    "length": 12
+  },
+  {
+    "keyword": "actionhelper",
+    "version": "v2",
+    "name": "Action Helper",
+    "file": "actionhelper_ti_f16.ckpt",
+    "length": 6
+  },
+  {
+    "file": "animescreencap_ti_f16.ckpt",
+    "name": "Anime ScreenCap",
+    "length": 6,
+    "keyword": "animescreencap",
+    "version": "v2"
+  },
+  {
+    "file": "bad_prompt_v2_ti_f16.ckpt",
+    "keyword": "bad_prompt",
+    "version": "v1",
+    "name": "Bad Prompt (v2)",
+    "length": 8
+  },
+  {
+    "version": "v1",
+    "length": 1,
+    "keyword": "birb_style",
+    "file": "birb_style_ti_f16.ckpt",
+    "name": "Birb Style"
+  },
+  {
+    "version": "v2",
+    "length": 4,
+    "keyword": "carhelper",
+    "file": "carhelper_ti_f16.ckpt",
+    "name": "Car Helper"
+  },
+  {
+    "version": "v2",
+    "name": "Cinema Helper",
+    "file": "cinemahelper_ti_f16.ckpt",
+    "keyword": "cinemahelper",
+    "length": 10
+  },
+  {
+    "version": "v2",
+    "name": "Classipeint",
+    "file": "classipeint_ti_f16.ckpt",
+    "keyword": "classipeint",
+    "length": 15
+  },
+  {
+    "version": "v1",
+    "length": 4,
+    "keyword": "cloudport",
+    "file": "cloudport_v1.0_ti_f16.ckpt",
+    "name": "Cloudport v1.0"
+  },
+  {
+    "file": "drd_point_e_768_v_ti_f16.ckpt",
+    "keyword": "drd_pnte768",
+    "name": "Doctor Diffusion's \"Point E\" Negative Embedding",
+    "length": 8,
+    "version": "v2"
+  },
+  {
+    "version": "v2",
+    "name": "Double Exposure",
+    "file": "double_exposure_ti_f16.ckpt",
+    "keyword": "double_exposure",
+    "length": 8
+  },
+  {
+    "version": "v2",
+    "file": "knollingcase_v4_kc16_5000_ti_f16.ckpt",
+    "keyword": "kc16_5000",
+    "length": 16,
+    "name": "Knollingcase (v4)"
+  },
+  {
+    "name": "Laxpeint (v2)",
+    "file": "laxpeint_v2_ti_f16.ckpt",
+    "keyword": "laxpeintv2",
+    "length": 9,
+    "version": "v2"
+  },
+  {
+    "file": "parchart_ti_f16.ckpt",
+    "keyword": "parchart",
+    "version": "v2",
+    "length": 10,
+    "name": "ParchArt"
+  },
+  {
+    "file": "photohelper_ti_f16.ckpt",
+    "keyword": "photohelper",
+    "version": "v2",
+    "length": 8,
+    "name": "Photo Helper"
+  },
+  {
+    "file": "pure_eros_ti_f16.ckpt",
+    "keyword": "pure_eros",
+    "version": "v1",
+    "length": 1,
+    "name": "Pure Eros Face"
+  },
+  {
+    "name": "SD2 Papercut",
+    "keyword": "sd2_papercut",
+    "file": "sd2_papercut_ti_f16.ckpt",
+    "length": 8,
+    "version": "v2"
+  },
+  {
+    "name": "V2 Dreamink",
+    "keyword": "v2_dreamink",
+    "file": "v2_dreamink_ti_f16.ckpt",
+    "length": 4,
+    "version": "v2"
+  },
+  {
+    "name": "Vintage Helper",
+    "keyword": "vintagehelper",
+    "file": "vintagehelper_ti_f16.ckpt",
+    "length": 8,
+    "version": "v2"
+  }
+]
