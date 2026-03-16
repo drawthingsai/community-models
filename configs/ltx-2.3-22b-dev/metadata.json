@@ -25,6 +25,10 @@
     "hiresFix": false,
     "teaCache": false,
     "causalInference": 0,
+    "hiresFix": true,
+    "hiresFixStrength": 0.7,
+    "hiresFixHeight": 384,
+    "hiresFixWidth": 640,
     "compressionArtifactsQuality":43.1,
     "compressionArtifacts":"disabled"
   },
