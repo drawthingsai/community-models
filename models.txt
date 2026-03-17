@@ -1,3 +1,5 @@
+ltx-2.3-22b-distilled-exact
+ltx-2.3-22b-dev-exact
 qwen-image-2512-bf-exact
 flux-2-klein-9b
 flux-2-klein-9b-kv
