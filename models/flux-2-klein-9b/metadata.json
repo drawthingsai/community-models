@@ -20,6 +20,7 @@
   "copyright" : "© 2026 Black Forest Labs",
   "hugging_face_link": "black-forest-labs/FLUX.2-klein-9B",
   "converted": {
+    "flux_2_klein_9b_i8x.ckpt": "ae59dd81257a45f872e2975f7d9c458e440468bbdcd9e725950c9d3de965874d",
     "flux_2_klein_9b_q8p.ckpt": "e3efc4d1a0c998f883a807c8e956618d1a4555822b96999c34c58951eff8e286",
     "flux_2_klein_9b_q6p.ckpt": "16de70cf442ac82e0c9126868d6b2b324ba6948b69e66f2d36ba6f0ee39c052a",
     "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
