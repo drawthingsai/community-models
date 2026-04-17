@@ -1,0 +1,21 @@
+{
+  "name" : "ERNIE Image Base 1.0 (Exact)",
+  "version" : "ernie_image",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "ernie_image_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "ministral_3_3b_f16.ckpt",
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image) is Baidu's Apache 2.0-licensed 8B single-stream DiT text-to-image model. It focuses on instruction following, text rendering, and structured layouts such as posters, comics, and multi-panel compositions. The base model is intended for higher-fidelity generation, with 50 sampling steps recommended.",
+  "converted": {
+    "ernie_image_f16.ckpt": "b241a89bd1fce80cbdce54893023b1f0fd75a1a608609565ade25ecc1fd2e2e3",
+    "ministral_3_3b_f16.ckpt": "416078874ed2377840966f817e693e65b2c29d6692a1a220d3e20b93813b3187"
+  }
+}

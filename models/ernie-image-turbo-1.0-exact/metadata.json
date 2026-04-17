@@ -1,0 +1,22 @@
+{
+  "name" : "ERNIE Image Turbo 1.0 (Exact)",
+  "version" : "ernie_image",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "ernie_image_turbo_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "ministral_3_3b_f16.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note": "[ERNIE-Image-Turbo](https://huggingface.co/baidu/ERNIE-Image-Turbo) is Baidu's Apache 2.0-licensed distilled release of ERNIE-Image, optimized with DMD and RL for fast generation. It keeps the same focus on instruction following, text rendering, and structured layouts, while targeting strong results with CFG 1 and 8 sampling steps.",
+  "converted": {
+    "ernie_image_turbo_f16.ckpt": "762c234881a27ab508315594783db81b03d4832b044394b7d1c3d428eebc59a6",
+    "ministral_3_3b_f16.ckpt": "416078874ed2377840966f817e693e65b2c29d6692a1a220d3e20b93813b3187"
+  }
+}

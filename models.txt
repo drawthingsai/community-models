@@ -1,10 +1,13 @@
-ltx-2.3-22b-distilled-exact
-ltx-2.3-22b-dev-exact
-qwen-image-2512-bf-exact
+anima-preview-3
 flux-2-klein-9b
 flux-2-klein-9b-kv
 flux-2-dev
 flux-2-klein-base-9b
+ernie-image-turbo-1.0-exact
+ernie-image-1.0-exact
+ltx-2.3-22b-distilled-exact
+ltx-2.3-22b-dev-exact
+qwen-image-2512-bf-exact
 flux-2-klein-4b-exact
 flux-2-klein-base-4b-exact
 flux-2-klein-9b-exact

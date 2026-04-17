@@ -140,6 +140,9 @@ def collect_metadata_from_list(file_path):
           if file.endswith('_f16.ckpt'):
             # Append the 8-bit metadata if available.
             q6p_q8p_file = file[:-len('_f16.ckpt')] + '_q6p_q8p.ckpt'
+            q8p_file = file[:-len('_f16.ckpt')] + '_q8p.ckpt'
+            i8x_file = file[:-len('_f16.ckpt')] + '_i8x.ckpt'
+            old_metadata = copy.deepcopy(metadata)
             if q6p_q8p_file in converted:
               metadata['file'] = q6p_q8p_file
               metadata['name'] = metadata['name'] + ' (8-bit)'
@@ -159,7 +162,6 @@ def collect_metadata_from_list(file_path):
                   metadata[k] = q6p_q8p_file
               metadata_array.append(copy.deepcopy(metadata))
             else:
-              q8p_file = file[:-len('_f16.ckpt')] + '_q8p.ckpt'
               if q8p_file in converted:
                 metadata['file'] = q8p_file
                 suffix_8bit = ' (8-bit)'
@@ -171,6 +173,15 @@ def collect_metadata_from_list(file_path):
                   if v == file:
                     metadata[k] = q8p_file
                 metadata_array.append(copy.deepcopy(metadata))
+            if i8x_file in converted:
+              metadata = copy.deepcopy(old_metadata)
+              metadata['file'] = i8x_file
+              metadata['name'] = metadata['name'] + ' (8-bit S)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = i8x_file
+              metadata_array.append(copy.deepcopy(metadata))
           elif file.endswith('_bf16_q8p.ckpt'):
             q5p_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q5p.ckpt'
             q5p_svd_file = file[:-len('_bf16_q8p.ckpt')] + '_bf16_q5p_svd.ckpt'
