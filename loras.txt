@@ -1,4 +1,4 @@
-ltx-2.3-22b-distilled
+ltx-2.3-22b-distilled-1.1
 ltx-2-19b-distilled
 ltx-2-19b-camera-control-dolly-in
 ltx-2-19b-camera-control-dolly-left
