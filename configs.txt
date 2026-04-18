@@ -1,3 +1,6 @@
+ernie-image-turbo-1.0
+ernie-image-base-1.0
+anima-preview-3
 qwen-image-2512
 qwen-image-edit-2511
 z-image-turbo-1.0
