@@ -13,7 +13,7 @@
     "controls": [],
     "clipSkip": 1,
     "maskBlur": 1.5,
-    "shift": 3,
+    "shift": 4,
     "resolutionDependentShift": false,
     "preserveOriginalAfterInpaint": true,
     "model": "ernie_image_turbo_q6p.ckpt",
