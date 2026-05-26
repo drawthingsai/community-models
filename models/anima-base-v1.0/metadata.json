@@ -1,0 +1,25 @@
+{
+  "download": {
+    "file": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/diffusion_models/anima-base-v1.0.safetensors"
+  },
+  "name" : "Anima Base v1.0",
+  "version" : "cosmos2.5_2b",
+  "autoencoder" : "qwen_image_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "clip_encoder" : "anima_base_v1.0_f16.ckpt",
+  "file" : "anima_base_v1.0_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_0.6b_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1
+    }
+  },
+  "padded_text_encoding_length": 512,
+  "note" : "[Anima](https://huggingface.co/circlestone-labs/Anima) is a 2B text-to-image model from CircleStone Labs and Comfy Org, focused on anime concepts, characters, styles, illustrations, and other non-photorealistic art (it does not do realism well). Base v1.0 is the pretrained base model: unrefined and not aesthetic-tuned, offering maximum flexibility, diversity, and style adherence. Built on NVIDIA Cosmos and released under the CircleStone Labs non-commercial license. It works at 512-1536px, with 30-50 sampling steps and CFG 4-5 recommended.",
+  "copyright" : "© 2026 CircleStone Labs",
+  "hugging_face_link": "circlestone-labs/Anima"
+}
