@@ -1,4 +1,5 @@
 anima-preview-3
+anima-base-v1.0
 flux-2-klein-9b
 flux-2-klein-9b-kv
 flux-2-dev
