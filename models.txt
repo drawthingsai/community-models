@@ -1,3 +1,4 @@
+ideogram-4
 anima-preview-3
 flux-2-klein-9b
 flux-2-klein-9b-kv

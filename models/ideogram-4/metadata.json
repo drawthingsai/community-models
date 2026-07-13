@@ -1,0 +1,24 @@
+{
+  "name" : "Ideogram 4",
+  "version" : "ideogram_4",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "file" : "ideogram_4_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_8b_instruct_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "padded_text_encoding_length": 0,
+  "note" : "[Ideogram 4](https://huggingface.co/ideogram-ai/ideogram-4-fp8) is a 9.3-billion-parameter open-weight text-to-image foundation model trained from scratch. It excels at multilingual text rendering and design-oriented generation, and supports structured JSON prompts with explicit layout, bounding-box, and color-palette controls. It generates natively at 2K resolution and is released under the Ideogram 4 Non-Commercial license; 48 sampling steps are recommended for highest quality.",
+  "copyright" : "© 2026 Ideogram",
+  "hugging_face_link": "ideogram-ai/ideogram-4-fp8",
+  "converted": {
+    "ideogram_4_i8x.ckpt": "c82dd45d6fba7ad038e8f148760ed5cf65fe4e53c56b57b778fee26275e73503",
+    "ideogram_4_i6x.ckpt": "f0665f522abf955a9ea0512f79a52bd7f519eab8a0c72edfc94968eb8727ba30",
+    "ideogram_4_q8p.ckpt": "67cd736da092e5eae4f0906b27a7eab3a2b21749e677a3a175a4623e196a1c3e",
+    "ideogram_4_q6p.ckpt": "3f7a67d89da4751cde6c06f755d76eb84443a936b2901b27fd803e3607f9df64",
+    "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
+    "qwen_3_vl_8b_instruct_q8p.ckpt": "54d29b3e951c233ae800604848b83422a48629857c70fb83c4620eb31d900b9a"
+  }
+}

@@ -240,6 +240,7 @@ def collect_metadata_from_list(file_path):
             q6p_file = file[:-len('_q8p.ckpt')] + '_q6p.ckpt'
             q6p_svd_file = file[:-len('_q8p.ckpt')] + '_q6p_svd.ckpt'
             i8x_file = file[:-len('_q8p.ckpt')] + '_i8x.ckpt'
+            i6x_file = file[:-len('_q8p.ckpt')] + '_i6x.ckpt'
             old_metadata = copy.deepcopy(metadata)
             if q5p_file in converted:
               metadata['file'] = q5p_file
@@ -283,6 +284,15 @@ def collect_metadata_from_list(file_path):
               for k, v in metadata.items():
                 if v == file:
                   metadata[k] = i8x_file
+              metadata_array.append(copy.deepcopy(metadata))
+            if i6x_file in converted:
+              metadata = copy.deepcopy(old_metadata)
+              metadata['file'] = i6x_file
+              metadata['name'] = metadata['name'] + ' (6-bit S)'
+              # Update other fields have reference to this file.
+              for k, v in metadata.items():
+                if v == file:
+                  metadata[k] = i6x_file
               metadata_array.append(copy.deepcopy(metadata))
   return metadata_array, sha256_dict
 
