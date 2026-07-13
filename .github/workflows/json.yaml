@@ -36,7 +36,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: tools/.cache
-          key: ${{ runner.os }}-bazel
+          key: ${{ runner.os }}-bazel-swift-6.0.3
 
       - name: Configure S3 / R2
         run: |
@@ -48,18 +48,24 @@ jobs:
 
       - name: Install bazelisk
         run: |
-          curl -LO "https://github.com/bazelbuild/bazelisk/releases/download/v1.19.0/bazelisk-linux-amd64"
+          curl -LO "https://github.com/bazelbuild/bazelisk/releases/download/v1.20.0/bazelisk-linux-amd64"
           mkdir -p "${GITHUB_WORKSPACE}/bin/"
           mv bazelisk-linux-amd64 "${GITHUB_WORKSPACE}/bin/bazel"
           chmod +x "${GITHUB_WORKSPACE}/bin/bazel"
+          echo "${GITHUB_WORKSPACE}/bin" >> "$GITHUB_PATH"
 
       - name: Install Swift dependencies
         run: |
           sudo apt update
           sudo apt -y install clang libicu-dev
-          wget https://download.swift.org/swift-5.10.1-release/ubuntu2204/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-ubuntu22.04.tar.gz
-          tar xzf swift-5.10.1-RELEASE-ubuntu22.04.tar.gz
-          echo "$(pwd)/swift-5.10.1-RELEASE-ubuntu22.04/usr/bin" >> $GITHUB_PATH
+          curl -LO "https://download.swift.org/swift-6.0.3-release/ubuntu2204/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-ubuntu22.04.tar.gz"
+          tar xzf swift-6.0.3-RELEASE-ubuntu22.04.tar.gz
+          rm swift-6.0.3-RELEASE-ubuntu22.04.tar.gz
+          mv swift-6.0.3-RELEASE-ubuntu22.04 "${GITHUB_WORKSPACE}/swift"
+          rm "${GITHUB_WORKSPACE}/swift/usr/bin/swift"
+          ln -s "${GITHUB_WORKSPACE}/swift/usr/bin/swift-frontend" "${GITHUB_WORKSPACE}/swift/usr/bin/swift"
+          echo "${GITHUB_WORKSPACE}/swift/usr/bin" >> "$GITHUB_PATH"
+          echo "LD_LIBRARY_PATH=${GITHUB_WORKSPACE}/swift/usr/lib:${GITHUB_WORKSPACE}/swift/usr/lib/swift/linux/:${LD_LIBRARY_PATH:-}" >> "$GITHUB_ENV"
 
       - name: Setup clang
         run: |
@@ -107,4 +113,3 @@ jobs:
         run: |
           cd "${GITHUB_WORKSPACE}/main"
           git push --force origin json:json
-
