@@ -1,0 +1,24 @@
+{
+  "name" : "Krea 2 Turbo",
+  "version" : "krea_2",
+  "autoencoder" : "qwen_image_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "file" : "krea_2_turbo_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_4b_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "padded_text_encoding_length": 0,
+  "note": "[Krea 2 Turbo](https://huggingface.co/krea/Krea-2-Turbo) is the post-trained and distilled release of Krea's 12-billion-parameter text-to-image Diffusion Transformer, designed for fast natural-language image generation. Use 8 sampling steps with CFG 1. It is released under the Krea 2 Community License.",
+  "copyright" : "© 2026 Krea.ai, Inc.",
+  "hugging_face_link": "krea/Krea-2-Turbo",
+  "converted": {
+    "krea_2_turbo_i8x.ckpt": "e808501ada16a6dedc5b6d8b6426243d4b89d3be1ac9a02706e855684120e87f",
+    "krea_2_turbo_i6x.ckpt": "3802619d7861f05f04147a53b923c25605d0496041c9227c6edd85cb1cdc4c2e",
+    "krea_2_turbo_q8p.ckpt": "d5c0771a00fae06a749378b56318a361b8f3aeec42feb617c5486ac0d014dc23",
+    "krea_2_turbo_q6p.ckpt": "fa610a2eb1753739d6855a3b84e55081ca2aa857fdd05f3fd70b7c635560ae5d",
+    "qwen_image_vae_f16.ckpt": "701e7c46ed6c2fa8036543780317e06d264374f9b4dbfc22f27c0b3181bb988a",
+    "qwen_3_vl_4b_q8p.ckpt": "be71703dbe695d2aee038539ac0a4dcba02a3ffdc4df4e5fe0b2c3f70a47c151"
+  }
+}

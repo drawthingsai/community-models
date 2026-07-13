@@ -1,4 +1,6 @@
+krea-2-turbo
 ideogram-4
+krea-2-raw
 anima-preview-3
 flux-2-klein-9b
 flux-2-klein-9b-kv
