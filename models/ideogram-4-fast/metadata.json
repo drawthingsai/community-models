@@ -1,0 +1,24 @@
+{
+  "name" : "Ideogram 4 Fast",
+  "version" : "ideogram_4",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "file" : "ideogram_4_fast_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_8b_instruct_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "padded_text_encoding_length": 0,
+  "note" : "[Ideogram 4 Fast](https://huggingface.co/fal/ideogram-v4-fast) is a CFG-distilled variant of the 9.3-billion-parameter Ideogram 4 model. It preserves the base model's multilingual text rendering, design-oriented generation, and structured JSON controls while removing the unconditional denoising pass. Use 20 sampling steps with CFG 1. It is released under the Ideogram 4 Non-Commercial license.",
+  "copyright" : "© 2026 Features & Labels, Inc.",
+  "hugging_face_link": "fal/ideogram-v4-fast",
+  "converted": {
+    "ideogram_4_fast_i8x.ckpt": "62909317e2b4197b96838d5359bc4103b1674204474612838663d1a51b059f8d",
+    "ideogram_4_fast_i6x.ckpt": "33fb61d4fa6e92e9110ee7f1389ace0b39e4b6fc5cfa1b3156e007a927a22f74",
+    "ideogram_4_fast_q8p.ckpt": "51098994518657c4d8d630c9dada9f049f01145c5c6097582c897b96cf8936c0",
+    "ideogram_4_fast_q6p.ckpt": "cd805596c0886477ebe4671a8577d19cc64bc95d694515c1e1ba0b0c7ef1f5f1",
+    "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
+    "qwen_3_vl_8b_instruct_q8p.ckpt": "54d29b3e951c233ae800604848b83422a48629857c70fb83c4620eb31d900b9a"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "Ideogram 4 Instant",
+  "version" : "ideogram_4",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 32,
+  "file" : "ideogram_4_instant_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_8b_instruct_q8p.ckpt",
+  "high_precision_autoencoder": false,
+  "padded_text_encoding_length": 0,
+  "note" : "[Ideogram 4 Instant](https://huggingface.co/fal/ideogram-v4-instant) is an 8-step timestep-distilled variant of the 9.3-billion-parameter Ideogram 4 model. It is designed for the fastest generation while retaining the base model's multilingual text rendering, design-oriented generation, and structured JSON controls. Use 8 sampling steps with CFG 1. It is released under the Ideogram 4 Non-Commercial license.",
+  "copyright" : "© 2026 Features & Labels, Inc.",
+  "hugging_face_link": "fal/ideogram-v4-instant",
+  "converted": {
+    "ideogram_4_instant_i8x.ckpt": "329339173898ccda81cd11c1b6c3db507c247ad8fa0d526e423bce2c223ea096",
+    "ideogram_4_instant_i6x.ckpt": "fe14da4a9accfad20ec935d877e22158a65768784a4902c6cce27725627fe987",
+    "ideogram_4_instant_q8p.ckpt": "0e65e2fe1b4691e99003f5d6e014ac42ebc53bef01de63aa1ff0090df40d76f9",
+    "ideogram_4_instant_q6p.ckpt": "33d8abb21719830dd63045f283c63d0a63ac8eb58b62eb86f3cf7576ff1fafc9",
+    "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
+    "qwen_3_vl_8b_instruct_q8p.ckpt": "54d29b3e951c233ae800604848b83422a48629857c70fb83c4620eb31d900b9a"
+  }
+}

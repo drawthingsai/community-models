@@ -1,5 +1,7 @@
 krea-2-turbo
 ideogram-4
+ideogram-4-instant
+ideogram-4-fast
 krea-2-raw
 anima-preview-3
 flux-2-klein-9b
