@@ -8,6 +8,7 @@
   "file" : "krea_2_raw_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "qwen_3_vl_4b_q8p.ckpt",
+  "clip_encoder" : "krea_2_raw_q8p.ckpt",
   "high_precision_autoencoder": false,
   "padded_text_encoding_length": 0,
   "note": "[Krea 2 Raw](https://huggingface.co/krea/Krea-2-Raw) is the base checkpoint before Krea 2's post-training and fine-tuning. Krea recommends it for fine-tuning or post-training rather than general inference, including training LoRAs for use with Krea 2 Turbo. For direct generation, use 52 sampling steps and CFG 3.5. It is released under the Krea 2 Community License.",

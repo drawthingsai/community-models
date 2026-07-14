@@ -8,6 +8,7 @@
   "file" : "krea_2_turbo_q8p.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "qwen_3_vl_4b_q8p.ckpt",
+  "clip_encoder" : "krea_2_turbo_q8p.ckpt",
   "high_precision_autoencoder": false,
   "padded_text_encoding_length": 0,
   "note": "[Krea 2 Turbo](https://huggingface.co/krea/Krea-2-Turbo) is the post-trained and distilled release of Krea's 12-billion-parameter text-to-image Diffusion Transformer, designed for fast natural-language image generation. Use 8 sampling steps with CFG 1. It is released under the Krea 2 Community License.",
