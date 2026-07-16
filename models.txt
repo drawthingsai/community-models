@@ -3,7 +3,9 @@ ideogram-4
 ideogram-4-instant
 ideogram-4-fast
 krea-2-raw
-anima-preview-3
+anima-aesthetic-1.1
+anima-turbo-1.0
+anima-base-1.0
 flux-2-klein-9b
 flux-2-klein-9b-kv
 flux-2-dev
