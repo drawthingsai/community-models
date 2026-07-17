@@ -21,8 +21,8 @@
   "hugging_face_link": "circlestone-labs/Anima",
   "converted": {
     "anima_aesthetic_1.1_f16.ckpt": "f4b44d8a38d1c405ea13252ed1d314060f1924b2674f697b1b8eeb933747c047",
-    "anima_aesthetic_1.1_q8p.ckpt": "7f35ac35c592b8763f123ea962fc5157a83b1c0775afcd21a863486d68e6aa5a",
-    "anima_aesthetic_1.1_i8x.ckpt": "754303af89839127f13d2b3faefa5ac08d8f5e5bfe37be764d01c6c49060985a",
+    "anima_aesthetic_1.1_q8p.ckpt": "935e27f0e4a9fac50636509107e830b8982a14ad6e374a50ac97f56d8632c40f",
+    "anima_aesthetic_1.1_i8x.ckpt": "5a845a3f12452acbc8d1bf712244ee1e26a6511ba528620807c88f8f2505562c",
     "qwen_3_0.6b_q8p.ckpt": "fee6eca8ecbeb8f75fccf553968f6964d5191e3441d925cd89984503ab8a8d64"
   }
 }
