@@ -1,3 +1,8 @@
+krea-2-turbo
+krea-2-raw
+ideogram-4
+ideogram-4-instant
+ideogram-4-fast
 ernie-image-turbo-1.0
 ernie-image-base-1.0
 anima-base-1.0
