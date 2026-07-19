@@ -4,13 +4,13 @@
     "batchSize": 1,
     "clipSkip": 2,
     "controls": [],
-    "guidanceScale": 4,
+    "guidanceScale": 1,
     "height": 1024,
     "hiresFix": false,
     "loras": [],
     "maskBlur": 2.5,
     "maskBlurOutset": 0,
-    "model": "anima_preview_3_f16.ckpt",
+    "model": "anima_turbo_1.0_f16.ckpt",
     "resolutionDependentShift": true,
     "sampler": 16,
     "seedMode": 2,
@@ -30,7 +30,6 @@
     "teaCacheEnd": -1,
     "teaCacheMaxSkipSteps": 3
   },
-  "name": "Anima Preview 3",
-  "version" : "cosmos2.5_2b",
+  "name": "Anima Turbo 1.0",
   "negative": "worst quality, low quality, score_1, score_2, score_3, artist name"
 }
