@@ -1,0 +1,26 @@
+{
+  "name": "MiniMax H3",
+  "version": "minimax_h3",
+  "autoencoder": "minimax_h3_vae_f16.ckpt",
+  "prefix": "",
+  "modifier": "fl2va",
+  "default_scale": 12,
+  "file": "minimax_h3_fl2va_i8x.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "qwen_3_vl_32b_50_i8x.ckpt",
+  "high_precision_autoencoder": false,
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "frames_per_second": 24,
+  "note": "[MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) supports text-to-video and first/last-frame-conditioned generation. Use the canvas image for the first frame and the first enabled moodboard image for the last frame, or omit images for text-to-video. The CFG-distilled base model generates 24 FPS video with synchronized 32 kHz stereo audio. Start with a 768-pixel short side, 50 DDIM Trailing steps, Text Guidance 1, Shift 12, and Audio Shift 3. Released under the [MiniMax H3 Community License](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE).",
+  "copyright": "© 2026 MiniMax. All Rights Reserved.",
+  "hugging_face_link": "MiniMaxAI/MiniMax-H3",
+  "converted": {
+    "minimax_h3_fl2va_i8x.ckpt": "ce615e8cef78fdf09d0d9ec30e8fcc3c0e0ffe7849c4df6acf623fdbc1e863f9",
+    "minimax_h3_vae_f16.ckpt": "d77c20bb0e092eb25e11d7b711f87293217350f129fa49010e9ee309f83ad14d",
+    "qwen_3_vl_32b_50_i8x.ckpt": "8254699efb8009cc53fcdd6c95ae77eda66002e68d6da10a5f5054c760053527"
+  }
+}

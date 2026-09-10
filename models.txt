@@ -1,3 +1,5 @@
+minimax-h3-fl2va
+minimax-h3-ref2va
 krea-2-turbo
 ideogram-4
 ideogram-4-instant

@@ -1,0 +1,5 @@
+MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.
+
+This distribution contains weights converted and quantized for Draw Things from the MiniMax H3 Ref2VA release. The model transformer and Qwen3-VL encoder are supplied in the i8x format; the VAE is supplied in FP16.
+
+The Qwen3-VL-32B encoder is licensed under Apache 2.0: https://github.com/QwenLM/Qwen3-VL/blob/main/LICENSE.
