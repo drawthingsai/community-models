@@ -5,7 +5,7 @@
   "prefix": "",
   "modifier": "fl2va",
   "default_scale": 12,
-  "file": "minimax_h3_fl2va_i8x.ckpt",
+  "file": "minimax_h3_fl2va_q8p.ckpt",
   "upcast_attention": false,
   "text_encoder": "qwen_3_vl_32b_50_i8x.ckpt",
   "high_precision_autoencoder": false,
