@@ -20,6 +20,9 @@
   "hugging_face_link": "MiniMaxAI/MiniMax-H3",
   "converted": {
     "minimax_h3_fl2va_i8x.ckpt": "ce615e8cef78fdf09d0d9ec30e8fcc3c0e0ffe7849c4df6acf623fdbc1e863f9",
+    "minimax_h3_fl2va_i6x.ckpt": "74b766fe44994a6fecc65d05616b67297e896d8cac269e2bcce7ef63ec511aae",
+    "minimax_h3_fl2va_q6p.ckpt": "5b7bd906974a15df94327bc48b1dc6785102d4ed1dff1bee3bb3c99e72e84b49",
+    "minimax_h3_fl2va_q8p.ckpt": "2264d386efd3664cb0da1ce9503324d0819a3c5e303cdd1ec4ec31f0088c3a31",
     "minimax_h3_vae_f16.ckpt": "d77c20bb0e092eb25e11d7b711f87293217350f129fa49010e9ee309f83ad14d",
     "qwen_3_vl_32b_50_i8x.ckpt": "8254699efb8009cc53fcdd6c95ae77eda66002e68d6da10a5f5054c760053527"
   }
