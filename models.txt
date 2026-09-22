@@ -13,6 +13,7 @@ flux-2-klein-9b
 flux-2-klein-9b-kv
 flux-2-dev
 flux-2-klein-base-9b
+qwen-image-2.1-exact
 ernie-image-turbo-1.0-exact
 ernie-image-1.0-exact
 ltx-2.3-22b-distilled-exact
