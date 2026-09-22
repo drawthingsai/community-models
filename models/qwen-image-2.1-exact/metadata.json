@@ -5,6 +5,7 @@
   "prefix" : "",
   "modifier" : "kontext",
   "default_scale" : 16,
+  "hires_fix_scale" : 40,
   "file" : "qwen_image_2.1_f16.ckpt",
   "upcast_attention" : false,
   "text_encoder" : "qwen_3_vl_8b_instruct_f16.ckpt",
