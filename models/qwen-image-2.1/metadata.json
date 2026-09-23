@@ -4,7 +4,7 @@
   "autoencoder" : "qwen_image_2.1_vae_f16.ckpt",
   "prefix" : "",
   "modifier" : "kontext",
-  "default_scale" : 16,
+  "default_scale" : 24,
   "hires_fix_scale" : 40,
   "file" : "qwen_image_2.1_q8p.ckpt",
   "upcast_attention" : false,
