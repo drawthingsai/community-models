@@ -28,6 +28,7 @@
   "note" : "[Qwen Image 2.1](https://huggingface.co/Qwen/Qwen-Image-2.1) supports text-to-image generation, reference-image editing, and native transparency. Provide reference images through the canvas and moodboard, or omit images for text-to-image. For transparent output, explicitly request an RGBA image with an alpha channel and a transparent background. Start with 40 DDIM Trailing steps, Text Guidance 1, and Shift 1 with resolution-dependent shift enabled. Released under the [Qwen Research License Agreement](https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE), for non-commercial research and evaluation; commercial use requires a separate license.",
   "hugging_face_link": "Qwen/Qwen-Image-2.1",
   "converted": {
+    "qwen_image_2.1_i4x.ckpt": "9663d3c1b1b7b7beff309c3916d7469b50d077aef49de69ae7af7dd6a4d7aa78",
     "qwen_image_2.1_i8x.ckpt": "28a7b9509a9d136fa61b94a4fbe5c042eecac3141d3d0cb9d049a777b82d4b70",
     "qwen_image_2.1_q8p.ckpt": "30b79864b1b307d066b0ffb4349f2e4ba41f15b1476672876a5d68cb9f3aa247",
     "qwen_image_2.1_q6p.ckpt": "3ee834e2c41302f6d5b4413d1056bd795132dd1bcbc145f1fbd298cfb020c6c7",
