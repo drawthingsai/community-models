@@ -1,3 +1,4 @@
+qwen-image-2.1
 minimax-h3-fl2va
 minimax-h3-ref2va
 krea-2-turbo
