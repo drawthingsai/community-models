@@ -17,6 +17,7 @@
   "converted": {
     "krea_2_turbo_i8x.ckpt": "e808501ada16a6dedc5b6d8b6426243d4b89d3be1ac9a02706e855684120e87f",
     "krea_2_turbo_i6x.ckpt": "3802619d7861f05f04147a53b923c25605d0496041c9227c6edd85cb1cdc4c2e",
+    "krea_2_turbo_i4x.ckpt": "79b7275ee4e22985d763ae43db3eaadefc57d536c32ec3e7b1ecd33285f1f791",
     "krea_2_turbo_q8p.ckpt": "d5c0771a00fae06a749378b56318a361b8f3aeec42feb617c5486ac0d014dc23",
     "krea_2_turbo_q6p.ckpt": "fa610a2eb1753739d6855a3b84e55081ca2aa857fdd05f3fd70b7c635560ae5d",
     "qwen_image_vae_f16.ckpt": "701e7c46ed6c2fa8036543780317e06d264374f9b4dbfc22f27c0b3181bb988a",

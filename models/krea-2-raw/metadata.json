@@ -16,6 +16,7 @@
   "hugging_face_link": "krea/Krea-2-Raw",
   "converted": {
     "krea_2_raw_i8x.ckpt": "e8ab2f70261904efbff9fc04f10dcd64043194db1cf5a7e2c5ff48f7cc2ba80f",
+    "krea_2_raw_i4x.ckpt": "02fdbe9e642cda1261206d6531e6b55575a86f25748d778895a78e732bc087d8",
     "krea_2_raw_q8p.ckpt": "28b243beefa581b4713a54828f7730c08acaf18fe6521a4c2f5829135cb2e5ce",
     "krea_2_raw_q6p.ckpt": "2b74a2b21a4f43ebc4af3157b86016db54045c2137fa543305ed77b8e8db6b88",
     "qwen_image_vae_f16.ckpt": "701e7c46ed6c2fa8036543780317e06d264374f9b4dbfc22f27c0b3181bb988a",
