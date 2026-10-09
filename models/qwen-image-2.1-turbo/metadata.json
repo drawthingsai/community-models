@@ -1,0 +1,37 @@
+{
+  "name" : "Qwen Image 2.1 Turbo",
+  "version" : "qwen_image_2.1",
+  "autoencoder" : "qwen_image_2.1_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "kontext",
+  "default_scale" : 24,
+  "hires_fix_scale" : 40,
+  "file" : "qwen_image_2.1_turbo_q8p.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_8b_instruct_i8x.ckpt",
+  "high_precision_autoencoder": true,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "noise_discretization" : {
+    "rf" : {
+      "_0" : {
+        "sigma_min" : 0,
+        "sigma_max" : 1,
+        "condition_scale" : 1000,
+      }
+    }
+  },
+  "note" : "[Qwen Image 2.1 Turbo](https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo) is an accelerated version of Qwen Image 2.1 for text-to-image generation and reference-image editing in 8 sampling steps, with native transparency support. Provide reference images through the canvas and moodboard, or omit images for text-to-image. For transparent output, explicitly request an RGBA image with an alpha channel and a transparent background. Start with 8 DDIM Trailing steps, Text Guidance 1, and Shift 6.5 with resolution-dependent shift disabled. Released under the [Qwen Research License Agreement](https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE) for non-commercial research and evaluation; commercial use requires a separate license.",
+  "hugging_face_link": "Qwen/Qwen-Image-2.1-Turbo",
+  "converted": {
+    "qwen_image_2.1_turbo_i4x.ckpt": "2ed5b2fb9a03889e1a2cd88700fd4801e2ac9b25054214a850c7bd3619b4070c",
+    "qwen_image_2.1_turbo_i8x.ckpt": "4957916ad1667db7a8fed7c9481fe39c17f4f6e8ffaba31fcf4c55e503f684d3",
+    "qwen_image_2.1_turbo_q8p.ckpt": "210bd06f2121f9ec5223de731facec6a1ea24f85be43d7cfa64117113b2b2642",
+    "qwen_image_2.1_turbo_q6p.ckpt": "3abda5c57bb6cdf74f963e2fcb8e402c2f371026f29947e376c65020b44db4fc",
+    "qwen_image_2.1_vae_f16.ckpt": "d14e579a446b7a2d08284987e10f9283d7b424cf208a7ed01019ce03148db332",
+    "qwen_3_vl_8b_instruct_i8x.ckpt": "1eaaa773bbcaa47bebd1ad21e8281d4eb44186f26c8e9b895dfe94f041227558"
+  }
+}

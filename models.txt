@@ -1,3 +1,4 @@
+qwen-image-2.1-turbo
 qwen-image-2.1
 minimax-h3-fl2va
 minimax-h3-ref2va
@@ -13,6 +14,7 @@ flux-2-klein-9b
 flux-2-klein-9b-kv
 flux-2-dev
 flux-2-klein-base-9b
+qwen-image-2.1-turbo-exact
 qwen-image-2.1-exact
 ernie-image-turbo-1.0-exact
 ernie-image-1.0-exact
