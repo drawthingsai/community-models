@@ -20,7 +20,7 @@
       "_0" : {
         "sigma_min" : 0,
         "sigma_max" : 1,
-        "condition_scale" : 1000,
+        "condition_scale" : 1000
       }
     }
   },
