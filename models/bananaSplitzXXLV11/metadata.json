@@ -1,0 +1,15 @@
+{
+  "download": {
+    "file": "https://civitai.com/models/812425/bananasplitzxxl"
+  },
+  "autoencoder": "sdxl_vae_v1.0_f16.ckpt",
+  "default_scale": 7.0,
+  "prefix": "",
+  "version": "sdxl_base_v1.0",
+  "upcast_attention": false,
+  "name": "BananaSplitzXXL V1.1",
+  "modifier": "none",
+  "clip_encoder": "clip_vit_l14_f16.ckpt",
+  "text_encoder": "open_clip_vit_bigg14_f16.ckpt",
+  "file": "model.safetensors"
+}
