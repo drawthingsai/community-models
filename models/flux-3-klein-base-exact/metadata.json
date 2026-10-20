@@ -1,0 +1,26 @@
+{
+  "name" : "FLUX.3 [klein] 5.6B Base (Exact)",
+  "version" : "flux3_5b",
+  "autoencoder" : "flux_2_vae_f16.ckpt",
+  "prefix" : "",
+  "modifier" : "kontext",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "flux_3_klein_base_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_4b_instruct_i8x.ckpt",
+  "high_precision_autoencoder": false,
+  "objective" : {
+    "u" : {
+      "condition_scale" : 1000
+    }
+  },
+  "note" : "[FLUX.3 [klein] 5.6B Base](https://huggingface.co/black-forest-labs/flux-3-image-klein-base) is the undistilled checkpoint of FLUX.3 [klein] 5.6B, trained without step or guidance distillation and intended for fine-tuning, LoRA training and research. It handles text-to-image generation, single-reference editing and multi-reference composition in one model. Provide up to 10 reference images through the canvas and moodboard, or omit images for text-to-image. Write full scene captions covering framing, subject, background and lighting; short prompts give generic output. Unlike FLUX.3 [klein] 5.6B, it requires classifier-free guidance; start with 50 steps, Text Guidance 4 and Shift 16. Released under the [FLUX Kommunity License v.1.0](https://huggingface.co/black-forest-labs/flux-3-image-klein-base/blob/main/LICENSE.md), which permits non-commercial use and commercial output generation by Qualifying Users with less than US$5M in gross annualized revenue.",
+  "copyright" : "© 2026 Black Forest Labs",
+  "hugging_face_link": "black-forest-labs/flux-3-image-klein-base",
+  "converted": {
+    "flux_3_klein_base_f16.ckpt": "172142331b3ba9c3b757e7684ef8b36ffc167dd30b47f7b73bea25cc4037b5ab",
+    "flux_2_vae_f16.ckpt": "48369d4b1495aec3df0579591f4bf9c199a73cc288130df2359c4a173c5ae864",
+    "qwen_3_vl_4b_instruct_i8x.ckpt": "76226c9a1bd6362a254b1a189b32a9f60ba8be0078092db34f65b40fb1a1fc89"
+  }
+}
