@@ -1,0 +1,18 @@
+{
+  "name": "DuckyMix Anima v1",
+  "version": "cosmos2.5_2b",
+  "autoencoder": "qwen_image_vae_f16.ckpt",
+  "text_encoder": "qwen_3_0.6b_q8p.ckpt",
+  "clip_encoder": "duckymix_anima_v1_f16.ckpt",
+  "file": "duckymix_anima_v1_f16.ckpt",
+  "prefix": "",
+  "default_scale": 16,
+  "hires_fix_scale": 32,
+  "upcast_attention": false,
+  "high_precision_autoencoder": false,
+  "padded_text_encoding_length": 512,
+  "objective": { "u": { "condition_scale": 1 } },
+  "hugging_face_link": "Duck1ng/DuckyMix-Anima-v1",
+  "note": "An Anima merge that gives the base a soft, painterly Pony-style nudge. The aesthetic comes through by default, so it works well without quality or score tags. Inherits Anima's recommended settings: ~1MP, 30-50 steps, CFG 4-5.",
+  "copyright": "Base © 2026 CircleStone Labs; merge by Ducktopuss"
+}
