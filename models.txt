@@ -1,3 +1,4 @@
+fasth3-omni
 flux-3-klein
 flux-3-klein-base
 qwen-image-2.1-turbo

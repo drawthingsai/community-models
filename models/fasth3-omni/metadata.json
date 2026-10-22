@@ -1,0 +1,28 @@
+{
+  "name": "FastH3 Omni",
+  "version": "minimax_h3",
+  "autoencoder": "minimax_h3_vae_f16.ckpt",
+  "prefix": "",
+  "modifier": "ref2va",
+  "default_scale": 12,
+  "file": "fasth3_omni_q8p.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "qwen_3_vl_32b_50_i8x.ckpt",
+  "high_precision_autoencoder": false,
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "frames_per_second": 24,
+  "note": "[FastH3 Omni](https://huggingface.co/FastVideo/FastVideo-FastH3-Omni-8-Step-V1) is an 8-step distilled version of MiniMax H3 [ref2va] from FastVideo and Nuva Lab that generates video guided by reference subjects, objects, or scenes. Provide reference images through the canvas and moodboard, and identify them in the prompt as <Picture 1>, <Picture 2>, etc. At least one reference image is required. The model generates 24 FPS video with synchronized 32 kHz stereo audio. Start with a 768-pixel short side, 8 DDIM Trailing steps, Text Guidance 1, Shift 12, and Audio Shift 3. Released under the [MiniMax H3 Community License](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE).",
+  "copyright": "© 2026 MiniMax. All Rights Reserved.",
+  "hugging_face_link": "FastVideo/FastVideo-FastH3-Omni-8-Step-V1",
+  "converted": {
+    "fasth3_omni_i8x.ckpt": "ef594f8e322b33ecc1c23d70bbd4b5dd4356ef1d3eee164e2016a9e77fbb6048",
+    "fasth3_omni_i4x.ckpt": "bbee96b7a57f65c54f292dc0472fd3f3aac1bd14f4a404e7d24bb18f060ecb15",
+    "fasth3_omni_q8p.ckpt": "211866ea3694c0656856c9bf460a8ccb11e5ae198c92fe802a42db30c75211eb",
+    "minimax_h3_vae_f16.ckpt": "d77c20bb0e092eb25e11d7b711f87293217350f129fa49010e9ee309f83ad14d",
+    "qwen_3_vl_32b_50_i8x.ckpt": "8254699efb8009cc53fcdd6c95ae77eda66002e68d6da10a5f5054c760053527"
+  }
+}

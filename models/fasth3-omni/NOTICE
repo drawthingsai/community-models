@@ -1,0 +1,5 @@
+FastH3 Omni is a distilled derivative of MiniMax H3 developed by FastVideo (Hao AI Lab) and Nuva Lab. MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.
+
+This distribution contains weights converted and quantized for Draw Things from the FastH3 Omni 8-Step V1 release. The model transformer is supplied in the i8x, i4x and q8p formats and the Qwen3-VL encoder in the i8x format; the VAE is supplied in FP16.
+
+The Qwen3-VL-32B encoder is licensed under Apache 2.0: https://github.com/QwenLM/Qwen3-VL/blob/main/LICENSE.
