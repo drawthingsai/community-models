@@ -16,7 +16,7 @@
     }
   },
   "padded_text_encoding_length": 512,
-  "note" : "[Anima](https://huggingface.co/circlestone-labs/Anima) is a 2B text-to-image model from CircleStone Labs and Comfy Org, focused on anime concepts, characters, styles, illustrations, and other non-photorealistic art. Preview 3 is an intermediate checkpoint built on NVIDIA Cosmos and released under the CircleStone Labs non-commercial license. It is intended for around 1MP generation, with 4-8 sampling steps and CFG 1 recommended.",
+  "note" : "[Anima Turbo 1.0](https://huggingface.co/circlestone-labs/Anima) is the distilled, fast-generation version of Anima, a 2B text-to-image model from CircleStone Labs and Comfy Org built on NVIDIA Cosmos and focused on anime concepts, characters, styles, illustrations, and other non-photorealistic art. Distillation makes it more stable and gives it a strong default style, at the cost of some diversity. It works at resolutions between 512x512 and 1536x1536; 8-12 sampling steps with Text Guidance 1 are recommended. Released under the CircleStone Labs Non-Commercial License, which restricts the model to non-commercial use but permits commercial use of generated images.",
   "copyright" : "© 2026 CircleStone Labs",
   "hugging_face_link": "circlestone-labs/Anima",
   "converted": {

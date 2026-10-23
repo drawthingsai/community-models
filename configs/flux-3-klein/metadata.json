@@ -1,0 +1,33 @@
+{
+  "configuration": {
+    "batchCount": 1,
+    "seedMode": 2,
+    "sampler": 16,
+    "strength": 1,
+    "sharpness": 0,
+    "tiledDecoding": false,
+    "batchSize": 1,
+    "tiledDiffusion": false,
+    "guidanceScale": 1,
+    "loras": [],
+    "controls": [],
+    "clipSkip": 1,
+    "maskBlur": 1.5,
+    "shift": 16,
+    "preserveOriginalAfterInpaint": true,
+    "model": "flux_3_klein_q8p.ckpt",
+    "steps": 16,
+    "upscalerScaleFactor": 0,
+    "maskBlurOutset": 0,
+    "hiresFix": false,
+    "teaCache": false,
+    "causalInference": 0,
+    "teaCacheThreshold": 0.2,
+    "teaCacheStart": 5,
+    "teaCacheEnd": -1,
+    "teaCacheMaxSkipSteps": 3,
+    "resolutionDependentShift": false
+  },
+  "name": "FLUX.3 [klein] 5.6B",
+  "version": "flux3_5b"
+}

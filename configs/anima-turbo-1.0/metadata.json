@@ -17,7 +17,7 @@
     "separateClipL": false,
     "separateOpenClipG": false,
     "sharpness": 0,
-    "steps": 30,
+    "steps": 8,
     "strength": 1,
     "teaCache": false,
     "t5TextEncoder": true,
