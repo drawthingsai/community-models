@@ -1,0 +1,15 @@
+{
+  "download": {
+    "file": "https://huggingface.co/SeeSee21/Z-Anime/resolve/main/diffusion_models/z-anime-base-bf16.safetensors?download=true"
+  },
+  "name" : "Z-Anime",
+  "version" : "z_image",
+  "autoencoder" : "flux_1_vae_f16.ckpt",
+  "prefix" : "",
+  "default_scale" : 16,
+  "hires_fix_scale" : 24,
+  "file" : "z_anime_base_f16.ckpt",
+  "upcast_attention" : false,
+  "text_encoder" : "qwen_3_vl_4b_instruct_f16.ckpt",
+  "high_precision_autoencoder": false,
+}
