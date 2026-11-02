@@ -1,0 +1,11 @@
+MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.
+
+FL2VA and Ref2VA adapters
+Copyright © 2026 Mellis, Inc.
+These adapters are Model Derivatives of MiniMax H3 and are distributed under the
+MiniMax H3 Community License Agreement (see LICENSE). Files modified from MiniMax H3
+carry notices stating that they have been modified.
+
+This distribution contains weights converted and quantized for Draw Things from the Pika H3 Flex FL2VA release. The Pika H3 Flex FL2VA adapter is merged into the MiniMax H3 FL2VA transformer, which is supplied in the i8x, i4x and q8p formats; the Qwen3-VL encoder is supplied in the i8x format and the VAE in FP16.
+
+The Qwen3-VL-32B encoder is licensed under Apache 2.0: https://github.com/QwenLM/Qwen3-VL/blob/main/LICENSE.

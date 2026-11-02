@@ -1,0 +1,28 @@
+{
+  "name": "Pika H3 Flex",
+  "version": "minimax_h3",
+  "autoencoder": "minimax_h3_vae_f16.ckpt",
+  "prefix": "",
+  "modifier": "fl2va",
+  "default_scale": 12,
+  "file": "pika_h3_flex_fl2va_q8p.ckpt",
+  "upcast_attention": false,
+  "text_encoder": "qwen_3_vl_32b_50_i8x.ckpt",
+  "high_precision_autoencoder": false,
+  "objective": {
+    "u": {
+      "condition_scale": 1000
+    }
+  },
+  "frames_per_second": 24,
+  "note": "[Pika H3 Flex](https://huggingface.co/Pika-Labs/Pika-H3-Flex) is Pika's six-step post-training of MiniMax H3 for text-to-video and first/last-frame-conditioned generation. Use the canvas image for the first frame and the first enabled moodboard image for the last frame, or omit images for text-to-video. It generates 24 FPS video with synchronized 32 kHz stereo audio. Start with a 480- or 768-pixel short side, 6 LCM steps, Text Guidance 1, Shift 12, and Audio Shift 3. Released under the [MiniMax H3 Community License](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE).",
+  "copyright": "© 2026 Mellis, Inc.",
+  "hugging_face_link": "Pika-Labs/Pika-H3-Flex",
+  "converted": {
+    "pika_h3_flex_fl2va_i8x.ckpt": "831bfb3af7ae0b0ba1502ba42b3d93095ee716ecb6bfe10f4c95a95bc1513daf",
+    "pika_h3_flex_fl2va_i4x.ckpt": "080e0809f970da1a667c8c8e3db17ebef7f4afeca0a69da3fbbdc8fd72add155",
+    "pika_h3_flex_fl2va_q8p.ckpt": "1deb672ed4180b5d9247fe7de8ab18c802239e8c6b3506f64eaa29b229d70e22",
+    "minimax_h3_vae_f16.ckpt": "d77c20bb0e092eb25e11d7b711f87293217350f129fa49010e9ee309f83ad14d",
+    "qwen_3_vl_32b_50_i8x.ckpt": "8254699efb8009cc53fcdd6c95ae77eda66002e68d6da10a5f5054c760053527"
+  }
+}

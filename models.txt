@@ -1,3 +1,5 @@
+pika-h3-flex-fl2va
+pika-h3-flex-ref2va
 fasth3-omni
 flux-3-klein
 flux-3-klein-base
