@@ -1,3 +1,5 @@
+pika-h3-flex-fl2va
+pika-h3-flex-ref2va
 moss-image-sft
 moss-image-base
 flux-3-klein-base
