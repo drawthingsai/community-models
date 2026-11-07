@@ -28,7 +28,7 @@ def traverse_and_get_converted_filenames(root_dirs):
 def get_file_size(url):
     try:
         # Send a HEAD request to get only headers
-        response = requests.head(url, allow_redirects=True)
+        response = requests.head(url, allow_redirects=True, timeout=30)
         if 'Content-Length' in response.headers:
             file_size = int(response.headers['Content-Length'])
             print(f"File size: {file_size / (1024 * 1024):.2f} MB")
