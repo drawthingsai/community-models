@@ -1,0 +1,14 @@
+{
+  "download": {
+    "file": "https://civitai.com/api/download/models/1593793?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+  },
+  "name": "Pie Models - Mango",
+  "version": "v1",
+  "default_scale": 12,
+  "prefix": "",
+  "file": "pie_models_mango_f16.ckpt",
+  "text_encoder": "clip_vit_l14_f16.ckpt",
+  "autoencoder": "sdxl_vae_f16.ckpt",
+  "upcast_attention": false,
+  "converted": {}
+}
