@@ -1,3 +1,4 @@
+minimax-h3-image
 pika-h3-flex-fl2va
 pika-h3-flex-ref2va
 fasth3-omni
